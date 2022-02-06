@@ -1,0 +1,449 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Slimes",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 213143248784441
+		},
+		{
+			"eventType": "variable",
+			"name": "Merchant",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 471829324676255
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 834936386472242,
+					"parameters": {
+						"object": "Slime"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime",
+					"sid": 419751654944233
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 759018833010844,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "txtSlimes",
+					"sid": 160857945351335,
+					"parameters": {
+						"text": "\"SlimeBucks: \" & Slimes"
+					}
+				}
+			],
+			"sid": 169515618615898
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 200513936978287,
+					"parameters": {
+						"object": "Slime2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime2",
+					"sid": 258321122332778
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 865483980091781,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 531638757943359
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 614505269186398,
+					"parameters": {
+						"object": "Slime3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime3",
+					"sid": 717854081110190
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 870088035152381,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 309523559015858
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 808773612682325,
+					"parameters": {
+						"object": "Slime4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime4",
+					"sid": 517872215434535
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 261643113139052,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 647607033483960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 116687836824141
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "txtSlimes",
+					"sid": 707185301097244,
+					"parameters": {
+						"text": "\"SlimeBucks: \" & Slimes"
+					}
+				}
+			],
+			"sid": 253289484628918
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Player",
+					"sid": 988625947393145
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 663673415659461
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 395984702565387
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 964603920286875
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 938120359454477,
+					"parameters": {
+						"variable": "Merchant",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 765909419602259
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 844546232904329,
+					"parameters": {
+						"variable": "Slimes",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Blockade",
+					"sid": 261595564254761
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 105300564444372,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 280583604533551
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 728202538363768,
+					"parameters": {
+						"object": "Door"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 339743321523219,
+					"parameters": {
+						"layout": "Level 2"
+					}
+				}
+			],
+			"sid": 326709432865831
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 813555391491831,
+					"parameters": {
+						"object": "Player2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 336183782433897,
+					"parameters": {
+						"variable": "Merchant",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 321597423803670
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 353229803954399,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 952208822859012,
+					"parameters": {
+						"variable": "Merchant"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 675610380830366,
+					"parameters": {
+						"layout": "Shop"
+					}
+				}
+			],
+			"sid": 796597812279877
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 550243450190128,
+					"parameters": {
+						"key": 49
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 734933691564361,
+					"parameters": {
+						"animation": "\"Speed\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 554314109975347
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 948563846012677,
+					"parameters": {
+						"key": 50
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 679690936708944,
+					"parameters": {
+						"animation": "\"Power\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 417176309412928
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 266026698072940,
+					"parameters": {
+						"key": 51
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 821398059596084,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 366964248844521
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 208996531310637,
+					"parameters": {
+						"key": 52
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 977796996704486,
+					"parameters": {
+						"animation": "\"Slime\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 951489524484114
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 596435307384834,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 851302840900356,
+					"parameters": {
+						"layout": "Level 2"
+					}
+				}
+			],
+			"sid": 553390847700277
+		}
+	],
+	"sid": 587643397571846
+}
