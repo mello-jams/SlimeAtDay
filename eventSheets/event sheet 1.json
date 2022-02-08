@@ -35,9 +35,13 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "Slime",
-					"sid": 419751654944233
+					"sid": 486163725017367,
+					"parameters": {
+						"instance-variable": "HP",
+						"value": "3"
+					}
 				},
 				{
 					"id": "add-to-eventvar",
@@ -47,14 +51,6 @@
 						"variable": "Slimes",
 						"value": "1"
 					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "txtSlimes",
-					"sid": 160857945351335,
-					"parameters": {
-						"text": "\"SlimeBucks: \" & Slimes"
-					}
 				}
 			],
 			"sid": 169515618615898
@@ -63,9 +59,202 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 760847537580709,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime",
+					"sid": 262087698328157
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 668550497350793,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Slime_healthbar",
+					"sid": 945792929284949
+				}
+			],
+			"sid": 185042690597340
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 996161527303412,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Slime_healthbar",
+					"sid": 646974926763705,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 904509200152882
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 797645306563652,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Slime_healthbar",
+					"sid": 560460642575012,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 757767499422988
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 370014170455073,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Slime_healthbar",
+					"sid": 760141039960059,
+					"parameters": {
+						"frame-number": "2"
+					}
+				}
+			],
+			"sid": 532791474281936
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 433902129727500,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Slime_healthbar",
+					"sid": 634722497448335,
+					"parameters": {
+						"frame-number": "3"
+					}
+				}
+			],
+			"sid": 497751403690500
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 714574868839288,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Slime_healthbar",
+					"sid": 890944406874718,
+					"parameters": {
+						"frame-number": "4"
+					}
+				}
+			],
+			"sid": 242333416606822
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime",
+					"sid": 866198311250170,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Slime_healthbar",
+					"sid": 497053699591462,
+					"parameters": {
+						"frame-number": "5"
+					}
+				}
+			],
+			"sid": 407381745351603
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 200513936978287,
+					"sid": 576989221029449,
 					"parameters": {
 						"object": "Slime2"
 					}
@@ -73,21 +262,57 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "Slime2",
-					"sid": 258321122332778
+					"sid": 394212342376734,
+					"parameters": {
+						"instance-variable": "HP",
+						"value": "3"
+					}
 				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 865483980091781,
+					"sid": 115610890690040,
 					"parameters": {
 						"variable": "Slimes",
 						"value": "1"
 					}
 				}
 			],
-			"sid": 531638757943359
+			"sid": 850808525288547
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime2",
+					"sid": 966084781374858,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime2",
+					"sid": 856405531247316
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 921258948657170,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 102696585665050
 		},
 		{
 			"eventType": "block",
@@ -103,9 +328,13 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "Slime3",
-					"sid": 717854081110190
+					"sid": 123616836885282,
+					"parameters": {
+						"instance-variable": "HP",
+						"value": "3"
+					}
 				},
 				{
 					"id": "add-to-eventvar",
@@ -123,6 +352,38 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime3",
+					"sid": 635605784396066,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime3",
+					"sid": 387099430680289
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 672612135535993,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 988921095120263
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
 					"sid": 808773612682325,
@@ -133,9 +394,13 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "Slime4",
-					"sid": 517872215434535
+					"sid": 363205697773788,
+					"parameters": {
+						"instance-variable": "HP",
+						"value": "3"
+					}
 				},
 				{
 					"id": "add-to-eventvar",
@@ -148,6 +413,38 @@
 				}
 			],
 			"sid": 647607033483960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Slime4",
+					"sid": 728600714338396,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Slime4",
+					"sid": 560175828072892
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 937158316530715,
+					"parameters": {
+						"variable": "Slimes",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 545893031551539
 		},
 		{
 			"eventType": "block",
@@ -271,7 +568,7 @@
 					"objectClass": "Player",
 					"sid": 813555391491831,
 					"parameters": {
-						"object": "Player2"
+						"object": "Shop_Owner"
 					}
 				}
 			],
@@ -284,9 +581,51 @@
 						"variable": "Merchant",
 						"value": "true"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text3",
+					"sid": 233930749862780,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 321597423803670
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 535936501364001,
+					"parameters": {
+						"object": "Shop_Owner"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 878834270431127,
+					"parameters": {
+						"variable": "Merchant",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text3",
+					"sid": 964807754532622,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 558118906168403
 		},
 		{
 			"eventType": "block",
@@ -334,12 +673,21 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "Player",
-					"sid": 734933691564361,
+					"id": "set-position",
+					"objectClass": "Selector",
+					"sid": 889974644319094,
 					"parameters": {
-						"animation": "\"Speed\"",
-						"from": "beginning"
+						"x": "21.5",
+						"y": "21.5"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Inventory_bar",
+					"sid": 493560162122025,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"value": "1"
 					}
 				}
 			],
@@ -359,12 +707,21 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "Player",
-					"sid": 679690936708944,
+					"id": "set-position",
+					"objectClass": "Selector",
+					"sid": 710484885073923,
 					"parameters": {
-						"animation": "\"Power\"",
-						"from": "beginning"
+						"x": "66.5",
+						"y": "21.5"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Inventory_bar",
+					"sid": 175450828402860,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"value": "2"
 					}
 				}
 			],
@@ -384,12 +741,21 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "Player",
-					"sid": 821398059596084,
+					"id": "set-position",
+					"objectClass": "Selector",
+					"sid": 282294294178794,
 					"parameters": {
-						"animation": "\"Jump\"",
-						"from": "beginning"
+						"x": "111.5",
+						"y": "21.5"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Inventory_bar",
+					"sid": 428017999208302,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"value": "3"
 					}
 				}
 			],
@@ -409,12 +775,21 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "Player",
-					"sid": 977796996704486,
+					"id": "set-position",
+					"objectClass": "Selector",
+					"sid": 565016072168585,
 					"parameters": {
-						"animation": "\"Slime\"",
-						"from": "beginning"
+						"x": "156.5",
+						"y": "21.5"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Inventory_bar",
+					"sid": 571871370458474,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"value": "4"
 					}
 				}
 			],
@@ -426,23 +801,301 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 596435307384834,
+					"sid": 302704281464094,
 					"parameters": {
-						"key": 32
+						"key": 69
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Inventory_bar",
+					"sid": 663156685351701,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 884348174577160,
+					"parameters": {
+						"instance-variable": "Speed_potions",
+						"comparison": 4,
+						"value": "0"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 851302840900356,
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 171417436514069,
 					"parameters": {
-						"layout": "Level 2"
+						"animation": "\"Speed\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 838303452753627,
+					"parameters": {
+						"instance-variable": "Speed_potions",
+						"value": "1"
 					}
 				}
 			],
-			"sid": 553390847700277
+			"sid": 123373459367612
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 913211521294898,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Inventory_bar",
+					"sid": 476274362217962,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 736078424671996,
+					"parameters": {
+						"instance-variable": "Power_potions",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 501275883590816,
+					"parameters": {
+						"animation": "\"Power\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 968667220832990,
+					"parameters": {
+						"instance-variable": "Power_potions",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 754195546237924
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 490351853097985,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Inventory_bar",
+					"sid": 436483039969388,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"comparison": 0,
+						"value": "3"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 136711726969186,
+					"parameters": {
+						"instance-variable": "Jump_potions",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 543084691497435,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 778716398658686,
+					"parameters": {
+						"instance-variable": "Jump_potions",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 248593175541254
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 104687584940488,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Inventory_bar",
+					"sid": 204349348913241,
+					"parameters": {
+						"instance-variable": "Pot_selected",
+						"comparison": 0,
+						"value": "4"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 674522618441096,
+					"parameters": {
+						"instance-variable": "Slime_potions",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 946518529407216,
+					"parameters": {
+						"animation": "\"Slime\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 735422053134576,
+					"parameters": {
+						"instance-variable": "Slime_potions",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 897692252270649
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 564815341099492
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Jump_amount",
+					"sid": 561504816669137,
+					"parameters": {
+						"text": "Player.Jump_potions"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Power_amount",
+					"sid": 495239715766280,
+					"parameters": {
+						"text": "Player.Power_potions"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Speed_amount",
+					"sid": 197166475221053,
+					"parameters": {
+						"text": "Player.Speed_potions"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Slime_amount",
+					"sid": 589484578852153,
+					"parameters": {
+						"text": "Player.Slime_potions"
+					}
+				}
+			],
+			"sid": 553126181249131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 115757130205238
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Player_healthbar",
+					"sid": 464193521856023,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Slime_healthbar",
+					"sid": 762984480121734,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Slime",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 626267411947708
 		}
 	],
 	"sid": 587643397571846

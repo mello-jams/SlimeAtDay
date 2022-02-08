@@ -8,14 +8,6 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
@@ -24,8 +16,56 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -48,16 +88,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Anchor",
-			"name": "Anchor",
+			"id": "Pin",
+			"name": "Pin",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -68,33 +100,71 @@
 		"items": [
 			"Platform",
 			"Player",
-			"Slime",
-			"Slime2",
-			"Slime3",
-			"Slime4",
 			"Grass",
 			"Sky",
 			"Door",
-			"txtSlimes",
 			"Blockade",
 			"Door2",
-			"Player2",
-			"Text",
-			"Keyboard",
+			"Shop_Owner",
 			"StoreMenu",
 			"StoreTitle",
-			"Text2",
 			"BluePotion",
 			"RedPotion",
 			"YellowPotion",
 			"PinkPotion",
 			"Sprite",
-			"Text3",
-			"Text4",
-			"Text5",
-			"Text6"
+			"Inventory_bar",
+			"Cursor",
+			"Selector",
+			"Player_healthbar",
+			"Slime_healthbar"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"Text",
+					"Text2",
+					"Text3",
+					"Text4",
+					"Text5",
+					"Text6",
+					"txtSlimes",
+					"Text7",
+					"Speed_amount",
+					"Power_amount",
+					"Jump_amount",
+					"Slime_amount",
+					"Four",
+					"One",
+					"Three",
+					"Two"
+				],
+				"subfolders": [],
+				"name": "Text"
+			},
+			{
+				"items": [
+					"Slime",
+					"Slime2",
+					"Slime3",
+					"Slime4"
+				],
+				"subfolders": [],
+				"name": "Slimes"
+			},
+			{
+				"items": [
+					"Keyboard",
+					"Mouse",
+					"Pot_1",
+					"Pot_2",
+					"Pot_3",
+					"Pot_4"
+				],
+				"subfolders": [],
+				"name": "Other"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [],

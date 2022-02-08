@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 610875868496343,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "HP",
+			"type": "number",
+			"desc": "",
+			"sid": 836520601240069
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -34,6 +41,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.040160642570281124
+							}
+						],
 						"duration": 1
 					}
 				],

@@ -1,35 +1,29 @@
 {
-	"name": "Player2",
+	"name": "Selector",
 	"plugin-id": "Sprite",
-	"sid": 848179738701355,
+	"sid": 301901485749487,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 451188347311841
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 94,
+						"height": 94,
+						"originX": 0.4787234042553192,
+						"originY": 0.4787234042553192,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5044939,
+						"imageSpriteId": 1134451,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 188031632753190,
+				"sid": 715458532653843,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
