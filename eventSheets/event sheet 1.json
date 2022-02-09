@@ -510,11 +510,11 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 844546232904329,
+					"sid": 712707060325661,
 					"parameters": {
 						"variable": "Slimes",
-						"comparison": 0,
-						"value": "4"
+						"comparison": 5,
+						"value": "8"
 					}
 				}
 			],
@@ -1096,6 +1096,94 @@
 				}
 			],
 			"sid": 626267411947708
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 274168453149807
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 904711755195056,
+					"parameters": {
+						"instance-variable": "Jump_potions",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 991407618677146
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 261653506271274
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 410795006504005,
+					"parameters": {
+						"instance-variable": "Power_potions",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 944477720887754
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 185748196064301
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 119088445283252,
+					"parameters": {
+						"instance-variable": "Slime_potions",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 602892573195719
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 800254303968012
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Player",
+					"sid": 881444205190911,
+					"parameters": {
+						"instance-variable": "Speed_potions",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 546125607519124
 		}
 	],
 	"sid": 587643397571846

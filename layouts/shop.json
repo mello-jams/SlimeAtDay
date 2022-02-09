@@ -403,7 +403,7 @@
 				{
 					"type": "Text6",
 					"properties": {
-						"text": "Press the corresponding buttons to use the potions",
+						"text": "Press 1-4 to chose a potion and \"E\" to drink it.",
 						"enable-bbcode": true,
 						"font": "Comic Sans MS",
 						"size": 15,
