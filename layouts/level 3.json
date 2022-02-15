@@ -151,8 +151,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 247,
-						"y": 62,
+						"x": 251,
+						"y": 40,
 						"width": 359,
 						"height": 30,
 						"originX": 0,
@@ -164,6 +164,42 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 108,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 559.2460781675464,
+						"y": 204.54776275507243,
+						"width": 246.78190311599042,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5674195215797349,
 						"zElevation": 0
 					}
 				}

@@ -944,6 +944,46 @@
 								"instance-variable": "Power_potions",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 691643905693212,
+							"parameters": {
+								"instance-variable": "WallScaling_Ability",
+								"value": "true"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 139354389864829,
+							"parameters": {
+								"seconds": "5"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 342835295770125,
+							"parameters": {
+								"instance-variable": "WallScaling_Ability",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 356106315798778
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 972963326589396,
+							"parameters": {
+								"animation": "\"Default\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 246648500349655
@@ -1067,55 +1107,281 @@
 			"isActiveOnStart": true,
 			"children": [
 				{
-					"eventType": "block",
-					"conditions": [
+					"eventType": "group",
+					"disabled": false,
+					"title": "Power",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
 						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Player",
-							"sid": 578947240097697,
-							"parameters": {
-								"instance-variable": "Speed_Ability"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 959444171902512,
+									"parameters": {
+										"key": 38
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 307971706865163,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 488856190451290,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "right"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-vector-y",
+									"objectClass": "Player",
+									"sid": 926178921181407,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-y": "Self.Y-1800"
+									}
+								},
+								{
+									"id": "set-vector-x",
+									"objectClass": "Player",
+									"sid": 891220486380932,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-x": "Self.Y-1200"
+									}
+								}
+							],
+							"sid": 142622032005988
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 343280131758640,
+									"parameters": {
+										"key": 38
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 204880043327843,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 258531333726678,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-vector-y",
+									"objectClass": "Player",
+									"sid": 111868809579156,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-y": "Self.Y-1800"
+									}
+								},
+								{
+									"id": "set-vector-x",
+									"objectClass": "Player",
+									"sid": 953022503816972,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-x": "Self.Y-1200"
+									}
+								}
+							],
+							"sid": 104055943251661
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 737720560804126,
+									"parameters": {
+										"key": 38
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 733529734845830,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 859364318454609,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "right"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-vector-y",
+									"objectClass": "Player",
+									"sid": 729097287317142,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-y": "0"
+									}
+								},
+								{
+									"id": "set-vector-x",
+									"objectClass": "Player",
+									"sid": 424122813776633,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-x": "0"
+									}
+								}
+							],
+							"sid": 377112076924980
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 603454137544020,
+									"parameters": {
+										"key": 38
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 698453101816263,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 992783477598274,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-vector-y",
+									"objectClass": "Player",
+									"sid": 416817882474409,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-y": "0"
+									}
+								},
+								{
+									"id": "set-vector-x",
+									"objectClass": "Player",
+									"sid": 985172784496622,
+									"behaviorType": "Platform",
+									"parameters": {
+										"vector-x": "0"
+									}
+								}
+							],
+							"sid": 686764336407822
 						}
 					],
-					"actions": [
-						{
-							"id": "set-max-speed",
-							"objectClass": "Player",
-							"sid": 768612764486806,
-							"behaviorType": "Platform",
-							"parameters": {
-								"max-speed": "660"
-							}
-						}
-					],
-					"sid": 906351195813033
+					"sid": 681163395224982
 				},
 				{
-					"eventType": "block",
-					"conditions": [
+					"eventType": "group",
+					"disabled": false,
+					"title": "Speed",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
 						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Player",
-							"sid": 330762762582494,
-							"parameters": {
-								"instance-variable": "Speed_Ability"
-							},
-							"isInverted": true
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 628261030479609,
+									"parameters": {
+										"instance-variable": "Speed_Ability"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-max-speed",
+									"objectClass": "Player",
+									"sid": 760385174097926,
+									"behaviorType": "Platform",
+									"parameters": {
+										"max-speed": "660"
+									}
+								}
+							],
+							"sid": 477190462953860
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 263869386932619,
+									"parameters": {
+										"instance-variable": "Speed_Ability"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-max-speed",
+									"objectClass": "Player",
+									"sid": 810950520841229,
+									"behaviorType": "Platform",
+									"parameters": {
+										"max-speed": "330"
+									}
+								}
+							],
+							"sid": 362869475706550
 						}
 					],
-					"actions": [
-						{
-							"id": "set-max-speed",
-							"objectClass": "Player",
-							"sid": 191112749486705,
-							"behaviorType": "Platform",
-							"parameters": {
-								"max-speed": "330"
-							}
-						}
-					],
-					"sid": 984851704154989
+					"sid": 619257761515094
 				}
 			],
 			"sid": 115448357419115
