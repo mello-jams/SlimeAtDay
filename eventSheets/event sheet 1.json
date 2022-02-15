@@ -69,6 +69,41 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 191622862317303,
+							"parameters": {
+								"key": 38
+							}
+						},
+						{
+							"id": "is-by-wall",
+							"objectClass": "Player",
+							"sid": 557883987807519,
+							"behaviorType": "Platform",
+							"parameters": {
+								"side": "right"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 545388885065144,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						}
+					],
+					"sid": 717128524272522
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
 							"sid": 529352636193768,
@@ -815,6 +850,46 @@
 								"instance-variable": "Speed_potions",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 110360774953582,
+							"parameters": {
+								"instance-variable": "Speed_Ability",
+								"value": "true"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 102606574090368,
+							"parameters": {
+								"seconds": "5"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 912118581843975,
+							"parameters": {
+								"instance-variable": "Speed_Ability",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 645721801971987
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 902329171247431,
+							"parameters": {
+								"animation": "\"Default\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 170230127386653
@@ -990,7 +1065,59 @@
 			"title": "Potion_behaviors",
 			"description": "",
 			"isActiveOnStart": true,
-			"children": [],
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 578947240097697,
+							"parameters": {
+								"instance-variable": "Speed_Ability"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Player",
+							"sid": 768612764486806,
+							"behaviorType": "Platform",
+							"parameters": {
+								"max-speed": "660"
+							}
+						}
+					],
+					"sid": 906351195813033
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 330762762582494,
+							"parameters": {
+								"instance-variable": "Speed_Ability"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Player",
+							"sid": 191112749486705,
+							"behaviorType": "Platform",
+							"parameters": {
+								"max-speed": "330"
+							}
+						}
+					],
+					"sid": 984851704154989
+				}
+			],
 			"sid": 115448357419115
 		},
 		{

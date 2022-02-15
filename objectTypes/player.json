@@ -33,6 +33,30 @@
 			"type": "number",
 			"desc": "",
 			"sid": 680964666865928
+		},
+		{
+			"name": "Speed_Ability",
+			"type": "boolean",
+			"desc": "",
+			"sid": 109039653666780
+		},
+		{
+			"name": "WallScaling_Ability",
+			"type": "boolean",
+			"desc": "",
+			"sid": 380381534918085
+		},
+		{
+			"name": "DoubleJump_Ability",
+			"type": "boolean",
+			"desc": "",
+			"sid": 787799336922557
+		},
+		{
+			"name": "MudSling_Ability",
+			"type": "boolean",
+			"desc": "",
+			"sid": 100782826682163
 		}
 	],
 	"behaviorTypes": [

@@ -86,7 +86,11 @@
 						"Power_potions": 0,
 						"Jump_potions": 0,
 						"Slime_potions": 0,
-						"HP": 8
+						"HP": 8,
+						"Speed_Ability": false,
+						"WallScaling_Ability": false,
+						"DoubleJump_Ability": false,
+						"MudSling_Ability": false
 					},
 					"behaviors": {
 						"Platform": {
