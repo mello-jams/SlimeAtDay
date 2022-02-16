@@ -141,7 +141,13 @@
 			"Cursor",
 			"Selector",
 			"Player_healthbar",
-			"Slime_healthbar"
+			"Slime_healthbar",
+			"FrostSlime",
+			"FireSlime2",
+			"FrostSlime2",
+			"FireSlime3",
+			"EarthSlime2",
+			"Player2"
 		],
 		"subfolders": [
 			{
