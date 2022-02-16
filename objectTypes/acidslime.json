@@ -1,0 +1,68 @@
+{
+	"name": "AcidSlime",
+	"plugin-id": "Sprite",
+	"sid": 875208267552649,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 819955168231256
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 545671234548138
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 208,
+						"height": 206,
+						"originX": 0.5414012738853503,
+						"originY": 0.436241610738255,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4713072,
+						"collisionPoly": {
+							"points": [
+								0.14903846153846154,
+								0.15048543689320387,
+								0.5,
+								0,
+								0.8461538461538461,
+								0.15048543689320387,
+								0.9903846153846154,
+								0.5,
+								0.8461538461538461,
+								0.8446601941747572,
+								0.5,
+								0.9951456310679612,
+								0.14903846153846154,
+								0.8446601941747572,
+								0.004807692307692308,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 676999094659542,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

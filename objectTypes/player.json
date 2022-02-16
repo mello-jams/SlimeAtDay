@@ -57,6 +57,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 100782826682163
+		},
+		{
+			"name": "PoisonNum",
+			"type": "number",
+			"desc": "",
+			"sid": 890432002455292
 		}
 	],
 	"behaviorTypes": [

@@ -381,7 +381,8 @@
 						"Speed_Ability": false,
 						"WallScaling_Ability": false,
 						"DoubleJump_Ability": false,
-						"MudSling_Ability": false
+						"MudSling_Ability": false,
+						"PoisonNum": 0
 					},
 					"behaviors": {
 						"Platform": {

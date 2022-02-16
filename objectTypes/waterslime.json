@@ -1,0 +1,73 @@
+{
+	"name": "WaterSlime",
+	"plugin-id": "Sprite",
+	"sid": 856943840804614,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 898143863837000
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 385600319410544
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 332725921335915
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 206,
+						"height": 206,
+						"originX": 0.5414012738853503,
+						"originY": 0.436241610738255,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2496919,
+						"collisionPoly": {
+							"points": [
+								0.14563106796116504,
+								0.14563106796116504,
+								0.5,
+								0,
+								0.8495145631067961,
+								0.14563106796116504,
+								0.9951456310679612,
+								0.5,
+								0.8495145631067961,
+								0.8495145631067961,
+								0.5,
+								0.9951456310679612,
+								0.14563106796116504,
+								0.8495145631067961,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 302714354132242,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

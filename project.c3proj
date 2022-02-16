@@ -72,6 +72,30 @@
 		},
 		{
 			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -147,7 +171,18 @@
 					"Slime",
 					"Slime2",
 					"Slime3",
-					"Slime4"
+					"Slime4",
+					"AcidSlime",
+					"LightningSlime",
+					"LavaSlime",
+					"IceSlime",
+					"FireSlime",
+					"FireBall",
+					"EarthSlime",
+					"WaterSlime",
+					"SlimeRocks",
+					"PoisonSlime",
+					"PoisonPuddle"
 				],
 				"subfolders": [],
 				"name": "Slimes"
