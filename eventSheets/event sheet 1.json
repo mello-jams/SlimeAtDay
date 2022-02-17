@@ -1459,11 +1459,12 @@
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
+							"id": "set-layer-opacity",
 							"objectClass": "System",
-							"sid": 716685364730059,
+							"sid": 930303512851354,
 							"parameters": {
-								"layout": "Shop"
+								"layer": "\"Shop\"",
+								"opacity": "100"
 							}
 						}
 					],
@@ -2525,6 +2526,15 @@
 								"width-type": "no",
 								"height-type": "no",
 								"z": false
+							}
+						},
+						{
+							"id": "set-layer-opacity",
+							"objectClass": "System",
+							"sid": 883809191579133,
+							"parameters": {
+								"layer": "\"Shop\"",
+								"opacity": "0"
 							}
 						}
 					],
