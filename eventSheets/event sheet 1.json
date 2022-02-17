@@ -1466,9 +1466,92 @@
 								"layer": "\"Shop\"",
 								"opacity": "100"
 							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button1",
+							"sid": 367574379931923,
+							"parameters": {
+								"y": "147"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button2",
+							"sid": 457308494517407,
+							"parameters": {
+								"y": "216"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button3",
+							"sid": 227859861226888,
+							"parameters": {
+								"y": "284"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button4",
+							"sid": 190874839037710,
+							"parameters": {
+								"y": "350"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "StoreMenu",
+							"sid": 450044115765180,
+							"parameters": {
+								"instance-variable": "In_shop",
+								"value": "true"
+							}
 						}
 					],
 					"sid": 118843097555333
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 575923942458478,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "StoreMenu",
+							"sid": 901949584027021,
+							"parameters": {
+								"instance-variable": "In_shop"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "StoreMenu",
+							"sid": 824050196087880,
+							"parameters": {
+								"instance-variable": "In_shop",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-layer-opacity",
+							"objectClass": "System",
+							"sid": 495623612439876,
+							"parameters": {
+								"layer": "\"Shop\"",
+								"opacity": "0"
+							}
+						}
+					],
+					"sid": 203847213988265
 				}
 			],
 			"sid": 518768230652466
@@ -2535,6 +2618,38 @@
 							"parameters": {
 								"layer": "\"Shop\"",
 								"opacity": "0"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button1",
+							"sid": 823538557161407,
+							"parameters": {
+								"y": "-100"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button2",
+							"sid": 465873902669793,
+							"parameters": {
+								"y": "-100"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button3",
+							"sid": 199252500142506,
+							"parameters": {
+								"y": "-100"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "button4",
+							"sid": 207722658310221,
+							"parameters": {
+								"y": "-100"
 							}
 						}
 					],

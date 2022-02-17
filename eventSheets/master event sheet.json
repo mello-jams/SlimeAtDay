@@ -4,10 +4,6 @@
 		{
 			"eventType": "include",
 			"includeSheet": "Event sheet 1"
-		},
-		{
-			"eventType": "include",
-			"includeSheet": "Event sheet 2"
 		}
 	],
 	"sid": 818438963426028

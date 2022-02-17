@@ -1,16 +1,10 @@
 {
-	"name": "Shop_Owner",
+	"name": "button1",
 	"plugin-id": "Sprite",
-	"sid": 848179738701355,
+	"sid": 870197205146782,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 451188347311841
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 249840,
+						"imageSpriteId": 703440,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 188031632753190,
+				"sid": 783530958015007,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -501,8 +501,8 @@
 					"world": {
 						"x": 43,
 						"y": 312,
-						"width": 30.783148315499034,
-						"height": 39.31375577645872,
+						"width": 40.63375577645872,
+						"height": 22.635192719779266,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1470,7 +1470,9 @@
 						"live-preview": false
 					},
 					"uid": 115,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"In_shop": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 422.2709774840314,
@@ -1832,123 +1834,119 @@
 					}
 				},
 				{
-					"type": "Pot_1",
+					"type": "button1",
 					"properties": {
-						"type": "button",
-						"text": "BUY",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 126,
+					"uid": 18,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 192.2709774840314,
-						"y": 133.08950622644505,
-						"width": 53,
-						"height": 33,
-						"originX": 0,
-						"originY": 0,
+						"x": 223.5300852075183,
+						"y": 147.50991530233193,
+						"width": 47.52681136485438,
+						"height": 47.52681136485438,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
-					"type": "Pot_2",
+					"type": "button2",
 					"properties": {
-						"type": "button",
-						"text": "BUY",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 127,
+					"uid": 19,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 192.2709774840314,
-						"y": 201.08950622644505,
-						"width": 53,
-						"height": 33,
-						"originX": 0,
-						"originY": 0,
+						"x": 224.32014243936612,
+						"y": 216.31775101195902,
+						"width": 47.52681136485438,
+						"height": 47.52681136485438,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
-					"type": "Pot_3",
+					"type": "button3",
 					"properties": {
-						"type": "button",
-						"text": "BUY",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 128,
+					"uid": 20,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 193.2709774840314,
-						"y": 269.08950622644505,
-						"width": 53,
-						"height": 33,
-						"originX": 0,
-						"originY": 0,
+						"x": 225.09307728760024,
+						"y": 284.33554209716533,
+						"width": 47.52681136485438,
+						"height": 47.52681136485438,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
-					"type": "Pot_4",
+					"type": "button4",
 					"properties": {
-						"type": "button",
-						"text": "BUY",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 129,
+					"uid": 33,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 194.2709774840314,
-						"y": 332.089506226445,
-						"width": 53,
-						"height": 33,
-						"originX": 0,
-						"originY": 0,
+						"x": 226.63894785888414,
+						"y": 349.26158694905513,
+						"width": 47.52681136485438,
+						"height": 47.52681136485438,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
