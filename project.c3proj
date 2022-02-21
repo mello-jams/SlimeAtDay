@@ -194,7 +194,9 @@
 					"PoisonSlime",
 					"PoisonPuddle",
 					"AcidPuddle",
-					"ICeSlimeIcicle"
+					"ICeSlimeIcicle",
+					"Magma",
+					"LighteningBolt"
 				],
 				"subfolders": [],
 				"name": "Slimes"

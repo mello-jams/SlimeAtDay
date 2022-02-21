@@ -390,7 +390,7 @@
 							"eventType": "group",
 							"disabled": false,
 							"title": "Ice Slime",
-							"description": "",
+							"description": "want to add player bein frozen for a sec when hit",
 							"isActiveOnStart": true,
 							"children": [
 								{
@@ -1582,6 +1582,384 @@
 								}
 							],
 							"sid": 920326060571887
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Lava Slime",
+							"description": "thinking of having magma spit from the lava slime at an angle?",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "has-los-to-object",
+											"objectClass": "LavaSlime",
+											"sid": 372500268725880,
+											"behaviorType": "LineOfSight",
+											"parameters": {
+												"object": "Player",
+												"image-point": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "move-to-object",
+											"objectClass": "FireSlime",
+											"sid": 666098396229067,
+											"disabled": true,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "Player",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										}
+									],
+									"sid": 831494466809422,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "every-x-seconds",
+													"objectClass": "System",
+													"sid": 852642024281348,
+													"parameters": {
+														"interval-seconds": "2"
+													}
+												},
+												{
+													"id": "compare-two-values",
+													"objectClass": "System",
+													"sid": 631246797489176,
+													"parameters": {
+														"first-value": "distance(player.X,player.Y,FireSlime.X,FireSlime.Y)",
+														"comparison": 3,
+														"second-value": "400"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "spawn-another-object",
+													"objectClass": "LavaSlime",
+													"sid": 933546674508151,
+													"parameters": {
+														"object": "Magma",
+														"layer": "0",
+														"image-point": "1",
+														"create-hierarchy": false
+													}
+												}
+											],
+											"sid": 745476374698013
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "Magma",
+											"sid": 652829063268107
+										}
+									],
+									"actions": [
+										{
+											"id": "set-size",
+											"objectClass": "Magma",
+											"sid": 758763717931606,
+											"parameters": {
+												"width": "30.044147",
+												"height": "25.928511"
+											}
+										}
+									],
+									"sid": 514834723822017
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 692885739333644,
+											"parameters": {
+												"object": "Magma"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 888378082323824,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "1"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "Magma",
+											"sid": 633151970089698
+										}
+									],
+									"sid": 514876558969653
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 604343245213157,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 3,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "restart-layout",
+											"objectClass": "System",
+											"sid": 918786254207235
+										}
+									],
+									"sid": 191606904701225
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "Magma",
+											"sid": 329378549985992
+										}
+									],
+									"actions": [],
+									"sid": 562976301732066,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "is-mirrored",
+													"objectClass": "LavaSlime",
+													"sid": 305263330325423
+												}
+											],
+											"actions": [
+												{
+													"id": "set-angle",
+													"objectClass": "Magma",
+													"sid": 292349323572163,
+													"parameters": {
+														"angle": "180"
+													}
+												}
+											],
+											"sid": 919671597242259
+										}
+									]
+								}
+							],
+							"sid": 585448831544243
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Lightening Slime",
+							"description": "want to add player being stunned when hit",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "has-los-to-object",
+											"objectClass": "LightningSlime",
+											"sid": 846278422574203,
+											"behaviorType": "LineOfSight",
+											"parameters": {
+												"object": "Player",
+												"image-point": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "move-to-object",
+											"objectClass": "FireSlime",
+											"sid": 898032811558588,
+											"disabled": true,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "Player",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										}
+									],
+									"sid": 480350025175818,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "every-x-seconds",
+													"objectClass": "System",
+													"sid": 986634007350659,
+													"parameters": {
+														"interval-seconds": "2"
+													}
+												},
+												{
+													"id": "compare-two-values",
+													"objectClass": "System",
+													"sid": 792864177817928,
+													"parameters": {
+														"first-value": "distance(player.X,player.Y,FireSlime.X,FireSlime.Y)",
+														"comparison": 3,
+														"second-value": "400"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "spawn-another-object",
+													"objectClass": "LightningSlime",
+													"sid": 940435710948750,
+													"parameters": {
+														"object": "LighteningBolt",
+														"layer": "0",
+														"image-point": "1",
+														"create-hierarchy": false
+													}
+												}
+											],
+											"sid": 685023048885528
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "LighteningBolt",
+											"sid": 999707680142817
+										}
+									],
+									"actions": [
+										{
+											"id": "set-size",
+											"objectClass": "LighteningBolt",
+											"sid": 137401333386293,
+											"parameters": {
+												"width": "30.044147",
+												"height": "25.928511"
+											}
+										}
+									],
+									"sid": 809692485029244
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 707020126796187,
+											"parameters": {
+												"object": "LighteningBolt"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 826312324036330,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "1"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "LighteningBolt",
+											"sid": 466710825677196
+										}
+									],
+									"sid": 765435152800100
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 418413315454875,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 3,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "restart-layout",
+											"objectClass": "System",
+											"sid": 745431436197624
+										}
+									],
+									"sid": 990882813196742
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "LighteningBolt",
+											"sid": 274663467342997
+										}
+									],
+									"actions": [],
+									"sid": 775171729166830,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "is-mirrored",
+													"objectClass": "LightningSlime",
+													"sid": 401109754847307
+												}
+											],
+											"actions": [
+												{
+													"id": "set-angle",
+													"objectClass": "LighteningBolt",
+													"sid": 701708001271769,
+													"parameters": {
+														"angle": "180"
+													}
+												}
+											],
+											"sid": 903846483855543
+										}
+									]
+								}
+							],
+							"sid": 568751819095907
 						},
 						{
 							"eventType": "group",
