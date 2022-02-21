@@ -63,6 +63,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 890432002455292
+		},
+		{
+			"name": "Strapped",
+			"type": "boolean",
+			"desc": "if the player got the big iron holstered",
+			"sid": 628514995975982
 		}
 	],
 	"behaviorTypes": [
@@ -78,14 +84,14 @@
 			{
 				"frames": [
 					{
-						"width": 330,
-						"height": 190,
+						"width": 328,
+						"height": 188,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2615851,
+						"imageSpriteId": 5754147,
 						"collisionPoly": {
 							"points": [
 								0.15151515151515152,
@@ -112,6 +118,11 @@
 								"name": "Healthbar_spot",
 								"x": 0.5,
 								"y": -0.009728867623604467
+							},
+							{
+								"name": "Holster",
+								"x": 0.23170731707317074,
+								"y": 0.7712765957446809
 							}
 						],
 						"duration": 1

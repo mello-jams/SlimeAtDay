@@ -279,6 +279,168 @@
 						}
 					],
 					"sid": 939796759677135
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 289390766228356,
+							"parameters": {
+								"object": "big_iron"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "big_iron",
+							"sid": 728937454225532
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 129716338108755,
+							"parameters": {
+								"object": "big_iron",
+								"layer": "0",
+								"image-point": "2",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 532696824833028,
+							"parameters": {
+								"instance-variable": "Strapped",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 273662512200840
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 235870036983802,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 646632370308161,
+							"parameters": {
+								"instance-variable": "Strapped"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "big_iron",
+							"sid": 994384846421545,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "2",
+								"angle": false,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 708572003892904,
+							"parameters": {
+								"instance-variable": "Strapped",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 615319542087130,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 556115764825971
+								}
+							],
+							"actions": [
+								{
+									"id": "set-angle-toward-position",
+									"objectClass": "big_iron",
+									"sid": 338991709143494,
+									"parameters": {
+										"x": "Mouse.X",
+										"y": "Mouse.Y"
+									}
+								}
+							],
+							"sid": 928247909233415
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 965640971219662,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 655878797555739,
+							"parameters": {
+								"instance-variable": "Strapped"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "big_iron",
+							"sid": 319431607068996,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "2",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 131705501510971,
+							"parameters": {
+								"instance-variable": "Strapped",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 688780603341462
 				}
 			],
 			"sid": 109829278202111
@@ -2324,14 +2486,6 @@
 							"sid": 190874839037710,
 							"parameters": {
 								"y": "350"
-							}
-						},
-						{
-							"id": "set-cursor-from-sprite",
-							"objectClass": "Mouse",
-							"sid": 527240648228088,
-							"parameters": {
-								"sprite": "Cursor"
 							}
 						}
 					],

@@ -40,14 +40,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Button",
-			"name": "Button",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
@@ -58,6 +50,22 @@
 			"type": "behavior",
 			"id": "Anchor",
 			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -104,22 +112,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Timer",
-			"name": "Timer",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -128,8 +120,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Fade",
-			"name": "Fade",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -139,7 +131,6 @@
 	"objectTypes": {
 		"items": [
 			"Platform",
-			"Player",
 			"Grass",
 			"Sky",
 			"Door",
@@ -154,21 +145,12 @@
 			"PinkPotion",
 			"Sprite",
 			"Inventory_bar",
-			"Cursor",
 			"Selector",
 			"Player_healthbar",
 			"Slime_healthbar",
-			"FrostSlime",
-			"FireSlime2",
-			"FrostSlime2",
-			"FireSlime3",
-			"EarthSlime2",
-			"Player2",
-			"button1",
-			"button2",
-			"button3",
-			"button4",
-			"Text_damage_3"
+			"big_iron",
+			"Player",
+			"Player2"
 		],
 		"subfolders": [
 			{
@@ -188,7 +170,8 @@
 					"Four",
 					"One",
 					"Three",
-					"Two"
+					"Two",
+					"Text_damage_3"
 				],
 				"subfolders": [],
 				"name": "Text"
@@ -213,7 +196,12 @@
 					"AcidPuddle",
 					"ICeSlimeIcicle",
 					"Magma",
-					"LighteningBolt"
+					"LighteningBolt",
+					"EarthSlime2",
+					"FireSlime2",
+					"FireSlime3",
+					"FrostSlime",
+					"FrostSlime2"
 				],
 				"subfolders": [],
 				"name": "Slimes"
@@ -222,10 +210,10 @@
 				"items": [
 					"Keyboard",
 					"Mouse",
-					"Pot_1",
-					"Pot_2",
-					"Pot_3",
-					"Pot_4"
+					"button1",
+					"button2",
+					"button3",
+					"button4"
 				],
 				"subfolders": [],
 				"name": "Other"
