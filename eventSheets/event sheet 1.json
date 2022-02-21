@@ -130,6 +130,17 @@
 								"variable": "Slimes",
 								"value": "1"
 							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Slime",
+							"sid": 151723909420602,
+							"parameters": {
+								"object": "Text_damage_3",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
 						}
 					],
 					"sid": 564843629523433
@@ -163,6 +174,17 @@
 							"parameters": {
 								"variable": "Slimes",
 								"value": "1"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Slime2",
+							"sid": 252596091020831,
+							"parameters": {
+								"object": "Text_damage_3",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
 							}
 						}
 					],
@@ -198,6 +220,17 @@
 								"variable": "Slimes",
 								"value": "1"
 							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Slime3",
+							"sid": 438251036495822,
+							"parameters": {
+								"object": "Text_damage_3",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
 						}
 					],
 					"sid": 955913740797144
@@ -231,6 +264,17 @@
 							"parameters": {
 								"variable": "Slimes",
 								"value": "1"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Slime4",
+							"sid": 965501610720616,
+							"parameters": {
+								"object": "Text_damage_3",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
 							}
 						}
 					],
@@ -378,6 +422,92 @@
 						}
 					],
 					"sid": 117776385366840
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Text_damage_3",
+							"sid": 421099928086069
+						}
+					],
+					"actions": [
+						{
+							"id": "start-timer",
+							"objectClass": "Text_damage_3",
+							"sid": 803563644949797,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "1.0",
+								"type": "once",
+								"tag": "\"decay\""
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "Text_damage_3",
+							"sid": 653882769557218,
+							"behaviorType": "Fade"
+						}
+					],
+					"sid": 657619923416094
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-timer",
+							"objectClass": "Text_damage_3",
+							"sid": 398533163690552,
+							"behaviorType": "Timer",
+							"parameters": {
+								"tag": "\"decay\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Text_damage_3",
+							"sid": 208211809152179
+						}
+					],
+					"sid": 860831677092173
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 661891121568556,
+							"parameters": {
+								"interval-seconds": "0.01"
+							}
+						},
+						{
+							"id": "is-timer-running",
+							"objectClass": "Text_damage_3",
+							"sid": 585855417363268,
+							"behaviorType": "Timer",
+							"parameters": {
+								"tag": "\"decay\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "Text_damage_3",
+							"sid": 783946154716035,
+							"parameters": {
+								"angle": "270",
+								"distance": "1"
+							}
+						}
+					],
+					"sid": 851693446421638
 				},
 				{
 					"eventType": "group",
@@ -2131,9 +2261,9 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 811474048336358,
+							"sid": 859870640044196,
 							"parameters": {
-								"key": 69
+								"key": 32
 							}
 						},
 						{
@@ -2146,6 +2276,15 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "StoreMenu",
+							"sid": 252147031368162,
+							"parameters": {
+								"instance-variable": "In_shop",
+								"value": "true"
+							}
+						},
 						{
 							"id": "set-layer-opacity",
 							"objectClass": "System",
@@ -2188,12 +2327,11 @@
 							}
 						},
 						{
-							"id": "set-boolean-instvar",
-							"objectClass": "StoreMenu",
-							"sid": 450044115765180,
+							"id": "set-cursor-from-sprite",
+							"objectClass": "Mouse",
+							"sid": 527240648228088,
 							"parameters": {
-								"instance-variable": "In_shop",
-								"value": "true"
+								"sprite": "Cursor"
 							}
 						}
 					],
@@ -2240,6 +2378,266 @@
 						}
 					],
 					"sid": 203847213988265
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 138808278958517,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "button1"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "StoreMenu",
+							"sid": 760254980767100,
+							"parameters": {
+								"instance-variable": "In_shop"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 935209379738750,
+							"parameters": {
+								"variable": "Slimes",
+								"comparison": 5,
+								"value": "10"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 212274840020017,
+							"parameters": {
+								"variable": "Slimes",
+								"value": "10"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 171627668160530,
+							"parameters": {
+								"instance-variable": "Speed_potions",
+								"value": "1"
+							}
+						},
+						{
+							"id": "start-timer",
+							"objectClass": "StoreMenu",
+							"sid": 814653165247040,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "1.0",
+								"type": "once",
+								"tag": "\"wait\""
+							}
+						}
+					],
+					"sid": 550001695507610
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 317018184218199,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "button2"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "StoreMenu",
+							"sid": 571384965982022,
+							"parameters": {
+								"instance-variable": "In_shop"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 328895070007744,
+							"parameters": {
+								"variable": "Slimes",
+								"comparison": 5,
+								"value": "10"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 943265483029713,
+							"parameters": {
+								"variable": "Slimes",
+								"value": "10"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 412285088060108,
+							"parameters": {
+								"instance-variable": "Power_potions",
+								"value": "1"
+							}
+						},
+						{
+							"id": "start-timer",
+							"objectClass": "StoreMenu",
+							"sid": 938376894859546,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "1.0",
+								"type": "once",
+								"tag": "\"wait\""
+							}
+						}
+					],
+					"sid": 955059215158509
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 394187549750790,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "button3"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "StoreMenu",
+							"sid": 914198205580404,
+							"parameters": {
+								"instance-variable": "In_shop"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 725667742193387,
+							"parameters": {
+								"variable": "Slimes",
+								"comparison": 5,
+								"value": "10"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 973893650636771,
+							"parameters": {
+								"variable": "Slimes",
+								"value": "10"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 468789862435729,
+							"parameters": {
+								"instance-variable": "Jump_potions",
+								"value": "1"
+							}
+						},
+						{
+							"id": "start-timer",
+							"objectClass": "StoreMenu",
+							"sid": 127462316976877,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "1.0",
+								"type": "once",
+								"tag": "\"wait\""
+							}
+						}
+					],
+					"sid": 704113982613629
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 630421980882536,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "button4"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "StoreMenu",
+							"sid": 233769359891677,
+							"parameters": {
+								"instance-variable": "In_shop"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 283748664573411,
+							"parameters": {
+								"variable": "Slimes",
+								"comparison": 5,
+								"value": "10"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 807854429966235,
+							"parameters": {
+								"variable": "Slimes",
+								"value": "10"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 305073772603071,
+							"parameters": {
+								"instance-variable": "Slime_potions",
+								"value": "1"
+							}
+						},
+						{
+							"id": "start-timer",
+							"objectClass": "StoreMenu",
+							"sid": 369205828892169,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "1.0",
+								"type": "once",
+								"tag": "\"wait\""
+							}
+						}
+					],
+					"sid": 345599537652842
 				}
 			],
 			"sid": 518768230652466

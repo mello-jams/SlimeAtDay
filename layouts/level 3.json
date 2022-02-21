@@ -857,6 +857,76 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Player_healthbar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 38,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -106,
+						"y": 231,
+						"width": 64,
+						"height": 8,
+						"originX": 0.4880952380952381,
+						"originY": 0.46153846153846156,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Slime_healthbar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -90,
+						"y": 213,
+						"width": 56,
+						"height": 7,
+						"originX": 0.7592592592592593,
+						"originY": 0.3,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 679023099410250,

@@ -112,8 +112,24 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -151,7 +167,8 @@
 			"button1",
 			"button2",
 			"button3",
-			"button4"
+			"button4",
+			"Text_damage_3"
 		],
 		"subfolders": [
 			{
