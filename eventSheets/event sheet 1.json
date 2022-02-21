@@ -389,6 +389,155 @@
 						{
 							"eventType": "group",
 							"disabled": false,
+							"title": "Ice Slime",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "has-los-to-object",
+											"objectClass": "IceSlime",
+											"sid": 127595179974986,
+											"behaviorType": "LineOfSight",
+											"parameters": {
+												"object": "Player",
+												"image-point": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "IceSlime",
+											"sid": 425463358017123,
+											"parameters": {
+												"object": "ICeSlimeIcicle",
+												"layer": "0",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										}
+									],
+									"sid": 285967077681549
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "ICeSlimeIcicle",
+											"sid": 741048237546361
+										}
+									],
+									"actions": [
+										{
+											"id": "set-size",
+											"objectClass": "ICeSlimeIcicle",
+											"sid": 626166081017696,
+											"parameters": {
+												"width": "15",
+												"height": "33"
+											}
+										}
+									],
+									"sid": 529439543826008
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 704476677329002,
+											"parameters": {
+												"object": "ICeSlimeIcicle"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 979299584269570,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "1"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "ICeSlimeIcicle",
+											"sid": 463531017959434
+										}
+									],
+									"sid": 368136731670591
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 282836498598513,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 3,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "restart-layout",
+											"objectClass": "System",
+											"sid": 986425160229859
+										}
+									],
+									"sid": 225540492882573
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "ICeSlimeIcicle",
+											"sid": 123363151945560
+										}
+									],
+									"actions": [],
+									"sid": 822266250794289,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "is-mirrored",
+													"objectClass": "IceSlime",
+													"sid": 177695410657969
+												}
+											],
+											"actions": [
+												{
+													"id": "set-angle",
+													"objectClass": "ICeSlimeIcicle",
+													"sid": 524540554065089,
+													"parameters": {
+														"angle": "180"
+													}
+												}
+											],
+											"sid": 758828549953536
+										}
+									]
+								}
+							],
+							"sid": 244454801382237
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
 							"title": "Earth Slime",
 							"description": "",
 							"isActiveOnStart": true,
@@ -1087,6 +1236,166 @@
 						{
 							"eventType": "group",
 							"disabled": false,
+							"title": "Acid Slime",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "group",
+									"disabled": false,
+									"title": "Acid Slime Attack",
+									"description": "",
+									"isActiveOnStart": true,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "has-los-to-object",
+													"objectClass": "AcidSlime",
+													"sid": 106402827686346,
+													"behaviorType": "LineOfSight",
+													"parameters": {
+														"object": "Player",
+														"image-point": "0"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "move-to-object",
+													"objectClass": "PoisonSlime",
+													"sid": 620291655141799,
+													"disabled": true,
+													"behaviorType": "MoveTo",
+													"parameters": {
+														"object": "Player",
+														"image-point": "0",
+														"mode": "direct"
+													}
+												}
+											],
+											"sid": 601405573637043,
+											"children": [
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "every-x-seconds",
+															"objectClass": "System",
+															"sid": 235915382433380,
+															"parameters": {
+																"interval-seconds": "2"
+															}
+														},
+														{
+															"id": "compare-two-values",
+															"objectClass": "System",
+															"sid": 128625608671841,
+															"parameters": {
+																"first-value": "distance(player.X,player.Y,PoisonSlime.X,PoisonSlime.Y)",
+																"comparison": 3,
+																"second-value": "400"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "create-object",
+															"objectClass": "System",
+															"sid": 924976992845544,
+															"parameters": {
+																"object-to-create": "AcidPuddle",
+																"layer": "0",
+																"x": "PoisonSlime.X+50",
+																"y": "PoisonSlime.Y-20",
+																"create-hierarchy": false
+															}
+														}
+													],
+													"sid": 357210290017652
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "on-created",
+													"objectClass": "AcidPuddle",
+													"sid": 243657032289495
+												}
+											],
+											"actions": [
+												{
+													"id": "set-size",
+													"objectClass": "AcidPuddle",
+													"sid": 402833217085126,
+													"parameters": {
+														"width": "96",
+														"height": "10"
+													}
+												}
+											],
+											"sid": 691559021018361
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "is-overlapping-another-object",
+													"objectClass": "Player",
+													"sid": 496800257507110,
+													"parameters": {
+														"object": "AcidPuddle"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "subtract-from-instvar",
+													"objectClass": "Player",
+													"sid": 212849384456622,
+													"parameters": {
+														"instance-variable": "HP",
+														"value": "1"
+													}
+												}
+											],
+											"sid": 878924937591156
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Player",
+													"sid": 783676275893085,
+													"parameters": {
+														"instance-variable": "HP",
+														"comparison": 3,
+														"value": "0"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "restart-layout",
+													"objectClass": "System",
+													"sid": 639960435778008
+												}
+											],
+											"sid": 463512506549572
+										}
+									],
+									"sid": 875369981645738
+								}
+							],
+							"sid": 544944939398551
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
 							"title": "Fire Slime",
 							"description": "",
 							"isActiveOnStart": true,
@@ -1180,7 +1489,8 @@
 											}
 										}
 									],
-									"sid": 674128941089056
+									"sid": 674128941089056,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
