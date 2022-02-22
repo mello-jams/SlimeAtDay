@@ -541,12 +541,23 @@
 								"enabled": true,
 								"live-preview": false
 							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": false
+							}
 						}
 					},
 					"world": {
 						"x": 128.636182369048,
 						"y": 302.7893019201423,
-						"width": 23.628534556705045,
+						"width": 23.62853455670504,
 						"height": 13.701753766610025,
 						"originX": 0.378698224852071,
 						"originY": 0.6938775510204082,

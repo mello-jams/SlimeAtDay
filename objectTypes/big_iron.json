@@ -19,6 +19,11 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 728831975148472
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 850097545124334
 		}
 	],
 	"effectTypes": [],

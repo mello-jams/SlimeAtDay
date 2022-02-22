@@ -327,6 +327,80 @@
 						{
 							"id": "on-click",
 							"objectClass": "Mouse",
+							"sid": 792570360849567,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 745374574748394,
+							"parameters": {
+								"object": "big_iron",
+								"layer": "0",
+								"image-point": "3",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "big_iron",
+							"sid": 547692317640691,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"state": "enabled"
+							}
+						}
+					],
+					"sid": 561131054323823,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 769667205424141
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 625818829421878,
+									"parameters": {
+										"interval-seconds": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-angle-toward-position",
+									"objectClass": "big_iron",
+									"sid": 183404434639234,
+									"parameters": {
+										"x": "Mouse.X",
+										"y": "Mouse.Y"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "big_iron",
+									"sid": 772360499926479
+								}
+							],
+							"sid": 955569656291997
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
 							"sid": 235870036983802,
 							"parameters": {
 								"mouse-button": "right",
@@ -368,6 +442,7 @@
 						}
 					],
 					"sid": 615319542087130,
+					"disabled": true,
 					"children": [
 						{
 							"eventType": "block",
@@ -389,7 +464,8 @@
 									}
 								}
 							],
-							"sid": 928247909233415
+							"sid": 928247909233415,
+							"disabled": true
 						}
 					]
 				},
@@ -440,7 +516,8 @@
 							}
 						}
 					],
-					"sid": 688780603341462
+					"sid": 688780603341462,
+					"disabled": true
 				}
 			],
 			"sid": 109829278202111
@@ -3963,6 +4040,15 @@
 				}
 			],
 			"sid": 363036432453264
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "player shoot",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 194119953765374
 		}
 	],
 	"sid": 587643397571846
