@@ -36,6 +36,64 @@
 					}
 				},
 				{
+					"type": "Building2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 149,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 683.4452596502497,
+						"y": 195.84169525673838,
+						"width": 229,
+						"height": 218,
+						"originX": 0.5262874802855293,
+						"originY": 0.4093873203908892,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Building1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 148,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 146.2546439625821,
+						"y": 202.60355629981862,
+						"width": 229,
+						"height": 218,
+						"originX": 0.5021834061135371,
+						"originY": 0.42201834862385323,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Slime",
 					"properties": {
 						"initially-visible": true,
@@ -222,6 +280,35 @@
 							1
 						],
 						"angle": 0.003316737423156191,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Building3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 150,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 438.5166346480487,
+						"y": 196.5929948447075,
+						"width": 229,
+						"height": 218,
+						"originX": 0.5575458750383686,
+						"originY": 0.4061997198305503,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				},

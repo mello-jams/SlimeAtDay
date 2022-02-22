@@ -150,7 +150,10 @@
 			"Slime_healthbar",
 			"big_iron",
 			"Player",
-			"Player2"
+			"Player2",
+			"Building1",
+			"Building2",
+			"Building3"
 		],
 		"subfolders": [
 			{
