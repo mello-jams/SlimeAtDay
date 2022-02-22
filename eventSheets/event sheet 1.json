@@ -399,6 +399,51 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "big_iron",
+							"sid": 639858542309191,
+							"parameters": {
+								"object": "Slime"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Slime",
+							"sid": 969112914445874,
+							"parameters": {
+								"instance-variable": "HP",
+								"value": "3"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 137230721848026,
+							"parameters": {
+								"variable": "Slimes",
+								"value": "1"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Slime",
+							"sid": 205655920314289,
+							"parameters": {
+								"object": "Text_damage_3",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 394179320400578
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-click",
 							"objectClass": "Mouse",
 							"sid": 235870036983802,
