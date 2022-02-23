@@ -166,14 +166,14 @@
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
-								"name": "Holster",
-								"x": 0.23170731707317074,
-								"y": 0.7712765957446809
-							},
-							{
 								"name": "Healthbar_spot",
 								"x": 0.5,
 								"y": -0.009728867623604467
+							},
+							{
+								"name": "Holster",
+								"x": 0.23170731707317074,
+								"y": 0.7712765957446809
 							},
 							{
 								"name": "Gun",
@@ -218,14 +218,14 @@
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
-								"name": "Holster",
-								"x": 0.23170731707317074,
-								"y": 0.7712765957446809
-							},
-							{
 								"name": "Healthbar_spot",
 								"x": 0.5,
 								"y": -0.009728867623604467
+							},
+							{
+								"name": "Holster",
+								"x": 0.23170731707317074,
+								"y": 0.7712765957446809
 							},
 							{
 								"name": "Gun",
@@ -270,14 +270,14 @@
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
-								"name": "Holster",
-								"x": 0.23170731707317074,
-								"y": 0.7712765957446809
-							},
-							{
 								"name": "Healthbar_spot",
 								"x": 0.5,
 								"y": -0.009728867623604467
+							},
+							{
+								"name": "Holster",
+								"x": 0.23170731707317074,
+								"y": 0.7712765957446809
 							},
 							{
 								"name": "Gun",

@@ -2514,29 +2514,6 @@
 										}
 									],
 									"sid": 514876558969653
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 604343245213157,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 3,
-												"value": "0"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "restart-layout",
-											"objectClass": "System",
-											"sid": 918786254207235
-										}
-									],
-									"sid": 191606904701225
 								}
 							],
 							"sid": 585448831544243
@@ -2929,12 +2906,12 @@
 							}
 						},
 						{
-							"id": "set-layer-opacity",
+							"id": "set-layer-visible",
 							"objectClass": "System",
-							"sid": 930303512851354,
+							"sid": 755437340755215,
 							"parameters": {
-								"layer": "\"Shop\"",
-								"opacity": "100"
+								"layer": "3",
+								"visibility": "visible"
 							}
 						},
 						{
