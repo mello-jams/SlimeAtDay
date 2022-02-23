@@ -47,28 +47,22 @@
 			"sid": 380381534918085
 		},
 		{
-			"name": "DoubleJump_Ability",
+			"name": "Jump_Ability",
 			"type": "boolean",
 			"desc": "",
 			"sid": 787799336922557
-		},
-		{
-			"name": "MudSling_Ability",
-			"type": "boolean",
-			"desc": "",
-			"sid": 100782826682163
-		},
-		{
-			"name": "PoisonNum",
-			"type": "number",
-			"desc": "",
-			"sid": 890432002455292
 		},
 		{
 			"name": "Strapped_Ability",
 			"type": "boolean",
 			"desc": "if the player got the big iron holstered",
 			"sid": 628514995975982
+		},
+		{
+			"name": "PoisonNum",
+			"type": "number",
+			"desc": "",
+			"sid": 890432002455292
 		}
 	],
 	"behaviorTypes": [

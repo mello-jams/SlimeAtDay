@@ -57,8 +57,8 @@
 					"world": {
 						"x": 981.2134616283589,
 						"y": 100.20749646294243,
-						"width": 1452.5730767432822,
-						"height": 9.585007074115154,
+						"width": 1162.0584613946257,
+						"height": 7.668005659292124,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -122,8 +122,8 @@
 					"world": {
 						"x": 56.122572166165554,
 						"y": 100.12728100721188,
-						"width": 109.09233183281737,
-						"height": 9.585007074115154,
+						"width": 87.2738654662539,
+						"height": 7.668005659292124,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -389,10 +389,9 @@
 						"HP": 8,
 						"Speed_Ability": false,
 						"WallScaling_Ability": false,
-						"DoubleJump_Ability": false,
-						"MudSling_Ability": false,
-						"PoisonNum": 0,
-						"Strapped_Ability": false
+						"Jump_Ability": false,
+						"Strapped_Ability": false,
+						"PoisonNum": 0
 					},
 					"behaviors": {
 						"Platform": {

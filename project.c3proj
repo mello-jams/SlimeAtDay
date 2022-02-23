@@ -244,6 +244,13 @@
 				],
 				"subfolders": [],
 				"name": "Other"
+			},
+			{
+				"items": [
+					"TiledBackground"
+				],
+				"subfolders": [],
+				"name": "BKG"
 			}
 		]
 	},

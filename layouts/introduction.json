@@ -26,10 +26,10 @@
 						}
 					},
 					"world": {
-						"x": 429,
-						"y": 391,
-						"width": 857,
-						"height": 176,
+						"x": 434.24018224075706,
+						"y": 382.2519934185029,
+						"width": 863.7503938510587,
+						"height": 158.29601316299423,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -321,10 +321,9 @@
 						"HP": 8,
 						"Speed_Ability": false,
 						"WallScaling_Ability": false,
-						"DoubleJump_Ability": false,
-						"MudSling_Ability": false,
-						"PoisonNum": 0,
-						"Strapped_Ability": false
+						"Jump_Ability": false,
+						"Strapped_Ability": false,
+						"PoisonNum": 0
 					},
 					"behaviors": {
 						"Platform": {

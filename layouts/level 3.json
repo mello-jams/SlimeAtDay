@@ -57,8 +57,8 @@
 					"world": {
 						"x": 428.5,
 						"y": 403,
-						"width": 859,
-						"height": 153,
+						"width": 687.2,
+						"height": 122.39999999999999,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -89,10 +89,9 @@
 						"HP": 8,
 						"Speed_Ability": false,
 						"WallScaling_Ability": false,
-						"DoubleJump_Ability": false,
-						"MudSling_Ability": false,
-						"PoisonNum": 0,
-						"Strapped_Ability": false
+						"Jump_Ability": false,
+						"Strapped_Ability": false,
+						"PoisonNum": 0
 					},
 					"behaviors": {
 						"Platform": {
