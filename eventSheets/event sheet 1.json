@@ -821,20 +821,37 @@
 											}
 										}
 									],
-									"actions": [
+									"actions": [],
+									"sid": 285967077681549,
+									"children": [
 										{
-											"id": "spawn-another-object",
-											"objectClass": "IceSlime",
-											"sid": 425463358017123,
-											"parameters": {
-												"object": "ICeSlimeIcicle",
-												"layer": "0",
-												"image-point": "1",
-												"create-hierarchy": false
-											}
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "every-x-seconds",
+													"objectClass": "System",
+													"sid": 248746071311403,
+													"parameters": {
+														"interval-seconds": "1.0"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "spawn-another-object",
+													"objectClass": "IceSlime",
+													"sid": 353230221585167,
+													"parameters": {
+														"object": "ICeSlimeIcicle",
+														"layer": "0",
+														"image-point": "1",
+														"create-hierarchy": false
+													}
+												}
+											],
+											"sid": 953832630101199
 										}
-									],
-									"sid": 285967077681549
+									]
 								},
 								{
 									"eventType": "block",
@@ -849,10 +866,19 @@
 										{
 											"id": "set-size",
 											"objectClass": "ICeSlimeIcicle",
-											"sid": 626166081017696,
+											"sid": 435963010868741,
 											"parameters": {
-												"width": "15",
-												"height": "33"
+												"width": "32.144156 ",
+												"height": "14.793617"
+											}
+										},
+										{
+											"id": "set-enabled",
+											"objectClass": "ICeSlimeIcicle",
+											"sid": 773252276504639,
+											"behaviorType": "Bullet",
+											"parameters": {
+												"state": "enabled"
 											}
 										}
 									],
@@ -4085,15 +4111,6 @@
 				}
 			],
 			"sid": 363036432453264
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "player shoot",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [],
-			"sid": 194119953765374
 		}
 	],
 	"sid": 587643397571846
