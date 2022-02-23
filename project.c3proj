@@ -131,7 +131,7 @@
 	"objectTypes": {
 		"items": [
 			"Platform",
-			"Grass",
+			"Ground",
 			"Sky",
 			"Door",
 			"Blockade",
@@ -153,7 +153,11 @@
 			"Player2",
 			"Building1",
 			"Building2",
-			"Building3"
+			"Building3",
+			"Clouds",
+			"WantedSign",
+			"Mountains1",
+			"Mountains2"
 		],
 		"subfolders": [
 			{
@@ -231,6 +235,7 @@
 	},
 	"layouts": {
 		"items": [
+			"Introduction",
 			"Level 1",
 			"Level 2",
 			"Level 3"

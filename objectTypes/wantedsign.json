@@ -1,16 +1,10 @@
 {
-	"name": "Grass",
+	"name": "WantedSign",
 	"plugin-id": "Sprite",
-	"sid": 323061447784655,
+	"sid": 574185693174276,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 405840048578480
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5331805,
+						"imageSpriteId": 6829988,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 423810147309404,
+				"sid": 217016167122425,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

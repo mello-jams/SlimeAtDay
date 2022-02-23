@@ -1,16 +1,10 @@
 {
-	"name": "Platform",
+	"name": "Mountains1",
 	"plugin-id": "Sprite",
-	"sid": 982039207245760,
+	"sid": 854360308299678,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 416159393916010
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5016048,
+						"imageSpriteId": 2972588,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 767909604876613,
+				"sid": 116337334398937,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
