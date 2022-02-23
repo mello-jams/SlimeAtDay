@@ -168,7 +168,11 @@
 			"Mountains2",
 			"Cursor",
 			"Spawnerforbullets",
-			"Bullets"
+			"Bullets",
+			"MovingGround",
+			"MovingGround2",
+			"Underground",
+			"Sprite2"
 		],
 		"subfolders": [
 			{

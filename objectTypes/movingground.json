@@ -1,49 +1,41 @@
 {
-	"name": "AcidSlime2",
+	"name": "MovingGround",
 	"plugin-id": "Sprite",
-	"sid": 188941355083034,
+	"sid": 260302757629755,
 	"isGlobal": false,
-	"instanceVariables": [
+	"instanceVariables": [],
+	"behaviorTypes": [
 		{
-			"name": "AcidSlime",
-			"type": "boolean",
-			"desc": "",
-			"sid": 997774413771670
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 476989660360658
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 751661906404946
 		}
 	],
-	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 248,
-						"height": 165,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2529463,
-						"collisionPoly": {
-							"points": [
-								1,
-								1,
-								0,
-								1,
-								0,
-								0,
-								1,
-								0
-							]
-						},
+						"imageSpriteId": 3244596,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 920313519501725,
-				"name": "Default",
+				"sid": 836397605525349,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
