@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 889954008117254,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "FireSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 994044689128447
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "LOS",

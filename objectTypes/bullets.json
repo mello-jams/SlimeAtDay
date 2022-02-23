@@ -1,37 +1,36 @@
 {
-	"name": "AcidSlime2",
+	"name": "Bullets",
 	"plugin-id": "Sprite",
-	"sid": 188941355083034,
+	"sid": 851302982559176,
 	"isGlobal": false,
-	"instanceVariables": [
+	"instanceVariables": [],
+	"behaviorTypes": [
 		{
-			"name": "AcidSlime",
-			"type": "boolean",
-			"desc": "",
-			"sid": 997774413771670
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 127978319216373
 		}
 	],
-	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 248,
-						"height": 165,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 181,
+						"height": 77,
+						"originX": 0.49171270718232046,
+						"originY": 0.4935064935064935,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4714732,
+						"imageSpriteId": 2217783,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 920313519501725,
-				"name": "Default",
+				"sid": 956582676589208,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

@@ -324,7 +324,7 @@
 						"DoubleJump_Ability": false,
 						"MudSling_Ability": false,
 						"PoisonNum": 0,
-						"Strapped": false
+						"Strapped_Ability": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -338,6 +338,11 @@
 								"double-jump": false,
 								"jump-sustain": 0,
 								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
 								"enabled": true
 							}
 						}

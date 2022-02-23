@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 856943840804614,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "WaterSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 757086759935482
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "LOS",

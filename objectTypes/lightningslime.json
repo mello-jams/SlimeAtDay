@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 762146125206047,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "LightingSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 107550131389437
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "LOS",

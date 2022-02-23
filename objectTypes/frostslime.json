@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 723522571617558,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "FrostSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 675494907950094
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {

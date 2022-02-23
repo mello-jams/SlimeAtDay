@@ -125,6 +125,14 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "lrtlz0jh5q9",
@@ -157,7 +165,10 @@
 			"Clouds",
 			"WantedSign",
 			"Mountains1",
-			"Mountains2"
+			"Mountains2",
+			"Cursor",
+			"Spawnerforbullets",
+			"Bullets"
 		],
 		"subfolders": [
 			{
@@ -250,7 +261,8 @@
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"Master Event Sheet"
+			"Master Event Sheet",
+			"introcutscence"
 		],
 		"subfolders": []
 	},

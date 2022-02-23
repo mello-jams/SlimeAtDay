@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 242508640996311,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "EarthSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 751892211087561
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "LOS",

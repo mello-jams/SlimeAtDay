@@ -1,16 +1,9 @@
 {
-	"name": "AcidSlime2",
+	"name": "Cursor",
 	"plugin-id": "Sprite",
-	"sid": 188941355083034,
+	"sid": 647561609138591,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "AcidSlime",
-			"type": "boolean",
-			"desc": "",
-			"sid": 997774413771670
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -18,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 248,
-						"height": 165,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4714732,
+						"imageSpriteId": 5664440,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 920313519501725,
-				"name": "Default",
+				"sid": 797531303527675,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

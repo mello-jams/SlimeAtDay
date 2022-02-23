@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 478754910172233,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "LavaSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 979402052705433
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "LOS",

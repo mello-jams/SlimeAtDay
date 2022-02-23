@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 562439016916405,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "PoisonSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 907085412006126
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "LOS",
