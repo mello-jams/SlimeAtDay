@@ -171,7 +171,8 @@
 			"MovingGround",
 			"MovingGround2",
 			"Underground",
-			"Sprite2"
+			"Sprite2",
+			"Levely"
 		],
 		"subfolders": [
 			{

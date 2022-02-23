@@ -16,6 +16,16 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 344913182186133
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 632877704911230
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 277610663042243
 		}
 	],
 	"effectTypes": [],
