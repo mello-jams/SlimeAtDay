@@ -208,7 +208,12 @@
 					"FireSlime2",
 					"FireSlime3",
 					"FrostSlime",
-					"FrostSlime2"
+					"FrostSlime2",
+					"AcidSlime2",
+					"LavaSlime2",
+					"LightningSlime2",
+					"PoisonSlime2",
+					"WaterSlime2"
 				],
 				"subfolders": [],
 				"name": "Slimes"
