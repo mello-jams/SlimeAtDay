@@ -5,6 +5,12 @@
 	"isGlobal": false,
 	"instanceVariables": [
 		{
+			"name": "HP",
+			"type": "number",
+			"desc": "",
+			"sid": 680964666865928
+		},
+		{
 			"name": "Speed_potions",
 			"type": "number",
 			"desc": "amount  of speed potions",
@@ -27,12 +33,6 @@
 			"type": "number",
 			"desc": "amount of slime potions",
 			"sid": 410919271654737
-		},
-		{
-			"name": "HP",
-			"type": "number",
-			"desc": "",
-			"sid": 680964666865928
 		},
 		{
 			"name": "Speed_Ability",
@@ -115,8 +115,8 @@
 						"imagePoints": [
 							{
 								"name": "Healthbar_spot",
-								"x": 0.5,
-								"y": -0.009728867623604467
+								"x": 0.4969512195121951,
+								"y": -0.10638297872340426
 							},
 							{
 								"name": "Holster",
@@ -165,11 +165,6 @@
 						},
 						"useCollisionPoly": true,
 						"imagePoints": [
-							{
-								"name": "Image Point 1",
-								"x": 0.5,
-								"y": 0
-							},
 							{
 								"name": "Holster",
 								"x": 0.23170731707317074,
@@ -223,11 +218,6 @@
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
-								"name": "Image Point 1",
-								"x": 0.5,
-								"y": 0
-							},
-							{
 								"name": "Holster",
 								"x": 0.23170731707317074,
 								"y": 0.7712765957446809
@@ -279,11 +269,6 @@
 						},
 						"useCollisionPoly": true,
 						"imagePoints": [
-							{
-								"name": "Image Point 1",
-								"x": 0.5,
-								"y": 0
-							},
 							{
 								"name": "Holster",
 								"x": 0.23170731707317074,
@@ -337,19 +322,14 @@
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
-								"name": "Image Point 1",
+								"name": "Healthbar_spot",
 								"x": 0.5,
-								"y": 0
+								"y": -0.009728867623604467
 							},
 							{
 								"name": "Holster",
 								"x": 0.23170731707317074,
 								"y": 0.7712765957446809
-							},
-							{
-								"name": "Healthbar_spot",
-								"x": 0.5,
-								"y": -0.009728867623604467
 							},
 							{
 								"name": "Gun",

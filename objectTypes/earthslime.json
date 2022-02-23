@@ -21,6 +21,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 372686492038980
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 868865009748210
 		}
 	],
 	"effectTypes": [],

@@ -82,11 +82,11 @@
 					},
 					"uid": 56,
 					"instanceVariables": {
+						"HP": 10,
 						"Speed_potions": 0,
 						"Power_potions": 0,
 						"Jump_potions": 0,
 						"Slime_potions": 0,
-						"HP": 8,
 						"Speed_Ability": false,
 						"WallScaling_Ability": false,
 						"Jump_Ability": false,

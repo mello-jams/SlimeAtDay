@@ -482,69 +482,6 @@
 					}
 				},
 				{
-					"type": "big_iron",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 112,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						},
-						"Timer": {
-							"properties": {}
-						},
-						"Sine": {
-							"properties": {
-								"movement": "vertical",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 12,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						},
-						"Bullet": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": false
-							}
-						}
-					},
-					"world": {
-						"x": -85,
-						"y": -99,
-						"width": 23.62853455670504,
-						"height": 13.701753766610025,
-						"originX": 0.378698224852071,
-						"originY": 0.6938775510204082,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -555,11 +492,11 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
+						"HP": 10,
 						"Speed_potions": 0,
 						"Power_potions": 0,
 						"Jump_potions": 0,
 						"Slime_potions": 0,
-						"HP": 8,
 						"Speed_Ability": false,
 						"WallScaling_Ability": false,
 						"Jump_Ability": false,
@@ -809,11 +746,25 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
-						"x": 419,
-						"y": 900,
+						"x": 1568.5124993509062,
+						"y": 826.9024872537077,
 						"width": 46.30499949794351,
 						"height": 30.493536254743283,
 						"originX": 0.4585987261146497,
@@ -860,46 +811,29 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
-						"x": 655,
-						"y": 901,
+						"x": 1353.3524445769394,
+						"y": 827.299961035093,
 						"width": 43.63739476896188,
 						"height": 28.73682094541391,
 						"originX": 0.4585987261146497,
 						"originY": 0.4216173668075234,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "AcidSlime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 177,
-					"instanceVariables": {
-						"AcidSlime": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1673,
-						"y": 728,
-						"width": 50.54419827464626,
-						"height": 33.62819643272836,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -948,11 +882,25 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
-						"x": 1193,
-						"y": 824,
+						"x": 1035.7125337384932,
+						"y": 179.59499710551913,
 						"width": 48.345420018699684,
 						"height": 31.837227817192485,
 						"originX": 0.5414012738853503,
@@ -1240,6 +1188,20 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 60,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
@@ -1327,15 +1289,92 @@
 								"stop-on-solids": false,
 								"enabled": true
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 70,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
-						"x": 1329,
-						"y": 173,
+						"x": 576.0425430662245,
+						"y": 897.03998876826,
 						"width": 60.39227790010466,
 						"height": 39.525027406166046,
 						"originX": 0.4585987261146497,
 						"originY": 0.41802492809204217,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "big_iron",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 12,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 24.002038955688477,
+						"y": -71.91223907470703,
+						"width": 23.62853455670504,
+						"height": 13.701753766610025,
+						"originX": 0.378698224852071,
+						"originY": 0.6938775510204082,
 						"color": [
 							1,
 							1,
@@ -1990,10 +2029,10 @@
 						}
 					},
 					"world": {
-						"x": -46.09290223424021,
-						"y": 170.43117477440902,
-						"width": 64,
-						"height": 8,
+						"x": -45.35346300828033,
+						"y": 169.46957434390458,
+						"width": 51.10857641703435,
+						"height": 7.609349825107586,
 						"originX": 0.4880952380952381,
 						"originY": 0.46153846153846156,
 						"color": [

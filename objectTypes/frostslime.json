@@ -11,7 +11,13 @@
 			"sid": 675494907950094
 		}
 	],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 344913182186133
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
