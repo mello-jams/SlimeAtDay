@@ -2803,7 +2803,7 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": false,
+			"disabled": true,
 			"title": "Shop_behaviors",
 			"description": "",
 			"isActiveOnStart": true,
@@ -2839,7 +2839,8 @@
 							}
 						}
 					],
-					"sid": 445656479803898
+					"sid": 445656479803898,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2873,7 +2874,8 @@
 							}
 						}
 					],
-					"sid": 302143786810338
+					"sid": 302143786810338,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2881,7 +2883,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 859870640044196,
+							"sid": 462060956703796,
 							"parameters": {
 								"key": 32
 							}
@@ -2889,7 +2891,7 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 372871735273649,
+							"sid": 737933912470784,
 							"parameters": {
 								"variable": "Merchant"
 							}
@@ -2947,7 +2949,8 @@
 							}
 						}
 					],
-					"sid": 118843097555333
+					"sid": 118843097555333,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2989,7 +2992,8 @@
 							}
 						}
 					],
-					"sid": 203847213988265
+					"sid": 203847213988265,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -3054,7 +3058,8 @@
 							}
 						}
 					],
-					"sid": 550001695507610
+					"sid": 550001695507610,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -3119,7 +3124,8 @@
 							}
 						}
 					],
-					"sid": 955059215158509
+					"sid": 955059215158509,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -3184,7 +3190,8 @@
 							}
 						}
 					],
-					"sid": 704113982613629
+					"sid": 704113982613629,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -3249,7 +3256,8 @@
 							}
 						}
 					],
-					"sid": 345599537652842
+					"sid": 345599537652842,
+					"disabled": true
 				}
 			],
 			"sid": 518768230652466
