@@ -80,6 +80,15 @@
 										"instance-variable": "Slime_potions",
 										"value": "2"
 									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 668103661574036,
+									"parameters": {
+										"instance-variable": "Strapped_Ability",
+										"value": "true"
+									}
 								}
 							],
 							"sid": 874597915431854
@@ -2803,7 +2812,7 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": true,
+			"disabled": false,
 			"title": "Shop_behaviors",
 			"description": "",
 			"isActiveOnStart": true,
@@ -2839,8 +2848,7 @@
 							}
 						}
 					],
-					"sid": 445656479803898,
-					"disabled": true
+					"sid": 445656479803898
 				},
 				{
 					"eventType": "block",
@@ -2874,8 +2882,7 @@
 							}
 						}
 					],
-					"sid": 302143786810338,
-					"disabled": true
+					"sid": 302143786810338
 				},
 				{
 					"eventType": "block",
@@ -2883,7 +2890,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 462060956703796,
+							"sid": 859870640044196,
 							"parameters": {
 								"key": 32
 							}
@@ -2891,7 +2898,7 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 737933912470784,
+							"sid": 372871735273649,
 							"parameters": {
 								"variable": "Merchant"
 							}
@@ -2949,8 +2956,7 @@
 							}
 						}
 					],
-					"sid": 118843097555333,
-					"disabled": true
+					"sid": 118843097555333
 				},
 				{
 					"eventType": "block",
@@ -2992,8 +2998,7 @@
 							}
 						}
 					],
-					"sid": 203847213988265,
-					"disabled": true
+					"sid": 203847213988265
 				},
 				{
 					"eventType": "block",
@@ -3058,8 +3063,7 @@
 							}
 						}
 					],
-					"sid": 550001695507610,
-					"disabled": true
+					"sid": 550001695507610
 				},
 				{
 					"eventType": "block",
@@ -3124,8 +3128,7 @@
 							}
 						}
 					],
-					"sid": 955059215158509,
-					"disabled": true
+					"sid": 955059215158509
 				},
 				{
 					"eventType": "block",
@@ -3190,8 +3193,7 @@
 							}
 						}
 					],
-					"sid": 704113982613629,
-					"disabled": true
+					"sid": 704113982613629
 				},
 				{
 					"eventType": "block",
@@ -3256,8 +3258,7 @@
 							}
 						}
 					],
-					"sid": 345599537652842,
-					"disabled": true
+					"sid": 345599537652842
 				}
 			],
 			"sid": 518768230652466
@@ -3993,6 +3994,7 @@
 							"id": "set-boolean-instvar",
 							"objectClass": "Player",
 							"sid": 878568167406386,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "Strapped_Ability",
 								"value": "true"
@@ -4002,6 +4004,7 @@
 							"id": "wait",
 							"objectClass": "System",
 							"sid": 398616814777057,
+							"disabled": true,
 							"parameters": {
 								"seconds": "5"
 							}
@@ -4010,6 +4013,7 @@
 							"id": "set-boolean-instvar",
 							"objectClass": "Player",
 							"sid": 347173437078427,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "Strapped_Ability",
 								"value": "false"
@@ -4018,12 +4022,14 @@
 						{
 							"id": "wait-for-previous-actions",
 							"objectClass": "System",
-							"sid": 480758611638768
+							"sid": 480758611638768,
+							"disabled": true
 						},
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 535671531251935,
+							"disabled": true,
 							"parameters": {
 								"animation": "\"Default\"",
 								"from": "beginning"
@@ -4249,7 +4255,8 @@
 									}
 								}
 							],
-							"sid": 455279879179309
+							"sid": 455279879179309,
+							"disabled": true
 						}
 					],
 					"sid": 288792927152538

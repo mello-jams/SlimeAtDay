@@ -172,7 +172,8 @@
 			"MovingGround2",
 			"Underground",
 			"Sprite2",
-			"Levely"
+			"Levely",
+			"Sprite3"
 		],
 		"subfolders": [
 			{
@@ -408,12 +409,12 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "progress-logo",
+		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
-	"firstLayout": "Introduction"
+	"viewportWidth": 854,
+	"viewportHeight": 480,
+	"firstLayout": null
 }

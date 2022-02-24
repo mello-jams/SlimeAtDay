@@ -1281,7 +1281,7 @@
 		},
 		{
 			"name": "Shop",
-			"overriden": 0,
+			"overriden": 1,
 			"subLayers": [],
 			"instances": [
 				{
@@ -1295,7 +1295,7 @@
 					},
 					"uid": 115,
 					"instanceVariables": {
-						"In_shop": false
+						"In_shop": true
 					},
 					"behaviors": {
 						"Timer": {
@@ -1841,7 +1841,7 @@
 				1,
 				1,
 				1,
-				1
+				0.45244436645507874
 			],
 			"backgroundColor": [
 				1,
@@ -1850,8 +1850,8 @@
 				1
 			],
 			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
+			"parallaxX": 0,
+			"parallaxY": 0,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",
