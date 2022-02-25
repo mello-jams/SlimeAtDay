@@ -1468,41 +1468,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Inventory_bar",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 0.45,
-						"image-scale-y": 0.45,
-						"image-angle": 0
-					},
-					"uid": 53,
-					"instanceVariables": {
-						"Pot_selected": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 23,
-						"y": 0,
-						"width": 51.04856552959102,
-						"height": 51.04856552959102,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "BluePotion",
 					"properties": {
 						"initially-visible": true,
@@ -1528,111 +1493,6 @@
 							1
 						],
 						"angle": 6.270698698271509,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Inventory_bar",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 0.45,
-						"image-scale-y": 0.45,
-						"image-angle": 0
-					},
-					"uid": 54,
-					"instanceVariables": {
-						"Pot_selected": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 68,
-						"y": 0,
-						"width": 51.04856552959102,
-						"height": 51.04856552959102,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Inventory_bar",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 0.45,
-						"image-scale-y": 0.45,
-						"image-angle": 0
-					},
-					"uid": 55,
-					"instanceVariables": {
-						"Pot_selected": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 113,
-						"y": 0,
-						"width": 51.04856552959102,
-						"height": 51.04856552959102,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Inventory_bar",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 0.45,
-						"image-scale-y": 0.45,
-						"image-angle": 0
-					},
-					"uid": 57,
-					"instanceVariables": {
-						"Pot_selected": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 158,
-						"y": 0,
-						"width": 51.04856552959102,
-						"height": 51.04856552959102,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -2060,35 +1920,6 @@
 					}
 				},
 				{
-					"type": "Selector",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 67,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 50.47242216492086,
-						"y": 23.131888497939343,
-						"width": 51.04856552959102,
-						"height": 51.04856552959102,
-						"originX": 0.4787234042553192,
-						"originY": 0.4787234042553192,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "ICeSlimeIcicle",
 					"properties": {
 						"initially-visible": true,
@@ -2282,73 +2113,9 @@
 		},
 		{
 			"name": "Shop",
-			"overriden": 1,
+			"overriden": 0,
 			"subLayers": [],
 			"instances": [
-				{
-					"type": "StoreMenu",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 41,
-					"instanceVariables": {
-						"In_shop": true
-					},
-					"behaviors": {
-						"Timer": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 424.9675148917357,
-						"y": 224.9714336919735,
-						"width": 807,
-						"height": 411,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "StoreTitle",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 42,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 408.9675148917357,
-						"y": 60.97143369197349,
-						"width": 650,
-						"height": 57,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
 				{
 					"type": "Text",
 					"properties": {
@@ -2381,35 +2148,6 @@
 						"height": 53,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "StoreTitle",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 48,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 371.9675148917357,
-						"y": 262.9714336919735,
-						"width": 442,
-						"height": 294,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,

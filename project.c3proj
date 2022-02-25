@@ -145,22 +145,15 @@
 			"Blockade",
 			"Door2",
 			"Shop_Owner",
-			"StoreMenu",
-			"StoreTitle",
 			"BluePotion",
 			"RedPotion",
 			"YellowPotion",
 			"PinkPotion",
 			"Sprite",
-			"Inventory_bar",
-			"Selector",
 			"Player_healthbar",
 			"Slime_healthbar",
 			"big_iron",
 			"Player",
-			"Building1",
-			"Building2",
-			"Building3",
 			"Clouds",
 			"WantedSign",
 			"Mountains1",
@@ -173,7 +166,9 @@
 			"Underground",
 			"Sprite2",
 			"Levely",
-			"Sprite3"
+			"Sprite3",
+			"WantedSign2",
+			"FADE"
 		],
 		"subfolders": [
 			{
@@ -243,6 +238,25 @@
 				],
 				"subfolders": [],
 				"name": "BKG"
+			},
+			{
+				"items": [
+					"Building1",
+					"Building2",
+					"Building3",
+					"Dialoge_trigger1",
+					"Dialoge_trigger2",
+					"Dialoge_trigger3",
+					"Dialoge_trigger4",
+					"Dialoge_trigger5",
+					"Intro_text1",
+					"Intro_text2",
+					"Intro_text3",
+					"Intro_text4",
+					"Intro_text5"
+				],
+				"subfolders": [],
+				"name": "Intro_assets"
 			}
 		]
 	},

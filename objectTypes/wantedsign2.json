@@ -1,23 +1,10 @@
 {
-	"name": "StoreMenu",
+	"name": "WantedSign2",
 	"plugin-id": "Sprite",
-	"sid": 304326188192425,
+	"sid": 544320331480783,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "In_shop",
-			"type": "boolean",
-			"desc": "",
-			"sid": 502491038302029
-		}
-	],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Timer",
-			"name": "Timer",
-			"sid": 860521408010005
-		}
-	],
+	"instanceVariables": [],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -31,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7019376,
+						"imageSpriteId": 4745393,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 302879140631402,
+				"sid": 303437631229651,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

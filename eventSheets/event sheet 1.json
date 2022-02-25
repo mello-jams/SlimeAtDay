@@ -2906,15 +2906,6 @@
 					],
 					"actions": [
 						{
-							"id": "set-boolean-instvar",
-							"objectClass": "StoreMenu",
-							"sid": 252147031368162,
-							"parameters": {
-								"instance-variable": "In_shop",
-								"value": "true"
-							}
-						},
-						{
 							"id": "set-layer-visible",
 							"objectClass": "System",
 							"sid": 755437340755215,
@@ -2968,26 +2959,9 @@
 							"parameters": {
 								"key": 32
 							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "StoreMenu",
-							"sid": 901949584027021,
-							"parameters": {
-								"instance-variable": "In_shop"
-							}
 						}
 					],
 					"actions": [
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "StoreMenu",
-							"sid": 824050196087880,
-							"parameters": {
-								"instance-variable": "In_shop",
-								"value": "false"
-							}
-						},
 						{
 							"id": "set-layer-opacity",
 							"objectClass": "System",
@@ -3011,14 +2985,6 @@
 								"mouse-button": "left",
 								"click-type": "clicked",
 								"object-clicked": "button1"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "StoreMenu",
-							"sid": 760254980767100,
-							"parameters": {
-								"instance-variable": "In_shop"
 							}
 						},
 						{
@@ -3050,17 +3016,6 @@
 								"instance-variable": "Speed_potions",
 								"value": "1"
 							}
-						},
-						{
-							"id": "start-timer",
-							"objectClass": "StoreMenu",
-							"sid": 814653165247040,
-							"behaviorType": "Timer",
-							"parameters": {
-								"duration": "1.0",
-								"type": "once",
-								"tag": "\"wait\""
-							}
 						}
 					],
 					"sid": 550001695507610
@@ -3076,14 +3031,6 @@
 								"mouse-button": "left",
 								"click-type": "clicked",
 								"object-clicked": "button2"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "StoreMenu",
-							"sid": 571384965982022,
-							"parameters": {
-								"instance-variable": "In_shop"
 							}
 						},
 						{
@@ -3115,17 +3062,6 @@
 								"instance-variable": "Power_potions",
 								"value": "1"
 							}
-						},
-						{
-							"id": "start-timer",
-							"objectClass": "StoreMenu",
-							"sid": 938376894859546,
-							"behaviorType": "Timer",
-							"parameters": {
-								"duration": "1.0",
-								"type": "once",
-								"tag": "\"wait\""
-							}
 						}
 					],
 					"sid": 955059215158509
@@ -3141,14 +3077,6 @@
 								"mouse-button": "left",
 								"click-type": "clicked",
 								"object-clicked": "button3"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "StoreMenu",
-							"sid": 914198205580404,
-							"parameters": {
-								"instance-variable": "In_shop"
 							}
 						},
 						{
@@ -3180,17 +3108,6 @@
 								"instance-variable": "Jump_potions",
 								"value": "1"
 							}
-						},
-						{
-							"id": "start-timer",
-							"objectClass": "StoreMenu",
-							"sid": 127462316976877,
-							"behaviorType": "Timer",
-							"parameters": {
-								"duration": "1.0",
-								"type": "once",
-								"tag": "\"wait\""
-							}
 						}
 					],
 					"sid": 704113982613629
@@ -3206,14 +3123,6 @@
 								"mouse-button": "left",
 								"click-type": "clicked",
 								"object-clicked": "button4"
-							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "StoreMenu",
-							"sid": 233769359891677,
-							"parameters": {
-								"instance-variable": "In_shop"
 							}
 						},
 						{
@@ -3244,17 +3153,6 @@
 							"parameters": {
 								"instance-variable": "Slime_potions",
 								"value": "1"
-							}
-						},
-						{
-							"id": "start-timer",
-							"objectClass": "StoreMenu",
-							"sid": 369205828892169,
-							"behaviorType": "Timer",
-							"parameters": {
-								"duration": "1.0",
-								"type": "once",
-								"tag": "\"wait\""
 							}
 						}
 					],
@@ -3533,26 +3431,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-position",
-							"objectClass": "Selector",
-							"sid": 465561522494622,
-							"parameters": {
-								"x": "21.5",
-								"y": "21.5"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Inventory_bar",
-							"sid": 423870209083127,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"value": "1"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 146644715526067
 				},
 				{
@@ -3567,26 +3446,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-position",
-							"objectClass": "Selector",
-							"sid": 893872559446055,
-							"parameters": {
-								"x": "66.5",
-								"y": "21.5"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Inventory_bar",
-							"sid": 116820633508992,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"value": "2"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 407710347694290
 				},
 				{
@@ -3601,26 +3461,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-position",
-							"objectClass": "Selector",
-							"sid": 155918821247028,
-							"parameters": {
-								"x": "111.5",
-								"y": "21.5"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Inventory_bar",
-							"sid": 851635677705838,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"value": "3"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 176056786665794
 				},
 				{
@@ -3635,26 +3476,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-position",
-							"objectClass": "Selector",
-							"sid": 680136161521490,
-							"parameters": {
-								"x": "156.5",
-								"y": "21.5"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Inventory_bar",
-							"sid": 908991865776839,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"value": "4"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 872936142080302
 				},
 				{
@@ -3666,16 +3488,6 @@
 							"sid": 296393284966475,
 							"parameters": {
 								"key": 69
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Inventory_bar",
-							"sid": 440522865365958,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"comparison": 0,
-								"value": "1"
 							}
 						},
 						{
@@ -3764,16 +3576,6 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Inventory_bar",
-							"sid": 151718476404132,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"comparison": 0,
-								"value": "2"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
 							"objectClass": "Player",
 							"sid": 139830629815121,
 							"parameters": {
@@ -3858,16 +3660,6 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Inventory_bar",
-							"sid": 459745029122518,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"comparison": 0,
-								"value": "3"
-							}
-						},
-						{
-							"id": "compare-instance-variable",
 							"objectClass": "Player",
 							"sid": 104378911660682,
 							"parameters": {
@@ -3948,16 +3740,6 @@
 							"sid": 224403852606919,
 							"parameters": {
 								"key": 69
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Inventory_bar",
-							"sid": 357645308431191,
-							"parameters": {
-								"instance-variable": "Pot_selected",
-								"comparison": 0,
-								"value": "4"
 							}
 						},
 						{
