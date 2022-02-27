@@ -269,6 +269,17 @@
 									],
 									"actions": [
 										{
+											"id": "spawn-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 257353016855406,
+											"parameters": {
+												"object": "WallClimb",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
 											"id": "destroy",
 											"objectClass": "EarthSlime",
 											"sid": 571162133248031
@@ -381,6 +392,17 @@
 										}
 									],
 									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "FireSlime",
+											"sid": 148760979645635,
+											"parameters": {
+												"object": "JumpPotion",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
@@ -517,6 +539,17 @@
 										}
 									],
 									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "LightningSlime",
+											"sid": 382214946281203,
+											"parameters": {
+												"object": "HealthPotion",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
 										{
 											"id": "destroy",
 											"objectClass": "LightningSlime",
@@ -3502,6 +3535,97 @@
 						}
 					],
 					"sid": 619257761515094
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "HealthPotion",
+							"sid": 668790168779351
+						}
+					],
+					"actions": [
+						{
+							"id": "set-size",
+							"objectClass": "HealthPotion",
+							"sid": 791031223225950,
+							"parameters": {
+								"width": "22.204582",
+								"height": "28.372522"
+							}
+						}
+					],
+					"sid": 134019685095436
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 734421385336973,
+							"parameters": {
+								"object": "HealthPotion"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 560483719963834,
+							"parameters": {
+								"instance-variable": "HP",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 571464980457450
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "JumpPotion",
+							"sid": 583461816769803
+						}
+					],
+					"actions": [
+						{
+							"id": "set-size",
+							"objectClass": "JumpPotion",
+							"sid": 422431087778245,
+							"parameters": {
+								"width": "22.204582",
+								"height": "28.372522"
+							}
+						}
+					],
+					"sid": 309293246007840
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "WallClimb",
+							"sid": 218581467181708
+						}
+					],
+					"actions": [
+						{
+							"id": "set-size",
+							"objectClass": "WallClimb",
+							"sid": 243828837671840,
+							"parameters": {
+								"width": "22.204582",
+								"height": "28.372522"
+							}
+						}
+					],
+					"sid": 535730091921387
 				}
 			],
 			"sid": 115448357419115

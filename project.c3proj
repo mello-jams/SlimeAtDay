@@ -168,7 +168,10 @@
 			"Levely",
 			"Sprite3",
 			"WantedSign2",
-			"FADE"
+			"FADE",
+			"JumpPotion",
+			"WallClimb",
+			"HealthPotion"
 		],
 		"subfolders": [
 			{
