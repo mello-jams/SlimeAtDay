@@ -238,10 +238,18 @@
 						{
 							"id": "set-ignoring-input",
 							"objectClass": "Player",
-							"sid": 784551130385988,
+							"sid": 184472180309506,
 							"behaviorType": "Platform",
 							"parameters": {
 								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 777122953657383,
+							"parameters": {
+								"seconds": "3"
 							}
 						},
 						{
