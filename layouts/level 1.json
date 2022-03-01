@@ -757,10 +757,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 238,
-						"y": -124,
-						"width": 28.98275349237889,
-						"height": 28.98275349237889,
+						"x": 226.95630449211157,
+						"y": -112.95630449211157,
+						"width": 6.8953624766020205,
+						"height": 6.8953624766020205,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2315,5 +2315,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Level1 EventSheet"
 }

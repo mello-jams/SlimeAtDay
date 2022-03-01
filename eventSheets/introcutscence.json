@@ -2,6 +2,16 @@
 	"name": "introcutscence",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "WhatLevel",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 387409035640376
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Intro_events",
@@ -247,17 +257,26 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 777122953657383,
+							"sid": 175209913030284,
 							"parameters": {
-								"seconds": "3"
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 395705472322546,
+							"parameters": {
+								"variable": "WhatLevel",
+								"value": "1"
 							}
 						},
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 211612723841370,
+							"sid": 634081713761410,
 							"parameters": {
-								"layout": "Level 1"
+								"layout": "Loading Screen"
 							}
 						}
 					],

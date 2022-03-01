@@ -212,6 +212,140 @@
 					"isActiveOnStart": true,
 					"children": [
 						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Gun",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-click",
+											"objectClass": "Mouse",
+											"sid": 534580039326300,
+											"parameters": {
+												"mouse-button": "left",
+												"click-type": "clicked"
+											}
+										},
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Player",
+											"sid": 645898352284157,
+											"parameters": {
+												"instance-variable": "Strapped_Ability"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Spawnerforbullets",
+											"sid": 379327131159499,
+											"parameters": {
+												"object": "Bullets",
+												"layer": "0",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-enabled",
+											"objectClass": "Bullets",
+											"sid": 611245913738070,
+											"behaviorType": "Bullet",
+											"parameters": {
+												"state": "enabled"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "Bullets",
+											"sid": 931496935536087,
+											"parameters": {
+												"x": "Spawnerforbullets.X",
+												"y": "Spawnerforbullets.Y"
+											}
+										},
+										{
+											"id": "set-angle-toward-position",
+											"objectClass": "Bullets",
+											"sid": 411542963771651,
+											"parameters": {
+												"x": "Cursor.X",
+												"y": "Cursor.Y"
+											}
+										}
+									],
+									"sid": 375076471573423
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Player",
+											"sid": 386499310229852,
+											"parameters": {
+												"instance-variable": "Strapped_Ability"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-angle-toward-position",
+											"objectClass": "big_iron",
+											"sid": 551196138036946,
+											"parameters": {
+												"x": "Cursor.X",
+												"y": "Cursor.Y"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "big_iron",
+											"sid": 445794925483722,
+											"parameters": {
+												"x": "Player.ImagePointX(3)",
+												"y": "Player.ImagePointY(3)"
+											}
+										}
+									],
+									"sid": 234772537656092
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Player",
+											"sid": 704110671128424,
+											"parameters": {
+												"instance-variable": "Strapped_Ability"
+											},
+											"isInverted": true
+										}
+									],
+									"actions": [
+										{
+											"id": "set-position",
+											"objectClass": "big_iron",
+											"sid": 515833393761500,
+											"parameters": {
+												"x": "24.002039",
+												"y": "-71.912239"
+											}
+										}
+									],
+									"sid": 176756004123368,
+									"disabled": true
+								}
+							],
+							"sid": 708458645923202
+						},
+						{
 							"eventType": "block",
 							"conditions": [
 								{
@@ -856,9 +990,9 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 225442550500799,
+									"sid": 952141311976121,
 									"parameters": {
-										"object": "Platform"
+										"object": "Ground"
 									}
 								}
 							],
@@ -870,6 +1004,66 @@
 								}
 							],
 							"sid": 492716024726027
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 225510436262938,
+									"parameters": {
+										"object": "MovingGround"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 904762722230238
+								}
+							],
+							"sid": 105970359315866
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 121075173736591,
+									"parameters": {
+										"object": "MovingGround2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 988082240127073
+								}
+							],
+							"sid": 323595055934390
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-outside-layout",
+									"objectClass": "Bullets",
+									"sid": 382710958846112
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 990009387509583
+								}
+							],
+							"sid": 258432738630214
 						}
 					],
 					"sid": 976094752784169
@@ -3392,140 +3586,6 @@
 						}
 					],
 					"sid": 280565234061722
-				},
-				{
-					"eventType": "group",
-					"disabled": false,
-					"title": "Gun",
-					"description": "",
-					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-click",
-									"objectClass": "Mouse",
-									"sid": 267335580730248,
-									"parameters": {
-										"mouse-button": "left",
-										"click-type": "clicked"
-									}
-								},
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 121896358103758,
-									"parameters": {
-										"instance-variable": "Strapped_Ability"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "spawn-another-object",
-									"objectClass": "Spawnerforbullets",
-									"sid": 462995369373792,
-									"parameters": {
-										"object": "Bullets",
-										"layer": "0",
-										"image-point": "0",
-										"create-hierarchy": false
-									}
-								},
-								{
-									"id": "set-enabled",
-									"objectClass": "Bullets",
-									"sid": 452718830694111,
-									"behaviorType": "Bullet",
-									"parameters": {
-										"state": "enabled"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "Bullets",
-									"sid": 990508468845415,
-									"parameters": {
-										"x": "Spawnerforbullets.X",
-										"y": "Spawnerforbullets.Y"
-									}
-								},
-								{
-									"id": "set-angle-toward-position",
-									"objectClass": "Bullets",
-									"sid": 810274758379902,
-									"parameters": {
-										"x": "Cursor.X",
-										"y": "Cursor.Y"
-									}
-								}
-							],
-							"sid": 814232593240592
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 145356550464045,
-									"parameters": {
-										"instance-variable": "Strapped_Ability"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-angle-toward-position",
-									"objectClass": "big_iron",
-									"sid": 721075708005283,
-									"parameters": {
-										"x": "Cursor.X",
-										"y": "Cursor.Y"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "big_iron",
-									"sid": 778568678453492,
-									"parameters": {
-										"x": "Player.ImagePointX(3)",
-										"y": "Player.ImagePointY(3)"
-									}
-								}
-							],
-							"sid": 803581520128141
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 163649805836816,
-									"parameters": {
-										"instance-variable": "Strapped_Ability"
-									},
-									"isInverted": true
-								}
-							],
-							"actions": [
-								{
-									"id": "set-position",
-									"objectClass": "big_iron",
-									"sid": 668301450243362,
-									"parameters": {
-										"x": "24.002039",
-										"y": "-71.912239"
-									}
-								}
-							],
-							"sid": 455279879179309,
-							"disabled": true
-						}
-					],
-					"sid": 288792927152538
 				},
 				{
 					"eventType": "group",

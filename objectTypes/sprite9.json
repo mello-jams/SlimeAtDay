@@ -1,7 +1,7 @@
 {
-	"name": "Spawnerforbullets",
+	"name": "Sprite9",
 	"plugin-id": "Sprite",
-	"sid": 640218559476941,
+	"sid": 474292762744927,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,24 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5732739,
-						"collisionPoly": {
-							"points": [
-								0.32400043087004493,
-								0.4159999401516398,
-								0.5679995719909778,
-								0.40000000161064947,
-								0.5680004508972049,
-								0.6239999611324751,
-								0.34000003982119975,
-								0.6560000579410119
-							]
-						},
+						"imageSpriteId": 1255163,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 482487595991598,
+				"sid": 594895539692422,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -171,7 +171,9 @@
 			"FADE",
 			"JumpPotion",
 			"WallClimb",
-			"HealthPotion"
+			"HealthPotion",
+			"Sprite8",
+			"Sprite9"
 		],
 		"subfolders": [
 			{
@@ -262,7 +264,8 @@
 			"Introduction",
 			"Level 1",
 			"Level 2",
-			"Level 3"
+			"Level 3",
+			"Loading Screen"
 		],
 		"subfolders": []
 	},
@@ -270,7 +273,8 @@
 		"items": [
 			"Level1 EventSheet",
 			"Master Event Sheet",
-			"introcutscence"
+			"introcutscence",
+			"LoadingScreenSheet"
 		],
 		"subfolders": []
 	},
