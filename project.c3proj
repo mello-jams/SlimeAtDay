@@ -250,6 +250,14 @@
 				],
 				"subfolders": [],
 				"name": "Intro_assets"
+			},
+			{
+				"items": [
+					"Earth_spawner1",
+					"Earth_spawner2"
+				],
+				"subfolders": [],
+				"name": "Spawners"
 			}
 		]
 	},

@@ -212,6 +212,56 @@
 					"isActiveOnStart": true,
 					"children": [
 						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "EarthSlime",
+									"sid": 254142015411400,
+									"parameters": {
+										"object": "Earth_spawner1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "EarthSlime",
+									"sid": 860062805881109,
+									"parameters": {
+										"instance-variable": "Name",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 740230245405640
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "EarthSlime",
+									"sid": 824012237274029,
+									"parameters": {
+										"object": "Earth_spawner2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "EarthSlime",
+									"sid": 237398020781864,
+									"parameters": {
+										"instance-variable": "Name",
+										"value": "2"
+									}
+								}
+							],
+							"sid": 256354763686283
+						},
+						{
 							"eventType": "group",
 							"disabled": false,
 							"title": "Gun",
@@ -361,7 +411,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "EarthSlime",
-									"sid": 473491452347227,
+									"sid": 283448766792342,
 									"parameters": {
 										"instance-variable": "EarthSlime",
 										"value": "true"
@@ -405,6 +455,16 @@
 											"parameters": {
 												"instance-variable": "EarthSlime"
 											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EarthSlime",
+											"sid": 338124143792120,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "1"
+											}
 										}
 									],
 									"actions": [
@@ -422,7 +482,7 @@
 										{
 											"id": "destroy",
 											"objectClass": "EarthSlime",
-											"sid": 571162133248031
+											"sid": 646730407802999
 										},
 										{
 											"id": "wait",
@@ -437,14 +497,13 @@
 											"text": "this is where the slime will be, please add position "
 										},
 										{
-											"id": "create-object",
-											"objectClass": "System",
-											"sid": 118874515141972,
+											"id": "spawn-another-object",
+											"objectClass": "Earth_spawner1",
+											"sid": 855805359514658,
 											"parameters": {
-												"object-to-create": "EarthSlime",
+												"object": "EarthSlime",
 												"layer": "1",
-												"x": "0",
-												"y": "0",
+												"image-point": "1",
 												"create-hierarchy": false
 											}
 										},
@@ -459,6 +518,80 @@
 										}
 									],
 									"sid": 966420863848050
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "EarthSlime",
+											"sid": 207061214056272,
+											"parameters": {
+												"instance-variable": "EarthSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EarthSlime",
+											"sid": 674262553967352,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "2"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 261440904779046,
+											"parameters": {
+												"object": "WallClimb",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "EarthSlime",
+											"sid": 588222684618065
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 395103624297917,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"type": "comment",
+											"text": "this is where the slime will be, please add position "
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Earth_spawner2",
+											"sid": 492469813059879,
+											"parameters": {
+												"object": "EarthSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "EarthSlime",
+											"sid": 872785813959540,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 516461102868233
 								}
 							]
 						},
