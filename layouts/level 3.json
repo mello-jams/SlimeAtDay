@@ -7,22 +7,22 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sky",
+					"type": "Sky2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Default",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 43,
+					"uid": 135,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 855,
-						"y": 479,
-						"width": 1707,
-						"height": 962,
+						"x": 856,
+						"y": 482,
+						"width": 1708,
+						"height": 960,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

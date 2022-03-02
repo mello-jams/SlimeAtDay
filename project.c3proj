@@ -191,7 +191,10 @@
 			"Audio",
 			"triggerForCombo",
 			"Door3",
-			"Door4"
+			"Door4",
+			"Cave",
+			"Sky2",
+			"Sky3"
 		],
 		"subfolders": [
 			{

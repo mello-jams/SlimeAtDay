@@ -7,10 +7,10 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Underground",
+					"type": "Cave",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Default",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -19,10 +19,39 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 852,
-						"y": 1383,
-						"width": 1706,
-						"height": 852,
+						"x": 850,
+						"y": 579,
+						"width": 1686.9735237638135,
+						"height": 948.9226071171452,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cave",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 133,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 848,
+						"y": 1517,
+						"width": 1686.9735237638135,
+						"height": 948.9226071171452,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -88,35 +117,6 @@
 						"y": 101,
 						"width": 1014.0584613946257,
 						"height": 7.668005659292124,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Underground",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 179,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 854,
-						"y": 533,
-						"width": 1706,
-						"height": 852,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -409,8 +409,8 @@
 						}
 					},
 					"world": {
-						"x": 1246,
-						"y": 791,
+						"x": 52,
+						"y": 70,
 						"width": 54.600116222843,
 						"height": 30.27855478238334,
 						"originX": 0.5,
