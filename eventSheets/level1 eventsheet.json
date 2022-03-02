@@ -4121,19 +4121,19 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 830255640964971,
+									"sid": 402131391866293,
 									"behaviorType": "Platform",
 									"parameters": {
-										"vector-y": "Self.Y-1200"
+										"vector-y": "Self.Y-1980"
 									}
 								},
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 305846137967291,
+									"sid": 748835423854825,
 									"behaviorType": "Platform",
 									"parameters": {
-										"vector-x": "Self.Y-1000"
+										"vector-x": "Self.Y-1500"
 									}
 								}
 							],
@@ -4172,19 +4172,19 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 706190639071421,
+									"sid": 225193240714189,
 									"behaviorType": "Platform",
 									"parameters": {
-										"vector-y": "Self.Y-1200"
+										"vector-y": "Self.Y-1980"
 									}
 								},
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 287412937697117,
+									"sid": 974633159077325,
 									"behaviorType": "Platform",
 									"parameters": {
-										"vector-x": "Self.Y-1000"
+										"vector-x": "Self.Y-1500"
 									}
 								}
 							],
@@ -4324,9 +4324,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 462232176205301,
+									"sid": 509276941909687,
 									"parameters": {
-										"seconds": "10"
+										"seconds": "12"
 									}
 								},
 								{

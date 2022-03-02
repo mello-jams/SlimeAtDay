@@ -222,7 +222,7 @@
 					},
 					"world": {
 						"x": 188,
-						"y": 888,
+						"y": 1784,
 						"width": 362,
 						"height": 33,
 						"originX": 0.5,
@@ -258,7 +258,7 @@
 					},
 					"world": {
 						"x": 494,
-						"y": 739.9974038286489,
+						"y": 1636,
 						"width": 271.00077092969127,
 						"height": 54.99884596318049,
 						"originX": 0.5,
@@ -294,7 +294,7 @@
 					},
 					"world": {
 						"x": 669,
-						"y": 583,
+						"y": 1479,
 						"width": 86.14036317535852,
 						"height": 33,
 						"originX": 0.5,
@@ -330,7 +330,7 @@
 					},
 					"world": {
 						"x": 1127,
-						"y": 780,
+						"y": 1676,
 						"width": 315,
 						"height": 72,
 						"originX": 0.5,
@@ -366,7 +366,7 @@
 					},
 					"world": {
 						"x": 847,
-						"y": 537,
+						"y": 1433,
 						"width": 86.14036317535852,
 						"height": 33,
 						"originX": 0.5,
@@ -402,7 +402,7 @@
 					},
 					"world": {
 						"x": 1379,
-						"y": 553,
+						"y": 1449,
 						"width": 365.0005768797205,
 						"height": 38.999423194247115,
 						"originX": 0.5,
@@ -438,7 +438,7 @@
 					},
 					"world": {
 						"x": 1239,
-						"y": 443,
+						"y": 1339,
 						"width": 365.0005768797205,
 						"height": 38.999423194247115,
 						"originX": 0.5,
@@ -488,7 +488,7 @@
 					},
 					"world": {
 						"x": 1566,
-						"y": 243,
+						"y": 1139,
 						"width": 212,
 						"height": 27,
 						"originX": 0.5,
@@ -757,6 +757,290 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "EarthSlime",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 95,
+					"instanceVariables": {
+						"EarthSlime": false,
+						"Name": 1
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 257,
+						"y": 1679,
+						"width": 46.30499949794351,
+						"height": 30.493536254743283,
+						"originX": 0.4585987261146497,
+						"originY": 0.41813737675035206,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cursor",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 96,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -117,
+						"y": -207,
+						"width": 26.992603667009707,
+						"height": 26.992603667009707,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Spawnerforbullets",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 97,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -77,
+						"y": -237,
+						"width": 6.8953624766020205,
+						"height": 6.8953624766020205,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Bullets",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 102,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 33,
+						"y": -220,
+						"width": 20.610073256166878,
+						"height": 11.28646868790091,
+						"originX": 0.49171270718232046,
+						"originY": 0.4935064935064935,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "big_iron",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 103,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						},
+						"Timer": {
+							"properties": {}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 12,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": -280,
+						"y": -196,
+						"width": 23.62853455670504,
+						"height": 13.701753766610025,
+						"originX": 0.378698224852071,
+						"originY": 0.6938775510204082,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text_damage_3",
+					"properties": {
+						"text": "AAAAAAAAAAAA",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 14,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 104,
+					"instanceVariables": {},
+					"behaviors": {
+						"Timer": {
+							"properties": {}
+						},
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 34,
+						"y": -179,
+						"width": 23.441021788129206,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 427217068419143,
@@ -1006,387 +1290,13 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
-		},
-		{
-			"name": "Shop",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [
-				{
-					"type": "Text",
-					"properties": {
-						"text": "Market of Elixirs and Wares",
-						"enable-bbcode": true,
-						"font": "Georgia",
-						"size": 22,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 117,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 191.2709774840314,
-						"y": 41.08950622644505,
-						"width": 432,
-						"height": 53,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text2",
-					"properties": {
-						"text": "(1) Speed Potion\n\n(2) Power Potion\n\n(3) Jump Potion\n\n(4) Slime Potion",
-						"enable-bbcode": true,
-						"font": "New Athena Unicode",
-						"size": 22,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 119,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 155.2709774840314,
-						"y": 128.08950622644505,
-						"width": 317,
-						"height": 284,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BluePotion",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 120,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 495.2709774840314,
-						"y": 151.08950622644505,
-						"width": 53.050555743557624,
-						"height": 53.050555743557624,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270698698271509,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "RedPotion",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 121,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 500.2709774840314,
-						"y": 219.08950622644505,
-						"width": 53.050555743557624,
-						"height": 53.050555743557624,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270698698271509,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "YellowPotion",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 122,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 505.2709774840314,
-						"y": 289.08950622644505,
-						"width": 53.050555743557624,
-						"height": 53.050555743557624,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270698698271509,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "PinkPotion",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 123,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 506.2709774840314,
-						"y": 360.089506226445,
-						"width": 53.050555743557624,
-						"height": 53.050555743557624,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270698698271509,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text5",
-					"properties": {
-						"text": "Spacebar to exit store",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 124,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 622.2709774840314,
-						"y": 382.089506226445,
-						"width": 200,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text6",
-					"properties": {
-						"text": "Press 1-4 to chose a potion and \"E\" to drink it.",
-						"enable-bbcode": true,
-						"font": "Comic Sans MS",
-						"size": 15,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 125,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 611.2709774840314,
-						"y": 139.08950622644505,
-						"width": 200,
-						"height": 111,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text_damage_3",
-					"properties": {
-						"text": "-3",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 146,
-					"instanceVariables": {},
-					"behaviors": {
-						"Timer": {
-							"properties": {}
-						},
-						"Fade": {
-							"properties": {
-								"fade-in-time": 0,
-								"wait-time": 0,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 261,
-						"y": -65,
-						"width": 23.441021788129206,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
-			"sid": 340512656487475,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				0.45244436645507874
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 0,
-			"parallaxY": 0,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
 		}
 	],
 	"sid": 726298163317567,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
-	"height": 960,
+	"height": 1800,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
