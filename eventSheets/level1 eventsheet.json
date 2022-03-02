@@ -795,6 +795,80 @@
 										}
 									],
 									"sid": 516461102868233
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "EarthSlime",
+											"sid": 834917823404647,
+											"parameters": {
+												"instance-variable": "EarthSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EarthSlime",
+											"sid": 197636203717678,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "3"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 205553325562881,
+											"parameters": {
+												"object": "WallClimb",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "EarthSlime",
+											"sid": 166167717242829
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 582813930280443,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"type": "comment",
+											"text": "this is where the slime will be, please add position "
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Earth_spawner3",
+											"sid": 704999969346060,
+											"parameters": {
+												"object": "EarthSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "EarthSlime",
+											"sid": 819897695710266,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 719328041206407
 								}
 							]
 						},
@@ -4645,6 +4719,11 @@
 									}
 								},
 								{
+									"id": "wait-for-previous-actions",
+									"objectClass": "System",
+									"sid": 253447245509918
+								},
+								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
 									"sid": 962891017651748,
@@ -4681,9 +4760,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 924011099106638,
+									"sid": 710010966182595,
 									"parameters": {
-										"seconds": "10"
+										"seconds": "12"
 									}
 								},
 								{
@@ -4981,6 +5060,79 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 465105963665870,
+							"parameters": {
+								"object": "Door2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FADE",
+							"sid": 626088018815204,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "FADE",
+							"sid": 194070462417790,
+							"behaviorType": "Fade"
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Player",
+							"sid": 157385818321502,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 100248255757468,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 170066255472437,
+							"parameters": {
+								"variable": "WhatLevel",
+								"value": "2"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 478359795543697,
+							"parameters": {
+								"layout": "Loading Screen"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 680790692433246,
+							"disabled": true,
+							"parameters": {
+								"layout": "Level 2"
+							}
+						}
+					],
+					"sid": 104364105554944
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
 							"sid": 860515569653651,
@@ -5001,6 +5153,15 @@
 							"id": "set-animation",
 							"objectClass": "Door",
 							"sid": 146076888367625,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Door2",
+							"sid": 982775616654408,
 							"parameters": {
 								"animation": "\"Animation 2\"",
 								"from": "beginning"
