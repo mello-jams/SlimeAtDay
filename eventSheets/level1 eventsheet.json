@@ -316,6 +316,31 @@
 									"conditions": [
 										{
 											"id": "is-overlapping-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 514862963713968,
+											"parameters": {
+												"object": "Earth_spawner4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "EarthSlime",
+											"sid": 945720389301754,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "4"
+											}
+										}
+									],
+									"sid": 334445836555737
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
 											"sid": 216548627604918,
 											"parameters": {
@@ -891,6 +916,80 @@
 										}
 									],
 									"sid": 719328041206407
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "EarthSlime",
+											"sid": 230663684852569,
+											"parameters": {
+												"instance-variable": "EarthSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EarthSlime",
+											"sid": 922904396379968,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 451738680408223,
+											"parameters": {
+												"object": "WallClimb",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "EarthSlime",
+											"sid": 763028060997371
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 568704731513500,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"type": "comment",
+											"text": "this is where the slime will be, please add position "
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Earth_spawner4",
+											"sid": 888731175014504,
+											"parameters": {
+												"object": "EarthSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "EarthSlime",
+											"sid": 946107470125522,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 439231947167303
 								}
 							]
 						},
@@ -1910,6 +2009,48 @@
 								}
 							],
 							"sid": 323595055934390
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 421162872754282,
+									"parameters": {
+										"object": "Platform"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 798755324669365
+								}
+							],
+							"sid": 378592219730323
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 977795891569721,
+									"parameters": {
+										"object": "RockFloors"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 587337769562595
+								}
+							],
+							"sid": 107118081504957
 						},
 						{
 							"eventType": "block",
