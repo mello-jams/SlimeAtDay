@@ -3903,6 +3903,15 @@
 									"id": "destroy",
 									"objectClass": "FireSlime",
 									"sid": 693519035867929
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "LavaSlime",
+									"sid": 620460702160288,
+									"parameters": {
+										"instance-variable": "HpForLavaSlime",
+										"value": "20"
+									}
 								}
 							],
 							"sid": 486310582968135
