@@ -286,6 +286,31 @@
 									"conditions": [
 										{
 											"id": "is-overlapping-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 518954080922696,
+											"parameters": {
+												"object": "Earth_spawner3"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "EarthSlime",
+											"sid": 480575423366567,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "3"
+											}
+										}
+									],
+									"sid": 722460996428724
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
 											"sid": 216548627604918,
 											"parameters": {
@@ -355,6 +380,31 @@
 										}
 									],
 									"sid": 310161866139287
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "FireSlime",
+											"sid": 592133036063895,
+											"parameters": {
+												"object": "Fire_spawner5"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "FireSlime",
+											"sid": 768301731449837,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "5"
+											}
+										}
+									],
+									"sid": 274400011809574
 								}
 							],
 							"sid": 903834437959540
