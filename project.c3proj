@@ -190,7 +190,8 @@
 			"ClickToPLauu",
 			"Audio",
 			"triggerForCombo",
-			"Door3"
+			"Door3",
+			"Door4"
 		],
 		"subfolders": [
 			{
@@ -300,7 +301,8 @@
 			"Level 3",
 			"Loading Screen",
 			"Tittle Screen",
-			"Boss"
+			"Boss",
+			"EndingScreen"
 		],
 		"subfolders": []
 	},
