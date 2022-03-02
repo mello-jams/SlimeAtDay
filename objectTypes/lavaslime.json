@@ -9,12 +9,6 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 979402052705433
-		},
-		{
-			"name": "HpForLavaSlime",
-			"type": "number",
-			"desc": "",
-			"sid": 390753592842144
 		}
 	],
 	"behaviorTypes": [
