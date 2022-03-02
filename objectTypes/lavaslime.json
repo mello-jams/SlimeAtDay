@@ -9,12 +9,6 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 979402052705433
-		},
-		{
-			"name": "HPSlikme",
-			"type": "number",
-			"desc": "",
-			"sid": 720278644650954
 		}
 	],
 	"behaviorTypes": [

@@ -1,7 +1,7 @@
 {
-	"name": "WantedSign2",
+	"name": "WantedSign4",
 	"plugin-id": "Sprite",
-	"sid": 544320331480783,
+	"sid": 732304973937606,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4990203,
+						"imageSpriteId": 2858984,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 303437631229651,
+				"sid": 852366584588918,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

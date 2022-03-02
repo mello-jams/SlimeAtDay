@@ -102,40 +102,6 @@
 				}
 			],
 			"sid": 743168891790892
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-eventvar",
-					"objectClass": "System",
-					"sid": 753209241676074,
-					"parameters": {
-						"variable": "WhatLevel",
-						"comparison": 0,
-						"value": "3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 213445618669005,
-					"parameters": {
-						"seconds": "4"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 729289218617388,
-					"parameters": {
-						"layout": "Boss"
-					}
-				}
-			],
-			"sid": 131829642202215
 		}
 	],
 	"sid": 269863722402610
