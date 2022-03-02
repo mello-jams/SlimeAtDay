@@ -297,7 +297,8 @@
 			"Master Event Sheet",
 			"introcutscence",
 			"LoadingScreenSheet",
-			"TittleScreen"
+			"TittleScreen",
+			"Level2 EventSheet"
 		],
 		"subfolders": []
 	},
