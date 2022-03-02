@@ -281,46 +281,6 @@
 						}
 					],
 					"sid": 137033829693213
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 549589186664460,
-							"parameters": {
-								"object": "Dialoge_trigger6"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "Intro_text6",
-							"sid": 570069930237315,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 567853200452969,
-							"parameters": {
-								"seconds": "3"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Intro_text6",
-							"sid": 978599990587139,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						}
-					],
-					"sid": 882168205616064
 				}
 			],
 			"sid": 907244885660390
@@ -400,17 +360,6 @@
 							"parameters": {
 								"control": "jump"
 							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 649145524089757,
-							"parameters": {
-								"audio-file": "slime_jump",
-								"loop": "not-looping",
-								"volume": "-15",
-								"tag-optional": "\"\""
-							}
 						}
 					],
 					"sid": 738645719678615
@@ -445,17 +394,6 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "jump"
-							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 492629028739165,
-							"parameters": {
-								"audio-file": "slime_jump",
-								"loop": "not-looping",
-								"volume": "-15",
-								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -578,30 +516,6 @@
 				}
 			],
 			"sid": 349757130408683
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 836483910443004,
-					"parameters": {
-						"object": "WantedSign4"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 691920521245754,
-					"parameters": {
-						"layout": "Tittle Screen"
-					}
-				}
-			],
-			"sid": 861813763690934
 		}
 	],
 	"sid": 202001885289933

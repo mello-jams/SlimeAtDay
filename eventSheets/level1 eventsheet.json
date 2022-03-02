@@ -316,6 +316,31 @@
 									"conditions": [
 										{
 											"id": "is-overlapping-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 514862963713968,
+											"parameters": {
+												"object": "Earth_spawner4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "EarthSlime",
+											"sid": 945720389301754,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "4"
+											}
+										}
+									],
+									"sid": 334445836555737
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
 											"sid": 216548627604918,
 											"parameters": {
@@ -891,6 +916,80 @@
 										}
 									],
 									"sid": 719328041206407
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "EarthSlime",
+											"sid": 230663684852569,
+											"parameters": {
+												"instance-variable": "EarthSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EarthSlime",
+											"sid": 922904396379968,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 451738680408223,
+											"parameters": {
+												"object": "WallClimb",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "EarthSlime",
+											"sid": 763028060997371
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 568704731513500,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"type": "comment",
+											"text": "this is where the slime will be, please add position "
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Earth_spawner4",
+											"sid": 888731175014504,
+											"parameters": {
+												"object": "EarthSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "EarthSlime",
+											"sid": 946107470125522,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 439231947167303
 								}
 							]
 						},
@@ -1915,6 +2014,48 @@
 							"eventType": "block",
 							"conditions": [
 								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 421162872754282,
+									"parameters": {
+										"object": "Platform"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 798755324669365
+								}
+							],
+							"sid": 378592219730323
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 977795891569721,
+									"parameters": {
+										"object": "RockFloors"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 587337769562595
+								}
+							],
+							"sid": 107118081504957
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
 									"id": "is-outside-layout",
 									"objectClass": "Bullets",
 									"sid": 382710958846112
@@ -2008,17 +2149,6 @@
 									"parameters": {
 										"control": "jump"
 									}
-								},
-								{
-									"id": "play",
-									"objectClass": "Audio",
-									"sid": 475524356674879,
-									"parameters": {
-										"audio-file": "slime_jump",
-										"loop": "not-looping",
-										"volume": "-15",
-										"tag-optional": "\"\""
-									}
 								}
 							],
 							"sid": 579432158608336
@@ -2053,17 +2183,6 @@
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "jump"
-									}
-								},
-								{
-									"id": "play",
-									"objectClass": "Audio",
-									"sid": 293589748730824,
-									"parameters": {
-										"audio-file": "slime_jump",
-										"loop": "not-looping",
-										"volume": "-15",
-										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -5152,10 +5271,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 170066255472437,
+							"sid": 118356326389848,
 							"parameters": {
 								"variable": "WhatLevel",
-								"value": "2"
+								"value": "3"
 							}
 						},
 						{
@@ -5177,6 +5296,79 @@
 						}
 					],
 					"sid": 104364105554944
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 815697718601206,
+							"parameters": {
+								"object": "Door3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FADE",
+							"sid": 618342102175184,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "FADE",
+							"sid": 338423768797750,
+							"behaviorType": "Fade"
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Player",
+							"sid": 419334980689681,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 587657858913241,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 515390516579347,
+							"parameters": {
+								"variable": "WhatLevel",
+								"value": "4"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 334042370954542,
+							"parameters": {
+								"layout": "Loading Screen"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 576559169955422,
+							"disabled": true,
+							"parameters": {
+								"layout": "Level 2"
+							}
+						}
+					],
+					"sid": 235636107115536
 				},
 				{
 					"eventType": "block",

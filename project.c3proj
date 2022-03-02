@@ -152,6 +152,7 @@
 			"Door",
 			"Blockade",
 			"Door2",
+			"Shop_Owner",
 			"BluePotion",
 			"RedPotion",
 			"YellowPotion",
@@ -188,8 +189,8 @@
 			"Sprite2",
 			"ClickToPLauu",
 			"Audio",
-			"WantedSign3",
-			"WantedSign4"
+			"triggerForCombo",
+			"Door3"
 		],
 		"subfolders": [
 			{
@@ -262,9 +263,7 @@
 					"Intro_text2",
 					"Intro_text3",
 					"Intro_text4",
-					"Intro_text5",
-					"Dialoge_trigger6",
-					"Intro_text6"
+					"Intro_text5"
 				],
 				"subfolders": [],
 				"name": "Intro_assets"
@@ -279,7 +278,8 @@
 					"Fire_spawner4",
 					"Fire_spawner5",
 					"Earth_spawner3",
-					"Fire_spawner6"
+					"Fire_spawner6",
+					"Earth_spawner4"
 				],
 				"subfolders": [],
 				"name": "Spawners"
@@ -300,7 +300,7 @@
 			"Level 3",
 			"Loading Screen",
 			"Tittle Screen",
-			"End_town"
+			"Boss"
 		],
 		"subfolders": []
 	},
@@ -311,7 +311,8 @@
 			"introcutscence",
 			"LoadingScreenSheet",
 			"TittleScreen",
-			"Level2 EventSheet"
+			"Level2 EventSheet",
+			"Boss EventSheet2"
 		],
 		"subfolders": []
 	},
@@ -426,16 +427,6 @@
 					"name": "zap.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 423110652613300
-				},
-				{
-					"name": "slime_jump.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 948776075745229
-				},
-				{
-					"name": "slime_land.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 529807504985639
 				}
 			],
 			"subfolders": []

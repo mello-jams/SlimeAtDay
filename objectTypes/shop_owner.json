@@ -1,10 +1,16 @@
 {
-	"name": "WantedSign3",
+	"name": "Shop_Owner",
 	"plugin-id": "Sprite",
-	"sid": 669265450670687,
+	"sid": 848179738701355,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 451188347311841
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7656174,
+						"imageSpriteId": 249840,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 707892169365239,
+				"sid": 188031632753190,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
