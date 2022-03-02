@@ -4391,7 +4391,25 @@
 								{
 									"id": "restart-layout",
 									"objectClass": "System",
+<<<<<<< Updated upstream
 									"sid": 221486470641991
+=======
+									"sid": 282530999781257
+								},
+								{
+									"id": "stop-all",
+									"objectClass": "Audio",
+									"sid": 131792554092435
+								},
+								{
+									"id": "stop",
+									"objectClass": "Audio",
+									"sid": 700001754514749,
+									"disabled": true,
+									"parameters": {
+										"tag": "\"Beats by Dr Hugh\""
+									}
+>>>>>>> Stashed changes
 								}
 							],
 							"sid": 380724266485821
@@ -5319,7 +5337,50 @@
 					"sid": 145762921762847
 				}
 			],
+<<<<<<< Updated upstream
 			"sid": 626518854968499
+=======
+			"sid": 972938656188387
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 592842266785507
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 698168170964846,
+					"disabled": true,
+					"parameters": {
+						"tag": "\"Beats by Dr Hugh\""
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 744215879200449
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 441273441927914,
+					"parameters": {
+						"audio-file": "song_1",
+						"loop": "looping",
+						"volume": "-15",
+						"tag-optional": "\"Beats by Dr Hugh\""
+					}
+				}
+			],
+			"sid": 562183359310755,
+			"isOrBlock": true
+>>>>>>> Stashed changes
 		}
 	],
 	"sid": 750312841668870

@@ -530,6 +530,17 @@
 												"x": "Cursor.X",
 												"y": "Cursor.Y"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 361385677291890,
+											"parameters": {
+												"audio-file": "shot_3",
+												"loop": "not-looping",
+												"volume": "-17",
+												"tag-optional": "\"da sound of de gat go plack plack plack\""
+											}
 										}
 									],
 									"sid": 375076471573423
@@ -644,6 +655,17 @@
 									"id": "destroy",
 									"objectClass": "Bullets",
 									"sid": 102781918039001
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 752621526759319,
+									"parameters": {
+										"audio-file": "quick_slime",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
 								}
 							],
 							"sid": 283669347330228,
@@ -4265,6 +4287,11 @@
 									"id": "restart-layout",
 									"objectClass": "System",
 									"sid": 970487684333606
+								},
+								{
+									"id": "stop-all",
+									"objectClass": "Audio",
+									"sid": 534745745984215
 								}
 							],
 							"sid": 309210080115002
@@ -5193,6 +5220,44 @@
 				}
 			],
 			"sid": 363036432453264
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 420622290314233
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 448985945368285
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 946523244708159,
+					"parameters": {
+						"audio-file": "song_1",
+						"loop": "looping",
+						"volume": "-15",
+						"tag-optional": "\"Beats by Dr Hugh\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 163397939734250,
+					"parameters": {
+						"tag": "\"broooooo this is fyyyyyrrrrreeee thanks Hugh\""
+					}
+				}
+			],
+			"sid": 559379396554690,
+			"isOrBlock": true
 		}
 	],
 	"sid": 587643397571846
