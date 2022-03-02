@@ -266,7 +266,8 @@
 					"Fire_spawner3",
 					"Fire_spawner4",
 					"Fire_spawner5",
-					"Earth_spawner3"
+					"Earth_spawner3",
+					"Fire_spawner6"
 				],
 				"subfolders": [],
 				"name": "Spawners"

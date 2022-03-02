@@ -171,9 +171,9 @@
 								{
 									"id": "set-text",
 									"objectClass": "txtSlimes",
-									"sid": 341648015076233,
+									"sid": 376173029142536,
 									"parameters": {
-										"text": "\"SlimeBucks: \" & Slimes"
+										"text": "\"Slimes Killed for Escape: \" & Slimes"
 									}
 								},
 								{
@@ -387,6 +387,31 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
+											"sid": 109738922423047,
+											"parameters": {
+												"object": "Fire_spawner4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "FireSlime",
+											"sid": 354795253574130,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "4"
+											}
+										}
+									],
+									"sid": 390661498460335
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "FireSlime",
 											"sid": 592133036063895,
 											"parameters": {
 												"object": "Fire_spawner5"
@@ -405,6 +430,31 @@
 										}
 									],
 									"sid": 274400011809574
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "FireSlime",
+											"sid": 975171624681673,
+											"parameters": {
+												"object": "Fire_spawner6"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "FireSlime",
+											"sid": 196050559942671,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "6"
+											}
+										}
+									],
+									"sid": 895542358901204
 								}
 							],
 							"sid": 903834437959540
@@ -1075,6 +1125,216 @@
 										}
 									],
 									"sid": 555555511834977
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "FireSlime",
+											"sid": 155699506353217,
+											"parameters": {
+												"instance-variable": "FireSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "FireSlime",
+											"sid": 190434471538108,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "FireSlime",
+											"sid": 372517577849339,
+											"parameters": {
+												"object": "JumpPotion",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "FireSlime",
+											"sid": 434272656998313
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 456150565335080,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Fire_spawner4",
+											"sid": 873527075387742,
+											"parameters": {
+												"object": "FireSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "FireSlime",
+											"sid": 494488193727491,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 631733263614338
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "FireSlime",
+											"sid": 117062892192275,
+											"parameters": {
+												"instance-variable": "FireSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "FireSlime",
+											"sid": 732978082895151,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "5"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "FireSlime",
+											"sid": 603077146047851,
+											"parameters": {
+												"object": "JumpPotion",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "FireSlime",
+											"sid": 792285952118789
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 234298659924115,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Fire_spawner5",
+											"sid": 599780789579452,
+											"parameters": {
+												"object": "FireSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "FireSlime",
+											"sid": 482290162043007,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 281575398057143
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "FireSlime",
+											"sid": 419770386407799,
+											"parameters": {
+												"instance-variable": "FireSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "FireSlime",
+											"sid": 631241310961332,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "6"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "FireSlime",
+											"sid": 842141980012943,
+											"parameters": {
+												"object": "JumpPotion",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "FireSlime",
+											"sid": 415656363627886
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 979875718172861,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Fire_spawner6",
+											"sid": 258265227430627,
+											"parameters": {
+												"object": "FireSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "FireSlime",
+											"sid": 809555841828376,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 895616722443740
 								}
 							]
 						},
@@ -2161,11 +2421,11 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 947853627483073,
+											"sid": 932019436801422,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
 												"comparison": 3,
-												"second-value": "150"
+												"second-value": "200"
 											}
 										}
 									],
