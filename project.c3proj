@@ -255,7 +255,11 @@
 			{
 				"items": [
 					"Earth_spawner1",
-					"Earth_spawner2"
+					"Earth_spawner2",
+					"Fire_spawner1",
+					"Fire_spawner2",
+					"Fire_spawner3",
+					"Fire_spawner4"
 				],
 				"subfolders": [],
 				"name": "Spawners"
@@ -396,7 +400,7 @@
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenMode": "scale-outer",
 		"fullscreenQuality": "low",
 		"viewportFit": "auto",
 		"backgroundColor": [
@@ -436,5 +440,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "Introduction"
 }

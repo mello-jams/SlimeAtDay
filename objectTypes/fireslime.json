@@ -9,6 +9,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 994044689128447
+		},
+		{
+			"name": "Name",
+			"type": "number",
+			"desc": "what number the slime is in the overall game",
+			"sid": 621357330574771
 		}
 	],
 	"behaviorTypes": [

@@ -12,7 +12,7 @@
 						"initially-visible": true,
 						"origin": "top-left",
 						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
+						"wrap-vertical": "clamp-to-edge",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
 						"image-scale-x": 1,
@@ -137,7 +137,8 @@
 					},
 					"uid": 111,
 					"instanceVariables": {
-						"FireSlime": false
+						"FireSlime": false,
+						"Name": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -403,7 +404,8 @@
 					},
 					"uid": 191,
 					"instanceVariables": {
-						"FireSlime": false
+						"FireSlime": false,
+						"Name": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
