@@ -765,7 +765,7 @@
 	"effectTypes": [],
 	"width": 1708,
 	"height": 960,
-	"unboundedScrolling": false,
+	"unboundedScrolling": true,
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
