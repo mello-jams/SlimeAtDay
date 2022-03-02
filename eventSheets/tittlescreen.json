@@ -23,6 +23,11 @@
 					"parameters": {
 						"layout": "Introduction"
 					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 201753386972153
 				}
 			],
 			"sid": 419237174830712
