@@ -164,7 +164,7 @@
 			"MovingGround",
 			"MovingGround2",
 			"Underground",
-			"Sprite2",
+			"FalseFloor",
 			"Levely",
 			"Sprite3",
 			"WantedSign2",
@@ -173,7 +173,8 @@
 			"WallClimb",
 			"HealthPotion",
 			"Sprite8",
-			"Sprite9"
+			"Sprite9",
+			"RockFloors"
 		],
 		"subfolders": [
 			{

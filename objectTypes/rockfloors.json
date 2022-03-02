@@ -1,10 +1,16 @@
 {
-	"name": "Sprite2",
+	"name": "RockFloors",
 	"plugin-id": "Sprite",
-	"sid": 690383938455817,
+	"sid": 431516572890684,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 257172387210903
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4418631,
+						"imageSpriteId": 9882412,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 968002516022702,
+				"sid": 897810527431941,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
