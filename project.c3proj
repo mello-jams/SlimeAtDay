@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Anchor",
 			"name": "Anchor",
@@ -179,7 +187,8 @@
 			"Text8",
 			"Text9",
 			"Sprite2",
-			"ClickToPLauu"
+			"ClickToPLauu",
+			"Audio"
 		],
 		"subfolders": [
 			{
@@ -308,7 +317,113 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "cave_dark_ambient.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 284473648586504
+				},
+				{
+					"name": "cave_water_dripping.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 196029617801218
+				},
+				{
+					"name": "cave_with_slight_music_ambient.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 790657729206532
+				},
+				{
+					"name": "gun_load.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 519133478989415
+				},
+				{
+					"name": "large_bubbling.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 260459707292800
+				},
+				{
+					"name": "match_strike.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 768771892640768
+				},
+				{
+					"name": "not_sure.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 519617338072869
+				},
+				{
+					"name": "pop.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 366452855940669
+				},
+				{
+					"name": "quick_slime.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 843169435694947
+				},
+				{
+					"name": "quiet_slime.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 806332600958795
+				},
+				{
+					"name": "short_click_slime.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 331020388594055
+				},
+				{
+					"name": "shot_3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 510499080216815
+				},
+				{
+					"name": "slime_splat.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 257633966198120
+				},
+				{
+					"name": "slime_step.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 147509798888563
+				},
+				{
+					"name": "slime_two_peaks.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 955081143225132
+				},
+				{
+					"name": "small_bubbling.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 930584571142002
+				},
+				{
+					"name": "song_1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 901453316594123
+				},
+				{
+					"name": "song_menu.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 327597384228032
+				},
+				{
+					"name": "songCOWBOY_SLIMEBOP.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 217092988717702
+				},
+				{
+					"name": "weird_click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 589442441530235
+				},
+				{
+					"name": "zap.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 423110652613300
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

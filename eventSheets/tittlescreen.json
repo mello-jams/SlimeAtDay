@@ -26,6 +26,30 @@
 				}
 			],
 			"sid": 419237174830712
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 903847325255762
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 772744118764490,
+					"parameters": {
+						"audio-file": "song_menu",
+						"loop": "looping",
+						"volume": "-15",
+						"tag-optional": "\"Hugh made these beats\""
+					}
+				}
+			],
+			"sid": 936761424690117
 		}
 	],
 	"sid": 776700732484750
