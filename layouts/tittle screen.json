@@ -766,10 +766,10 @@
 				{
 					"type": "Text8",
 					"properties": {
-						"text": "The Good, the Bad, \nand the Slimey",
+						"text": "Outlaw",
 						"enable-bbcode": true,
 						"font": "Impact",
-						"size": 70,
+						"size": 80,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -814,10 +814,10 @@
 						}
 					},
 					"world": {
-						"x": 554,
-						"y": 606,
-						"width": 745.318072644907,
-						"height": 201.47895168192497,
+						"x": 481,
+						"y": 579,
+						"width": 428,
+						"height": 137,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -833,10 +833,10 @@
 				{
 					"type": "Text8",
 					"properties": {
-						"text": "The Good, the Bad, \nand the Slimey",
+						"text": "Outlaw",
 						"enable-bbcode": true,
 						"font": "Impact",
-						"size": 70,
+						"size": 80,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -881,10 +881,10 @@
 						}
 					},
 					"world": {
-						"x": 559,
-						"y": 601,
-						"width": 730.6637148729417,
-						"height": 200.91810133376873,
+						"x": 484,
+						"y": 578,
+						"width": 428,
+						"height": 137,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -900,10 +900,10 @@
 				{
 					"type": "Text8",
 					"properties": {
-						"text": "The Good, the Bad, \nand the Slimey",
+						"text": "Outlaw",
 						"enable-bbcode": true,
 						"font": "Impact",
-						"size": 70,
+						"size": 80,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -948,12 +948,213 @@
 						}
 					},
 					"world": {
-						"x": 565,
-						"y": 599,
-						"width": 706.425655230234,
-						"height": 189.19004051673244,
+						"x": 490,
+						"y": 576.5800849688665,
+						"width": 428,
+						"height": 137,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text9",
+					"properties": {
+						"text": "Slime on the run",
+						"enable-bbcode": true,
+						"font": "Stencil",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 174,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "z-elevation",
+								"wave": "sine",
+								"period": 3,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 4,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Fade": {
+							"properties": {
+								"fade-in-time": 3,
+								"wait-time": 5,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 506,
+						"y": 615,
+						"width": 540,
+						"height": 52,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text9",
+					"properties": {
+						"text": "Slime on the run",
+						"enable-bbcode": true,
+						"font": "Stencil",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 175,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "z-elevation",
+								"wave": "sine",
+								"period": 3,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 4,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Fade": {
+							"properties": {
+								"fade-in-time": 3,
+								"wait-time": 5,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 508.0101460955867,
+						"y": 615.1399403668828,
+						"width": 540,
+						"height": 52,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text9",
+					"properties": {
+						"text": "Slime on the run",
+						"enable-bbcode": true,
+						"font": "Stencil",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							0.27450980392156865,
+							0.6666666666666666,
+							0.3137254901960784,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 176,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "z-elevation",
+								"wave": "sine",
+								"period": 3,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 4,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Fade": {
+							"properties": {
+								"fade-in-time": 3,
+								"wait-time": 5,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 510.95937906299423,
+						"y": 615.2913512159997,
+						"width": 540,
+						"height": 52,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
