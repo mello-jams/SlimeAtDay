@@ -189,7 +189,8 @@
 			"Sprite2",
 			"ClickToPLauu",
 			"Audio",
-			"triggerForCombo"
+			"triggerForCombo",
+			"Door3"
 		],
 		"subfolders": [
 			{
@@ -298,7 +299,8 @@
 			"Level 2",
 			"Level 3",
 			"Loading Screen",
-			"Tittle Screen"
+			"Tittle Screen",
+			"Boss"
 		],
 		"subfolders": []
 	},
@@ -309,7 +311,8 @@
 			"introcutscence",
 			"LoadingScreenSheet",
 			"TittleScreen",
-			"Level2 EventSheet"
+			"Level2 EventSheet",
+			"Boss EventSheet2"
 		],
 		"subfolders": []
 	},
