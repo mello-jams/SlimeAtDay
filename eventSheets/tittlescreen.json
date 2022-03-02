@@ -1,0 +1,32 @@
+{
+	"name": "TittleScreen",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 138389597866038,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ClickToPLauu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 791851260656143,
+					"parameters": {
+						"layout": "Introduction"
+					}
+				}
+			],
+			"sid": 419237174830712
+		}
+	],
+	"sid": 776700732484750
+}
