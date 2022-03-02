@@ -3492,9 +3492,9 @@
 								{
 									"id": "compare-two-values",
 									"objectClass": "System",
-									"sid": 972409309758029,
+									"sid": 468393788073920,
 									"parameters": {
-										"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+										"first-value": "distance(Player.X,Player.Y,LavaSlime.X,LavaSlime.Y)",
 										"comparison": 3,
 										"second-value": "500"
 									}
