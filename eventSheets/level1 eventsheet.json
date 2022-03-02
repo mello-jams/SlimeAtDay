@@ -102,6 +102,11 @@
 										"instance-variable": "Strapped_Ability",
 										"value": "true"
 									}
+								},
+								{
+									"id": "reset-global-variables",
+									"objectClass": "System",
+									"sid": 112690187990175
 								}
 							],
 							"sid": 874597915431854
