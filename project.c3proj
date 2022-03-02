@@ -188,7 +188,8 @@
 			"Text9",
 			"Sprite2",
 			"ClickToPLauu",
-			"Audio"
+			"Audio",
+			"TRiggerforcombo"
 		],
 		"subfolders": [
 			{
