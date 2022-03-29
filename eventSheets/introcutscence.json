@@ -22,9 +22,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 210219644421743,
+							"sid": 696469665776702,
 							"parameters": {
 								"object": "Dialoge_trigger1"
 							}
@@ -38,22 +38,6 @@
 							"parameters": {
 								"visibility": "visible"
 							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 952719568259614,
-							"parameters": {
-								"seconds": "3"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Intro_text1",
-							"sid": 638420366158398,
-							"parameters": {
-								"visibility": "invisible"
-							}
 						}
 					],
 					"sid": 373214663816551
@@ -62,9 +46,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 151371154324863,
+							"sid": 993833449546695,
+							"parameters": {
+								"object": "Dialoge_trigger1"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Intro_text1",
+							"sid": 498645080338449,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 988931376690007
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 112842350999904,
 							"parameters": {
 								"object": "Dialoge_trigger2"
 							}
@@ -78,22 +87,6 @@
 							"parameters": {
 								"visibility": "visible"
 							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 235814157161620,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Intro_text2",
-							"sid": 354247979090938,
-							"parameters": {
-								"visibility": "invisible"
-							}
 						}
 					],
 					"sid": 374409235879973
@@ -102,9 +95,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 105966971296843,
+							"sid": 229228219435693,
+							"parameters": {
+								"object": "Dialoge_trigger2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Intro_text2",
+							"sid": 511338072221389,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 302847836118427
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 774464396735111,
 							"parameters": {
 								"object": "Dialoge_trigger3"
 							}
@@ -118,22 +136,6 @@
 							"parameters": {
 								"visibility": "visible"
 							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 581779537514960,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Intro_text3",
-							"sid": 378940932186201,
-							"parameters": {
-								"visibility": "invisible"
-							}
 						}
 					],
 					"sid": 499771178187991
@@ -142,9 +144,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 901597078780409,
+							"sid": 903854397650597,
+							"parameters": {
+								"object": "Dialoge_trigger3"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Intro_text3",
+							"sid": 425692114095066,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 932972371193082
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 216197562044958,
 							"parameters": {
 								"object": "Dialoge_trigger4"
 							}
@@ -158,22 +185,6 @@
 							"parameters": {
 								"visibility": "visible"
 							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 123032824586509,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Intro_text4",
-							"sid": 890160353405261,
-							"parameters": {
-								"visibility": "invisible"
-							}
 						}
 					],
 					"sid": 215392074167856
@@ -182,9 +193,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "Player",
-							"sid": 792384667418489,
+							"sid": 383233565238828,
+							"parameters": {
+								"object": "Dialoge_trigger4"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Intro_text4",
+							"sid": 651822019872729,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 990393360606906
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 104049576470360,
 							"parameters": {
 								"object": "Dialoge_trigger5"
 							}
@@ -198,25 +234,34 @@
 							"parameters": {
 								"visibility": "visible"
 							}
-						},
+						}
+					],
+					"sid": 945464440529354
+				},
+				{
+					"eventType": "block",
+					"conditions": [
 						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 870310827693541,
+							"id": "is-overlapping-another-object",
+							"objectClass": "Player",
+							"sid": 919250156526611,
 							"parameters": {
-								"seconds": "4"
-							}
-						},
+								"object": "Dialoge_trigger5"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
 						{
 							"id": "set-visible",
 							"objectClass": "Intro_text5",
-							"sid": 321281774095234,
+							"sid": 452607610012727,
 							"parameters": {
 								"visibility": "invisible"
 							}
 						}
 					],
-					"sid": 945464440529354
+					"sid": 614380643145049
 				},
 				{
 					"eventType": "block",

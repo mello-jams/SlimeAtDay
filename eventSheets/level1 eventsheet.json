@@ -559,11 +559,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 361385677291890,
+											"sid": 932428851366721,
 											"parameters": {
 												"audio-file": "shot_3",
 												"loop": "not-looping",
-												"volume": "-17",
+												"volume": "-30",
 												"tag-optional": "\"da sound of de gat go plack plack plack\""
 											}
 										}

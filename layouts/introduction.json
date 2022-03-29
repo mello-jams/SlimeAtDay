@@ -24,7 +24,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 0,
-						"y": 0,
+						"y": 115,
 						"width": 1712.8423265700367,
 						"height": 960.9531595066708,
 						"originX": 0,
@@ -857,7 +857,7 @@
 				{
 					"type": "Intro_text2",
 					"properties": {
-						"text": "Hey Cowboy Slime! Stay away from the bank we don't want you anywhere near here!",
+						"text": "Golly! Is that the dangerous Cowboy Slime? I heard he does that there slime-diddlin'!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -941,7 +941,7 @@
 				{
 					"type": "Intro_text4",
 					"properties": {
-						"text": "I don't understand how you could absorb other slimes like that. I guess thats why you're wanted.",
+						"text": "If you're going to break more slime law, please don't absorb me! I haven't completed the battle-pass yet!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -964,8 +964,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1054.5659378479534,
-						"y": 781.2008694087082,
+						"x": 1053,
+						"y": 750,
 						"width": 162,
 						"height": 139,
 						"originX": 0,
@@ -983,7 +983,7 @@
 				{
 					"type": "Intro_text5",
 					"properties": {
-						"text": "Cowboy Slime! As the sheriff round these parts, I ban you from ever stepping foot in this town again! Leave!",
+						"text": "Cowboy Slime! As the sheriff round these parts, I ban you from ever stepping foot in Slime-ville ever again! Leave!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
