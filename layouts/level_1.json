@@ -1,5 +1,5 @@
 {
-	"name": "Level 1",
+	"name": "Level_1",
 	"layers": [
 		{
 			"name": "bkg",
@@ -2807,5 +2807,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Level1 EventSheet"
+	"eventSheet": "Level1_ES"
 }

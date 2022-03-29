@@ -1,5 +1,5 @@
 {
-	"name": "Boss",
+	"name": "Boss_Level",
 	"layers": [
 		{
 			"name": "bkg",
@@ -1762,5 +1762,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Boss EventSheet2"
+	"eventSheet": "Boss_ES2"
 }

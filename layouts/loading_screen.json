@@ -1,5 +1,5 @@
 {
-	"name": "Loading Screen",
+	"name": "Loading_Screen",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -629,5 +629,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "orthographic",
-	"eventSheet": "LoadingScreenSheet"
+	"eventSheet": "Loading_ES"
 }

@@ -1,5 +1,5 @@
 {
-	"name": "LoadingScreenSheet",
+	"name": "Loading_ES",
 	"events": [
 		{
 			"eventType": "block",
@@ -29,7 +29,7 @@
 					"objectClass": "System",
 					"sid": 495465244333495,
 					"parameters": {
-						"layout": "Level 1"
+						"layout": "Level_1"
 					}
 				}
 			],
@@ -63,7 +63,7 @@
 					"objectClass": "System",
 					"sid": 399511676205316,
 					"parameters": {
-						"layout": "Level 2"
+						"layout": "Level_2"
 					}
 				}
 			],
@@ -97,7 +97,7 @@
 					"objectClass": "System",
 					"sid": 182128747165954,
 					"parameters": {
-						"layout": "Level 3"
+						"layout": "Level_3"
 					}
 				}
 			],
@@ -131,7 +131,7 @@
 					"objectClass": "System",
 					"sid": 729289218617388,
 					"parameters": {
-						"layout": "Boss"
+						"layout": "Boss_Level"
 					}
 				}
 			],

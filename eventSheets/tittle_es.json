@@ -1,5 +1,5 @@
 {
-	"name": "TittleScreen",
+	"name": "Tittle_ES",
 	"events": [
 		{
 			"eventType": "block",
@@ -21,7 +21,7 @@
 					"objectClass": "System",
 					"sid": 791851260656143,
 					"parameters": {
-						"layout": "Introduction"
+						"layout": "Intro"
 					}
 				},
 				{

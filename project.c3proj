@@ -298,26 +298,26 @@
 	},
 	"layouts": {
 		"items": [
-			"Introduction",
-			"Level 1",
-			"Level 2",
-			"Level 3",
-			"Loading Screen",
-			"Tittle Screen",
-			"Boss",
+			"Intro",
+			"Level_1",
+			"Level_2",
+			"Level_3",
+			"Loading_Screen",
+			"Tittle_Screen",
+			"Boss_Level",
 			"EndingScreen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Level1 EventSheet",
-			"Master Event Sheet",
-			"introcutscence",
-			"LoadingScreenSheet",
-			"TittleScreen",
-			"Level2 EventSheet",
-			"Boss EventSheet2"
+			"Level1_ES",
+			"Master_ES",
+			"intro_ES",
+			"Loading_ES",
+			"Tittle_ES",
+			"Level2_ES",
+			"Boss_ES2"
 		],
 		"subfolders": []
 	},
@@ -328,21 +328,6 @@
 		},
 		"sound": {
 			"items": [
-				{
-					"name": "cave_dark_ambient.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 284473648586504
-				},
-				{
-					"name": "cave_water_dripping.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 196029617801218
-				},
-				{
-					"name": "cave_with_slight_music_ambient.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 790657729206532
-				},
 				{
 					"name": "gun_load.webm",
 					"type": "audio/webm; codecs=opus",
@@ -409,21 +394,6 @@
 					"sid": 930584571142002
 				},
 				{
-					"name": "song_1.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 901453316594123
-				},
-				{
-					"name": "song_menu.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 327597384228032
-				},
-				{
-					"name": "songCOWBOY_SLIMEBOP.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 217092988717702
-				},
-				{
 					"name": "weird_click.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 589442441530235
@@ -437,7 +407,38 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "songCOWBOY_SLIMEBOP.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 217092988717702
+				},
+				{
+					"name": "song_1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 901453316594123
+				},
+				{
+					"name": "song_menu.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 327597384228032
+				},
+				{
+					"name": "cave_with_slight_music_ambient.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 790657729206532
+				},
+				{
+					"name": "cave_dark_ambient.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 284473648586504
+				},
+				{
+					"name": "cave_water_dripping.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 196029617801218
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
@@ -576,5 +577,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": "Tittle Screen"
+	"firstLayout": "Tittle_Screen"
 }

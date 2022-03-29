@@ -1,37 +1,37 @@
 {
-	"name": "Level2 EventSheet",
+	"name": "Level1_ES",
 	"events": [
 		{
 			"eventType": "variable",
-			"name": "Slimes2",
+			"name": "Slimes",
 			"type": "number",
 			"initialValue": "0",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 188092402198913
+			"sid": 213143248784441
 		},
 		{
 			"eventType": "variable",
-			"name": "Merchant2",
+			"name": "Merchant",
 			"type": "boolean",
 			"initialValue": "false",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 883529020659783
+			"sid": 471829324676255
 		},
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "System2",
+			"title": "System",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Other_behaviors2",
+					"title": "Other_behaviors",
 					"description": "stuff like \"on start of layout\" or \"every tick\"",
 					"isActiveOnStart": true,
 					"children": [
@@ -41,14 +41,14 @@
 								{
 									"id": "on-start-of-layout",
 									"objectClass": "System",
-									"sid": 733397926854863
+									"sid": 835407180308227
 								}
 							],
 							"actions": [
 								{
 									"id": "set-instvar-value",
 									"objectClass": "Player",
-									"sid": 692763429096722,
+									"sid": 445820901271905,
 									"disabled": true,
 									"parameters": {
 										"instance-variable": "Speed_potions",
@@ -58,7 +58,7 @@
 								{
 									"id": "set-instvar-value",
 									"objectClass": "Player",
-									"sid": 379778189939833,
+									"sid": 777957219875545,
 									"disabled": true,
 									"parameters": {
 										"instance-variable": "Power_potions",
@@ -68,7 +68,7 @@
 								{
 									"id": "set-instvar-value",
 									"objectClass": "Player",
-									"sid": 136549514914017,
+									"sid": 884839576783562,
 									"disabled": true,
 									"parameters": {
 										"instance-variable": "Jump_potions",
@@ -78,7 +78,7 @@
 								{
 									"id": "set-instvar-value",
 									"objectClass": "Player",
-									"sid": 216140715360897,
+									"sid": 144341855091266,
 									"disabled": true,
 									"parameters": {
 										"instance-variable": "Slime_potions",
@@ -88,7 +88,7 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 254437201305340,
+									"sid": 277623340100594,
 									"parameters": {
 										"animation": "\"Jump\"",
 										"from": "beginning"
@@ -97,7 +97,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 679117754365470,
+									"sid": 668103661574036,
 									"parameters": {
 										"instance-variable": "Strapped_Ability",
 										"value": "true"
@@ -106,10 +106,10 @@
 								{
 									"id": "reset-global-variables",
 									"objectClass": "System",
-									"sid": 297467098082081
+									"sid": 112690187990175
 								}
 							],
-							"sid": 754982924456539
+							"sid": 874597915431854
 						},
 						{
 							"eventType": "block",
@@ -117,14 +117,14 @@
 								{
 									"id": "on-start-of-layout",
 									"objectClass": "System",
-									"sid": 685424175565580
+									"sid": 667866907814855
 								}
 							],
 							"actions": [
 								{
 									"id": "pin-to-object-imagepoint",
 									"objectClass": "Player_healthbar",
-									"sid": 789606262922888,
+									"sid": 703664647847221,
 									"behaviorType": "Pin",
 									"parameters": {
 										"pin-to": "Player",
@@ -138,7 +138,7 @@
 								{
 									"id": "pin-to-object-imagepoint",
 									"objectClass": "Slime_healthbar",
-									"sid": 510008261882937,
+									"sid": 654162528306682,
 									"disabled": true,
 									"behaviorType": "Pin",
 									"parameters": {
@@ -153,7 +153,7 @@
 								{
 									"id": "set-layer-opacity",
 									"objectClass": "System",
-									"sid": 573790799103106,
+									"sid": 982574332350896,
 									"disabled": true,
 									"parameters": {
 										"layer": "\"Shop\"",
@@ -161,7 +161,7 @@
 									}
 								}
 							],
-							"sid": 333205923760373
+							"sid": 443539546792868
 						},
 						{
 							"eventType": "block",
@@ -169,14 +169,14 @@
 								{
 									"id": "every-tick",
 									"objectClass": "System",
-									"sid": 576768685033149
+									"sid": 955230410274320
 								}
 							],
 							"actions": [
 								{
 									"id": "set-text",
 									"objectClass": "txtSlimes",
-									"sid": 255096568055454,
+									"sid": 376173029142536,
 									"parameters": {
 										"text": "\"Slimes Killed for Escape: \" & Slimes"
 									}
@@ -184,7 +184,7 @@
 								{
 									"id": "set-position",
 									"objectClass": "Cursor",
-									"sid": 799972840053826,
+									"sid": 286049124566881,
 									"parameters": {
 										"x": "Mouse.X",
 										"y": "Mouse.Y"
@@ -193,7 +193,7 @@
 								{
 									"id": "set-x",
 									"objectClass": "Spawnerforbullets",
-									"sid": 871846843096523,
+									"sid": 104990060564208,
 									"parameters": {
 										"x": "big_iron.X"
 									}
@@ -201,63 +201,38 @@
 								{
 									"id": "set-y",
 									"objectClass": "Spawnerforbullets",
-									"sid": 397637369015838,
+									"sid": 471343591811954,
 									"parameters": {
 										"y": "big_iron.Y"
 									}
 								}
 							],
-							"sid": 247380741778274
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-collision-with-another-object",
-									"objectClass": "Player",
-									"sid": 247337937066282,
-									"parameters": {
-										"object": "triggerForCombo"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-active",
-									"objectClass": "FireSlime",
-									"sid": 848541544728228,
-									"behaviorType": "Sine",
-									"parameters": {
-										"state": "active"
-									}
-								}
-							],
-							"sid": 383845623378025
+							"sid": 991798456051989
 						}
 					],
-					"sid": 320976669375235
+					"sid": 970752998103304
 				}
 			],
-			"sid": 293836093946653
+			"sid": 285020910249804
 		},
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Player_behaviors2",
+			"title": "Player_behaviors",
 			"description": "movement, health, initial values",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "EnemyDeathHow2",
+					"title": "EnemyDeathHow",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
 						{
 							"eventType": "group",
 							"disabled": false,
-							"title": "spawning2",
+							"title": "spawning",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
@@ -267,7 +242,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "EarthSlime",
-											"sid": 534281131630291,
+											"sid": 686916757911032,
 											"parameters": {
 												"object": "Earth_spawner1"
 											}
@@ -277,14 +252,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "EarthSlime",
-											"sid": 313692678254852,
+											"sid": 778025217163079,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "1"
 											}
 										}
 									],
-									"sid": 236159994856381
+									"sid": 976693107312353
 								},
 								{
 									"eventType": "block",
@@ -292,7 +267,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "EarthSlime",
-											"sid": 416901443029836,
+											"sid": 521359632874827,
 											"parameters": {
 												"object": "Earth_spawner2"
 											}
@@ -302,14 +277,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "EarthSlime",
-											"sid": 476146892673156,
+											"sid": 400749355649872,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "2"
 											}
 										}
 									],
-									"sid": 355879781623991
+									"sid": 727997878816443
 								},
 								{
 									"eventType": "block",
@@ -317,7 +292,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "EarthSlime",
-											"sid": 656726478195512,
+											"sid": 518954080922696,
 											"parameters": {
 												"object": "Earth_spawner3"
 											}
@@ -327,14 +302,39 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "EarthSlime",
-											"sid": 757235554640875,
+											"sid": 480575423366567,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "3"
 											}
 										}
 									],
-									"sid": 753654588549417
+									"sid": 722460996428724
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 514862963713968,
+											"parameters": {
+												"object": "Earth_spawner4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "EarthSlime",
+											"sid": 945720389301754,
+											"parameters": {
+												"instance-variable": "Name",
+												"value": "4"
+											}
+										}
+									],
+									"sid": 334445836555737
 								},
 								{
 									"eventType": "block",
@@ -342,7 +342,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
-											"sid": 729460611749558,
+											"sid": 216548627604918,
 											"parameters": {
 												"object": "Fire_spawner1"
 											}
@@ -352,14 +352,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "FireSlime",
-											"sid": 351046239541760,
+											"sid": 573743982207177,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "1"
 											}
 										}
 									],
-									"sid": 625778238183889
+									"sid": 362662070101692
 								},
 								{
 									"eventType": "block",
@@ -367,7 +367,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
-											"sid": 447968942596734,
+											"sid": 267419787171512,
 											"parameters": {
 												"object": "Fire_spawner2"
 											}
@@ -377,14 +377,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "FireSlime",
-											"sid": 420992361984603,
+											"sid": 428535297049954,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "2"
 											}
 										}
 									],
-									"sid": 883428196360191
+									"sid": 412479673449314
 								},
 								{
 									"eventType": "block",
@@ -392,7 +392,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
-											"sid": 777969766488979,
+											"sid": 807512999146581,
 											"parameters": {
 												"object": "Fire_spawner3"
 											}
@@ -402,14 +402,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "FireSlime",
-											"sid": 861071423170799,
+											"sid": 709982307224351,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "3"
 											}
 										}
 									],
-									"sid": 183779152302883
+									"sid": 310161866139287
 								},
 								{
 									"eventType": "block",
@@ -417,7 +417,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
-											"sid": 816990318263653,
+											"sid": 109738922423047,
 											"parameters": {
 												"object": "Fire_spawner4"
 											}
@@ -427,14 +427,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "FireSlime",
-											"sid": 708817264052466,
+											"sid": 354795253574130,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "4"
 											}
 										}
 									],
-									"sid": 190214137682464
+									"sid": 390661498460335
 								},
 								{
 									"eventType": "block",
@@ -442,7 +442,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
-											"sid": 148627544986922,
+											"sid": 592133036063895,
 											"parameters": {
 												"object": "Fire_spawner5"
 											}
@@ -452,14 +452,14 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "FireSlime",
-											"sid": 627235451890769,
+											"sid": 768301731449837,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "5"
 											}
 										}
 									],
-									"sid": 240633458505633
+									"sid": 274400011809574
 								},
 								{
 									"eventType": "block",
@@ -467,7 +467,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "FireSlime",
-											"sid": 325982893356597,
+											"sid": 975171624681673,
 											"parameters": {
 												"object": "Fire_spawner6"
 											}
@@ -477,22 +477,22 @@
 										{
 											"id": "set-instvar-value",
 											"objectClass": "FireSlime",
-											"sid": 665044757694208,
+											"sid": 196050559942671,
 											"parameters": {
 												"instance-variable": "Name",
 												"value": "6"
 											}
 										}
 									],
-									"sid": 605324045336648
+									"sid": 895542358901204
 								}
 							],
-							"sid": 540876605259161
+							"sid": 903834437959540
 						},
 						{
 							"eventType": "group",
 							"disabled": false,
-							"title": "Gun2",
+							"title": "Gun",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
@@ -502,7 +502,7 @@
 										{
 											"id": "on-click",
 											"objectClass": "Mouse",
-											"sid": 259641692381535,
+											"sid": 534580039326300,
 											"parameters": {
 												"mouse-button": "left",
 												"click-type": "clicked"
@@ -511,7 +511,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "Player",
-											"sid": 259209708666440,
+											"sid": 645898352284157,
 											"parameters": {
 												"instance-variable": "Strapped_Ability"
 											}
@@ -521,7 +521,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Spawnerforbullets",
-											"sid": 951107125009712,
+											"sid": 379327131159499,
 											"parameters": {
 												"object": "Bullets",
 												"layer": "0",
@@ -532,7 +532,7 @@
 										{
 											"id": "set-enabled",
 											"objectClass": "Bullets",
-											"sid": 897866217476887,
+											"sid": 611245913738070,
 											"behaviorType": "Bullet",
 											"parameters": {
 												"state": "enabled"
@@ -541,7 +541,7 @@
 										{
 											"id": "set-position",
 											"objectClass": "Bullets",
-											"sid": 200916311499817,
+											"sid": 931496935536087,
 											"parameters": {
 												"x": "Spawnerforbullets.X",
 												"y": "Spawnerforbullets.Y"
@@ -550,14 +550,25 @@
 										{
 											"id": "set-angle-toward-position",
 											"objectClass": "Bullets",
-											"sid": 939621766032578,
+											"sid": 411542963771651,
 											"parameters": {
 												"x": "Cursor.X",
 												"y": "Cursor.Y"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 932428851366721,
+											"parameters": {
+												"audio-file": "shot_3",
+												"loop": "not-looping",
+												"volume": "-30",
+												"tag-optional": "\"da sound of de gat go plack plack plack\""
+											}
 										}
 									],
-									"sid": 125685763197881
+									"sid": 375076471573423
 								},
 								{
 									"eventType": "block",
@@ -565,7 +576,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "Player",
-											"sid": 138500583243854,
+											"sid": 386499310229852,
 											"parameters": {
 												"instance-variable": "Strapped_Ability"
 											}
@@ -575,7 +586,7 @@
 										{
 											"id": "set-angle-toward-position",
 											"objectClass": "big_iron",
-											"sid": 918472187786613,
+											"sid": 551196138036946,
 											"parameters": {
 												"x": "Cursor.X",
 												"y": "Cursor.Y"
@@ -584,14 +595,14 @@
 										{
 											"id": "set-position",
 											"objectClass": "big_iron",
-											"sid": 839894149807849,
+											"sid": 445794925483722,
 											"parameters": {
 												"x": "Player.ImagePointX(3)",
 												"y": "Player.ImagePointY(3)"
 											}
 										}
 									],
-									"sid": 741677151416039
+									"sid": 234772537656092
 								},
 								{
 									"eventType": "block",
@@ -599,7 +610,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "Player",
-											"sid": 804308758965365,
+											"sid": 704110671128424,
 											"parameters": {
 												"instance-variable": "Strapped_Ability"
 											},
@@ -610,18 +621,18 @@
 										{
 											"id": "set-position",
 											"objectClass": "big_iron",
-											"sid": 452672557953827,
+											"sid": 515833393761500,
 											"parameters": {
 												"x": "24.002039",
 												"y": "-71.912239"
 											}
 										}
 									],
-									"sid": 776772738988401,
+									"sid": 176756004123368,
 									"disabled": true
 								}
 							],
-							"sid": 979151014590551
+							"sid": 708458645923202
 						},
 						{
 							"eventType": "block",
@@ -629,7 +640,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 281169636543544,
+									"sid": 220430085832432,
 									"parameters": {
 										"object": "EarthSlime"
 									}
@@ -639,7 +650,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "EarthSlime",
-									"sid": 670996064485444,
+									"sid": 283448766792342,
 									"parameters": {
 										"instance-variable": "EarthSlime",
 										"value": "true"
@@ -648,7 +659,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 227009307423301,
+									"sid": 696854403066270,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -657,7 +668,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "EarthSlime",
-									"sid": 591355185216559,
+									"sid": 713418055978953,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -668,10 +679,21 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 398050487755926
+									"sid": 102781918039001
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 752621526759319,
+									"parameters": {
+										"audio-file": "quick_slime",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
 								}
 							],
-							"sid": 529861092707533,
+							"sid": 283669347330228,
 							"children": [
 								{
 									"eventType": "block",
@@ -679,7 +701,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "EarthSlime",
-											"sid": 256675994443068,
+											"sid": 503728845009131,
 											"parameters": {
 												"instance-variable": "EarthSlime"
 											}
@@ -687,7 +709,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "EarthSlime",
-											"sid": 938759261230035,
+											"sid": 338124143792120,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -699,7 +721,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "EarthSlime",
-											"sid": 976757153167805,
+											"sid": 257353016855406,
 											"parameters": {
 												"object": "WallClimb",
 												"layer": "1",
@@ -710,12 +732,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "EarthSlime",
-											"sid": 282909249390690
+											"sid": 646730407802999
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 613016014202018,
+											"sid": 700755147534886,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -727,7 +749,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Earth_spawner1",
-											"sid": 754328143461727,
+											"sid": 855805359514658,
 											"parameters": {
 												"object": "EarthSlime",
 												"layer": "1",
@@ -738,14 +760,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "EarthSlime",
-											"sid": 318964570923522,
+											"sid": 952935151957029,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 200717656719301
+									"sid": 966420863848050
 								},
 								{
 									"eventType": "block",
@@ -753,7 +775,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "EarthSlime",
-											"sid": 997601565648301,
+											"sid": 207061214056272,
 											"parameters": {
 												"instance-variable": "EarthSlime"
 											}
@@ -761,7 +783,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "EarthSlime",
-											"sid": 220840297109542,
+											"sid": 674262553967352,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -773,7 +795,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "EarthSlime",
-											"sid": 489934716602002,
+											"sid": 261440904779046,
 											"parameters": {
 												"object": "WallClimb",
 												"layer": "1",
@@ -784,12 +806,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "EarthSlime",
-											"sid": 703524595841279
+											"sid": 588222684618065
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 400744567873678,
+											"sid": 395103624297917,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -801,7 +823,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Earth_spawner2",
-											"sid": 466034115069267,
+											"sid": 492469813059879,
 											"parameters": {
 												"object": "EarthSlime",
 												"layer": "1",
@@ -812,14 +834,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "EarthSlime",
-											"sid": 255156354469210,
+											"sid": 872785813959540,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 746687297587226
+									"sid": 516461102868233
 								},
 								{
 									"eventType": "block",
@@ -827,7 +849,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "EarthSlime",
-											"sid": 657883877657399,
+											"sid": 834917823404647,
 											"parameters": {
 												"instance-variable": "EarthSlime"
 											}
@@ -835,7 +857,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "EarthSlime",
-											"sid": 721650090509685,
+											"sid": 197636203717678,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -847,7 +869,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "EarthSlime",
-											"sid": 218664429012553,
+											"sid": 205553325562881,
 											"parameters": {
 												"object": "WallClimb",
 												"layer": "1",
@@ -858,12 +880,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "EarthSlime",
-											"sid": 493080576652014
+											"sid": 166167717242829
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 167129445408582,
+											"sid": 582813930280443,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -875,7 +897,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Earth_spawner3",
-											"sid": 331705241468492,
+											"sid": 704999969346060,
 											"parameters": {
 												"object": "EarthSlime",
 												"layer": "1",
@@ -886,14 +908,88 @@
 										{
 											"id": "set-size",
 											"objectClass": "EarthSlime",
-											"sid": 343691656703107,
+											"sid": 819897695710266,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 755535783815776
+									"sid": 719328041206407
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "EarthSlime",
+											"sid": 230663684852569,
+											"parameters": {
+												"instance-variable": "EarthSlime"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EarthSlime",
+											"sid": 922904396379968,
+											"parameters": {
+												"instance-variable": "Name",
+												"comparison": 0,
+												"value": "4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "EarthSlime",
+											"sid": 451738680408223,
+											"parameters": {
+												"object": "WallClimb",
+												"layer": "1",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "EarthSlime",
+											"sid": 763028060997371
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 568704731513500,
+											"parameters": {
+												"seconds": "10"
+											}
+										},
+										{
+											"type": "comment",
+											"text": "this is where the slime will be, please add position "
+										},
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Earth_spawner4",
+											"sid": 888731175014504,
+											"parameters": {
+												"object": "EarthSlime",
+												"layer": "1",
+												"image-point": "1",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-size",
+											"objectClass": "EarthSlime",
+											"sid": 946107470125522,
+											"parameters": {
+												"width": "43.637395",
+												"height": "28.736821"
+											}
+										}
+									],
+									"sid": 439231947167303
 								}
 							]
 						},
@@ -903,7 +999,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 682473747776534,
+									"sid": 949760014740593,
 									"parameters": {
 										"object": "AcidSlime"
 									}
@@ -913,7 +1009,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "AcidSlime",
-									"sid": 333935716446115,
+									"sid": 486212172923308,
 									"parameters": {
 										"instance-variable": "AcidSlime",
 										"value": "true"
@@ -922,7 +1018,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 938571418580178,
+									"sid": 925308466751393,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -931,7 +1027,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "AcidSlime",
-									"sid": 899407940099507,
+									"sid": 858890066063353,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -942,10 +1038,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 398939276764575
+									"sid": 450585439930498
 								}
 							],
-							"sid": 687584766198265,
+							"sid": 656900380936465,
 							"children": [
 								{
 									"eventType": "block",
@@ -953,7 +1049,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "AcidSlime",
-											"sid": 965291575433448,
+											"sid": 365460359348622,
 											"parameters": {
 												"instance-variable": "AcidSlime"
 											}
@@ -963,10 +1059,10 @@
 										{
 											"id": "destroy",
 											"objectClass": "AcidSlime",
-											"sid": 652553984680185
+											"sid": 577607404402310
 										}
 									],
-									"sid": 224909942087803
+									"sid": 481655374640228
 								}
 							]
 						},
@@ -976,7 +1072,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 551600397265871,
+									"sid": 839741322290333,
 									"parameters": {
 										"object": "FireSlime"
 									}
@@ -986,7 +1082,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "FireSlime",
-									"sid": 853593245927317,
+									"sid": 693839447403062,
 									"parameters": {
 										"instance-variable": "FireSlime",
 										"value": "true"
@@ -995,7 +1091,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 871755790843554,
+									"sid": 900964865078197,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -1004,7 +1100,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "FireSlime",
-									"sid": 527524475265131,
+									"sid": 287089521898786,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -1015,10 +1111,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 642396719622753
+									"sid": 335575088799142
 								}
 							],
-							"sid": 805527990007334,
+							"sid": 819718212690446,
 							"children": [
 								{
 									"eventType": "block",
@@ -1026,7 +1122,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FireSlime",
-											"sid": 636239070957198,
+											"sid": 905666907521396,
 											"parameters": {
 												"instance-variable": "FireSlime"
 											}
@@ -1034,7 +1130,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "FireSlime",
-											"sid": 190268999084238,
+											"sid": 956710229436934,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -1046,7 +1142,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 977959251616207,
+											"sid": 148760979645635,
 											"parameters": {
 												"object": "JumpPotion",
 												"layer": "1",
@@ -1057,12 +1153,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
-											"sid": 229409122583195
+											"sid": 627653928724131
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 285831901166657,
+											"sid": 438327588873167,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1070,7 +1166,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Fire_spawner1",
-											"sid": 812870934862180,
+											"sid": 696356721344930,
 											"parameters": {
 												"object": "FireSlime",
 												"layer": "1",
@@ -1081,14 +1177,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "FireSlime",
-											"sid": 298491804282472,
+											"sid": 662963203131712,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 859863316594906
+									"sid": 830220810614519
 								},
 								{
 									"eventType": "block",
@@ -1096,7 +1192,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FireSlime",
-											"sid": 738057129412640,
+											"sid": 194138657692691,
 											"parameters": {
 												"instance-variable": "FireSlime"
 											}
@@ -1104,7 +1200,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "FireSlime",
-											"sid": 826354332410383,
+											"sid": 916436196920474,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -1116,7 +1212,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 867779084099835,
+											"sid": 640117712091313,
 											"parameters": {
 												"object": "JumpPotion",
 												"layer": "1",
@@ -1127,12 +1223,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
-											"sid": 788726534673826
+											"sid": 701115487427188
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 287594510129984,
+											"sid": 399873149189755,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1140,7 +1236,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Fire_spawner2",
-											"sid": 582433539287436,
+											"sid": 850014030310491,
 											"parameters": {
 												"object": "FireSlime",
 												"layer": "1",
@@ -1151,14 +1247,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "FireSlime",
-											"sid": 968792726654928,
+											"sid": 405854898994614,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 518827113304490
+									"sid": 324471004730013
 								},
 								{
 									"eventType": "block",
@@ -1166,7 +1262,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FireSlime",
-											"sid": 627202695335501,
+											"sid": 827052180536655,
 											"parameters": {
 												"instance-variable": "FireSlime"
 											}
@@ -1174,7 +1270,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "FireSlime",
-											"sid": 392479247756495,
+											"sid": 509639716454360,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -1186,7 +1282,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 737503719091106,
+											"sid": 716222462837178,
 											"parameters": {
 												"object": "JumpPotion",
 												"layer": "1",
@@ -1197,12 +1293,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
-											"sid": 661864798712767
+											"sid": 603949007956034
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 893711477961166,
+											"sid": 474944719192082,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1210,7 +1306,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Fire_spawner3",
-											"sid": 694407185558700,
+											"sid": 897703546763486,
 											"parameters": {
 												"object": "FireSlime",
 												"layer": "1",
@@ -1221,14 +1317,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "FireSlime",
-											"sid": 342039135762084,
+											"sid": 924213986598963,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 668425763351011
+									"sid": 555555511834977
 								},
 								{
 									"eventType": "block",
@@ -1236,7 +1332,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FireSlime",
-											"sid": 756328955917092,
+											"sid": 155699506353217,
 											"parameters": {
 												"instance-variable": "FireSlime"
 											}
@@ -1244,7 +1340,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "FireSlime",
-											"sid": 680312150327024,
+											"sid": 190434471538108,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -1256,7 +1352,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 578750881340450,
+											"sid": 372517577849339,
 											"parameters": {
 												"object": "JumpPotion",
 												"layer": "1",
@@ -1267,12 +1363,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
-											"sid": 630441837559649
+											"sid": 434272656998313
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 433173020723410,
+											"sid": 456150565335080,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1280,7 +1376,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Fire_spawner4",
-											"sid": 234398561178861,
+											"sid": 873527075387742,
 											"parameters": {
 												"object": "FireSlime",
 												"layer": "1",
@@ -1291,14 +1387,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "FireSlime",
-											"sid": 141303422207134,
+											"sid": 494488193727491,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 941482153737816
+									"sid": 631733263614338
 								},
 								{
 									"eventType": "block",
@@ -1306,7 +1402,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FireSlime",
-											"sid": 936984893932389,
+											"sid": 117062892192275,
 											"parameters": {
 												"instance-variable": "FireSlime"
 											}
@@ -1314,7 +1410,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "FireSlime",
-											"sid": 725083503308610,
+											"sid": 732978082895151,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -1326,7 +1422,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 972810034786433,
+											"sid": 603077146047851,
 											"parameters": {
 												"object": "JumpPotion",
 												"layer": "1",
@@ -1337,12 +1433,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
-											"sid": 549430800855826
+											"sid": 792285952118789
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 212939112832454,
+											"sid": 234298659924115,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1350,7 +1446,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Fire_spawner5",
-											"sid": 249771017850407,
+											"sid": 599780789579452,
 											"parameters": {
 												"object": "FireSlime",
 												"layer": "1",
@@ -1361,14 +1457,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "FireSlime",
-											"sid": 151037259446298,
+											"sid": 482290162043007,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 141799049674934
+									"sid": 281575398057143
 								},
 								{
 									"eventType": "block",
@@ -1376,7 +1472,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FireSlime",
-											"sid": 241453268021555,
+											"sid": 419770386407799,
 											"parameters": {
 												"instance-variable": "FireSlime"
 											}
@@ -1384,7 +1480,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "FireSlime",
-											"sid": 541885745411663,
+											"sid": 631241310961332,
 											"parameters": {
 												"instance-variable": "Name",
 												"comparison": 0,
@@ -1396,7 +1492,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 908466930223976,
+											"sid": 842141980012943,
 											"parameters": {
 												"object": "JumpPotion",
 												"layer": "1",
@@ -1407,12 +1503,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "FireSlime",
-											"sid": 990759301446835
+											"sid": 415656363627886
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 695374353647608,
+											"sid": 979875718172861,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1420,7 +1516,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "Fire_spawner6",
-											"sid": 293205919689233,
+											"sid": 258265227430627,
 											"parameters": {
 												"object": "FireSlime",
 												"layer": "1",
@@ -1431,14 +1527,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "FireSlime",
-											"sid": 885401766488676,
+											"sid": 809555841828376,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 331142928883266
+									"sid": 895616722443740
 								}
 							]
 						},
@@ -1448,7 +1544,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 929574169488955,
+									"sid": 310785564211044,
 									"parameters": {
 										"object": "LavaSlime"
 									}
@@ -1458,7 +1554,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "LavaSlime",
-									"sid": 554363782596365,
+									"sid": 285159876060276,
 									"parameters": {
 										"instance-variable": "LavaSlime",
 										"value": "true"
@@ -1467,7 +1563,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 861289618858591,
+									"sid": 146211300969318,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -1476,7 +1572,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "LavaSlime",
-									"sid": 207733124151185,
+									"sid": 810275925152064,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -1487,10 +1583,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 969796279741106
+									"sid": 147935281662929
 								}
 							],
-							"sid": 367732305418676,
+							"sid": 858136991860519,
 							"children": [
 								{
 									"eventType": "block",
@@ -1498,44 +1594,9 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "LavaSlime",
-											"sid": 233155140655858,
+											"sid": 748079467704848,
 											"parameters": {
 												"instance-variable": "LavaSlime"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "subtract-from-instvar",
-											"objectClass": "LavaSlime",
-											"sid": 734483664639499,
-											"parameters": {
-												"instance-variable": "HPSlikme",
-												"value": "1"
-											}
-										}
-									],
-									"sid": 888033711160108
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "is-boolean-instance-variable-set",
-											"objectClass": "LavaSlime",
-											"sid": 139286850548070,
-											"parameters": {
-												"instance-variable": "LavaSlime"
-											}
-										},
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "LavaSlime",
-											"sid": 519626918619526,
-											"parameters": {
-												"instance-variable": "HPSlikme",
-												"comparison": 3,
-												"value": "0"
 											}
 										}
 									],
@@ -1543,10 +1604,10 @@
 										{
 											"id": "destroy",
 											"objectClass": "LavaSlime",
-											"sid": 934645983852883
+											"sid": 561641965285159
 										}
 									],
-									"sid": 597288828465537
+									"sid": 944099155405108
 								}
 							]
 						},
@@ -1556,7 +1617,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 418036992067487,
+									"sid": 319666228594509,
 									"parameters": {
 										"object": "LightningSlime"
 									}
@@ -1566,7 +1627,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "LightningSlime",
-									"sid": 291947843862623,
+									"sid": 219329832803110,
 									"parameters": {
 										"instance-variable": "LightingSlime",
 										"value": "true"
@@ -1575,7 +1636,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 561404231387730,
+									"sid": 419424820531770,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -1584,7 +1645,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "LightningSlime",
-									"sid": 645384426190907,
+									"sid": 654294088643378,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -1595,10 +1656,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 429893569106255
+									"sid": 279456567718846
 								}
 							],
-							"sid": 288417680738761,
+							"sid": 435912883445571,
 							"children": [
 								{
 									"eventType": "block",
@@ -1606,7 +1667,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "LightningSlime",
-											"sid": 706821942663590,
+											"sid": 901786746131505,
 											"parameters": {
 												"instance-variable": "LightingSlime"
 											}
@@ -1616,7 +1677,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "LightningSlime",
-											"sid": 205560635872893,
+											"sid": 382214946281203,
 											"parameters": {
 												"object": "HealthPotion",
 												"layer": "1",
@@ -1627,12 +1688,12 @@
 										{
 											"id": "destroy",
 											"objectClass": "LightningSlime",
-											"sid": 499455356395945
+											"sid": 701562364472423
 										},
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 634654800013027,
+											"sid": 396069530583156,
 											"parameters": {
 												"seconds": "10"
 											}
@@ -1644,7 +1705,7 @@
 										{
 											"id": "create-object",
 											"objectClass": "System",
-											"sid": 942815125348252,
+											"sid": 336140525586011,
 											"parameters": {
 												"object-to-create": "LightningSlime",
 												"layer": "1",
@@ -1656,14 +1717,14 @@
 										{
 											"id": "set-size",
 											"objectClass": "LightningSlime",
-											"sid": 732918589482626,
+											"sid": 777864982220281,
 											"parameters": {
 												"width": "43.637395",
 												"height": "28.736821"
 											}
 										}
 									],
-									"sid": 483824363097110
+									"sid": 416282157244554
 								}
 							]
 						},
@@ -1673,7 +1734,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 667301744141495,
+									"sid": 833508640695256,
 									"parameters": {
 										"object": "PoisonSlime"
 									}
@@ -1683,7 +1744,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "PoisonSlime",
-									"sid": 702132615495766,
+									"sid": 593513876223878,
 									"parameters": {
 										"instance-variable": "PoisonSlime",
 										"value": "true"
@@ -1692,7 +1753,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 136465187424635,
+									"sid": 660129000401781,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -1701,7 +1762,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "PoisonSlime",
-									"sid": 737509449714559,
+									"sid": 394416333955665,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -1712,10 +1773,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 968515554205543
+									"sid": 465037223031888
 								}
 							],
-							"sid": 532468568664642,
+							"sid": 481086183356677,
 							"children": [
 								{
 									"eventType": "block",
@@ -1723,7 +1784,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "PoisonSlime",
-											"sid": 556700125283024,
+											"sid": 847822624469131,
 											"parameters": {
 												"instance-variable": "PoisonSlime"
 											}
@@ -1733,10 +1794,10 @@
 										{
 											"id": "destroy",
 											"objectClass": "PoisonSlime",
-											"sid": 543988935987645
+											"sid": 113927753873840
 										}
 									],
-									"sid": 804181847395062
+									"sid": 597215899330411
 								}
 							]
 						},
@@ -1746,7 +1807,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 532611363206830,
+									"sid": 955140030939296,
 									"parameters": {
 										"object": "WaterSlime"
 									}
@@ -1756,7 +1817,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "WaterSlime",
-									"sid": 828320873952075,
+									"sid": 665577779235076,
 									"parameters": {
 										"instance-variable": "WaterSlime",
 										"value": "true"
@@ -1765,7 +1826,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 970928691023509,
+									"sid": 373355922306672,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -1774,7 +1835,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "WaterSlime",
-									"sid": 575021840523611,
+									"sid": 669792912866437,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -1785,10 +1846,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 521434051419001
+									"sid": 791012959683573
 								}
 							],
-							"sid": 830592212013880,
+							"sid": 995476716971860,
 							"children": [
 								{
 									"eventType": "block",
@@ -1796,7 +1857,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "WaterSlime",
-											"sid": 480587223338814,
+											"sid": 675444129185364,
 											"parameters": {
 												"instance-variable": "WaterSlime"
 											}
@@ -1806,10 +1867,10 @@
 										{
 											"id": "destroy",
 											"objectClass": "WaterSlime",
-											"sid": 991944414125688
+											"sid": 909428638493967
 										}
 									],
-									"sid": 507921725589005
+									"sid": 136505522557960
 								}
 							]
 						},
@@ -1819,7 +1880,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 203849720114172,
+									"sid": 885560060551221,
 									"parameters": {
 										"object": "FrostSlime"
 									}
@@ -1829,7 +1890,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "FrostSlime",
-									"sid": 664563914592438,
+									"sid": 466056822360478,
 									"parameters": {
 										"instance-variable": "FrostSlime",
 										"value": "true"
@@ -1838,7 +1899,7 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 196884248978470,
+									"sid": 211931645159372,
 									"parameters": {
 										"variable": "Slimes",
 										"value": "1"
@@ -1847,7 +1908,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "FrostSlime",
-									"sid": 473325533025107,
+									"sid": 380173371951005,
 									"parameters": {
 										"object": "Text_damage_3",
 										"layer": "1",
@@ -1858,10 +1919,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 811284863010125
+									"sid": 182131484565781
 								}
 							],
-							"sid": 180944386414564,
+							"sid": 765180983664525,
 							"children": [
 								{
 									"eventType": "block",
@@ -1869,7 +1930,7 @@
 										{
 											"id": "is-boolean-instance-variable-set",
 											"objectClass": "FrostSlime",
-											"sid": 595630377336967,
+											"sid": 831944263310665,
 											"parameters": {
 												"instance-variable": "FrostSlime"
 											}
@@ -1879,10 +1940,10 @@
 										{
 											"id": "destroy",
 											"objectClass": "FrostSlime",
-											"sid": 547317483081382
+											"sid": 410739887308901
 										}
 									],
-									"sid": 475686259607534
+									"sid": 344625801965423
 								}
 							]
 						},
@@ -1892,7 +1953,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 429940611477727,
+									"sid": 952141311976121,
 									"parameters": {
 										"object": "Ground"
 									}
@@ -1902,10 +1963,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 872218067894203
+									"sid": 274302300892081
 								}
 							],
-							"sid": 149142350001549
+							"sid": 492716024726027
 						},
 						{
 							"eventType": "block",
@@ -1913,7 +1974,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 485229021368643,
+									"sid": 225510436262938,
 									"parameters": {
 										"object": "MovingGround"
 									}
@@ -1923,10 +1984,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 168994163913945
+									"sid": 904762722230238
 								}
 							],
-							"sid": 975780205548105
+							"sid": 105970359315866
 						},
 						{
 							"eventType": "block",
@@ -1934,7 +1995,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 977012322138173,
+									"sid": 121075173736591,
 									"parameters": {
 										"object": "MovingGround2"
 									}
@@ -1944,10 +2005,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 141420513749802
+									"sid": 988082240127073
 								}
 							],
-							"sid": 480167168045738
+							"sid": 323595055934390
 						},
 						{
 							"eventType": "block",
@@ -1955,28 +2016,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Bullets",
-									"sid": 846981588840689,
-									"parameters": {
-										"object": "RockFloors"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "destroy",
-									"objectClass": "Bullets",
-									"sid": 244607372331593
-								}
-							],
-							"sid": 503729193005965
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-collision-with-another-object",
-									"objectClass": "Bullets",
-									"sid": 327354457667727,
+									"sid": 421162872754282,
 									"parameters": {
 										"object": "Platform"
 									}
@@ -1986,10 +2026,31 @@
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 615522507987284
+									"sid": 798755324669365
 								}
 							],
-							"sid": 989743368779344
+							"sid": 378592219730323
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Bullets",
+									"sid": 977795891569721,
+									"parameters": {
+										"object": "RockFloors"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Bullets",
+									"sid": 587337769562595
+								}
+							],
+							"sid": 107118081504957
 						},
 						{
 							"eventType": "block",
@@ -1997,25 +2058,25 @@
 								{
 									"id": "is-outside-layout",
 									"objectClass": "Bullets",
-									"sid": 195080478149217
+									"sid": 382710958846112
 								}
 							],
 							"actions": [
 								{
 									"id": "destroy",
 									"objectClass": "Bullets",
-									"sid": 995968800131973
+									"sid": 990009387509583
 								}
 							],
-							"sid": 376256695491937
+							"sid": 258432738630214
 						}
 					],
-					"sid": 247100329019821
+					"sid": 976094752784169
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Movement3",
+					"title": "Movement",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -2025,29 +2086,29 @@
 								{
 									"id": "is-outside-layout",
 									"objectClass": "Player",
-									"sid": 805349946175551
+									"sid": 123125165930491
 								}
 							],
 							"actions": [
 								{
 									"id": "destroy",
 									"objectClass": "Player",
-									"sid": 272062158087520
+									"sid": 492437268383010
 								},
 								{
 									"id": "restart-layout",
 									"objectClass": "System",
-									"sid": 927976371244961
+									"sid": 353410304850136
 								},
 								{
 									"id": "reset-global-variables",
 									"objectClass": "System",
-									"sid": 365486021663127
+									"sid": 444435359711168
 								},
 								{
 									"id": "set-boolean-eventvar",
 									"objectClass": "System",
-									"sid": 333288885816126,
+									"sid": 747750497845306,
 									"disabled": true,
 									"parameters": {
 										"variable": "Merchant",
@@ -2055,7 +2116,7 @@
 									}
 								}
 							],
-							"sid": 405525435446142
+							"sid": 390473438049041
 						},
 						{
 							"eventType": "block",
@@ -2063,7 +2124,7 @@
 								{
 									"id": "key-is-down",
 									"objectClass": "Keyboard",
-									"sid": 795361143822091,
+									"sid": 990189015628058,
 									"parameters": {
 										"key": 87
 									}
@@ -2071,7 +2132,7 @@
 								{
 									"id": "is-by-wall",
 									"objectClass": "Player",
-									"sid": 744927082161012,
+									"sid": 904137312782659,
 									"behaviorType": "Platform",
 									"parameters": {
 										"side": "right"
@@ -2083,14 +2144,14 @@
 								{
 									"id": "simulate-control",
 									"objectClass": "Player",
-									"sid": 525886340144551,
+									"sid": 922380906605191,
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "jump"
 									}
 								}
 							],
-							"sid": 739461280326105
+							"sid": 579432158608336
 						},
 						{
 							"eventType": "block",
@@ -2098,7 +2159,7 @@
 								{
 									"id": "key-is-down",
 									"objectClass": "Keyboard",
-									"sid": 572847869824382,
+									"sid": 376203540527521,
 									"parameters": {
 										"key": 87
 									}
@@ -2106,7 +2167,7 @@
 								{
 									"id": "is-by-wall",
 									"objectClass": "Player",
-									"sid": 936450287882118,
+									"sid": 476497098738354,
 									"behaviorType": "Platform",
 									"parameters": {
 										"side": "left"
@@ -2118,14 +2179,14 @@
 								{
 									"id": "simulate-control",
 									"objectClass": "Player",
-									"sid": 672681222336788,
+									"sid": 301265395108233,
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "jump"
 									}
 								}
 							],
-							"sid": 276741303238103
+							"sid": 629168803199922
 						},
 						{
 							"eventType": "block",
@@ -2133,7 +2194,7 @@
 								{
 									"id": "key-is-down",
 									"objectClass": "Keyboard",
-									"sid": 112139396507257,
+									"sid": 198604525679768,
 									"parameters": {
 										"key": 65
 									}
@@ -2143,7 +2204,7 @@
 								{
 									"id": "simulate-control",
 									"objectClass": "Player",
-									"sid": 935035273397986,
+									"sid": 757544429595540,
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "left"
@@ -2152,13 +2213,13 @@
 								{
 									"id": "set-mirrored",
 									"objectClass": "Player",
-									"sid": 236236692322262,
+									"sid": 156321823035583,
 									"parameters": {
 										"state": "mirrored"
 									}
 								}
 							],
-							"sid": 494245578233733
+							"sid": 835546259735886
 						},
 						{
 							"eventType": "block",
@@ -2166,7 +2227,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 427534469533103,
+									"sid": 138843176020167,
 									"parameters": {
 										"key": 87
 									}
@@ -2176,14 +2237,25 @@
 								{
 									"id": "simulate-control",
 									"objectClass": "Player",
-									"sid": 479271387609500,
+									"sid": 909868648884369,
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "jump"
 									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 771383912167650,
+									"parameters": {
+										"audio-file": "quiet_slime",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
 								}
 							],
-							"sid": 573750680422577
+							"sid": 454443680349758
 						},
 						{
 							"eventType": "block",
@@ -2191,7 +2263,7 @@
 								{
 									"id": "key-is-down",
 									"objectClass": "Keyboard",
-									"sid": 819797822082395,
+									"sid": 254983668825210,
 									"parameters": {
 										"key": 68
 									}
@@ -2201,7 +2273,7 @@
 								{
 									"id": "simulate-control",
 									"objectClass": "Player",
-									"sid": 268300822075665,
+									"sid": 958933958975610,
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "right"
@@ -2210,31 +2282,56 @@
 								{
 									"id": "set-mirrored",
 									"objectClass": "Player",
-									"sid": 868527795673061,
+									"sid": 450857572410301,
 									"parameters": {
 										"state": "not-mirrored"
 									}
 								}
 							],
-							"sid": 943465500066161
+							"sid": 824531502275796
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-landed",
+									"objectClass": "Player",
+									"sid": 426732320065334,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 417777005428850,
+									"parameters": {
+										"audio-file": "quick_slime",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 904765092538455
 						}
 					],
-					"sid": 743732873225641
+					"sid": 348455147851717
 				}
 			],
-			"sid": 608650109477438
+			"sid": 109829278202111
 		},
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Slimes Combos2",
+			"title": "Slimes Combos",
 			"description": "Has combos for poison slime and lava slime. Has behavior for some slimes but not all",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Ice Slime2",
+					"title": "Ice Slime",
 					"description": "want to add player bein frozen for a sec when hit",
 					"isActiveOnStart": true,
 					"children": [
@@ -2244,7 +2341,7 @@
 								{
 									"id": "has-los-to-object",
 									"objectClass": "FrostSlime",
-									"sid": 102312655991620,
+									"sid": 273503889630196,
 									"behaviorType": "LineOfSight",
 									"parameters": {
 										"object": "Player",
@@ -2256,7 +2353,7 @@
 								{
 									"id": "move-to-object",
 									"objectClass": "PoisonSlime",
-									"sid": 920859833237475,
+									"sid": 657144020983374,
 									"disabled": true,
 									"behaviorType": "MoveTo",
 									"parameters": {
@@ -2266,7 +2363,7 @@
 									}
 								}
 							],
-							"sid": 984131090573661,
+							"sid": 620103823253869,
 							"children": [
 								{
 									"eventType": "block",
@@ -2274,7 +2371,7 @@
 										{
 											"id": "every-x-seconds",
 											"objectClass": "System",
-											"sid": 829301277125300,
+											"sid": 548085304018303,
 											"parameters": {
 												"interval-seconds": "2"
 											}
@@ -2282,7 +2379,7 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 716838966863766,
+											"sid": 184680174606152,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,FrostSlime.X,FrostSlime.Y)",
 												"comparison": 3,
@@ -2294,7 +2391,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FrostSlime",
-											"sid": 546754272826896,
+											"sid": 574756249877341,
 											"parameters": {
 												"object": "ICeSlimeIcicle",
 												"layer": "0",
@@ -2303,7 +2400,7 @@
 											}
 										}
 									],
-									"sid": 847181995783660
+									"sid": 828539112353869
 								}
 							]
 						},
@@ -2313,14 +2410,14 @@
 								{
 									"id": "on-created",
 									"objectClass": "ICeSlimeIcicle",
-									"sid": 732385530233564
+									"sid": 394252772601208
 								}
 							],
 							"actions": [
 								{
 									"id": "set-size",
 									"objectClass": "ICeSlimeIcicle",
-									"sid": 916272728783534,
+									"sid": 796095810610172,
 									"parameters": {
 										"width": "32.144156 ",
 										"height": "14.793617"
@@ -2329,7 +2426,7 @@
 								{
 									"id": "set-enabled",
 									"objectClass": "ICeSlimeIcicle",
-									"sid": 114742081156157,
+									"sid": 510137743487589,
 									"behaviorType": "Bullet",
 									"parameters": {
 										"state": "enabled"
@@ -2338,7 +2435,7 @@
 								{
 									"id": "set-angle",
 									"objectClass": "ICeSlimeIcicle",
-									"sid": 740352524200022,
+									"sid": 939853729762521,
 									"parameters": {
 										"angle": "0"
 									}
@@ -2346,14 +2443,14 @@
 								{
 									"id": "set-angle-toward-position",
 									"objectClass": "ICeSlimeIcicle",
-									"sid": 167486519866765,
+									"sid": 395460536679734,
 									"parameters": {
 										"x": "Player.X",
 										"y": "Player.Y"
 									}
 								}
 							],
-							"sid": 186483400482904
+							"sid": 531629316320077
 						},
 						{
 							"eventType": "block",
@@ -2361,7 +2458,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 633266824084424,
+									"sid": 107766362869952,
 									"parameters": {
 										"object": "ICeSlimeIcicle"
 									}
@@ -2371,7 +2468,7 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 728949376813110,
+									"sid": 759779994861864,
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
@@ -2380,25 +2477,25 @@
 								{
 									"id": "destroy",
 									"objectClass": "ICeSlimeIcicle",
-									"sid": 427042591292700
+									"sid": 634185541259061
 								}
 							],
-							"sid": 610822538253677
+							"sid": 448937014248102
 						}
 					],
-					"sid": 536168988122489
+					"sid": 377970187607278
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Earth Slime2",
+					"title": "Earth Slime",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
 						{
 							"eventType": "group",
 							"disabled": false,
-							"title": "Rock Slime Attack2",
+							"title": "Rock Slime Attack",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
@@ -2408,7 +2505,7 @@
 										{
 											"id": "has-los-to-object",
 											"objectClass": "EarthSlime",
-											"sid": 865146478529085,
+											"sid": 264212514146836,
 											"behaviorType": "LineOfSight",
 											"parameters": {
 												"object": "Player",
@@ -2418,7 +2515,7 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 623510520334558,
+											"sid": 423633045445256,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
 												"comparison": 3,
@@ -2430,7 +2527,7 @@
 										{
 											"id": "move-to-object",
 											"objectClass": "EarthSlime",
-											"sid": 686883678692898,
+											"sid": 700964175335479,
 											"behaviorType": "MoveTo",
 											"parameters": {
 												"object": "Player",
@@ -2441,7 +2538,7 @@
 										{
 											"id": "set-angle",
 											"objectClass": "EarthSlime",
-											"sid": 902825251313569,
+											"sid": 104745540077530,
 											"parameters": {
 												"angle": "0"
 											}
@@ -2449,7 +2546,7 @@
 										{
 											"id": "set-y",
 											"objectClass": "EarthSlime",
-											"sid": 666826230971385,
+											"sid": 953809481520610,
 											"parameters": {
 												"y": "Self.Y"
 											}
@@ -2457,14 +2554,14 @@
 										{
 											"id": "set-speed",
 											"objectClass": "EarthSlime",
-											"sid": 845402536055939,
+											"sid": 323058626245454,
 											"behaviorType": "MoveTo",
 											"parameters": {
 												"speed": "150"
 											}
 										}
 									],
-									"sid": 263111694688340,
+									"sid": 613017200416857,
 									"children": [
 										{
 											"eventType": "block",
@@ -2472,7 +2569,7 @@
 												{
 													"id": "every-x-seconds",
 													"objectClass": "System",
-													"sid": 739621813573566,
+													"sid": 271227233318520,
 													"parameters": {
 														"interval-seconds": "2"
 													}
@@ -2480,7 +2577,7 @@
 												{
 													"id": "compare-two-values",
 													"objectClass": "System",
-													"sid": 509659951723298,
+													"sid": 895391207854615,
 													"parameters": {
 														"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
 														"comparison": 3,
@@ -2492,7 +2589,7 @@
 												{
 													"id": "create-object",
 													"objectClass": "System",
-													"sid": 827537741191576,
+													"sid": 364075136936007,
 													"parameters": {
 														"object-to-create": "SlimeRocks",
 														"layer": "0",
@@ -2502,7 +2599,7 @@
 													}
 												}
 											],
-											"sid": 491255996472928
+											"sid": 348718614019414
 										}
 									]
 								},
@@ -2512,14 +2609,14 @@
 										{
 											"id": "on-created",
 											"objectClass": "SlimeRocks",
-											"sid": 312338552506549
+											"sid": 417908709696554
 										}
 									],
 									"actions": [
 										{
 											"id": "set-size",
 											"objectClass": "SlimeRocks",
-											"sid": 682264283272903,
+											"sid": 844434214187657,
 											"parameters": {
 												"width": "64.455686 ",
 												"height": "29.542189"
@@ -2528,7 +2625,7 @@
 										{
 											"id": "wait",
 											"objectClass": "System",
-											"sid": 228796275303317,
+											"sid": 301129526071270,
 											"parameters": {
 												"seconds": "4"
 											}
@@ -2536,10 +2633,10 @@
 										{
 											"id": "destroy",
 											"objectClass": "SlimeRocks",
-											"sid": 688800525350433
+											"sid": 743795238963075
 										}
 									],
-									"sid": 338821206313108
+									"sid": 262927471719712
 								},
 								{
 									"eventType": "block",
@@ -2547,7 +2644,7 @@
 										{
 											"id": "on-collision-with-another-object",
 											"objectClass": "Player",
-											"sid": 132758367788649,
+											"sid": 286045687938025,
 											"parameters": {
 												"object": "SlimeRocks"
 											}
@@ -2557,32 +2654,32 @@
 										{
 											"id": "subtract-from-instvar",
 											"objectClass": "Player",
-											"sid": 468269566561714,
+											"sid": 361777700966224,
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
 											}
 										}
 									],
-									"sid": 166246341769872
+									"sid": 830435448569666
 								}
 							],
-							"sid": 475608732066519
+							"sid": 371558004023365
 						}
 					],
-					"sid": 293619392597027
+					"sid": 345511860985620
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Poison Slime2",
+					"title": "Poison Slime",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
 						{
 							"eventType": "group",
 							"disabled": false,
-							"title": "Poison Slime Attack2",
+							"title": "Poison Slime Attack",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
@@ -2592,7 +2689,7 @@
 										{
 											"id": "has-los-to-object",
 											"objectClass": "PoisonSlime",
-											"sid": 802361311851450,
+											"sid": 150719179386934,
 											"behaviorType": "LineOfSight",
 											"parameters": {
 												"object": "Player",
@@ -2602,7 +2699,7 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 364581651763277,
+											"sid": 932019436801422,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
 												"comparison": 3,
@@ -2614,7 +2711,7 @@
 										{
 											"id": "move-to-object",
 											"objectClass": "PoisonSlime",
-											"sid": 657038583919764,
+											"sid": 615110853508119,
 											"behaviorType": "MoveTo",
 											"parameters": {
 												"object": "Player",
@@ -2625,7 +2722,7 @@
 										{
 											"id": "set-angle",
 											"objectClass": "PoisonSlime",
-											"sid": 624015336983675,
+											"sid": 909377750822419,
 											"parameters": {
 												"angle": "0"
 											}
@@ -2633,7 +2730,7 @@
 										{
 											"id": "set-y",
 											"objectClass": "PoisonSlime",
-											"sid": 646319566052230,
+											"sid": 236080813126515,
 											"parameters": {
 												"y": "Self.Y"
 											}
@@ -2641,14 +2738,14 @@
 										{
 											"id": "set-speed",
 											"objectClass": "PoisonSlime",
-											"sid": 429097155014903,
+											"sid": 847106756732377,
 											"behaviorType": "MoveTo",
 											"parameters": {
 												"speed": "100"
 											}
 										}
 									],
-									"sid": 398252129978954,
+									"sid": 525911607457369,
 									"children": [
 										{
 											"eventType": "block",
@@ -2656,7 +2753,7 @@
 												{
 													"id": "every-x-seconds",
 													"objectClass": "System",
-													"sid": 933442643640503,
+													"sid": 188219757854649,
 													"parameters": {
 														"interval-seconds": "2"
 													}
@@ -2664,7 +2761,7 @@
 												{
 													"id": "compare-two-values",
 													"objectClass": "System",
-													"sid": 612476976496771,
+													"sid": 208977283447293,
 													"parameters": {
 														"first-value": "distance(Player.X,Player.Y,PoisonSlime.X,PoisonSlime.Y)",
 														"comparison": 3,
@@ -2676,7 +2773,7 @@
 												{
 													"id": "create-object",
 													"objectClass": "System",
-													"sid": 321983192687750,
+													"sid": 725649312008986,
 													"parameters": {
 														"object-to-create": "PoisonPuddle",
 														"layer": "0",
@@ -2686,7 +2783,7 @@
 													}
 												}
 											],
-											"sid": 935649133893565
+											"sid": 590698676665618
 										}
 									]
 								},
@@ -2696,21 +2793,21 @@
 										{
 											"id": "on-created",
 											"objectClass": "PoisonPuddle",
-											"sid": 217046412848464
+											"sid": 977453028522993
 										}
 									],
 									"actions": [
 										{
 											"id": "set-size",
 											"objectClass": "PoisonPuddle",
-											"sid": 357240182157973,
+											"sid": 909473482135218,
 											"parameters": {
 												"width": "96",
 												"height": "10"
 											}
 										}
 									],
-									"sid": 200658519712830
+									"sid": 430460499192164
 								},
 								{
 									"eventType": "block",
@@ -2718,7 +2815,7 @@
 										{
 											"id": "on-collision-with-another-object",
 											"objectClass": "Player",
-											"sid": 931115975476313,
+											"sid": 294829105764731,
 											"parameters": {
 												"object": "PoisonPuddle"
 											}
@@ -2728,22 +2825,22 @@
 										{
 											"id": "subtract-from-instvar",
 											"objectClass": "Player",
-											"sid": 144984297738069,
+											"sid": 628143619334098,
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
 											}
 										}
 									],
-									"sid": 841950568705131
+									"sid": 751190488110216
 								}
 							],
-							"sid": 923112308774584
+							"sid": 645253607532016
 						},
 						{
 							"eventType": "group",
 							"disabled": true,
-							"title": "Poison BuildUp2",
+							"title": "Poison BuildUp",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
@@ -2753,14 +2850,14 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "Player",
-											"sid": 261024766745509,
+											"sid": 880652259306663,
 											"parameters": {
 												"object": "PoisonPuddle"
 											}
 										}
 									],
 									"actions": [],
-									"sid": 646120060011813,
+									"sid": 630783210361179,
 									"disabled": true,
 									"children": [
 										{
@@ -2769,7 +2866,7 @@
 												{
 													"id": "every-x-seconds",
 													"objectClass": "System",
-													"sid": 687552569945180,
+													"sid": 910100508719993,
 													"parameters": {
 														"interval-seconds": "2"
 													}
@@ -2779,14 +2876,14 @@
 												{
 													"id": "add-to-instvar",
 													"objectClass": "Player",
-													"sid": 242198987047756,
+													"sid": 751326058726638,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"value": "1"
 													}
 												}
 											],
-											"sid": 433514642276297,
+											"sid": 213692810387773,
 											"disabled": true
 										}
 									]
@@ -2797,7 +2894,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 504366307290548,
+											"sid": 388584201270094,
 											"parameters": {
 												"instance-variable": "PoisonNum",
 												"comparison": 0,
@@ -2809,7 +2906,7 @@
 										{
 											"id": "set-animation",
 											"objectClass": "Player",
-											"sid": 877336928120500,
+											"sid": 207906872901227,
 											"parameters": {
 												"animation": "\"Poison\"",
 												"from": "beginning"
@@ -2818,13 +2915,13 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player",
-											"sid": 372572850398465,
+											"sid": 327868516089476,
 											"parameters": {
 												"frame-number": "0"
 											}
 										}
 									],
-									"sid": 531812356652213,
+									"sid": 731905142965179,
 									"disabled": true
 								},
 								{
@@ -2833,7 +2930,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 209505671085603,
+											"sid": 603741004816307,
 											"parameters": {
 												"instance-variable": "PoisonNum",
 												"comparison": 0,
@@ -2845,7 +2942,7 @@
 										{
 											"id": "set-animation",
 											"objectClass": "Player",
-											"sid": 437117585940403,
+											"sid": 693336950742854,
 											"parameters": {
 												"animation": "\"Poison\"",
 												"from": "beginning"
@@ -2854,13 +2951,13 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player",
-											"sid": 813739421561789,
+											"sid": 482832658957648,
 											"parameters": {
 												"frame-number": "1"
 											}
 										}
 									],
-									"sid": 609634642132298,
+									"sid": 963956468905715,
 									"disabled": true
 								},
 								{
@@ -2869,7 +2966,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 556356155602575,
+											"sid": 703792938134747,
 											"parameters": {
 												"instance-variable": "PoisonNum",
 												"comparison": 0,
@@ -2881,7 +2978,7 @@
 										{
 											"id": "set-animation",
 											"objectClass": "Player",
-											"sid": 949765069152342,
+											"sid": 572091390119331,
 											"parameters": {
 												"animation": "\"Poison\"",
 												"from": "beginning"
@@ -2890,13 +2987,13 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player",
-											"sid": 268510853306661,
+											"sid": 780634697643344,
 											"parameters": {
 												"frame-number": "2"
 											}
 										}
 									],
-									"sid": 937933908117217,
+									"sid": 936296637780739,
 									"disabled": true
 								},
 								{
@@ -2905,7 +3002,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 820341743545227,
+											"sid": 411244675621732,
 											"parameters": {
 												"instance-variable": "PoisonNum",
 												"comparison": 0,
@@ -2914,7 +3011,7 @@
 										}
 									],
 									"actions": [],
-									"sid": 746412838193284,
+									"sid": 123052131229527,
 									"disabled": true,
 									"children": [
 										{
@@ -2923,7 +3020,7 @@
 												{
 													"id": "every-x-seconds",
 													"objectClass": "System",
-													"sid": 852334784958623,
+													"sid": 994272046348770,
 													"parameters": {
 														"interval-seconds": "1.0"
 													}
@@ -2933,14 +3030,14 @@
 												{
 													"id": "subtract-from-instvar",
 													"objectClass": "Player",
-													"sid": 669926073664398,
+													"sid": 815407339208111,
 													"parameters": {
 														"instance-variable": "HP",
 														"value": "1"
 													}
 												}
 											],
-											"sid": 885010308021174,
+											"sid": 665639025966406,
 											"disabled": true
 										}
 									]
@@ -2948,7 +3045,7 @@
 								{
 									"eventType": "group",
 									"disabled": true,
-									"title": "Poison Removal2",
+									"title": "Poison Removal",
 									"description": "",
 									"isActiveOnStart": true,
 									"children": [
@@ -2958,7 +3055,7 @@
 												{
 													"id": "is-overlapping-another-object",
 													"objectClass": "Player",
-													"sid": 164030232298852,
+													"sid": 546407478445639,
 													"parameters": {
 														"object": "PoisonPuddle"
 													},
@@ -2967,7 +3064,7 @@
 												{
 													"id": "compare-instance-variable",
 													"objectClass": "Player",
-													"sid": 281197443135425,
+													"sid": 106763457111304,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"comparison": 5,
@@ -2976,7 +3073,7 @@
 												}
 											],
 											"actions": [],
-											"sid": 801806590747370,
+											"sid": 750388710560029,
 											"disabled": true,
 											"children": [
 												{
@@ -2985,7 +3082,7 @@
 														{
 															"id": "every-x-seconds",
 															"objectClass": "System",
-															"sid": 165591268524828,
+															"sid": 745328996130991,
 															"parameters": {
 																"interval-seconds": "1.0"
 															}
@@ -2995,14 +3092,14 @@
 														{
 															"id": "subtract-from-instvar",
 															"objectClass": "Player",
-															"sid": 757644013233829,
+															"sid": 420550235765688,
 															"parameters": {
 																"instance-variable": "PoisonNum",
 																"value": "1"
 															}
 														}
 													],
-													"sid": 703371983599432,
+													"sid": 784266525181534,
 													"disabled": true
 												}
 											]
@@ -3013,7 +3110,7 @@
 												{
 													"id": "compare-instance-variable",
 													"objectClass": "Player",
-													"sid": 625300992856400,
+													"sid": 703982868763983,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"comparison": 0,
@@ -3025,7 +3122,7 @@
 												{
 													"id": "set-animation",
 													"objectClass": "Player",
-													"sid": 409963976122055,
+													"sid": 176392336031319,
 													"parameters": {
 														"animation": "\"Poison\"",
 														"from": "beginning"
@@ -3034,13 +3131,13 @@
 												{
 													"id": "set-animation-frame",
 													"objectClass": "Player",
-													"sid": 259262011795180,
+													"sid": 462237036874223,
 													"parameters": {
 														"frame-number": "2"
 													}
 												}
 											],
-											"sid": 184640301569662,
+											"sid": 429971261810043,
 											"disabled": true
 										},
 										{
@@ -3049,7 +3146,7 @@
 												{
 													"id": "compare-instance-variable",
 													"objectClass": "Player",
-													"sid": 389903239681071,
+													"sid": 340995722317098,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"comparison": 0,
@@ -3061,7 +3158,7 @@
 												{
 													"id": "set-animation",
 													"objectClass": "Player",
-													"sid": 270529889688719,
+													"sid": 872082271569150,
 													"parameters": {
 														"animation": "\"Poison\"",
 														"from": "beginning"
@@ -3070,13 +3167,13 @@
 												{
 													"id": "set-animation-frame",
 													"objectClass": "Player",
-													"sid": 829046985118681,
+													"sid": 674948198777205,
 													"parameters": {
 														"frame-number": "1"
 													}
 												}
 											],
-											"sid": 562526972799738,
+											"sid": 623980262742101,
 											"disabled": true
 										},
 										{
@@ -3085,7 +3182,7 @@
 												{
 													"id": "compare-instance-variable",
 													"objectClass": "Player",
-													"sid": 732959524330663,
+													"sid": 992451022261070,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"comparison": 0,
@@ -3097,7 +3194,7 @@
 												{
 													"id": "set-animation",
 													"objectClass": "Player",
-													"sid": 125279327693252,
+													"sid": 674127947586981,
 													"parameters": {
 														"animation": "\"Poison\"",
 														"from": "beginning"
@@ -3106,13 +3203,13 @@
 												{
 													"id": "set-animation-frame",
 													"objectClass": "Player",
-													"sid": 249702865795454,
+													"sid": 675519670702498,
 													"parameters": {
 														"frame-number": "0"
 													}
 												}
 											],
-											"sid": 850120126697563,
+											"sid": 433882799760991,
 											"disabled": true
 										},
 										{
@@ -3121,7 +3218,7 @@
 												{
 													"id": "compare-instance-variable",
 													"objectClass": "Player",
-													"sid": 984130762029104,
+													"sid": 612607406180753,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"comparison": 3,
@@ -3133,7 +3230,7 @@
 												{
 													"id": "set-instvar-value",
 													"objectClass": "Player",
-													"sid": 576773109095011,
+													"sid": 950383377047313,
 													"parameters": {
 														"instance-variable": "PoisonNum",
 														"value": "0"
@@ -3142,36 +3239,36 @@
 												{
 													"id": "set-animation",
 													"objectClass": "Player",
-													"sid": 207890101254494,
+													"sid": 548075128181607,
 													"parameters": {
 														"animation": "\"Animation 1\"",
 														"from": "beginning"
 													}
 												}
 											],
-											"sid": 644326899295914,
+											"sid": 399439336575728,
 											"disabled": true
 										}
 									],
-									"sid": 527543926183059
+									"sid": 668925589496712
 								}
 							],
-							"sid": 485160655162615
+							"sid": 657546063402991
 						}
 					],
-					"sid": 322867822911676
+					"sid": 788875885119788
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Acid Slime2",
+					"title": "Acid Slime",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
 						{
 							"eventType": "group",
 							"disabled": false,
-							"title": "Acid Slime Attack2",
+							"title": "Acid Slime Attack",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
@@ -3181,7 +3278,7 @@
 										{
 											"id": "has-los-to-object",
 											"objectClass": "AcidSlime",
-											"sid": 549461660691292,
+											"sid": 217347816732257,
 											"behaviorType": "LineOfSight",
 											"parameters": {
 												"object": "Player",
@@ -3193,7 +3290,7 @@
 										{
 											"id": "move-to-object",
 											"objectClass": "PoisonSlime",
-											"sid": 941011906448127,
+											"sid": 107817251023960,
 											"disabled": true,
 											"behaviorType": "MoveTo",
 											"parameters": {
@@ -3203,7 +3300,7 @@
 											}
 										}
 									],
-									"sid": 489781023817611,
+									"sid": 389571624659924,
 									"children": [
 										{
 											"eventType": "block",
@@ -3211,7 +3308,7 @@
 												{
 													"id": "every-x-seconds",
 													"objectClass": "System",
-													"sid": 155983226521733,
+													"sid": 234005182171097,
 													"parameters": {
 														"interval-seconds": "2"
 													}
@@ -3219,7 +3316,7 @@
 												{
 													"id": "compare-two-values",
 													"objectClass": "System",
-													"sid": 758853576683700,
+													"sid": 427214599462077,
 													"parameters": {
 														"first-value": "distance(Player.X,Player.Y,PoisonSlime.X,PoisonSlime.Y)",
 														"comparison": 3,
@@ -3231,7 +3328,7 @@
 												{
 													"id": "create-object",
 													"objectClass": "System",
-													"sid": 794703411248181,
+													"sid": 236386836523130,
 													"parameters": {
 														"object-to-create": "AcidPuddle",
 														"layer": "0",
@@ -3241,7 +3338,7 @@
 													}
 												}
 											],
-											"sid": 312824009832307
+											"sid": 589269847992013
 										}
 									]
 								},
@@ -3251,21 +3348,21 @@
 										{
 											"id": "on-created",
 											"objectClass": "AcidPuddle",
-											"sid": 917670850898986
+											"sid": 234453190530498
 										}
 									],
 									"actions": [
 										{
 											"id": "set-size",
 											"objectClass": "AcidPuddle",
-											"sid": 405478803159788,
+											"sid": 893324824869939,
 											"parameters": {
 												"width": "96",
 												"height": "10"
 											}
 										}
 									],
-									"sid": 313270685543581
+									"sid": 624443931095293
 								},
 								{
 									"eventType": "block",
@@ -3273,7 +3370,7 @@
 										{
 											"id": "is-overlapping-another-object",
 											"objectClass": "Player",
-											"sid": 739100999704524,
+											"sid": 566383458652474,
 											"parameters": {
 												"object": "AcidPuddle"
 											}
@@ -3283,25 +3380,25 @@
 										{
 											"id": "subtract-from-instvar",
 											"objectClass": "Player",
-											"sid": 116405914989665,
+											"sid": 297401925615917,
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
 											}
 										}
 									],
-									"sid": 206348094704603
+									"sid": 497114872820127
 								}
 							],
-							"sid": 796431975037455
+							"sid": 980839277731136
 						}
 					],
-					"sid": 846589178134746
+					"sid": 222407673997943
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Fire Slime2",
+					"title": "Fire Slime",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -3311,7 +3408,7 @@
 								{
 									"id": "has-los-to-object",
 									"objectClass": "FireSlime",
-									"sid": 741720496733354,
+									"sid": 353037940961588,
 									"behaviorType": "LineOfSight",
 									"parameters": {
 										"object": "Player",
@@ -3323,7 +3420,7 @@
 								{
 									"id": "move-to-object",
 									"objectClass": "FireSlime",
-									"sid": 867256666612945,
+									"sid": 634245105446785,
 									"disabled": true,
 									"behaviorType": "MoveTo",
 									"parameters": {
@@ -3333,7 +3430,7 @@
 									}
 								}
 							],
-							"sid": 930278588489843,
+							"sid": 693572022045177,
 							"children": [
 								{
 									"eventType": "block",
@@ -3341,7 +3438,7 @@
 										{
 											"id": "every-x-seconds",
 											"objectClass": "System",
-											"sid": 260259093358423,
+											"sid": 141785391681010,
 											"parameters": {
 												"interval-seconds": "2"
 											}
@@ -3349,7 +3446,7 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 269681809229823,
+											"sid": 614484360278861,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,FireSlime.X,FireSlime.Y)",
 												"comparison": 3,
@@ -3361,7 +3458,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "FireSlime",
-											"sid": 228947789988817,
+											"sid": 131045119075387,
 											"parameters": {
 												"object": "FireBall",
 												"layer": "0",
@@ -3370,7 +3467,7 @@
 											}
 										}
 									],
-									"sid": 781357346173665
+									"sid": 433552227602728
 								}
 							]
 						},
@@ -3380,7 +3477,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 228428531683733,
+									"sid": 933058946644828,
 									"parameters": {
 										"object": "FireBall"
 									}
@@ -3390,7 +3487,7 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 976969374204412,
+									"sid": 485176941279561,
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
@@ -3399,10 +3496,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "FireBall",
-									"sid": 101548117207732
+									"sid": 785173691115978
 								}
 							],
-							"sid": 763950929419355
+							"sid": 397294655542718
 						},
 						{
 							"eventType": "block",
@@ -3410,7 +3507,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 944872254570869,
+									"sid": 447571818026701,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 3,
@@ -3422,10 +3519,10 @@
 								{
 									"id": "restart-layout",
 									"objectClass": "System",
-									"sid": 586045195819476
+									"sid": 934586977064710
 								}
 							],
-							"sid": 376238305897386
+							"sid": 863930347414375
 						},
 						{
 							"eventType": "block",
@@ -3433,14 +3530,14 @@
 								{
 									"id": "on-created",
 									"objectClass": "FireBall",
-									"sid": 931347141131259
+									"sid": 802844872828799
 								}
 							],
 							"actions": [
 								{
 									"id": "set-angle",
 									"objectClass": "FireBall",
-									"sid": 622471035207651,
+									"sid": 969247542497702,
 									"parameters": {
 										"angle": "0"
 									}
@@ -3448,22 +3545,22 @@
 								{
 									"id": "set-angle-toward-position",
 									"objectClass": "FireBall",
-									"sid": 118134986555442,
+									"sid": 977325377592940,
 									"parameters": {
 										"x": "Player.X",
 										"y": "Player.Y"
 									}
 								}
 							],
-							"sid": 341609475184218
+							"sid": 887048546326631
 						}
 					],
-					"sid": 973292291655056
+					"sid": 761247038743673
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Lava Slime2",
+					"title": "Lava Slime",
 					"description": "thinking of having magma spit from the lava slime at an angle?",
 					"isActiveOnStart": true,
 					"children": [
@@ -3473,21 +3570,11 @@
 								{
 									"id": "has-los-to-object",
 									"objectClass": "LavaSlime",
-									"sid": 564106961455599,
+									"sid": 900972193207028,
 									"behaviorType": "LineOfSight",
 									"parameters": {
 										"object": "Player",
 										"image-point": "0"
-									}
-								},
-								{
-									"id": "compare-two-values",
-									"objectClass": "System",
-									"sid": 814125098032893,
-									"parameters": {
-										"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
-										"comparison": 3,
-										"second-value": "200"
 									}
 								}
 							],
@@ -3495,7 +3582,8 @@
 								{
 									"id": "move-to-object",
 									"objectClass": "LavaSlime",
-									"sid": 786372867733562,
+									"sid": 289282963859182,
+									"disabled": true,
 									"behaviorType": "MoveTo",
 									"parameters": {
 										"object": "Player",
@@ -3506,30 +3594,14 @@
 								{
 									"id": "set-angle",
 									"objectClass": "LavaSlime",
-									"sid": 219735370656634,
+									"sid": 607217633220068,
+									"disabled": true,
 									"parameters": {
 										"angle": "0"
 									}
-								},
-								{
-									"id": "set-y",
-									"objectClass": "LavaSlime",
-									"sid": 342975145127368,
-									"parameters": {
-										"y": "Self.Y"
-									}
-								},
-								{
-									"id": "set-speed",
-									"objectClass": "LavaSlime",
-									"sid": 598368641388599,
-									"behaviorType": "MoveTo",
-									"parameters": {
-										"speed": "100"
-									}
 								}
 							],
-							"sid": 371500057105447,
+							"sid": 294188719345859,
 							"children": [
 								{
 									"eventType": "block",
@@ -3537,7 +3609,7 @@
 										{
 											"id": "every-x-seconds",
 											"objectClass": "System",
-											"sid": 578581354246612,
+											"sid": 225998888044889,
 											"parameters": {
 												"interval-seconds": "2"
 											}
@@ -3545,7 +3617,7 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 351085770216388,
+											"sid": 276707432980770,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,LavaSlime.X,LavaSlime.Y)",
 												"comparison": 3,
@@ -3557,7 +3629,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "LavaSlime",
-											"sid": 605656559725346,
+											"sid": 422918503268667,
 											"parameters": {
 												"object": "Magma",
 												"layer": "0",
@@ -3566,7 +3638,7 @@
 											}
 										}
 									],
-									"sid": 444031482092987
+									"sid": 688105550051234
 								}
 							]
 						},
@@ -3576,14 +3648,14 @@
 								{
 									"id": "on-created",
 									"objectClass": "Magma",
-									"sid": 588252018274221
+									"sid": 295698960933428
 								}
 							],
 							"actions": [
 								{
 									"id": "set-size",
 									"objectClass": "Magma",
-									"sid": 196522576515222,
+									"sid": 537642972225958,
 									"parameters": {
 										"width": "30.044147",
 										"height": "25.928511"
@@ -3592,7 +3664,7 @@
 								{
 									"id": "set-angle",
 									"objectClass": "Magma",
-									"sid": 422290993100935,
+									"sid": 719696481493809,
 									"parameters": {
 										"angle": "0"
 									}
@@ -3600,14 +3672,14 @@
 								{
 									"id": "set-angle-toward-position",
 									"objectClass": "Magma",
-									"sid": 514353537958918,
+									"sid": 119475078569767,
 									"parameters": {
 										"x": "Player.X",
 										"y": "Player.Y"
 									}
 								}
 							],
-							"sid": 286727648248756
+							"sid": 744217808880557
 						},
 						{
 							"eventType": "block",
@@ -3615,7 +3687,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 169683021848118,
+									"sid": 711517088950500,
 									"parameters": {
 										"object": "Magma"
 									}
@@ -3625,7 +3697,7 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 636052083151686,
+									"sid": 965210447352313,
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
@@ -3634,18 +3706,18 @@
 								{
 									"id": "destroy",
 									"objectClass": "Magma",
-									"sid": 844073856975612
+									"sid": 830895300886167
 								}
 							],
-							"sid": 151421093855146
+							"sid": 962722953913416
 						}
 					],
-					"sid": 224225185747163
+					"sid": 736130951115738
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Lightening Slime2",
+					"title": "Lightening Slime",
 					"description": "want to add player being stunned when hit",
 					"isActiveOnStart": true,
 					"children": [
@@ -3655,7 +3727,7 @@
 								{
 									"id": "has-los-to-object",
 									"objectClass": "LightningSlime",
-									"sid": 756872880432518,
+									"sid": 437898934067477,
 									"behaviorType": "LineOfSight",
 									"parameters": {
 										"object": "Player",
@@ -3667,7 +3739,7 @@
 								{
 									"id": "move-to-object",
 									"objectClass": "FireSlime",
-									"sid": 164363158580759,
+									"sid": 541669061567641,
 									"disabled": true,
 									"behaviorType": "MoveTo",
 									"parameters": {
@@ -3677,7 +3749,7 @@
 									}
 								}
 							],
-							"sid": 314753227334142,
+							"sid": 803229799566014,
 							"children": [
 								{
 									"eventType": "block",
@@ -3685,7 +3757,7 @@
 										{
 											"id": "every-x-seconds",
 											"objectClass": "System",
-											"sid": 325926174738621,
+											"sid": 377253495729716,
 											"parameters": {
 												"interval-seconds": "2"
 											}
@@ -3693,7 +3765,7 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 795621605059706,
+											"sid": 413522730327177,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,FireSlime.X,FireSlime.Y)",
 												"comparison": 3,
@@ -3705,7 +3777,7 @@
 										{
 											"id": "spawn-another-object",
 											"objectClass": "LightningSlime",
-											"sid": 475827816018034,
+											"sid": 200898398874864,
 											"parameters": {
 												"object": "LighteningBolt",
 												"layer": "0",
@@ -3714,7 +3786,7 @@
 											}
 										}
 									],
-									"sid": 472224256923520
+									"sid": 554841871915582
 								}
 							]
 						},
@@ -3724,21 +3796,21 @@
 								{
 									"id": "on-created",
 									"objectClass": "LighteningBolt",
-									"sid": 350632698635136
+									"sid": 893806514011842
 								}
 							],
 							"actions": [
 								{
 									"id": "set-size",
 									"objectClass": "LighteningBolt",
-									"sid": 700274917175063,
+									"sid": 531527672025464,
 									"parameters": {
 										"width": "30.044147",
 										"height": "25.928511"
 									}
 								}
 							],
-							"sid": 783683308028479
+							"sid": 187775021024683
 						},
 						{
 							"eventType": "block",
@@ -3746,7 +3818,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 851186836763873,
+									"sid": 350221384016513,
 									"parameters": {
 										"object": "LighteningBolt"
 									}
@@ -3756,7 +3828,7 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Player",
-									"sid": 994960649483802,
+									"sid": 596232718283031,
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
@@ -3765,10 +3837,10 @@
 								{
 									"id": "destroy",
 									"objectClass": "LighteningBolt",
-									"sid": 318990529870162
+									"sid": 864514661335313
 								}
 							],
-							"sid": 401612458181922
+							"sid": 160389380595199
 						},
 						{
 							"eventType": "block",
@@ -3776,7 +3848,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 695382070255475,
+									"sid": 902063347983148,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 3,
@@ -3788,10 +3860,10 @@
 								{
 									"id": "restart-layout",
 									"objectClass": "System",
-									"sid": 450830928101673
+									"sid": 658525812604819
 								}
 							],
-							"sid": 768062546699108
+							"sid": 676735823057224
 						},
 						{
 							"eventType": "block",
@@ -3799,14 +3871,14 @@
 								{
 									"id": "on-created",
 									"objectClass": "LighteningBolt",
-									"sid": 844899398136911
+									"sid": 976787726734202
 								}
 							],
 							"actions": [
 								{
 									"id": "set-angle",
 									"objectClass": "LighteningBolt",
-									"sid": 981073548980557,
+									"sid": 156184555473441,
 									"parameters": {
 										"angle": "0"
 									}
@@ -3814,22 +3886,22 @@
 								{
 									"id": "set-angle-toward-position",
 									"objectClass": "LighteningBolt",
-									"sid": 683038857533414,
+									"sid": 102164572969901,
 									"parameters": {
 										"x": "Player.X",
 										"y": "Player.Y"
 									}
 								}
 							],
-							"sid": 590650306565129
+							"sid": 412873924145133
 						}
 					],
-					"sid": 400191373579611
+					"sid": 309477913044115
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Combine Slimes2",
+					"title": "Combine Slimes",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -3839,7 +3911,7 @@
 								{
 									"id": "is-overlapping-another-object",
 									"objectClass": "PoisonSlime",
-									"sid": 220560342882467,
+									"sid": 527891251584978,
 									"parameters": {
 										"object": "EarthSlime"
 									}
@@ -3849,7 +3921,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "PoisonSlime",
-									"sid": 102421305428301,
+									"sid": 977005580021148,
 									"parameters": {
 										"object": "AcidSlime",
 										"layer": "0",
@@ -3860,15 +3932,15 @@
 								{
 									"id": "destroy",
 									"objectClass": "EarthSlime",
-									"sid": 975402600753289
+									"sid": 260499226976841
 								},
 								{
 									"id": "destroy",
 									"objectClass": "PoisonSlime",
-									"sid": 137744118270051
+									"sid": 517164996796428
 								}
 							],
-							"sid": 491496556853618
+							"sid": 126897540691859
 						},
 						{
 							"eventType": "block",
@@ -3876,7 +3948,7 @@
 								{
 									"id": "is-overlapping-another-object",
 									"objectClass": "FireSlime",
-									"sid": 409183183217572,
+									"sid": 795855881812385,
 									"parameters": {
 										"object": "EarthSlime"
 									}
@@ -3886,7 +3958,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "FireSlime",
-									"sid": 288138987655832,
+									"sid": 924946683901180,
 									"parameters": {
 										"object": "LavaSlime",
 										"layer": "1",
@@ -3897,44 +3969,35 @@
 								{
 									"id": "set-size",
 									"objectClass": "LavaSlime",
-									"sid": 348004275293939,
+									"sid": 839147833257941,
 									"parameters": {
 										"width": "60.392278",
 										"height": "39.525027"
 									}
 								},
 								{
-									"id": "set-instvar-value",
-									"objectClass": "LavaSlime",
-									"sid": 629682824583798,
-									"parameters": {
-										"instance-variable": "HPSlikme",
-										"value": "20"
-									}
-								},
-								{
 									"id": "destroy",
 									"objectClass": "EarthSlime",
-									"sid": 306058733198076
+									"sid": 179617405994504
 								},
 								{
 									"id": "destroy",
 									"objectClass": "FireSlime",
-									"sid": 743960520114018
+									"sid": 766702932160451
 								}
 							],
-							"sid": 557558154566836
+							"sid": 377751827158107
 						}
 					],
-					"sid": 984866388328007
+					"sid": 806453982768900
 				}
 			],
-			"sid": 507360577252198
+			"sid": 153921992769300
 		},
 		{
 			"eventType": "group",
 			"disabled": true,
-			"title": "Slime_behaviors2",
+			"title": "Slime_behaviors",
 			"description": "movement and health",
 			"isActiveOnStart": true,
 			"children": [
@@ -3944,7 +4007,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Slime",
-							"sid": 319198880777787,
+							"sid": 184378134807688,
 							"parameters": {
 								"instance-variable": "HP",
 								"comparison": 3,
@@ -3956,12 +4019,12 @@
 						{
 							"id": "destroy",
 							"objectClass": "Slime",
-							"sid": 768635830188897
+							"sid": 636816806668980
 						},
 						{
 							"id": "add-to-eventvar",
 							"objectClass": "System",
-							"sid": 426309641121556,
+							"sid": 526542241511988,
 							"parameters": {
 								"variable": "Slimes",
 								"value": "3"
@@ -3970,10 +4033,10 @@
 						{
 							"id": "destroy",
 							"objectClass": "Slime_healthbar",
-							"sid": 962200233924738
+							"sid": 424576665718931
 						}
 					],
-					"sid": 178326053919818
+					"sid": 619962218696107
 				},
 				{
 					"eventType": "block",
@@ -3981,7 +4044,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Slime2",
-							"sid": 660527662196178,
+							"sid": 263853236801855,
 							"parameters": {
 								"instance-variable": "HP",
 								"comparison": 3,
@@ -3993,19 +4056,19 @@
 						{
 							"id": "destroy",
 							"objectClass": "Slime2",
-							"sid": 551918809309034
+							"sid": 234194919233793
 						},
 						{
 							"id": "add-to-eventvar",
 							"objectClass": "System",
-							"sid": 650361624496322,
+							"sid": 738249514555180,
 							"parameters": {
 								"variable": "Slimes",
 								"value": "3"
 							}
 						}
 					],
-					"sid": 813263970544576
+					"sid": 549816143552756
 				},
 				{
 					"eventType": "block",
@@ -4013,7 +4076,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Slime3",
-							"sid": 813779321470364,
+							"sid": 919924061556068,
 							"parameters": {
 								"instance-variable": "HP",
 								"comparison": 3,
@@ -4025,19 +4088,19 @@
 						{
 							"id": "destroy",
 							"objectClass": "Slime3",
-							"sid": 468626544647175
+							"sid": 827351775188954
 						},
 						{
 							"id": "add-to-eventvar",
 							"objectClass": "System",
-							"sid": 414068382379958,
+							"sid": 168394214090797,
 							"parameters": {
 								"variable": "Slimes",
 								"value": "3"
 							}
 						}
 					],
-					"sid": 403857247394384
+					"sid": 690666597536627
 				},
 				{
 					"eventType": "block",
@@ -4045,7 +4108,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Slime4",
-							"sid": 602631287764897,
+							"sid": 666164889515956,
 							"parameters": {
 								"instance-variable": "HP",
 								"comparison": 3,
@@ -4057,19 +4120,19 @@
 						{
 							"id": "destroy",
 							"objectClass": "Slime4",
-							"sid": 774072566437587
+							"sid": 409890314694242
 						},
 						{
 							"id": "add-to-eventvar",
 							"objectClass": "System",
-							"sid": 976906587993106,
+							"sid": 923895796016338,
 							"parameters": {
 								"variable": "Slimes",
 								"value": "3"
 							}
 						}
 					],
-					"sid": 330135395865276
+					"sid": 117776385366840
 				},
 				{
 					"eventType": "block",
@@ -4077,14 +4140,14 @@
 						{
 							"id": "on-created",
 							"objectClass": "Text_damage_3",
-							"sid": 980046325640031
+							"sid": 421099928086069
 						}
 					],
 					"actions": [
 						{
 							"id": "start-timer",
 							"objectClass": "Text_damage_3",
-							"sid": 551572393740664,
+							"sid": 803563644949797,
 							"behaviorType": "Timer",
 							"parameters": {
 								"duration": "1.0",
@@ -4095,11 +4158,11 @@
 						{
 							"id": "start-fade",
 							"objectClass": "Text_damage_3",
-							"sid": 366135040992263,
+							"sid": 653882769557218,
 							"behaviorType": "Fade"
 						}
 					],
-					"sid": 570183980478590
+					"sid": 657619923416094
 				},
 				{
 					"eventType": "block",
@@ -4107,7 +4170,7 @@
 						{
 							"id": "on-timer",
 							"objectClass": "Text_damage_3",
-							"sid": 164554973453239,
+							"sid": 398533163690552,
 							"behaviorType": "Timer",
 							"parameters": {
 								"tag": "\"decay\""
@@ -4118,10 +4181,10 @@
 						{
 							"id": "destroy",
 							"objectClass": "Text_damage_3",
-							"sid": 900159573153388
+							"sid": 208211809152179
 						}
 					],
-					"sid": 467911310187975
+					"sid": 860831677092173
 				},
 				{
 					"eventType": "block",
@@ -4129,7 +4192,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 308278044148093,
+							"sid": 661891121568556,
 							"parameters": {
 								"interval-seconds": "0.01"
 							}
@@ -4137,7 +4200,7 @@
 						{
 							"id": "is-timer-running",
 							"objectClass": "Text_damage_3",
-							"sid": 941320970857694,
+							"sid": 585855417363268,
 							"behaviorType": "Timer",
 							"parameters": {
 								"tag": "\"decay\""
@@ -4148,29 +4211,29 @@
 						{
 							"id": "move-at-angle",
 							"objectClass": "Text_damage_3",
-							"sid": 147252231605353,
+							"sid": 783946154716035,
 							"parameters": {
 								"angle": "270",
 								"distance": "1"
 							}
 						}
 					],
-					"sid": 638169137649244
+					"sid": 851693446421638
 				}
 			],
-			"sid": 334813067232165
+			"sid": 205821830239082
 		},
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Healthbar_behaviors2",
+			"title": "Healthbar_behaviors",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Player2",
+					"title": "Player",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -4180,7 +4243,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 662718877219209,
+									"sid": 585050273903152,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4192,13 +4255,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 954956420154906,
+									"sid": 369734277890160,
 									"parameters": {
 										"frame-number": "1"
 									}
 								}
 							],
-							"sid": 886968162786568
+							"sid": 792080791268338
 						},
 						{
 							"eventType": "block",
@@ -4206,7 +4269,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 520458510776196,
+									"sid": 723119993225293,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4218,13 +4281,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 539123381677548,
+									"sid": 468541084322507,
 									"parameters": {
 										"frame-number": "2"
 									}
 								}
 							],
-							"sid": 256587459879522
+							"sid": 776029665489639
 						},
 						{
 							"eventType": "block",
@@ -4232,7 +4295,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 950471953754561,
+									"sid": 766147931341484,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4244,13 +4307,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 744826085308079,
+									"sid": 746708925394339,
 									"parameters": {
 										"frame-number": "3"
 									}
 								}
 							],
-							"sid": 509568337033607
+							"sid": 367734906871001
 						},
 						{
 							"eventType": "block",
@@ -4258,7 +4321,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 807577042966994,
+									"sid": 793542188645155,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4270,13 +4333,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 936124749721753,
+									"sid": 137481825832854,
 									"parameters": {
 										"frame-number": "4"
 									}
 								}
 							],
-							"sid": 901247908765447
+							"sid": 174137939051947
 						},
 						{
 							"eventType": "block",
@@ -4284,7 +4347,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 284342265227553,
+									"sid": 425421928693748,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4296,13 +4359,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 874647041468590,
+									"sid": 640971399135707,
 									"parameters": {
 										"frame-number": "5"
 									}
 								}
 							],
-							"sid": 151608094615478
+							"sid": 889115791402882
 						},
 						{
 							"eventType": "block",
@@ -4310,7 +4373,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 321856067313677,
+									"sid": 923646568442401,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4322,13 +4385,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 803447428148662,
+									"sid": 608776798490681,
 									"parameters": {
 										"frame-number": "6"
 									}
 								}
 							],
-							"sid": 238198209282773
+							"sid": 272634327381408
 						},
 						{
 							"eventType": "block",
@@ -4336,7 +4399,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 712402942086555,
+									"sid": 178480569597039,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4348,13 +4411,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 437618308843158,
+									"sid": 310273173440055,
 									"parameters": {
 										"frame-number": "7"
 									}
 								}
 							],
-							"sid": 688598712684228
+							"sid": 305850116160972
 						},
 						{
 							"eventType": "block",
@@ -4362,7 +4425,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 878405750226982,
+									"sid": 141703875630356,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 2,
@@ -4374,13 +4437,13 @@
 								{
 									"id": "set-animation-frame",
 									"objectClass": "Player_healthbar",
-									"sid": 847300624511445,
+									"sid": 748448433459039,
 									"parameters": {
 										"frame-number": "8"
 									}
 								}
 							],
-							"sid": 646298952950594
+							"sid": 309888224642592
 						},
 						{
 							"eventType": "block",
@@ -4388,7 +4451,7 @@
 								{
 									"id": "compare-instance-variable",
 									"objectClass": "Player",
-									"sid": 347058596875665,
+									"sid": 204788809813095,
 									"parameters": {
 										"instance-variable": "HP",
 										"comparison": 3,
@@ -4400,42 +4463,33 @@
 								{
 									"id": "restart-layout",
 									"objectClass": "System",
-									"sid": 282530999781257
+									"sid": 970487684333606
 								},
 								{
 									"id": "stop-all",
 									"objectClass": "Audio",
-									"sid": 131792554092435
-								},
-								{
-									"id": "stop",
-									"objectClass": "Audio",
-									"sid": 700001754514749,
-									"disabled": true,
-									"parameters": {
-										"tag": "\"Beats by Dr Hugh\""
-									}
+									"sid": 534745745984215
 								}
 							],
-							"sid": 161293176827497
+							"sid": 309210080115002
 						}
 					],
-					"sid": 355508057995021
+					"sid": 103746148844019
 				}
 			],
-			"sid": 931098594600846
+			"sid": 876959934178226
 		},
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Potion_behaviors2",
+			"title": "Potion_behaviors",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "JumpBoostAbilty2",
+					"title": "JumpBoostAbilty",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -4445,21 +4499,21 @@
 								{
 									"id": "on-created",
 									"objectClass": "JumpPotion",
-									"sid": 503683633087212
+									"sid": 745148413789763
 								}
 							],
 							"actions": [
 								{
 									"id": "set-size",
 									"objectClass": "JumpPotion",
-									"sid": 774860478842404,
+									"sid": 623071906575790,
 									"parameters": {
 										"width": "22.204582",
 										"height": "28.372522"
 									}
 								}
 							],
-							"sid": 465583598523257
+							"sid": 453772114640010
 						},
 						{
 							"eventType": "block",
@@ -4467,7 +4521,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 440912275556332,
+									"sid": 758861801595746,
 									"parameters": {
 										"instance-variable": "Jump_Ability"
 									}
@@ -4477,7 +4531,7 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 201793394248692,
+									"sid": 536894722610021,
 									"parameters": {
 										"animation": "\"Jump\"",
 										"from": "beginning"
@@ -4486,7 +4540,7 @@
 								{
 									"id": "set-double-jump",
 									"objectClass": "Player",
-									"sid": 136223700401225,
+									"sid": 947101264856407,
 									"behaviorType": "Platform",
 									"parameters": {
 										"state": "enabled"
@@ -4495,14 +4549,14 @@
 								{
 									"id": "set-jump-strength",
 									"objectClass": "Player",
-									"sid": 690172381635424,
+									"sid": 984406078823507,
 									"behaviorType": "Platform",
 									"parameters": {
 										"jump-strength": "600"
 									}
 								}
 							],
-							"sid": 302326203930328
+							"sid": 561138043132062
 						},
 						{
 							"eventType": "block",
@@ -4510,7 +4564,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 661458443059264,
+									"sid": 361438632152197,
 									"parameters": {
 										"instance-variable": "Jump_Ability"
 									},
@@ -4521,7 +4575,7 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 596588234496869,
+									"sid": 995529710054494,
 									"parameters": {
 										"animation": "\"Default\"",
 										"from": "beginning"
@@ -4530,7 +4584,7 @@
 								{
 									"id": "set-double-jump",
 									"objectClass": "Player",
-									"sid": 851556089901361,
+									"sid": 697829957099571,
 									"behaviorType": "Platform",
 									"parameters": {
 										"state": "disabled"
@@ -4539,14 +4593,14 @@
 								{
 									"id": "set-jump-strength",
 									"objectClass": "Player",
-									"sid": 447218119048707,
+									"sid": 642564818596762,
 									"behaviorType": "Platform",
 									"parameters": {
 										"jump-strength": "450"
 									}
 								}
 							],
-							"sid": 160967948310878
+							"sid": 311114966751941
 						},
 						{
 							"eventType": "block",
@@ -4554,7 +4608,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 606388620034202,
+									"sid": 241556945379598,
 									"parameters": {
 										"object": "JumpPotion"
 									}
@@ -4564,12 +4618,12 @@
 								{
 									"id": "destroy",
 									"objectClass": "JumpPotion",
-									"sid": 820868741452436
+									"sid": 132812402968589
 								},
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 553339555871088,
+									"sid": 280481276539608,
 									"parameters": {
 										"instance-variable": "Jump_Ability",
 										"value": "true"
@@ -4578,7 +4632,7 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 479661885058264,
+									"sid": 132074324080840,
 									"parameters": {
 										"seconds": "10"
 									}
@@ -4586,22 +4640,22 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 137591349729727,
+									"sid": 607172820719510,
 									"parameters": {
 										"instance-variable": "Jump_Ability",
 										"value": "false"
 									}
 								}
 							],
-							"sid": 713346618844313
+							"sid": 445986839567047
 						}
 					],
-					"sid": 831854850390091
+					"sid": 280565234061722
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "WallScalingAbility2",
+					"title": "WallScalingAbility",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -4611,21 +4665,21 @@
 								{
 									"id": "on-created",
 									"objectClass": "WallClimb",
-									"sid": 503542731221677
+									"sid": 863910339738611
 								}
 							],
 							"actions": [
 								{
 									"id": "set-size",
 									"objectClass": "WallClimb",
-									"sid": 131155511590106,
+									"sid": 945370961516481,
 									"parameters": {
 										"width": "22.204582",
 										"height": "28.372522"
 									}
 								}
 							],
-							"sid": 691239536884042
+							"sid": 433356318473324
 						},
 						{
 							"eventType": "block",
@@ -4633,7 +4687,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 695152884534800,
+									"sid": 974316134004653,
 									"parameters": {
 										"key": 87
 									}
@@ -4641,7 +4695,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 443961424611518,
+									"sid": 307971706865163,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability"
 									}
@@ -4649,7 +4703,7 @@
 								{
 									"id": "is-by-wall",
 									"objectClass": "Player",
-									"sid": 847283879005954,
+									"sid": 488856190451290,
 									"behaviorType": "Platform",
 									"parameters": {
 										"side": "right"
@@ -4660,7 +4714,7 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 334712064128629,
+									"sid": 402131391866293,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "Self.Y-1980"
@@ -4669,14 +4723,14 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 272258631870125,
+									"sid": 748835423854825,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-x": "Self.Y-1500"
 									}
 								}
 							],
-							"sid": 467996234171401
+							"sid": 142622032005988
 						},
 						{
 							"eventType": "block",
@@ -4684,7 +4738,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 917019361270968,
+									"sid": 746890374335761,
 									"parameters": {
 										"key": 87
 									}
@@ -4692,7 +4746,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 849209426895465,
+									"sid": 204880043327843,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability"
 									}
@@ -4700,7 +4754,7 @@
 								{
 									"id": "is-by-wall",
 									"objectClass": "Player",
-									"sid": 916005747834735,
+									"sid": 258531333726678,
 									"behaviorType": "Platform",
 									"parameters": {
 										"side": "left"
@@ -4711,7 +4765,7 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 434158743513837,
+									"sid": 225193240714189,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "Self.Y-1980"
@@ -4720,14 +4774,14 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 645599545633067,
+									"sid": 974633159077325,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-x": "Self.Y-1500"
 									}
 								}
 							],
-							"sid": 733720823246619
+							"sid": 104055943251661
 						},
 						{
 							"eventType": "block",
@@ -4735,7 +4789,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 369570104751300,
+									"sid": 637708013191999,
 									"parameters": {
 										"key": 87
 									}
@@ -4743,7 +4797,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 609502442082290,
+									"sid": 733529734845830,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability"
 									},
@@ -4752,7 +4806,7 @@
 								{
 									"id": "is-by-wall",
 									"objectClass": "Player",
-									"sid": 145534334912321,
+									"sid": 859364318454609,
 									"behaviorType": "Platform",
 									"parameters": {
 										"side": "right"
@@ -4763,7 +4817,7 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 508139336933241,
+									"sid": 395843990248126,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "Self.Y+10"
@@ -4772,14 +4826,14 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 565880140724952,
+									"sid": 564167058769414,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-x": "Self.X+10"
 									}
 								}
 							],
-							"sid": 741967998471571
+							"sid": 377112076924980
 						},
 						{
 							"eventType": "block",
@@ -4787,7 +4841,7 @@
 								{
 									"id": "on-key-pressed",
 									"objectClass": "Keyboard",
-									"sid": 921149863003014,
+									"sid": 338047846188400,
 									"parameters": {
 										"key": 87
 									}
@@ -4795,7 +4849,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 984015791649935,
+									"sid": 698453101816263,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability"
 									},
@@ -4804,7 +4858,7 @@
 								{
 									"id": "is-by-wall",
 									"objectClass": "Player",
-									"sid": 499534975083743,
+									"sid": 992783477598274,
 									"behaviorType": "Platform",
 									"parameters": {
 										"side": "left"
@@ -4815,7 +4869,7 @@
 								{
 									"id": "set-vector-y",
 									"objectClass": "Player",
-									"sid": 451438718590206,
+									"sid": 123584720264979,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-y": "Self.Y+10"
@@ -4824,14 +4878,14 @@
 								{
 									"id": "set-vector-x",
 									"objectClass": "Player",
-									"sid": 784862084445367,
+									"sid": 497693776927598,
 									"behaviorType": "Platform",
 									"parameters": {
 										"vector-x": "Self.X+10"
 									}
 								}
 							],
-							"sid": 202567417480013
+							"sid": 686764336407822
 						},
 						{
 							"eventType": "block",
@@ -4839,7 +4893,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 469660562582235,
+									"sid": 362945453495279,
 									"parameters": {
 										"object": "WallClimb"
 									}
@@ -4849,12 +4903,12 @@
 								{
 									"id": "destroy",
 									"objectClass": "WallClimb",
-									"sid": 613454392975387
+									"sid": 940389634024437
 								},
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 813908292305801,
+									"sid": 771049286818775,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability",
 										"value": "true"
@@ -4863,22 +4917,27 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 228069815580972,
+									"sid": 509276941909687,
 									"parameters": {
 										"seconds": "12"
 									}
 								},
 								{
+									"id": "wait-for-previous-actions",
+									"objectClass": "System",
+									"sid": 253447245509918
+								},
+								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 961218266699852,
+									"sid": 962891017651748,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability",
 										"value": "false"
 									}
 								}
 							],
-							"sid": 529795408129401
+							"sid": 253078316394741
 						},
 						{
 							"eventType": "block",
@@ -4886,7 +4945,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 616074386813698,
+									"sid": 201960845869009,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability"
 									}
@@ -4896,7 +4955,7 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 496181544882751,
+									"sid": 740395809303337,
 									"parameters": {
 										"animation": "\"WallScaling\"",
 										"from": "beginning"
@@ -4905,30 +4964,30 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 325479983137647,
+									"sid": 710010966182595,
 									"parameters": {
-										"seconds": "10"
+										"seconds": "12"
 									}
 								},
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 447584635487011,
+									"sid": 220869369218341,
 									"parameters": {
 										"animation": "\"Default\"",
 										"from": "beginning"
 									}
 								}
 							],
-							"sid": 510981552664365
+							"sid": 834413970113041
 						}
 					],
-					"sid": 185505316473180
+					"sid": 681163395224982
 				},
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "Health2",
+					"title": "Health",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -4938,7 +4997,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 149158210930343,
+									"sid": 628261030479609,
 									"parameters": {
 										"instance-variable": "Speed_Ability"
 									}
@@ -4948,14 +5007,14 @@
 								{
 									"id": "set-max-speed",
 									"objectClass": "Player",
-									"sid": 499106379717430,
+									"sid": 760385174097926,
 									"behaviorType": "Platform",
 									"parameters": {
 										"max-speed": "660"
 									}
 								}
 							],
-							"sid": 722758997186511,
+							"sid": 477190462953860,
 							"disabled": true
 						},
 						{
@@ -4964,7 +5023,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 242429920768427,
+									"sid": 263869386932619,
 									"parameters": {
 										"instance-variable": "Speed_Ability"
 									},
@@ -4975,14 +5034,14 @@
 								{
 									"id": "set-max-speed",
 									"objectClass": "Player",
-									"sid": 305536910260345,
+									"sid": 810950520841229,
 									"behaviorType": "Platform",
 									"parameters": {
 										"max-speed": "330"
 									}
 								}
 							],
-							"sid": 371058147393143,
+							"sid": 362869475706550,
 							"disabled": true
 						},
 						{
@@ -4991,21 +5050,21 @@
 								{
 									"id": "on-created",
 									"objectClass": "HealthPotion",
-									"sid": 924621336716309
+									"sid": 114208814913745
 								}
 							],
 							"actions": [
 								{
 									"id": "set-size",
 									"objectClass": "HealthPotion",
-									"sid": 224253391676911,
+									"sid": 658446643633834,
 									"parameters": {
 										"width": "22.204582",
 										"height": "28.372522"
 									}
 								}
 							],
-							"sid": 998583160532354
+							"sid": 675644441953035
 						},
 						{
 							"eventType": "block",
@@ -5013,7 +5072,7 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
-									"sid": 274912578154839,
+									"sid": 117884240732526,
 									"parameters": {
 										"object": "HealthPotion"
 									}
@@ -5023,7 +5082,7 @@
 								{
 									"id": "add-to-instvar",
 									"objectClass": "Player",
-									"sid": 297081450962978,
+									"sid": 429733241409656,
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "3"
@@ -5032,12 +5091,12 @@
 								{
 									"id": "destroy",
 									"objectClass": "HealthPotion",
-									"sid": 507679057277730
+									"sid": 488979829541947
 								},
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 178667803091410,
+									"sid": 610744860892966,
 									"disabled": true,
 									"parameters": {
 										"animation": "\"Default\"",
@@ -5047,7 +5106,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 681985776849569,
+									"sid": 632298411336171,
 									"parameters": {
 										"instance-variable": "Speed_Ability",
 										"value": "true"
@@ -5056,7 +5115,7 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 444161512705516,
+									"sid": 644459288997237,
 									"parameters": {
 										"seconds": "1.5"
 									}
@@ -5064,14 +5123,14 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 313328093670998,
+									"sid": 705053312810468,
 									"parameters": {
 										"instance-variable": "Speed_Ability",
 										"value": "false"
 									}
 								}
 							],
-							"sid": 255967955396393
+							"sid": 494745636116821
 						},
 						{
 							"eventType": "block",
@@ -5079,7 +5138,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 371818236433801,
+									"sid": 411792438145577,
 									"parameters": {
 										"instance-variable": "Speed_Ability"
 									}
@@ -5089,7 +5148,7 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 749608784440205,
+									"sid": 755234810550868,
 									"parameters": {
 										"animation": "\"health\"",
 										"from": "beginning"
@@ -5098,7 +5157,7 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 109114103705599,
+									"sid": 809585066319769,
 									"parameters": {
 										"seconds": "1.5"
 									}
@@ -5106,25 +5165,25 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 183453124937511,
+									"sid": 241826861232532,
 									"parameters": {
 										"animation": "\"Default\"",
 										"from": "beginning"
 									}
 								}
 							],
-							"sid": 422557371365494
+							"sid": 119045732754525
 						}
 					],
-					"sid": 676659005202074
+					"sid": 619257761515094
 				}
 			],
-			"sid": 455691313925193
+			"sid": 115448357419115
 		},
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Level_behaviors2",
+			"title": "Level_behaviors",
 			"description": "for stuff on how to advance to the next level or enviornmental stuff",
 			"isActiveOnStart": true,
 			"children": [
@@ -5134,7 +5193,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 143561216571245,
+							"sid": 716004939241849,
 							"parameters": {
 								"object": "Door"
 							}
@@ -5144,7 +5203,7 @@
 						{
 							"id": "set-visible",
 							"objectClass": "FADE",
-							"sid": 286583451488891,
+							"sid": 557898424323899,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -5152,13 +5211,13 @@
 						{
 							"id": "start-fade",
 							"objectClass": "FADE",
-							"sid": 431058458897371,
+							"sid": 829420610082616,
 							"behaviorType": "Fade"
 						},
 						{
 							"id": "set-ignoring-input",
 							"objectClass": "Player",
-							"sid": 158954432842503,
+							"sid": 798432999661312,
 							"behaviorType": "Platform",
 							"parameters": {
 								"input": "start-ignoring"
@@ -5167,7 +5226,7 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 504246074541995,
+							"sid": 491958676749598,
 							"parameters": {
 								"seconds": "4"
 							}
@@ -5175,7 +5234,7 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 415110720622620,
+							"sid": 195551098226756,
 							"parameters": {
 								"variable": "WhatLevel",
 								"value": "2"
@@ -5184,22 +5243,22 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 744541228776895,
+							"sid": 435831609036117,
 							"parameters": {
-								"layout": "Loading Screen"
+								"layout": "Loading_Screen"
 							}
 						},
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 599308671557231,
+							"sid": 710445810708576,
 							"disabled": true,
 							"parameters": {
-								"layout": "Level 2"
+								"layout": "Level_2"
 							}
 						}
 					],
-					"sid": 615499956309871
+					"sid": 647424777350595
 				},
 				{
 					"eventType": "block",
@@ -5207,7 +5266,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 681098102646842,
+							"sid": 465105963665870,
 							"parameters": {
 								"object": "Door2"
 							}
@@ -5217,7 +5276,7 @@
 						{
 							"id": "set-visible",
 							"objectClass": "FADE",
-							"sid": 349338853193984,
+							"sid": 626088018815204,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -5225,13 +5284,13 @@
 						{
 							"id": "start-fade",
 							"objectClass": "FADE",
-							"sid": 731344350398337,
+							"sid": 194070462417790,
 							"behaviorType": "Fade"
 						},
 						{
 							"id": "set-ignoring-input",
 							"objectClass": "Player",
-							"sid": 237990799328808,
+							"sid": 157385818321502,
 							"behaviorType": "Platform",
 							"parameters": {
 								"input": "start-ignoring"
@@ -5240,7 +5299,7 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 590663782318587,
+							"sid": 100248255757468,
 							"parameters": {
 								"seconds": "4"
 							}
@@ -5248,7 +5307,7 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 289909806580446,
+							"sid": 118356326389848,
 							"parameters": {
 								"variable": "WhatLevel",
 								"value": "3"
@@ -5257,22 +5316,95 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 794748016561645,
+							"sid": 478359795543697,
 							"parameters": {
-								"layout": "Loading Screen"
+								"layout": "Loading_Screen"
 							}
 						},
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 537501632344624,
+							"sid": 680790692433246,
 							"disabled": true,
 							"parameters": {
-								"layout": "Level 2"
+								"layout": "Level_2"
 							}
 						}
 					],
-					"sid": 259576481317942
+					"sid": 104364105554944
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 815697718601206,
+							"parameters": {
+								"object": "Door3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "FADE",
+							"sid": 618342102175184,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "FADE",
+							"sid": 338423768797750,
+							"behaviorType": "Fade"
+						},
+						{
+							"id": "set-ignoring-input",
+							"objectClass": "Player",
+							"sid": 419334980689681,
+							"behaviorType": "Platform",
+							"parameters": {
+								"input": "start-ignoring"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 587657858913241,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 515390516579347,
+							"parameters": {
+								"variable": "WhatLevel",
+								"value": "4"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 334042370954542,
+							"parameters": {
+								"layout": "Loading_Screen"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 576559169955422,
+							"disabled": true,
+							"parameters": {
+								"layout": "Level_2"
+							}
+						}
+					],
+					"sid": 235636107115536
 				},
 				{
 					"eventType": "block",
@@ -5280,7 +5412,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 918724474801879,
+							"sid": 860515569653651,
 							"parameters": {
 								"variable": "Slimes",
 								"comparison": 5,
@@ -5292,19 +5424,28 @@
 						{
 							"id": "destroy",
 							"objectClass": "Blockade",
-							"sid": 176128739865035
+							"sid": 684509268015100
 						},
 						{
 							"id": "set-animation",
 							"objectClass": "Door",
-							"sid": 194880720284645,
+							"sid": 146076888367625,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Door2",
+							"sid": 982775616654408,
 							"parameters": {
 								"animation": "\"Animation 2\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 812405921697146
+					"sid": 695735143156037
 				},
 				{
 					"eventType": "block",
@@ -5312,7 +5453,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 891104377478692,
+							"sid": 473225867421252,
 							"parameters": {
 								"object": "FalseFloor"
 							}
@@ -5322,13 +5463,13 @@
 						{
 							"id": "destroy",
 							"objectClass": "FalseFloor",
-							"sid": 324143318586051
+							"sid": 781467050199983
 						}
 					],
-					"sid": 322856632489702
+					"sid": 671746234188423
 				}
 			],
-			"sid": 972938656188387
+			"sid": 363036432453264
 		},
 		{
 			"eventType": "block",
@@ -5336,39 +5477,38 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 592842266785507
+					"sid": 420622290314233
 				}
 			],
 			"actions": [
 				{
-					"id": "stop",
-					"objectClass": "Audio",
-					"sid": 698168170964846,
-					"disabled": true,
-					"parameters": {
-						"tag": "\"Beats by Dr Hugh\""
-					}
-				},
-				{
 					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 744215879200449
+					"sid": 448985945368285
 				},
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 441273441927914,
+					"sid": 946523244708159,
 					"parameters": {
 						"audio-file": "song_1",
 						"loop": "looping",
 						"volume": "-15",
 						"tag-optional": "\"Beats by Dr Hugh\""
 					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 163397939734250,
+					"parameters": {
+						"tag": "\"broooooo this is fyyyyyrrrrreeee thanks Hugh\""
+					}
 				}
 			],
-			"sid": 562183359310755,
+			"sid": 559379396554690,
 			"isOrBlock": true
 		}
 	],
-	"sid": 275997822145472
+	"sid": 587643397571846
 }
