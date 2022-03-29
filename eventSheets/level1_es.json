@@ -24,196 +24,186 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "System",
-			"description": "",
+			"title": "Other_behaviors",
+			"description": "stuff like \"on start of layout\" or \"every tick\"",
 			"isActiveOnStart": true,
 			"children": [
 				{
-					"eventType": "group",
-					"disabled": false,
-					"title": "Other_behaviors",
-					"description": "stuff like \"on start of layout\" or \"every tick\"",
-					"isActiveOnStart": true,
-					"children": [
+					"eventType": "block",
+					"conditions": [
 						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-start-of-layout",
-									"objectClass": "System",
-									"sid": 835407180308227
-								}
-							],
-							"actions": [
-								{
-									"id": "set-instvar-value",
-									"objectClass": "Player",
-									"sid": 445820901271905,
-									"disabled": true,
-									"parameters": {
-										"instance-variable": "Speed_potions",
-										"value": "2"
-									}
-								},
-								{
-									"id": "set-instvar-value",
-									"objectClass": "Player",
-									"sid": 777957219875545,
-									"disabled": true,
-									"parameters": {
-										"instance-variable": "Power_potions",
-										"value": "2"
-									}
-								},
-								{
-									"id": "set-instvar-value",
-									"objectClass": "Player",
-									"sid": 884839576783562,
-									"disabled": true,
-									"parameters": {
-										"instance-variable": "Jump_potions",
-										"value": "2"
-									}
-								},
-								{
-									"id": "set-instvar-value",
-									"objectClass": "Player",
-									"sid": 144341855091266,
-									"disabled": true,
-									"parameters": {
-										"instance-variable": "Slime_potions",
-										"value": "2"
-									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 277623340100594,
-									"parameters": {
-										"animation": "\"Jump\"",
-										"from": "beginning"
-									}
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 668103661574036,
-									"parameters": {
-										"instance-variable": "Strapped_Ability",
-										"value": "true"
-									}
-								},
-								{
-									"id": "reset-global-variables",
-									"objectClass": "System",
-									"sid": 112690187990175
-								}
-							],
-							"sid": 874597915431854
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-start-of-layout",
-									"objectClass": "System",
-									"sid": 667866907814855
-								}
-							],
-							"actions": [
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "Player_healthbar",
-									"sid": 703664647847221,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Player",
-										"image-point": "1",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "pin-to-object-imagepoint",
-									"objectClass": "Slime_healthbar",
-									"sid": 654162528306682,
-									"disabled": true,
-									"behaviorType": "Pin",
-									"parameters": {
-										"pin-to": "Slime",
-										"image-point": "1",
-										"angle": true,
-										"width-type": "no",
-										"height-type": "no",
-										"z": false
-									}
-								},
-								{
-									"id": "set-layer-opacity",
-									"objectClass": "System",
-									"sid": 982574332350896,
-									"disabled": true,
-									"parameters": {
-										"layer": "\"Shop\"",
-										"opacity": "0"
-									}
-								}
-							],
-							"sid": 443539546792868
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-tick",
-									"objectClass": "System",
-									"sid": 955230410274320
-								}
-							],
-							"actions": [
-								{
-									"id": "set-text",
-									"objectClass": "txtSlimes",
-									"sid": 376173029142536,
-									"parameters": {
-										"text": "\"Slimes Killed for Escape: \" & Slimes"
-									}
-								},
-								{
-									"id": "set-position",
-									"objectClass": "Cursor",
-									"sid": 286049124566881,
-									"parameters": {
-										"x": "Mouse.X",
-										"y": "Mouse.Y"
-									}
-								},
-								{
-									"id": "set-x",
-									"objectClass": "Spawnerforbullets",
-									"sid": 104990060564208,
-									"parameters": {
-										"x": "big_iron.X"
-									}
-								},
-								{
-									"id": "set-y",
-									"objectClass": "Spawnerforbullets",
-									"sid": 471343591811954,
-									"parameters": {
-										"y": "big_iron.Y"
-									}
-								}
-							],
-							"sid": 991798456051989
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 217074772107210
 						}
 					],
-					"sid": 970752998103304
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 715837105472060,
+							"disabled": true,
+							"parameters": {
+								"instance-variable": "Speed_potions",
+								"value": "2"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 954019015061901,
+							"disabled": true,
+							"parameters": {
+								"instance-variable": "Power_potions",
+								"value": "2"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 222823527060411,
+							"disabled": true,
+							"parameters": {
+								"instance-variable": "Jump_potions",
+								"value": "2"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 106891624795595,
+							"disabled": true,
+							"parameters": {
+								"instance-variable": "Slime_potions",
+								"value": "2"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 533732313665289,
+							"parameters": {
+								"animation": "\"Jump\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 446472766101355,
+							"parameters": {
+								"instance-variable": "Strapped_Ability",
+								"value": "true"
+							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 114490430781512
+						}
+					],
+					"sid": 299988704389226
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 855065516122364
+						}
+					],
+					"actions": [
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Player_healthbar",
+							"sid": 682306353159469,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "1",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "Slime_healthbar",
+							"sid": 960571895154455,
+							"disabled": true,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Slime",
+								"image-point": "1",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
+						},
+						{
+							"id": "set-layer-opacity",
+							"objectClass": "System",
+							"sid": 154964598829351,
+							"disabled": true,
+							"parameters": {
+								"layer": "\"Shop\"",
+								"opacity": "0"
+							}
+						}
+					],
+					"sid": 765244912627303
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 376440053363976
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "txtSlimes",
+							"sid": 655247884807220,
+							"parameters": {
+								"text": "\"Slimes Killed for Escape: \" & Slimes"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Cursor",
+							"sid": 152306779440367,
+							"parameters": {
+								"x": "Mouse.X",
+								"y": "Mouse.Y"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Spawnerforbullets",
+							"sid": 437328532515076,
+							"parameters": {
+								"x": "big_iron.X"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Spawnerforbullets",
+							"sid": 218544668183662,
+							"parameters": {
+								"y": "big_iron.Y"
+							}
+						}
+					],
+					"sid": 766983218195935
 				}
 			],
-			"sid": 285020910249804
+			"sid": 567641026605967
 		},
 		{
 			"eventType": "group",
@@ -1686,6 +1676,17 @@
 											}
 										},
 										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 890954891604615,
+											"parameters": {
+												"audio-file": "zap",
+												"loop": "not-looping",
+												"volume": "-15",
+												"tag-optional": "\"\""
+											}
+										},
+										{
 											"id": "destroy",
 											"objectClass": "LightningSlime",
 											"sid": 701562364472423
@@ -2478,6 +2479,17 @@
 									"id": "destroy",
 									"objectClass": "ICeSlimeIcicle",
 									"sid": 634185541259061
+								},
+								{
+									"id": "shake",
+									"objectClass": "Player",
+									"sid": 497137369444518,
+									"behaviorType": "ScrollTo",
+									"parameters": {
+										"magnitude": "20",
+										"duration": "0.4",
+										"mode": "reducing-magnitude"
+									}
 								}
 							],
 							"sid": 448937014248102
@@ -2659,6 +2671,17 @@
 												"instance-variable": "HP",
 												"value": "1"
 											}
+										},
+										{
+											"id": "shake",
+											"objectClass": "Player",
+											"sid": 869340099303065,
+											"behaviorType": "ScrollTo",
+											"parameters": {
+												"magnitude": "20",
+												"duration": "0.4",
+												"mode": "reducing-magnitude"
+											}
 										}
 									],
 									"sid": 830435448569666
@@ -2829,6 +2852,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
+											}
+										},
+										{
+											"id": "shake",
+											"objectClass": "Player",
+											"sid": 325903021131156,
+											"behaviorType": "ScrollTo",
+											"parameters": {
+												"magnitude": "20",
+												"duration": "0.4",
+												"mode": "reducing-magnitude"
 											}
 										}
 									],
@@ -3385,6 +3419,17 @@
 												"instance-variable": "HP",
 												"value": "1"
 											}
+										},
+										{
+											"id": "shake",
+											"objectClass": "Player",
+											"sid": 614747597269496,
+											"behaviorType": "ScrollTo",
+											"parameters": {
+												"magnitude": "20",
+												"duration": "0.4",
+												"mode": "reducing-magnitude"
+											}
 										}
 									],
 									"sid": 497114872820127
@@ -3491,6 +3536,17 @@
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
+									}
+								},
+								{
+									"id": "shake",
+									"objectClass": "Player",
+									"sid": 559646672407833,
+									"behaviorType": "ScrollTo",
+									"parameters": {
+										"magnitude": "20",
+										"duration": "0.4",
+										"mode": "reducing-magnitude"
 									}
 								},
 								{
@@ -3704,6 +3760,17 @@
 									}
 								},
 								{
+									"id": "shake",
+									"objectClass": "Player",
+									"sid": 119010381048435,
+									"behaviorType": "ScrollTo",
+									"parameters": {
+										"magnitude": "20",
+										"duration": "0.4",
+										"mode": "reducing-magnitude"
+									}
+								},
+								{
 									"id": "destroy",
 									"objectClass": "Magma",
 									"sid": 830895300886167
@@ -3832,6 +3899,17 @@
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
+									}
+								},
+								{
+									"id": "shake",
+									"objectClass": "Player",
+									"sid": 238160507732338,
+									"behaviorType": "ScrollTo",
+									"parameters": {
+										"magnitude": "20",
+										"duration": "0.4",
+										"mode": "reducing-magnitude"
 									}
 								},
 								{
