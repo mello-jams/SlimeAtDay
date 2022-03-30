@@ -3593,6 +3593,15 @@
 							],
 							"actions": [
 								{
+									"id": "set-size",
+									"objectClass": "FireBall",
+									"sid": 192388625916095,
+									"parameters": {
+										"width": "20.40004",
+										"height": "19.607805"
+									}
+								},
+								{
 									"id": "set-angle",
 									"objectClass": "FireBall",
 									"sid": 969247542497702,
@@ -3877,6 +3886,23 @@
 										"width": "30.044147",
 										"height": "25.928511"
 									}
+								},
+								{
+									"id": "set-angle",
+									"objectClass": "LighteningBolt",
+									"sid": 404499940914418,
+									"parameters": {
+										"angle": "0"
+									}
+								},
+								{
+									"id": "set-angle-toward-position",
+									"objectClass": "LighteningBolt",
+									"sid": 841756299123724,
+									"parameters": {
+										"x": "Player.X",
+										"y": "Player.Y"
+									}
 								}
 							],
 							"sid": 187775021024683
@@ -3944,36 +3970,6 @@
 								}
 							],
 							"sid": 676735823057224
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-created",
-									"objectClass": "LighteningBolt",
-									"sid": 976787726734202
-								}
-							],
-							"actions": [
-								{
-									"id": "set-angle",
-									"objectClass": "LighteningBolt",
-									"sid": 156184555473441,
-									"parameters": {
-										"angle": "0"
-									}
-								},
-								{
-									"id": "set-angle-toward-position",
-									"objectClass": "LighteningBolt",
-									"sid": 102164572969901,
-									"parameters": {
-										"x": "Player.X",
-										"y": "Player.Y"
-									}
-								}
-							],
-							"sid": 412873924145133
 						}
 					],
 					"sid": 309477913044115

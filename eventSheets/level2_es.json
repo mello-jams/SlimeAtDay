@@ -1877,6 +1877,17 @@
 											],
 											"actions": [
 												{
+													"id": "spawn-another-object",
+													"objectClass": "WaterSlime",
+													"sid": 375726006573428,
+													"parameters": {
+														"object": "HealthPotion",
+														"layer": "1",
+														"image-point": "0",
+														"create-hierarchy": false
+													}
+												},
+												{
 													"id": "destroy",
 													"objectClass": "WaterSlime",
 													"sid": 493723488564455
@@ -4887,6 +4898,57 @@
 							"eventType": "block",
 							"conditions": [
 								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 251326370162241,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 750403125157202,
+									"parameters": {
+										"animation": "\"WallScaling\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 485686750597527
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 499009113863371,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 199660277527835,
+									"parameters": {
+										"animation": "\"Default\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 232880933745478
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
 									"sid": 221273251699693,
@@ -5003,48 +5065,6 @@
 								}
 							],
 							"sid": 664219667451016
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 845884706066168,
-									"parameters": {
-										"instance-variable": "WallScaling_Ability"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 732829107025309,
-									"parameters": {
-										"animation": "\"WallScaling\"",
-										"from": "beginning"
-									}
-								},
-								{
-									"id": "wait",
-									"objectClass": "System",
-									"sid": 932881534827774,
-									"parameters": {
-										"seconds": "12"
-									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 933041979410983,
-									"parameters": {
-										"animation": "\"Default\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 251470182987326
 						}
 					],
 					"sid": 587523980772316
