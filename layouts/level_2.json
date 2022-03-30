@@ -1927,7 +1927,7 @@
 							0,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
@@ -1943,9 +1943,9 @@
 						}
 					},
 					"world": {
-						"x": -223,
+						"x": -163,
 						"y": -83,
-						"width": 72,
+						"width": 192,
 						"height": 30,
 						"originX": 0.5,
 						"originY": 0.5,

@@ -4646,6 +4646,104 @@
 								}
 							],
 							"sid": 546275508116624
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 857028076109937,
+									"parameters": {
+										"instance-variable": "Jump_Ability"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 387572570321575,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 769256530257093,
+									"disabled": true,
+									"parameters": {
+										"instance-variable": "Speed_Ability"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "txtforJump",
+									"sid": 229610760526420,
+									"parameters": {
+										"text": "\" Jump + Wall Scaling\""
+									}
+								},
+								{
+									"id": "set-font-color",
+									"objectClass": "txtforJump",
+									"sid": 949903683029082,
+									"parameters": {
+										"color": "rgbEx(128, 0, 0)"
+									}
+								}
+							],
+							"sid": 927552338476644
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 503318386912488,
+									"parameters": {
+										"instance-variable": "Jump_Ability"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 232401379462864,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 729099017168390,
+									"parameters": {
+										"instance-variable": "Speed_Ability"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "txtforJump",
+									"sid": 465140641849900,
+									"parameters": {
+										"text": "\" Jump + WallScaling + Health\""
+									}
+								},
+								{
+									"id": "set-font-color",
+									"objectClass": "txtforJump",
+									"sid": 557620560618174,
+									"parameters": {
+										"color": "rgbEx(0, 255, 255)"
+									}
+								}
+							],
+							"sid": 859952687573303
 						}
 					],
 					"sid": 522640424648938
@@ -4805,6 +4903,15 @@
 									"parameters": {
 										"instance-variable": "Jump_Ability"
 									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 803743629492589,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
 								}
 							],
 							"actions": [
@@ -5398,10 +5505,19 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 201960845869009,
+									"sid": 220950123379640,
 									"parameters": {
 										"instance-variable": "WallScaling_Ability"
 									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 956933559116450,
+									"parameters": {
+										"instance-variable": "Jump_Ability"
+									},
+									"isInverted": true
 								}
 							],
 							"actions": [
