@@ -59,46 +59,6 @@
 					],
 					"actions": [
 						{
-							"id": "set-instvar-value",
-							"objectClass": "Player",
-							"sid": 715837105472060,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Speed_potions",
-								"value": "2"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Player",
-							"sid": 954019015061901,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Power_potions",
-								"value": "2"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Player",
-							"sid": 222823527060411,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Jump_potions",
-								"value": "2"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Player",
-							"sid": 106891624795595,
-							"disabled": true,
-							"parameters": {
-								"instance-variable": "Slime_potions",
-								"value": "2"
-							}
-						},
-						{
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 533732313665289,
@@ -146,6 +106,20 @@
 								"width-type": "no",
 								"height-type": "no",
 								"z": false
+							}
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "PowerCounter",
+							"sid": 838472609453233,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "4",
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": true
 							}
 						},
 						{
@@ -4595,6 +4569,122 @@
 				{
 					"eventType": "group",
 					"disabled": false,
+					"title": "Counter Mechanic",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 456162417205022,
+									"parameters": {
+										"variable": "Counter"
+									}
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 211041351586945
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 121568750970018,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"value": "20"
+									}
+								}
+							],
+							"sid": 441225239776609
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "while",
+									"objectClass": "System",
+									"sid": 836359278636019
+								},
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 422870787789672,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"comparison": 4,
+										"value": "0"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 520702527848599,
+									"parameters": {
+										"interval-seconds": "1.0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 779669452149146,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 551124328449261
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 903124527161353,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 880775377033767,
+									"parameters": {
+										"instance-variable": "Jump_Ability",
+										"value": "false"
+									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 241189456378949,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability",
+										"value": "false"
+									}
+								}
+							],
+							"sid": 367822852803647
+						}
+					],
+					"sid": 142947671268959
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
 					"title": "JumpBoostAbilty",
 					"description": "",
 					"isActiveOnStart": true,
@@ -4816,9 +4906,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 200655796920962,
+									"sid": 206812640143773,
 									"parameters": {
-										"seconds": "0.5"
+										"seconds": "0.1"
 									}
 								},
 								{
@@ -4841,103 +4931,6 @@
 								}
 							],
 							"sid": 295626943577224
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 738637318115080,
-									"parameters": {
-										"variable": "Counter"
-									}
-								},
-								{
-									"id": "trigger-once-while-true",
-									"objectClass": "System",
-									"sid": 777171255043548
-								}
-							],
-							"actions": [
-								{
-									"id": "set-eventvar-value",
-									"objectClass": "System",
-									"sid": 226751443835137,
-									"parameters": {
-										"variable": "AbilityCountDown",
-										"value": "20"
-									}
-								}
-							],
-							"sid": 847662459012405
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "while",
-									"objectClass": "System",
-									"sid": 826576060340020
-								},
-								{
-									"id": "compare-eventvar",
-									"objectClass": "System",
-									"sid": 555106790536571,
-									"parameters": {
-										"variable": "AbilityCountDown",
-										"comparison": 4,
-										"value": "0"
-									}
-								},
-								{
-									"id": "every-x-seconds",
-									"objectClass": "System",
-									"sid": 582612742952162,
-									"parameters": {
-										"interval-seconds": "1.0"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "subtract-from-eventvar",
-									"objectClass": "System",
-									"sid": 715449155695223,
-									"parameters": {
-										"variable": "AbilityCountDown",
-										"value": "1"
-									}
-								}
-							],
-							"sid": 654396843432799
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-eventvar",
-									"objectClass": "System",
-									"sid": 260880930575852,
-									"parameters": {
-										"variable": "AbilityCountDown",
-										"comparison": 0,
-										"value": "0"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 844019441546232,
-									"parameters": {
-										"instance-variable": "Jump_Ability",
-										"value": "false"
-									}
-								}
-							],
-							"sid": 373063662242848
 						}
 					],
 					"sid": 280565234061722
@@ -5187,6 +5180,15 @@
 									"parameters": {
 										"object": "WallClimb"
 									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 525839133247678,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
 								}
 							],
 							"actions": [
@@ -5205,29 +5207,89 @@
 									}
 								},
 								{
-									"id": "wait",
+									"id": "set-boolean-eventvar",
 									"objectClass": "System",
-									"sid": 509276941909687,
+									"sid": 998775664036995,
 									"parameters": {
-										"seconds": "12"
-									}
-								},
-								{
-									"id": "wait-for-previous-actions",
-									"objectClass": "System",
-									"sid": 253447245509918
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 962891017651748,
-									"parameters": {
-										"instance-variable": "WallScaling_Ability",
-										"value": "false"
+										"variable": "Counter",
+										"value": "true"
 									}
 								}
 							],
 							"sid": 253078316394741
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 182308591334745,
+									"parameters": {
+										"object": "WallClimb"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 421495325526151,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "WallClimb",
+									"sid": 692754928526296
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 303443096914727,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability",
+										"value": "false"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 882262966115454,
+									"parameters": {
+										"variable": "Counter",
+										"value": "false"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 498146832989114,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 745184968281064,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 569401701503945,
+									"parameters": {
+										"variable": "Counter",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 685680379288347
 						},
 						{
 							"eventType": "block",
@@ -5537,15 +5599,6 @@
 							"parameters": {
 								"layout": "Loading_Screen"
 							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 710445810708576,
-							"disabled": true,
-							"parameters": {
-								"layout": "Level_2"
-							}
 						}
 					],
 					"sid": 647424777350595
@@ -5610,15 +5663,6 @@
 							"parameters": {
 								"layout": "Loading_Screen"
 							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 680790692433246,
-							"disabled": true,
-							"parameters": {
-								"layout": "Level_2"
-							}
 						}
 					],
 					"sid": 104364105554944
@@ -5682,15 +5726,6 @@
 							"sid": 334042370954542,
 							"parameters": {
 								"layout": "Loading_Screen"
-							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 576559169955422,
-							"disabled": true,
-							"parameters": {
-								"layout": "Level_2"
 							}
 						}
 					],
