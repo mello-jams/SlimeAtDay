@@ -22,6 +22,26 @@
 			"sid": 471829324676255
 		},
 		{
+			"eventType": "variable",
+			"name": "AbilityCountDown",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 477633353331535
+		},
+		{
+			"eventType": "variable",
+			"name": "Counter",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 855897591121738
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Other_behaviors",
@@ -168,10 +188,18 @@
 					"actions": [
 						{
 							"id": "set-text",
-							"objectClass": "txtSlimes",
+							"objectClass": "txtSlimesCount",
 							"sid": 655247884807220,
 							"parameters": {
 								"text": "\"Slimes Killed for Escape: \" & Slimes"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "PowerCounter",
+							"sid": 803339528807508,
+							"parameters": {
+								"text": "\"Abilty Time \" & AbilityCountDown"
 							}
 						},
 						{
@@ -4681,6 +4709,11 @@
 							"sid": 311114966751941
 						},
 						{
+							"eventType": "script",
+							"script": "//notes for programer dont delete\n\nif (Jump_Ability == true && Counter == true)\n{\n\tJump_Ability == false;\n\tcounter == false;\n\t//wait one sec\n\tJump_Ability == true;\n\tCounter == true;\n}",
+							"disabled": true
+						},
+						{
 							"eventType": "block",
 							"conditions": [
 								{
@@ -4690,6 +4723,15 @@
 									"parameters": {
 										"object": "JumpPotion"
 									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 253015112325667,
+									"parameters": {
+										"instance-variable": "Jump_Ability"
+									},
+									"isInverted": true
 								}
 							],
 							"actions": [
@@ -4708,24 +4750,194 @@
 									}
 								},
 								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 813012576652468,
+									"parameters": {
+										"variable": "Counter",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 445986839567047
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 814906520332301,
+									"parameters": {
+										"object": "JumpPotion"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 562272829733664,
+									"parameters": {
+										"instance-variable": "Jump_Ability"
+									}
+								},
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 111767784617324,
+									"parameters": {
+										"variable": "Counter"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "JumpPotion",
+									"sid": 460256092569896
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 876508510132554,
+									"parameters": {
+										"instance-variable": "Jump_Ability",
+										"value": "false"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 192982068090547,
+									"parameters": {
+										"variable": "Counter",
+										"value": "false"
+									}
+								},
+								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 132074324080840,
+									"sid": 200655796920962,
 									"parameters": {
-										"seconds": "10"
+										"seconds": "0.5"
 									}
 								},
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 607172820719510,
+									"sid": 199721298776235,
+									"parameters": {
+										"instance-variable": "Jump_Ability",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 803394953065338,
+									"parameters": {
+										"variable": "Counter",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 295626943577224
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 738637318115080,
+									"parameters": {
+										"variable": "Counter"
+									}
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 777171255043548
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 226751443835137,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"value": "20"
+									}
+								}
+							],
+							"sid": 847662459012405
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "while",
+									"objectClass": "System",
+									"sid": 826576060340020
+								},
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 555106790536571,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"comparison": 4,
+										"value": "0"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 582612742952162,
+									"parameters": {
+										"interval-seconds": "1.0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 715449155695223,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 654396843432799
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 260880930575852,
+									"parameters": {
+										"variable": "AbilityCountDown",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 844019441546232,
 									"parameters": {
 										"instance-variable": "Jump_Ability",
 										"value": "false"
 									}
 								}
 							],
-							"sid": 445986839567047
+							"sid": 373063662242848
 						}
 					],
 					"sid": 280565234061722

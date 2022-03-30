@@ -697,9 +697,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 461.0406085860957,
+						"x": 400.1867612842057,
 						"y": 760.8113540506823,
-						"width": 159.61649974309557,
+						"width": 282.8648028966135,
 						"height": 172.61649974309557,
 						"originX": 0,
 						"originY": 0,
@@ -730,9 +730,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 746.4768442599126,
+						"x": 714.8945170890996,
 						"y": 812.1424793298554,
-						"width": 155.77676056570795,
+						"width": 201.99480548811084,
 						"height": 121.61649974309557,
 						"originX": 0,
 						"originY": 0,
@@ -763,9 +763,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1063.7484720675761,
+						"x": 1004.4352333154244,
 						"y": 800.8742360337883,
-						"width": 144.61649974309557,
+						"width": 203.9297384952473,
 						"height": 132.61649974309557,
 						"originX": 0,
 						"originY": 0,
@@ -817,10 +817,10 @@
 					"properties": {
 						"text": "Hey! You're that outlaw Slime! Stay away!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "GloriaHallelujah-Regular",
 						"size": 12,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -857,12 +857,12 @@
 				{
 					"type": "Intro_text2",
 					"properties": {
-						"text": "Golly! Is that the dangerous Cowboy Slime? I heard he does that there slime-diddlin'!",
+						"text": "Golly! \nIs that the dangerous Cowboy Slime? \nI heard he does that there slime-diddlin'!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "GloriaHallelujah-Regular",
 						"size": 12,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -870,7 +870,7 @@
 							0,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": false,
@@ -880,9 +880,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 593.8034776348326,
-						"y": 680.6388697686793,
-						"width": 166.7829689239768,
+						"x": 512.1515206963485,
+						"y": 672.1655439020935,
+						"width": 307.7482492425097,
 						"height": 139,
 						"originX": 0,
 						"originY": 0,
@@ -901,10 +901,10 @@
 					"properties": {
 						"text": "Come to cause more trouble I reckon? Killing other slimes is a crime you know.",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "GloriaHallelujah-Regular",
 						"size": 12,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -922,9 +922,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 682.0183351890854,
+						"x": 627.3269220861482,
 						"y": 824.8358009694626,
-						"width": 162,
+						"width": 215.15093149504435,
 						"height": 139,
 						"originX": 0,
 						"originY": 0,
@@ -943,10 +943,10 @@
 					"properties": {
 						"text": "If you're going to break more slime law, please don't absorb me! I haven't completed the battle-pass yet!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "GloriaHallelujah-Regular",
 						"size": 12,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -964,9 +964,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1053,
+						"x": 1035.2830651489337,
 						"y": 750,
-						"width": 162,
+						"width": 216.69145541688545,
 						"height": 139,
 						"originX": 0,
 						"originY": 0,
@@ -985,10 +985,10 @@
 					"properties": {
 						"text": "Cowboy Slime! As the sheriff round these parts, I ban you from ever stepping foot in Slime-ville ever again! Leave!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "GloriaHallelujah-Regular",
 						"size": 12,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1006,9 +1006,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1410,
-						"y": 759,
-						"width": 162,
+						"x": 1371.484913198391,
+						"y": 759.7703042748691,
+						"width": 245.96293323401414,
 						"height": 139,
 						"originX": 0,
 						"originY": 0,

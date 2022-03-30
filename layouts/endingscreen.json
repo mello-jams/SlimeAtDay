@@ -682,7 +682,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Text8",
+					"type": "txtTittle",
 					"properties": {
 						"text": "You made it to the end,\ndefeating the bad guy, \nyou are now the Good, not\nthe bad, but still slimey",
 						"enable-bbcode": true,
@@ -749,7 +749,7 @@
 					}
 				},
 				{
-					"type": "Text8",
+					"type": "txtTittle",
 					"properties": {
 						"text": "You made it to the end,\ndefeating the bad guy, \nyou are now the Good, not\nthe bad, but still slimey",
 						"enable-bbcode": true,
@@ -816,7 +816,7 @@
 					}
 				},
 				{
-					"type": "Text8",
+					"type": "txtTittle",
 					"properties": {
 						"text": "You made it to the end,\ndefeating the bad guy, \nyou are now the Good, not\nthe bad, but still slimey",
 						"enable-bbcode": true,
@@ -921,5 +921,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "TittleScreen"
+	"eventSheet": null
 }

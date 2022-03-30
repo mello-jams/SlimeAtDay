@@ -52,6 +52,25 @@
 						"volume": "-15",
 						"tag-optional": "\"Hugh made these beats\""
 					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 540919949928863,
+					"disabled": true,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 172992626189133,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
 			"sid": 936761424690117

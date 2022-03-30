@@ -184,7 +184,7 @@
 							"actions": [
 								{
 									"id": "set-text",
-									"objectClass": "txtSlimes",
+									"objectClass": "txtSlimesCount",
 									"sid": 973390119889788,
 									"parameters": {
 										"text": "\"Slimes Killed for Escape: \" & Slimes"

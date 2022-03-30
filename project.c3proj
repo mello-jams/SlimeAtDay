@@ -184,10 +184,7 @@
 			"Sprite9",
 			"RockFloors",
 			"InvisbleWall",
-			"Text8",
-			"Text9",
 			"Sprite2",
-			"ClickToPLauu",
 			"Audio",
 			"triggerForCombo",
 			"Door3",
@@ -205,9 +202,13 @@
 					"Text4",
 					"Text5",
 					"Text6",
-					"txtSlimes",
+					"txtSlimesCount",
 					"Text7",
-					"Text_damage_3"
+					"Text_damage_3",
+					"txtTittle",
+					"Text9",
+					"ClickToPLauu",
+					"PowerCounter"
 				],
 				"subfolders": [],
 				"name": "Text"
@@ -446,7 +447,13 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "GloriaHallelujah-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 223204152819642
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
@@ -538,7 +545,7 @@
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "scale-outer",
-		"fullscreenQuality": "low",
+		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
 			0,

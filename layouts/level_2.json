@@ -426,7 +426,7 @@
 					}
 				},
 				{
-					"type": "txtSlimes",
+					"type": "txtSlimesCount",
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,

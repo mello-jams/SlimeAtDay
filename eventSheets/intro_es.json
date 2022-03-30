@@ -291,12 +291,12 @@
 							"behaviorType": "Fade"
 						},
 						{
-							"id": "set-ignoring-input",
+							"id": "set-enabled",
 							"objectClass": "Player",
-							"sid": 184472180309506,
+							"sid": 220068992320629,
 							"behaviorType": "Platform",
 							"parameters": {
-								"input": "start-ignoring"
+								"state": "disabled"
 							}
 						},
 						{
@@ -557,6 +557,15 @@
 						"loop": "looping",
 						"volume": "-10",
 						"tag-optional": "\"broooooo this is fyyyyyrrrrreeee thanks Hugh\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 468655415288651,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"state": "enabled"
 					}
 				}
 			],
