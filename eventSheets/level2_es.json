@@ -2,26 +2,6 @@
 	"name": "Level2_ES",
 	"events": [
 		{
-			"eventType": "variable",
-			"name": "Slimes2",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 188092402198913
-		},
-		{
-			"eventType": "variable",
-			"name": "Merchant2",
-			"type": "boolean",
-			"initialValue": "false",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 883529020659783
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "System2",
@@ -111,16 +91,16 @@
 								},
 								{
 									"id": "pin-to-object-imagepoint",
-									"objectClass": "PowerCounter",
-									"sid": 788388062303246,
+									"objectClass": "txtforJump",
+									"sid": 827950211188276,
 									"behaviorType": "Pin",
 									"parameters": {
 										"pin-to": "Player",
-										"image-point": "4",
+										"image-point": "5",
 										"angle": true,
 										"width-type": "no",
 										"height-type": "no",
-										"z": false
+										"z": true
 									}
 								},
 								{
@@ -2130,16 +2110,6 @@
 									"id": "reset-global-variables",
 									"objectClass": "System",
 									"sid": 365486021663127
-								},
-								{
-									"id": "set-boolean-eventvar",
-									"objectClass": "System",
-									"sid": 333288885816126,
-									"disabled": true,
-									"parameters": {
-										"variable": "Merchant",
-										"value": "false"
-									}
 								}
 							],
 							"sid": 405525435446142
@@ -2267,6 +2237,17 @@
 									"behaviorType": "Platform",
 									"parameters": {
 										"control": "jump"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 127307151768811,
+									"parameters": {
+										"audio-file": "quiet_slime",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -4293,6 +4274,59 @@
 				{
 					"eventType": "group",
 					"disabled": false,
+					"title": "weeee2",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 201975218977261,
+									"parameters": {
+										"instance-variable": "Jump_Ability"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 287561401145665,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 837147178414495,
+									"parameters": {
+										"instance-variable": "Speed_Ability"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "txtforJump",
+									"sid": 634604589770247,
+									"parameters": {
+										"text": "\"  \""
+									}
+								}
+							],
+							"sid": 775115204848604
+						}
+					],
+					"sid": 525910376796317
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
 					"title": "Counter Mechanic2",
 					"description": "",
 					"isActiveOnStart": true,
@@ -4441,7 +4475,7 @@
 								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "Player",
-									"sid": 260732431613219,
+									"sid": 994791420762626,
 									"parameters": {
 										"instance-variable": "Jump_Ability"
 									}
@@ -4451,16 +4485,24 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 819284825245942,
+									"sid": 595923312014560,
 									"parameters": {
 										"animation": "\"Jump\"",
 										"from": "beginning"
 									}
 								},
 								{
+									"id": "set-text",
+									"objectClass": "txtforJump",
+									"sid": 508721271250100,
+									"parameters": {
+										"text": "\"Jump Boost \""
+									}
+								},
+								{
 									"id": "set-double-jump",
 									"objectClass": "Player",
-									"sid": 817467156887457,
+									"sid": 295997482480024,
 									"behaviorType": "Platform",
 									"parameters": {
 										"state": "enabled"
@@ -4469,14 +4511,14 @@
 								{
 									"id": "set-jump-strength",
 									"objectClass": "Player",
-									"sid": 124756167983824,
+									"sid": 348522605092739,
 									"behaviorType": "Platform",
 									"parameters": {
 										"jump-strength": "600"
 									}
 								}
 							],
-							"sid": 329481426836488
+							"sid": 758883415328814
 						},
 						{
 							"eventType": "block",
@@ -4898,57 +4940,6 @@
 							"eventType": "block",
 							"conditions": [
 								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 251326370162241,
-									"parameters": {
-										"instance-variable": "WallScaling_Ability"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 750403125157202,
-									"parameters": {
-										"animation": "\"WallScaling\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 485686750597527
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 499009113863371,
-									"parameters": {
-										"instance-variable": "WallScaling_Ability"
-									},
-									"isInverted": true
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 199660277527835,
-									"parameters": {
-										"animation": "\"Default\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 232880933745478
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "Player",
 									"sid": 221273251699693,
@@ -5065,6 +5056,74 @@
 								}
 							],
 							"sid": 664219667451016
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 683390082330547,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "txtforJump",
+									"sid": 301315370808169,
+									"parameters": {
+										"text": "\"Wall Scaling \""
+									}
+								},
+								{
+									"id": "set-font-color",
+									"objectClass": "txtforJump",
+									"sid": 556260274577241,
+									"parameters": {
+										"color": "rgbEx(0, 0, 255)"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 934072811697837,
+									"parameters": {
+										"animation": "\"WallScaling\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 537653817187496
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 956044203663284,
+									"parameters": {
+										"instance-variable": "WallScaling_Ability"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 234871057515725,
+									"parameters": {
+										"animation": "\"Default\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 974470014973701,
+							"disabled": true
 						}
 					],
 					"sid": 587523980772316

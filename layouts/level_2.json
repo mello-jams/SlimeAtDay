@@ -1910,6 +1910,54 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "txtforJump",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "GloriaHallelujah-Regular",
+						"size": 9,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.9411764705882353,
+							0.4235294117647059,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 138,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -223,
+						"y": -83,
+						"width": 72,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 427217068419143,

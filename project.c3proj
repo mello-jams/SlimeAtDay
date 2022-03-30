@@ -208,7 +208,9 @@
 					"txtTittle",
 					"Text9",
 					"ClickToPLauu",
-					"PowerCounter"
+					"PowerCounter",
+					"txtforWall",
+					"txtforJump"
 				],
 				"subfolders": [],
 				"name": "Text"
