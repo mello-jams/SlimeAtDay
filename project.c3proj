@@ -141,6 +141,14 @@
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "wrap",
+			"name": "Wrap",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "lrtlz0jh5q9",
@@ -191,7 +199,10 @@
 			"Door4",
 			"Cave",
 			"Sky2",
-			"Sky3"
+			"Sky3",
+			"train_car",
+			"train_engine1",
+			"train_engine2"
 		],
 		"subfolders": [
 			{

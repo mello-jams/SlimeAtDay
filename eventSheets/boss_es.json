@@ -6110,6 +6110,130 @@
 			],
 			"sid": 468187720339280,
 			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "train_engine1",
+					"sid": 955256545181698,
+					"parameters": {
+						"object": "train_engine2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "train_car",
+					"sid": 533909192363003,
+					"parameters": {
+						"instance-variable": "IsMoving",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 757528995657793
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 297270308858525,
+					"parameters": {
+						"interval-seconds": "0.01"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "train_car",
+					"sid": 772301278016935,
+					"parameters": {
+						"instance-variable": "IsMoving"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "train_car",
+					"sid": 188742346449944,
+					"parameters": {
+						"distance": "-1"
+					}
+				}
+			],
+			"sid": 193528692519374
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "train_car",
+					"sid": 699875155045257,
+					"parameters": {
+						"object": "train_engine2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "train_car",
+					"sid": 556418878800022,
+					"parameters": {
+						"instance-variable": "readyTP",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 721384532455343
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "train_car",
+					"sid": 440534204340202,
+					"parameters": {
+						"instance-variable": "readyTP"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "train_car",
+					"sid": 173834762907804,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-250"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "train_car",
+					"sid": 387834410820895
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 560989482790728,
+					"parameters": {
+						"object-to-create": "train_car",
+						"layer": "1",
+						"x": "2501",
+						"y": "895",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 529751760936174
 		}
 	],
 	"sid": 500827366516291

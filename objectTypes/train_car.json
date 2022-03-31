@@ -1,0 +1,86 @@
+{
+	"name": "train_car",
+	"plugin-id": "Sprite",
+	"sid": 294588489018979,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "IsMoving",
+			"type": "boolean",
+			"desc": "",
+			"sid": 899632990063910
+		},
+		{
+			"name": "readyTP",
+			"type": "boolean",
+			"desc": "if the train car is ready to be teleported in order to make the scene look like it movin ya feel?",
+			"sid": 740802772995179
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "wrap",
+			"name": "Wrap",
+			"sid": 454070102081048
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 961208473187300
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 456374730088119
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 206,
+						"height": 72,
+						"originX": 0.5825242718446602,
+						"originY": 0.08333333333333333,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5989837,
+						"collisionPoly": {
+							"points": [
+								0.9951456310679612,
+								0.013888888888888888,
+								0.9563106796116505,
+								0.1527777777777778,
+								0.9466019417475728,
+								0.16666666666666666,
+								0.9466019417475728,
+								0.9861111111111112,
+								0.024271844660194174,
+								0.9861111111111112,
+								0.024271844660194174,
+								0.16666666666666666,
+								0.0048543689320388345,
+								0.16666666666666666,
+								0.024271844660194185,
+								0.013888888888888888
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 916666745091115,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,7 +1,7 @@
 {
-	"name": "Cursor",
+	"name": "train_engine1",
 	"plugin-id": "Sprite",
-	"sid": 647561609138591,
+	"sid": 800189188105493,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8957736,
+						"imageSpriteId": 5484650,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 797531303527675,
+				"sid": 585396069616717,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
