@@ -75,6 +75,11 @@
 			"behaviorId": "scrollto",
 			"name": "ScrollTo",
 			"sid": 101481047241297
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 394936582906888
 		}
 	],
 	"effectTypes": [],

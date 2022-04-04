@@ -202,7 +202,8 @@
 			"Sky3",
 			"train_car",
 			"train_engine1",
-			"train_engine2"
+			"train_engine2",
+			"Timer"
 		],
 		"subfolders": [
 			{
@@ -317,7 +318,7 @@
 			"Level_2",
 			"Level_3",
 			"Loading_Screen",
-			"Tittle_Screen",
+			"Title_Screen",
 			"Boss_Level",
 			"EndingScreen"
 		],
@@ -327,10 +328,10 @@
 		"items": [
 			"Level1_ES",
 			"Master_ES",
-			"intro_ES",
 			"Loading_ES",
-			"Tittle_ES",
+			"Title_ES",
 			"Level2_ES",
+			"intro_ES",
 			"Boss_ES"
 		],
 		"subfolders": []
@@ -597,5 +598,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": "Tittle_Screen"
+	"firstLayout": "Title_Screen"
 }
