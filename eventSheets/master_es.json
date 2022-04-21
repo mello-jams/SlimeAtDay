@@ -7,7 +7,7 @@
 		},
 		{
 			"eventType": "include",
-			"includeSheet": "Title_ES"
+			"includeSheet": "Tittle_ES"
 		},
 		{
 			"eventType": "include",
@@ -16,121 +16,6 @@
 		{
 			"eventType": "include",
 			"includeSheet": "intro_ES"
-		},
-		{
-			"eventType": "variable",
-			"name": "Demo_Timer",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "how long the players have to complete the game",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 310917204520254
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 793520510380505,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "ClickToPLauu"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "start-timer",
-					"objectClass": "Timer",
-					"sid": 485013607263103,
-					"behaviorType": "Timer",
-					"parameters": {
-						"duration": "10.0",
-						"type": "once",
-						"tag": "\"demo\""
-					}
-				}
-			],
-			"sid": 865176591630421
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-timer",
-					"objectClass": "Timer",
-					"sid": 179105405556583,
-					"behaviorType": "Timer",
-					"parameters": {
-						"tag": "\"demo\""
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 729518339223109,
-					"parameters": {
-						"layout": "Title_Screen"
-					}
-				}
-			],
-			"sid": 614891616015062
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 422012338231479,
-					"parameters": {
-						"interval-seconds": "1.0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 435503511612008,
-					"parameters": {
-						"variable": "Demo_Timer",
-						"value": "1"
-					}
-				}
-			],
-			"sid": 508754825030327
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-eventvar",
-					"objectClass": "System",
-					"sid": 392342815380998,
-					"parameters": {
-						"variable": "Demo_Timer",
-						"comparison": 5,
-						"value": "10"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 547946677360187,
-					"parameters": {
-						"layout": "Title_Screen"
-					}
-				}
-			],
-			"sid": 263721223257647
 		}
 	],
 	"sid": 818438963426028

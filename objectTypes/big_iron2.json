@@ -1,0 +1,92 @@
+{
+	"name": "big_iron2",
+	"plugin-id": "Sprite",
+	"sid": 692940499411351,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 117344064773485
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 799410295647317
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 796288200194994
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 502848714211677
+		},
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 543962949358308
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 169,
+						"height": 98,
+						"originX": 0.48520710059171596,
+						"originY": 0.42857142857142855,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5679764,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "business_end",
+								"x": 0.9171597633136095,
+								"y": 0.6836734693877551
+							},
+							{
+								"name": "grip",
+								"x": 0.047337278106508875,
+								"y": 0.2755102040816326
+							},
+							{
+								"name": "Gun",
+								"x": 0.9585798816568047,
+								"y": 0.5408163265306123
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 188694753409535,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

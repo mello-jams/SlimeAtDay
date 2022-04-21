@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 545002835351389,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Rotate",
+			"type": "boolean",
+			"desc": "",
+			"sid": 417590849344828
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pin",
@@ -34,8 +41,8 @@
 					{
 						"width": 169,
 						"height": 98,
-						"originX": 0.378698224852071,
-						"originY": 0.6938775510204082,
+						"originX": 0.09467455621301775,
+						"originY": 0.16326530612244897,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -56,13 +63,18 @@
 						"imagePoints": [
 							{
 								"name": "business_end",
-								"x": 0.9053254437869822,
-								"y": 0.7040816326530612
+								"x": 0.9171597633136095,
+								"y": 0.6836734693877551
 							},
 							{
 								"name": "grip",
-								"x": 0.11242603550295859,
-								"y": 0.29591836734693877
+								"x": 0.047337278106508875,
+								"y": 0.2755102040816326
+							},
+							{
+								"name": "Gun",
+								"x": 0.9585798816568047,
+								"y": 0.5408163265306123
 							}
 						],
 						"duration": 1

@@ -141,6 +141,20 @@
 						"Name": 0
 					},
 					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
@@ -158,20 +172,6 @@
 								"set-angle": false,
 								"stop-on-solids": false,
 								"enabled": false
-							}
-						},
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": false,
-								"live-preview": false
 							}
 						}
 					},
@@ -408,6 +408,20 @@
 						"Name": 0
 					},
 					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
@@ -425,20 +439,6 @@
 								"set-angle": false,
 								"stop-on-solids": false,
 								"enabled": false
-							}
-						},
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": false,
-								"live-preview": false
 							}
 						}
 					},
@@ -571,7 +571,10 @@
 						"WallScaling_Ability": false,
 						"Jump_Ability": false,
 						"Strapped_Ability": false,
-						"PoisonNum": 0
+						"PoisonNum": 0,
+						"Reload": false,
+						"Health_Ability": false,
+						"Timer": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -593,17 +596,17 @@
 								"enabled": true
 							}
 						},
-						"Timer": {
+						"Timer2": {
 							"properties": {}
 						}
 					},
 					"world": {
 						"x": 542,
 						"y": 909,
-						"width": 62.274250353422595,
-						"height": 34.53425434411612,
-						"originX": 0.5060975609756098,
-						"originY": 0.5691489361702128,
+						"width": 80.6907207323311,
+						"height": 45.73951772172827,
+						"originX": 0.38588235294117645,
+						"originY": 0.7188755020080321,
 						"color": [
 							1,
 							1,
@@ -689,8 +692,8 @@
 					"properties": {
 						"text": "You made it to the end,\ndefeating the bad guy, \nyou are now the Good, not\nthe bad, but still slimey",
 						"enable-bbcode": true,
-						"font": "Impact",
-						"size": 50,
+						"font": "GloriaHallelujah-Regular",
+						"size": 48,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -735,10 +738,10 @@
 						}
 					},
 					"world": {
-						"x": 576,
-						"y": 716,
-						"width": 777,
-						"height": 316,
+						"x": 549,
+						"y": 695,
+						"width": 1022,
+						"height": 399,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -756,8 +759,8 @@
 					"properties": {
 						"text": "You made it to the end,\ndefeating the bad guy, \nyou are now the Good, not\nthe bad, but still slimey",
 						"enable-bbcode": true,
-						"font": "Impact",
-						"size": 50,
+						"font": "GloriaHallelujah-Regular",
+						"size": 48,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -802,10 +805,10 @@
 						}
 					},
 					"world": {
-						"x": 582,
-						"y": 710,
-						"width": 707,
-						"height": 314,
+						"x": 556,
+						"y": 692,
+						"width": 918,
+						"height": 437,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -823,8 +826,8 @@
 					"properties": {
 						"text": "You made it to the end,\ndefeating the bad guy, \nyou are now the Good, not\nthe bad, but still slimey",
 						"enable-bbcode": true,
-						"font": "Impact",
-						"size": 50,
+						"font": "GloriaHallelujah-Regular",
+						"size": 48,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -869,10 +872,10 @@
 						}
 					},
 					"world": {
-						"x": 593,
-						"y": 712,
-						"width": 1029,
-						"height": 408,
+						"x": 562,
+						"y": 694,
+						"width": 1078,
+						"height": 418,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -883,6 +886,36 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "TittleScreen",
+					"properties": {
+						"type": "button",
+						"text": "Tittle Screen",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 87,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 661,
+						"y": 852,
+						"width": 190,
+						"height": 36,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],
@@ -924,5 +957,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Loading"
 }

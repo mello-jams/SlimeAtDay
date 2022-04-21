@@ -136,6 +136,81 @@
 				}
 			],
 			"sid": 131829642202215
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 512091554692565,
+					"parameters": {
+						"variable": "WhatLevel",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 543727533573592,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 273873498111009,
+					"parameters": {
+						"layout": "EndingScreen"
+					}
+				}
+			],
+			"sid": 759867148162670
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 567891444683265
+				}
+			],
+			"actions": [
+				{
+					"id": "rotate-counter-clockwise",
+					"objectClass": "Player2",
+					"sid": 408914956985443,
+					"parameters": {
+						"degrees": "1"
+					}
+				},
+				{
+					"id": "rotate-counter-clockwise",
+					"objectClass": "big_iron2",
+					"sid": 516936969206375,
+					"parameters": {
+						"degrees": "1"
+					}
+				},
+				{
+					"id": "rotate-clockwise",
+					"objectClass": "big_iron3",
+					"sid": 837647767958502,
+					"parameters": {
+						"degrees": "1"
+					}
+				}
+			],
+			"sid": 487701576285606
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "Timer"
 		}
 	],
 	"sid": 269863722402610
