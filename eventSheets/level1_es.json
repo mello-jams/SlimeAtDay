@@ -66,6 +66,66 @@
 			"sid": 577843205308520
 		},
 		{
+			"eventType": "variable",
+			"name": "Total_shots",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": true,
+			"sid": 581501787680785
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_hits",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 696987935127679
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_time",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": true,
+			"sid": 254796498622172
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_jumps",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 100840719968664
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_kills",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 171173526501308
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_potions",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 804401704151981
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Other_behaviors",

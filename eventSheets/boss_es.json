@@ -68,6 +68,17 @@
 								"instance-variable": "movin",
 								"value": "true"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 741172475670581,
+							"parameters": {
+								"audio-file": "Train-movement-loop",
+								"loop": "looping",
+								"volume": "-24",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 417357100455677
