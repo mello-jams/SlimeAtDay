@@ -1,0 +1,31 @@
+{
+	"name": "Ending_ES",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Highscore"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 256938176449772
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Stats2",
+					"sid": 548189499019168,
+					"parameters": {
+						"text": "Total_shots"
+					}
+				}
+			],
+			"sid": 731682159664107
+		}
+	],
+	"sid": 838460663344330
+}

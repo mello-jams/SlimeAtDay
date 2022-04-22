@@ -79,6 +79,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Anchor",
 			"name": "Anchor",
@@ -228,7 +236,8 @@
 			"TiledBackground4",
 			"TiledBackground5",
 			"Sprite4",
-			"clowd"
+			"clowd",
+			"train_particles1"
 		],
 		"subfolders": [
 			{
@@ -252,7 +261,16 @@
 					"txtforTimer",
 					"txtforHighscore"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [
+							"Stats",
+							"Stats2"
+						],
+						"subfolders": [],
+						"name": "Stats"
+					}
+				],
 				"name": "Text"
 			},
 			{
@@ -418,7 +436,8 @@
 			"Master_ES",
 			"Timer",
 			"Highscore",
-			"Loading"
+			"Loading",
+			"Ending_ES"
 		],
 		"subfolders": []
 	},
@@ -548,6 +567,11 @@
 					"name": "cave_water_dripping.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 196029617801218
+				},
+				{
+					"name": "Train-movement-loop.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 693190599005594
 				}
 			],
 			"subfolders": []
