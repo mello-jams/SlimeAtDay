@@ -6517,9 +6517,9 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 221740106088091,
+									"sid": 520714719853296,
 									"parameters": {
-										"animation": "\"Slime\"",
+										"animation": "\"Speed\"",
 										"from": "beginning"
 									}
 								},
@@ -6608,11 +6608,11 @@
 										{
 											"id": "compare-eventvar",
 											"objectClass": "System",
-											"sid": 391848662677826,
+											"sid": 602743787468318,
 											"parameters": {
 												"variable": "floorTime",
 												"comparison": 5,
-												"value": "(time-0.2)"
+												"value": "(time-0.3)"
 											}
 										}
 									],

@@ -331,7 +331,7 @@
 						"initially-visible": true,
 						"origin": "center",
 						"wrap-horizontal": "repeat",
-						"wrap-vertical": "clamp-to-edge",
+						"wrap-vertical": "mirror-repeat",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
 						"image-scale-x": 1,
@@ -540,7 +540,7 @@
 				{
 					"type": "Tutorial1",
 					"properties": {
-						"text": "\"You can use these red potions to jump great distances. Try them now.\"",
+						"text": "\"Drink the Strawberry Soda to get a second jump.\"  ",
 						"enable-bbcode": true,
 						"font": "GloriaHallelujah-Regular",
 						"size": 15,
@@ -582,7 +582,7 @@
 				{
 					"type": "Tutorial1",
 					"properties": {
-						"text": "\"Left click to shoot enemy and it will drop the potion\"",
+						"text": "\"Hit the Left button to fire that there trusty Big Iron you got\"",
 						"enable-bbcode": true,
 						"font": "GloriaHallelujah-Regular",
 						"size": 15,
@@ -1054,8 +1054,8 @@
 						}
 					},
 					"world": {
-						"x": 1212,
-						"y": 1439,
+						"x": 1245,
+						"y": 1448,
 						"width": 51.75039219932063,
 						"height": 40.811284905155276,
 						"originX": 0.5,
@@ -1066,7 +1066,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.18582331985708855,
 						"zElevation": 0
 					}
 				},
@@ -1216,9 +1216,9 @@
 						}
 					},
 					"world": {
-						"x": 1985,
+						"x": 1923.5,
 						"y": 1700,
-						"width": 783.8000000000002,
+						"width": 660.8000000000002,
 						"height": 24.4,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -1252,9 +1252,9 @@
 						}
 					},
 					"world": {
-						"x": 1509,
+						"x": 1518.5,
 						"y": 634,
-						"width": 709.8000000000002,
+						"width": 508.8000000000002,
 						"height": 34.4,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -1288,8 +1288,8 @@
 						}
 					},
 					"world": {
-						"x": 1298,
-						"y": 1473,
+						"x": 1278,
+						"y": 1491,
 						"width": 415.80000000000024,
 						"height": 20.4,
 						"originX": 0.5,
@@ -1300,7 +1300,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.14639180599469676,
 						"zElevation": 0
 					}
 				},
@@ -1403,8 +1403,8 @@
 						}
 					},
 					"world": {
-						"x": 2254,
-						"y": 853,
+						"x": 1973,
+						"y": 1101,
 						"width": 139,
 						"height": 25,
 						"originX": 0.5,
@@ -1753,8 +1753,8 @@
 						}
 					},
 					"world": {
-						"x": 2688,
-						"y": 999,
+						"x": 2653,
+						"y": 841,
 						"width": 42.20452845634247,
 						"height": 27.793226056615765,
 						"originX": 0.4585987261146497,
@@ -1765,7 +1765,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.014097429058738,
 						"zElevation": 0
 					}
 				},
@@ -1844,78 +1844,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 105,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 1829,
-						"y": 1174,
-						"width": 80.59999999999991,
-						"height": 27.200000000000003,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Ground",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 108,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 2076,
-						"y": 1085,
-						"width": 80.59999999999991,
-						"height": 27.200000000000003,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Ground",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 116,
 					"instanceVariables": {},
 					"behaviors": {
@@ -1927,9 +1855,9 @@
 						}
 					},
 					"world": {
-						"x": 2496,
-						"y": 1034,
-						"width": 529.5999999999999,
+						"x": 2522,
+						"y": 901,
+						"width": 385.99509733832724,
 						"height": 27.200000000000003,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -1939,7 +1867,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.067369636317016,
 						"zElevation": 0
 					}
 				},
@@ -2022,8 +1950,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2393,
-						"y": 953,
+						"x": 2384,
+						"y": 863,
 						"width": 99,
 						"height": 102,
 						"originX": 0.5340909090909091,
@@ -2034,7 +1962,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.119195530397138,
 						"zElevation": 0
 					}
 				},
@@ -2088,8 +2016,8 @@
 						}
 					},
 					"world": {
-						"x": 2419,
-						"y": 997,
+						"x": 2394,
+						"y": 898,
 						"width": 43.63739476896188,
 						"height": 28.73682094541391,
 						"originX": 0.4585987261146497,
@@ -2100,7 +2028,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.080888786765524,
 						"zElevation": 0
 					}
 				},
@@ -2463,7 +2391,7 @@
 					},
 					"world": {
 						"x": 933,
-						"y": 1541,
+						"y": 1502,
 						"width": 165.5999999999999,
 						"height": 27.200000000000003,
 						"originX": 0.5,
@@ -2492,7 +2420,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 981,
-						"y": 1508,
+						"y": 1469,
 						"width": 24.38816534091181,
 						"height": 31.162655713387323,
 						"originX": 0.48412698412698413,

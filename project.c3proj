@@ -237,7 +237,9 @@
 			"TiledBackground5",
 			"Sprite4",
 			"clowd",
-			"train_particles1"
+			"train_particles1",
+			"Text8",
+			"Text10"
 		],
 		"subfolders": [
 			{
@@ -421,7 +423,8 @@
 			"Loading_Screen",
 			"Tittle_Screen",
 			"Boss_Level",
-			"EndingScreen"
+			"EndingScreen",
+			"Boss_CustceneBF"
 		],
 		"subfolders": []
 	},

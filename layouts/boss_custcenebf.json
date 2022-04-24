@@ -1,5 +1,5 @@
 {
-	"name": "Boss_Level",
+	"name": "Boss_CustceneBF",
 	"layers": [
 		{
 			"name": "bkg",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 43,
+					"uid": 316,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -48,7 +48,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 233,
+					"uid": 317,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -77,7 +77,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 235,
+					"uid": 318,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -108,7 +108,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 236,
+					"uid": 319,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -139,7 +139,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 237,
+					"uid": 320,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -170,7 +170,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 238,
+					"uid": 321,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -201,7 +201,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 239,
+					"uid": 322,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -224,7 +224,7 @@
 					}
 				}
 			],
-			"sid": 709068788329412,
+			"sid": 103248491472988,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -282,7 +282,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 310,
+					"uid": 323,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -327,7 +327,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 309,
+					"uid": 324,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -372,7 +372,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 291,
+					"uid": 325,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -417,7 +417,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 261,
+					"uid": 326,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -462,7 +462,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 260,
+					"uid": 327,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -507,7 +507,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 258,
+					"uid": 328,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -552,7 +552,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 255,
+					"uid": 329,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -597,7 +597,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 254,
+					"uid": 330,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -642,7 +642,7 @@
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
-					"uid": 259,
+					"uid": 331,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -671,7 +671,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 220,
+					"uid": 332,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -707,7 +707,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 221,
+					"uid": 333,
 					"instanceVariables": {
 						"HP": 10,
 						"Speed_potions": 0,
@@ -773,7 +773,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 222,
+					"uid": 334,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -809,7 +809,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 244,
+					"uid": 335,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -845,7 +845,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 246,
+					"uid": 336,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -874,7 +874,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 247,
+					"uid": 337,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -903,7 +903,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 248,
+					"uid": 338,
 					"instanceVariables": {},
 					"behaviors": {
 						"Bullet": {
@@ -944,7 +944,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 249,
+					"uid": 339,
 					"instanceVariables": {
 						"Rotate": false
 					},
@@ -1022,7 +1022,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 250,
+					"uid": 340,
 					"instanceVariables": {},
 					"behaviors": {
 						"Timer": {
@@ -1065,7 +1065,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 65,
+					"uid": 341,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1115,7 +1115,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 66,
+					"uid": 342,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1165,7 +1165,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 224,
+					"uid": 343,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1215,7 +1215,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 225,
+					"uid": 344,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1265,7 +1265,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 226,
+					"uid": 345,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -1315,7 +1315,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 78,
+					"uid": 346,
 					"instanceVariables": {
 						"BossSlime": false,
 						"HPSlime": 0,
@@ -1376,7 +1376,7 @@
 					}
 				}
 			],
-			"sid": 256359533630106,
+			"sid": 966921601276187,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -1418,7 +1418,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 256,
+					"uid": 347,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -1453,7 +1453,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 257,
+					"uid": 348,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -1501,7 +1501,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 140,
+					"uid": 349,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -1549,7 +1549,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 141,
+					"uid": 350,
 					"instanceVariables": {
 						"Jumpheremaybe": false,
 						"wallScalingmayb": false,
@@ -1619,7 +1619,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 64,
+					"uid": 351,
 					"instanceVariables": {
 						"txtSlimes": 0
 					},
@@ -1673,7 +1673,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 35,
+					"uid": 352,
 					"instanceVariables": {
 						"txtSlimes": 0
 					},
@@ -1706,7 +1706,7 @@
 					}
 				}
 			],
-			"sid": 811863644932755,
+			"sid": 946208958932550,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -1751,7 +1751,7 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 307,
+					"uid": 353,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1781,7 +1781,7 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 308,
+					"uid": 354,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1808,7 +1808,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 240,
+					"uid": 355,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -1839,7 +1839,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 241,
+					"uid": 356,
 					"instanceVariables": {
 						"movin": false
 					},
@@ -1862,7 +1862,7 @@
 					}
 				}
 			],
-			"sid": 685492883413457,
+			"sid": 986234591173927,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -1904,7 +1904,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 232,
+					"uid": 357,
 					"instanceVariables": {},
 					"behaviors": {
 						"Fade": {
@@ -1936,7 +1936,7 @@
 					}
 				}
 			],
-			"sid": 858791517349894,
+			"sid": 861812528446926,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -1969,7 +1969,7 @@
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [],
-			"sid": 943282892297623,
+			"sid": 901786783226385,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -1998,7 +1998,7 @@
 			"global": false
 		}
 	],
-	"sid": 598571807243376,
+	"sid": 759945239931363,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3000,
