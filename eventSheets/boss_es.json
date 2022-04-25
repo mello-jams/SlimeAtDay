@@ -234,6 +234,31 @@
 						}
 					],
 					"sid": 317674421301215
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 537798948717974,
+							"parameters": {
+								"interval-seconds": "1.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 690483587459924,
+							"parameters": {
+								"variable": "Total_time",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 616480734124653
 				}
 			],
 			"sid": 475552241570844
@@ -690,6 +715,15 @@
 												"volume": "0",
 												"tag-optional": "\"\""
 											}
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 837158582449234,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 599714710880393,
@@ -763,6 +797,15 @@
 													"parameters": {
 														"width": "43.637395",
 														"height": "28.736821"
+													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 282152172219670,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
 													}
 												}
 											],
@@ -838,6 +881,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 513284177740648,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 260840411865308
@@ -911,6 +963,15 @@
 													"parameters": {
 														"width": "43.637395",
 														"height": "28.736821"
+													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 573630724915722,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
 													}
 												}
 											],
@@ -986,6 +1047,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 893407043481340,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 323598513656615
@@ -1038,6 +1108,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 396689838176647
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 709323509594151,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 809986468914259,
@@ -1059,6 +1138,15 @@
 													"id": "destroy",
 													"objectClass": "AcidSlime",
 													"sid": 949356213530209
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 172717364970939,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 304689766602019
@@ -1111,6 +1199,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 577303363688438
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 577038936640233,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 776663785662467,
@@ -1180,6 +1277,15 @@
 													"parameters": {
 														"width": "43.637395",
 														"height": "28.736821"
+													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 474011207101406,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
 													}
 												}
 											],
@@ -1251,6 +1357,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 834837290764482,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 485228546782742
@@ -1320,6 +1435,15 @@
 													"parameters": {
 														"width": "43.637395",
 														"height": "28.736821"
+													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 749954771015633,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
 													}
 												}
 											],
@@ -1391,6 +1515,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 738320377972475,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 478938130361140
@@ -1460,6 +1593,15 @@
 													"parameters": {
 														"width": "43.637395",
 														"height": "28.736821"
+													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 137888047366115,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
 													}
 												}
 											],
@@ -1531,6 +1673,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 497203839762933,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 149558581098999
@@ -1601,6 +1752,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 379613213480932,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 105881063554707
@@ -1653,6 +1813,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 523672641229809
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 871737910936600,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 179498143899136,
@@ -1674,6 +1843,15 @@
 													"id": "destroy",
 													"objectClass": "LavaSlime",
 													"sid": 118661302038745
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 908464866755545,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 471371208740821
@@ -1726,6 +1904,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 954058727011929
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 691843238517643,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 737753516638547,
@@ -1791,6 +1978,15 @@
 														"width": "43.637395",
 														"height": "28.736821"
 													}
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 152241960106157,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 589195223231683
@@ -1843,6 +2039,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 515338654558927
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 145304527840799,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 866396919086362,
@@ -1864,6 +2069,15 @@
 													"id": "destroy",
 													"objectClass": "PoisonSlime",
 													"sid": 715521435904588
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 847156084094055,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 432628311570657
@@ -1916,6 +2130,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 639066520643149
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 519135782461253,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 517413967176052,
@@ -1948,6 +2171,15 @@
 													"id": "destroy",
 													"objectClass": "WaterSlime",
 													"sid": 973619561822740
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 193701565874496,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 877802182886947
@@ -2000,6 +2232,15 @@
 											"id": "destroy",
 											"objectClass": "Bullets",
 											"sid": 150777877687447
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 428738146858772,
+											"parameters": {
+												"variable": "Total_hits",
+												"value": "1"
+											}
 										}
 									],
 									"sid": 387909582141557,
@@ -2021,6 +2262,15 @@
 													"id": "destroy",
 													"objectClass": "FrostSlime",
 													"sid": 151502444930847
+												},
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 755028927996900,
+													"parameters": {
+														"variable": "Total_kills",
+														"value": "1"
+													}
 												}
 											],
 											"sid": 867410298107942
@@ -2301,6 +2551,15 @@
 												"loop": "not-looping",
 												"volume": "-30",
 												"tag-optional": "\"da sound of de gat go plack plack plack\""
+											}
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 623332508478201,
+											"parameters": {
+												"variable": "Total_shots",
+												"value": "1"
 											}
 										}
 									],
@@ -2586,6 +2845,15 @@
 										"loop": "not-looping",
 										"volume": "0",
 										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 428402007805687,
+									"parameters": {
+										"variable": "Total_jumps",
+										"value": "1"
 									}
 								}
 							],
@@ -5405,6 +5673,15 @@
 										"variable": "Counter",
 										"value": "true"
 									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 367041330499250,
+									"parameters": {
+										"variable": "Total_potions",
+										"value": "1"
+									}
 								}
 							],
 							"sid": 847777322462522
@@ -5485,6 +5762,15 @@
 									"parameters": {
 										"variable": "Counter",
 										"value": "true"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 998334688333627,
+									"parameters": {
+										"variable": "Total_potions",
+										"value": "1"
 									}
 								}
 							],
@@ -5772,6 +6058,15 @@
 										"variable": "Counter",
 										"value": "true"
 									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 203620331673256,
+									"parameters": {
+										"variable": "Total_potions",
+										"value": "1"
+									}
 								}
 							],
 							"sid": 270991435768642
@@ -5844,6 +6139,15 @@
 									"parameters": {
 										"variable": "Counter",
 										"value": "true"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 785617627690343,
+									"parameters": {
+										"variable": "Total_potions",
+										"value": "1"
 									}
 								}
 							],
@@ -6062,6 +6366,15 @@
 									"parameters": {
 										"instance-variable": "Speed_Ability",
 										"value": "false"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 679066178177274,
+									"parameters": {
+										"variable": "Total_potions",
+										"value": "1"
 									}
 								}
 							],
