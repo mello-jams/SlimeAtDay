@@ -239,7 +239,8 @@
 			"clowd",
 			"train_particles1",
 			"Text8",
-			"Text10"
+			"Text10",
+			"Cam"
 		],
 		"subfolders": [
 			{

@@ -459,17 +459,42 @@
 			"sid": 643951777593796
 		},
 		{
+			"eventType": "variable",
+			"name": "CamActive",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 888527651049518
+		},
+		{
+			"eventType": "variable",
+			"name": "DialougeCommence",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 948249206538074
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-on-screen",
-					"objectClass": "Player",
-					"sid": 597543448856990
+					"objectClass": "BossSlime",
+					"sid": 325471674825499
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 125482674751884
 				},
 				{
 					"id": "is-on-screen",
-					"objectClass": "BossSlime",
-					"sid": 483305801503165
+					"objectClass": "Player",
+					"sid": 597543448856990
 				}
 			],
 			"actions": [
@@ -492,12 +517,28 @@
 					}
 				},
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 392909410141792,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "BossSlime",
 					"sid": 244809955651312,
 					"behaviorType": "ScrollTo",
 					"parameters": {
 						"state": "enabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 850823344784703,
+					"parameters": {
+						"seconds": "1.0"
 					}
 				},
 				{
@@ -510,6 +551,14 @@
 					}
 				},
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 348705742743684,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "Player",
 					"sid": 902482405056076,
@@ -517,46 +566,26 @@
 					"parameters": {
 						"state": "enabled"
 					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 314014608432604,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 723666144205982,
+					"parameters": {
+						"variable": "CamActive",
+						"value": "true"
+					}
 				}
 			],
 			"sid": 433702977685772
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-on-screen",
-					"objectClass": "BossSlime",
-					"sid": 389812476004486
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 429380894478216
-				}
-			],
-			"actions": [
-				{
-					"id": "set-boolean-instvar",
-					"objectClass": "Player",
-					"sid": 830409887658615,
-					"parameters": {
-						"instance-variable": "Cutscencemove",
-						"value": "false"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Player",
-					"sid": 927595515728092,
-					"behaviorType": "ScrollTo",
-					"parameters": {
-						"state": "disabled"
-					}
-				}
-			],
-			"sid": 639144588165600,
-			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -610,6 +639,61 @@
 				}
 			],
 			"sid": 909416944369750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 302728920954742
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 469645875718470,
+					"parameters": {
+						"variable": "CamActive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 764628307605558,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "Cam",
+					"sid": 551149576132937,
+					"parameters": {
+						"x": "lerp(Self.X,Self.X,0.50)"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Cam",
+					"sid": 497742997759477,
+					"parameters": {
+						"y": "lerp(Self.Y,Self.Y,0.50)"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Cam",
+					"sid": 401492063649174,
+					"behaviorType": "camzoom",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 807918159688083
 		}
 	],
 	"sid": 904256784371449
