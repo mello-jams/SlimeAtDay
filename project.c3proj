@@ -168,16 +168,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
+			"id": "scrollto",
+			"name": "Scroll To",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -227,7 +227,7 @@
 			"Tutorial1",
 			"TittleScreen",
 			"REstart",
-			"TrainPlaceholder",
+			"BegTrainPlaceholder",
 			"TrainPlaceholder2",
 			"TrainPlaceholder3",
 			"Gamepad",
@@ -440,7 +440,8 @@
 			"Timer",
 			"Highscore",
 			"Loading",
-			"Ending_ES"
+			"Ending_ES",
+			"BossCutsceneES"
 		],
 		"subfolders": []
 	},

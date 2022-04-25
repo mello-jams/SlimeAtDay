@@ -426,7 +426,8 @@
 						"PoisonNum": 0,
 						"Reload": false,
 						"Health_Ability": false,
-						"Timer": 0
+						"Timer": 0,
+						"Cutscencemove": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -450,6 +451,14 @@
 						},
 						"Timer2": {
 							"properties": {}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
 						}
 					},
 					"world": {

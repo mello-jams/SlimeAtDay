@@ -50,6 +50,11 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 103426503026581
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 580994597714490
 		}
 	],
 	"effectTypes": [],

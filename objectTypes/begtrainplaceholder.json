@@ -1,0 +1,69 @@
+{
+	"name": "BegTrainPlaceholder",
+	"plugin-id": "Sprite",
+	"sid": 898995184997897,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Movin",
+			"type": "boolean",
+			"desc": "",
+			"sid": 101255561774578
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 842036279327784
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 545965155405517
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 943,
+						"height": 647,
+						"originX": 0.4687168610816543,
+						"originY": 0.3802163833075734,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 809569,
+						"collisionPoly": {
+							"points": [
+								0.11877001279990716,
+								0.23493046001452003,
+								0.5938496109283867,
+								0.3153014146194577,
+								1,
+								0.4961360595325782,
+								0.9989395546129375,
+								0.9984544049459042,
+								0,
+								0.7820710973724884
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 729610473699890,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

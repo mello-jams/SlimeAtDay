@@ -721,7 +721,8 @@
 						"PoisonNum": 0,
 						"Reload": false,
 						"Health_Ability": false,
-						"Timer": 0
+						"Timer": 0,
+						"Cutscencemove": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -745,6 +746,14 @@
 						},
 						"Timer2": {
 							"properties": {}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
 						}
 					},
 					"world": {
@@ -1057,7 +1066,7 @@
 					}
 				},
 				{
-					"type": "TrainPlaceholder",
+					"type": "BegTrainPlaceholder",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1066,7 +1075,9 @@
 						"live-preview": false
 					},
 					"uid": 65,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Movin": true
+					},
 					"behaviors": {
 						"Solid": {
 							"properties": {
@@ -1355,6 +1366,11 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
 							}
 						}
 					},

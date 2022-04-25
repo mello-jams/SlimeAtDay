@@ -81,6 +81,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 213146403386060
+		},
+		{
+			"name": "Cutscencemove",
+			"type": "boolean",
+			"desc": "",
+			"sid": 463772053649913
 		}
 	],
 	"behaviorTypes": [
@@ -98,6 +104,11 @@
 			"behaviorId": "Timer",
 			"name": "Timer2",
 			"sid": 469956649560435
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 766934726095631
 		}
 	],
 	"effectTypes": [],
