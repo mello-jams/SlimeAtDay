@@ -142,6 +142,31 @@
 						}
 					],
 					"sid": 507563979121564
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-group-active",
+							"objectClass": "System",
+							"sid": 823374549810778,
+							"parameters": {
+								"group-name": "\"\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 475129670952111,
+							"parameters": {
+								"variable": "Total_shots",
+								"value": "float(100*(Total_shots/Total_hits))"
+							}
+						}
+					],
+					"sid": 136046898132294
 				}
 			],
 			"sid": 816601913126997
