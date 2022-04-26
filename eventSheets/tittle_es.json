@@ -70,6 +70,17 @@
 					"id": "stop-all",
 					"objectClass": "Audio",
 					"sid": 201753386972153
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 778171270074483,
+					"parameters": {
+						"audio-file": "minecraft_click",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 419237174830712
@@ -146,6 +157,17 @@
 					"parameters": {
 						"variable": "IsAnyoneHere",
 						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 975648434852583,
+					"parameters": {
+						"audio-file": "minecraft_click",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
 					}
 				}
 			],

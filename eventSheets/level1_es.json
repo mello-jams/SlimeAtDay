@@ -411,6 +411,17 @@
 							}
 						},
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 990282054957867,
+							"parameters": {
+								"audio-file": "revolver-reload",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
 							"sid": 601669657203131,
@@ -507,6 +518,17 @@
 									"id": "destroy",
 									"objectClass": "Ground2walltut",
 									"sid": 419209719383966
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 301477491974296,
+									"parameters": {
+										"audio-file": "wood_break",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
 								}
 							],
 							"sid": 417054724654800
@@ -1053,11 +1075,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 932428851366721,
+											"sid": 478305202956081,
 											"parameters": {
 												"audio-file": "shot_3",
 												"loop": "not-looping",
-												"volume": "-30",
+												"volume": "-25",
 												"tag-optional": "\"da sound of de gat go plack plack plack\""
 											}
 										},
@@ -3414,6 +3436,17 @@
 														"x": "EarthSlime.X+50",
 														"y": "EarthSlime.Y",
 														"create-hierarchy": false
+													}
+												},
+												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 589454120161749,
+													"parameters": {
+														"audio-file": "rock_smash",
+														"loop": "not-looping",
+														"volume": "-10",
+														"tag-optional": "\"\""
 													}
 												}
 											],
@@ -5953,6 +5986,17 @@
 										"variable": "Total_potions",
 										"value": "1"
 									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 261222650440817,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
 								}
 							],
 							"sid": 445986839567047
@@ -6060,6 +6104,17 @@
 									"parameters": {
 										"variable": "Total_potions",
 										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 996227142195610,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -6420,6 +6475,17 @@
 										"variable": "Total_potions",
 										"value": "1"
 									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 882033844716548,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
 								}
 							],
 							"sid": 253078316394741
@@ -6519,6 +6585,17 @@
 									"parameters": {
 										"variable": "Total_potions",
 										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 386686709887061,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -6721,6 +6798,17 @@
 									"parameters": {
 										"variable": "Total_potions",
 										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 508527024660501,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -6992,6 +7080,17 @@
 										"variable": "Counter",
 										"value": "true"
 									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 923834853097623,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
 								}
 							],
 							"sid": 671143562189972
@@ -7099,6 +7198,17 @@
 									"parameters": {
 										"variable": "Counter",
 										"value": "true"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 312617954158632,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -7712,6 +7822,17 @@
 							"id": "reset-global-variables",
 							"objectClass": "System",
 							"sid": 111035637616428
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 793893732141483,
+							"parameters": {
+								"audio-file": "minecraft_click",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 690043135132235
@@ -7742,6 +7863,17 @@
 							"sid": 472435713812877,
 							"parameters": {
 								"layout": "Tittle_Screen"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 170307075332042,
+							"parameters": {
+								"audio-file": "minecraft_click",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -7787,12 +7919,6 @@
 			],
 			"sid": 634328792242708,
 			"isOrBlock": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 209299078626619
 		}
 	],
 	"sid": 587643397571846

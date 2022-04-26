@@ -213,6 +213,14 @@
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Adjust HSL",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "lrtlz0jh5q9",
@@ -268,7 +276,12 @@
 					{
 						"items": [
 							"Stats",
-							"Stats2"
+							"Stats2",
+							"Stats3",
+							"Stats4",
+							"Stats5",
+							"Stats6",
+							"Stats7"
 						],
 						"subfolders": [],
 						"name": "Stats"
@@ -436,13 +449,13 @@
 			"Loading_ES",
 			"Tittle_ES",
 			"Level2_ES",
-			"Boss_ES",
 			"Master_ES",
 			"Timer",
 			"Highscore",
 			"Loading",
 			"Ending_ES",
-			"BossCutsceneES"
+			"BossCutsceneES",
+			"Boss_ES"
 		],
 		"subfolders": []
 	},
@@ -453,26 +466,6 @@
 		},
 		"sound": {
 			"items": [
-				{
-					"name": "gun_load.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 519133478989415
-				},
-				{
-					"name": "large_bubbling.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 260459707292800
-				},
-				{
-					"name": "match_strike.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 768771892640768
-				},
-				{
-					"name": "not_sure.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 519617338072869
-				},
 				{
 					"name": "pop.webm",
 					"type": "audio/webm; codecs=opus",
@@ -487,11 +480,6 @@
 					"name": "quiet_slime.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 806332600958795
-				},
-				{
-					"name": "short_click_slime.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 331020388594055
 				},
 				{
 					"name": "shot_3.webm",
@@ -509,19 +497,9 @@
 					"sid": 147509798888563
 				},
 				{
-					"name": "slime_two_peaks.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 955081143225132
-				},
-				{
 					"name": "small_bubbling.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 930584571142002
-				},
-				{
-					"name": "weird_click.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 589442441530235
 				},
 				{
 					"name": "zap.webm",
@@ -537,6 +515,31 @@
 					"name": "slime_jump.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 794215457807098
+				},
+				{
+					"name": "minecraft_click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 147675442709097
+				},
+				{
+					"name": "rock_smash.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 880543760947090
+				},
+				{
+					"name": "wood_break.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 694600757596367
+				},
+				{
+					"name": "Minecraft_Potion_Drinking_edited.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 109522316337180
+				},
+				{
+					"name": "revolver-reload.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 569684507965306
 				}
 			],
 			"subfolders": []

@@ -240,6 +240,50 @@
 								}
 							],
 							"sid": 717046930556911
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-destroyed",
+									"objectClass": "FalseFloor",
+									"sid": 256135694345476
+								},
+								{
+									"id": "compare-y",
+									"objectClass": "Player",
+									"sid": 788468751280375,
+									"parameters": {
+										"comparison": 2,
+										"y-co-ordinate": "200"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 131391406520251,
+									"parameters": {
+										"audio-file": "cave_dark_ambient",
+										"loop": "looping",
+										"volume": "-35",
+										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 786926530860175,
+									"parameters": {
+										"audio-file": "wood_break",
+										"loop": "not-looping",
+										"volume": "-20",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 643365384334267
 						}
 					],
 					"sid": 648542575520041
@@ -298,6 +342,17 @@
 							"sid": 552817904280145,
 							"parameters": {
 								"text": "\" Reloading...\" "
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 993366184905459,
+							"parameters": {
+								"audio-file": "revolver-reload",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						},
 						{
@@ -3855,6 +3910,17 @@
 														"y": "EarthSlime.Y",
 														"create-hierarchy": false
 													}
+												},
+												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 936269877010265,
+													"parameters": {
+														"audio-file": "rock_smash",
+														"loop": "not-looping",
+														"volume": "-10",
+														"tag-optional": "\"\""
+													}
 												}
 											],
 											"sid": 497039222936607
@@ -7046,6 +7112,17 @@
 										"variable": "Total_potions",
 										"value": "1"
 									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 608612416635785,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
 								}
 							],
 							"sid": 616038454186564
@@ -7127,6 +7204,17 @@
 									"parameters": {
 										"variable": "Total_potions",
 										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 941801130856153,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -7355,6 +7443,17 @@
 									"parameters": {
 										"variable": "Total_potions",
 										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 276347400946440,
+									"parameters": {
+										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -7853,6 +7952,17 @@
 							"id": "reset-global-variables",
 							"objectClass": "System",
 							"sid": 235924914637585
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 479792251579458,
+							"parameters": {
+								"audio-file": "minecraft_click",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 443810428048976
@@ -7883,6 +7993,17 @@
 							"sid": 405082960054597,
 							"parameters": {
 								"layout": "Tittle_Screen"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 986750311447096,
+							"parameters": {
+								"audio-file": "minecraft_click",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],

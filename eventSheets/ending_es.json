@@ -25,6 +25,48 @@
 				}
 			],
 			"sid": 731682159664107
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "TittleScreen",
+					"sid": 196540729419939
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 380920381248373
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 366557586898104
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 785619300927550,
+					"parameters": {
+						"layout": "Tittle_Screen"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 900843507308855,
+					"parameters": {
+						"audio-file": "minecraft_click",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 991572897948489
 		}
 	],
 	"sid": 838460663344330

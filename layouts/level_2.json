@@ -461,6 +461,15 @@
 							}
 						}
 					},
+					"effects": {
+						"AdjustHSL": {
+							"parameters": {
+								"hue": 0,
+								"saturation": 1,
+								"luminosity": 1
+							}
+						}
+					},
 					"world": {
 						"x": 42,
 						"y": 78,
@@ -2863,9 +2872,9 @@
 						}
 					},
 					"world": {
-						"x": 754,
+						"x": 732,
 						"y": 3,
-						"width": 97.26502390813806,
+						"width": 119.26502390813806,
 						"height": 33.709997852516196,
 						"originX": 0,
 						"originY": 0,

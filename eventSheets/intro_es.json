@@ -966,6 +966,17 @@
 							"id": "reset-global-variables",
 							"objectClass": "System",
 							"sid": 472720756790746
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 726702703696097,
+							"parameters": {
+								"audio-file": "minecraft_click",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 257277814832296
@@ -996,6 +1007,17 @@
 							"sid": 355192189716044,
 							"parameters": {
 								"layout": "Tittle_Screen"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 899709573147070,
+							"parameters": {
+								"audio-file": "minecraft_click",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
