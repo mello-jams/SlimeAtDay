@@ -33,6 +33,7 @@
 									"id": "set-animation",
 									"objectClass": "Player",
 									"sid": 870469223013362,
+									"disabled": true,
 									"parameters": {
 										"animation": "\"Jump\"",
 										"from": "beginning"

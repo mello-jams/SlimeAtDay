@@ -479,6 +479,26 @@
 			"sid": 948249206538074
 		},
 		{
+			"eventType": "variable",
+			"name": "ZoomIn",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 378100249778787
+		},
+		{
+			"eventType": "variable",
+			"name": "MaxZoomIn",
+			"type": "number",
+			"initialValue": "0.5",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 339271468068769
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -644,11 +664,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 302728920954742
-				},
-				{
 					"id": "compare-boolean-eventvar",
 					"objectClass": "System",
 					"sid": 469645875718470,
@@ -668,32 +683,142 @@
 					}
 				},
 				{
-					"id": "set-x",
-					"objectClass": "Cam",
-					"sid": 551149576132937,
-					"parameters": {
-						"x": "lerp(Self.X,Self.X,0.50)"
-					}
-				},
-				{
-					"id": "set-y",
-					"objectClass": "Cam",
-					"sid": 497742997759477,
-					"parameters": {
-						"y": "lerp(Self.Y,Self.Y,0.50)"
-					}
-				},
-				{
 					"id": "set-enabled",
 					"objectClass": "Cam",
-					"sid": 401492063649174,
+					"sid": 145013658600611,
 					"behaviorType": "camzoom",
 					"parameters": {
 						"state": "enabled"
 					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 499207585020246,
+					"parameters": {
+						"layer": "1",
+						"scale": "ZoomIn"
+					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 827802535212497,
+					"parameters": {
+						"layer": "0",
+						"scale": "ZoomIn"
+					}
 				}
 			],
 			"sid": 807918159688083
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 565848809715029,
+					"parameters": {
+						"interval-seconds": "0.01"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 979515378918996,
+					"parameters": {
+						"variable": "CamActive"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 454651586713481,
+					"parameters": {
+						"first-value": "ZoomIn",
+						"comparison": 5,
+						"second-value": "MaxZoomIn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 792921592420057,
+					"parameters": {
+						"variable": "ZoomIn",
+						"value": "0.001"
+					}
+				}
+			],
+			"sid": 662642602994161
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 614771117662254,
+					"parameters": {
+						"first-value": "ZoomIn",
+						"comparison": 3,
+						"second-value": "MaxZoomIn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 538714094028515,
+					"parameters": {
+						"variable": "DialougeCommence",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 712477901001466
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 677511586977332,
+					"parameters": {
+						"variable": "DialougeCommence"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "CutScenceDialouge2BSlime6",
+					"sid": 204408619655845,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait-for-previous-actions",
+					"objectClass": "System",
+					"sid": 794150700787656
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 801586629030526,
+					"parameters": {
+						"instance-variable": "Movin",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 255003235509017
 		}
 	],
 	"sid": 904256784371449

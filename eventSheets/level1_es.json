@@ -143,16 +143,6 @@
 					],
 					"actions": [
 						{
-							"id": "set-animation",
-							"objectClass": "Player",
-							"sid": 533732313665289,
-							"disabled": true,
-							"parameters": {
-								"animation": "\"Jump\"",
-								"from": "beginning"
-							}
-						},
-						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Player",
 							"sid": 446472766101355,
@@ -216,46 +206,6 @@
 							}
 						},
 						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "txtforJump",
-							"sid": 324382579233878,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "5",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": true
-							}
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "Slime_healthbar",
-							"sid": 960571895154455,
-							"disabled": true,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Slime",
-								"image-point": "1",
-								"angle": true,
-								"width-type": "no",
-								"height-type": "no",
-								"z": false
-							}
-						},
-						{
-							"id": "set-layer-opacity",
-							"objectClass": "System",
-							"sid": 154964598829351,
-							"disabled": true,
-							"parameters": {
-								"layer": "\"Shop\"",
-								"opacity": "0"
-							}
-						},
-						{
 							"id": "set-cursor-from-sprite",
 							"objectClass": "Mouse",
 							"sid": 400925591971318,
@@ -280,6 +230,7 @@
 							"id": "set-text",
 							"objectClass": "txtSlimesCount",
 							"sid": 655247884807220,
+							"disabled": true,
 							"parameters": {
 								"text": "\"Slimes Killed for Escape: \" & Slimes"
 							}
@@ -307,24 +258,6 @@
 							"parameters": {
 								"x": "Mouse.X",
 								"y": "Mouse.Y"
-							}
-						},
-						{
-							"id": "set-x",
-							"objectClass": "Spawnerforbullets",
-							"sid": 437328532515076,
-							"disabled": true,
-							"parameters": {
-								"x": "big_iron.X"
-							}
-						},
-						{
-							"id": "set-y",
-							"objectClass": "Spawnerforbullets",
-							"sid": 218544668183662,
-							"disabled": true,
-							"parameters": {
-								"y": "big_iron.Y"
 							}
 						}
 					],

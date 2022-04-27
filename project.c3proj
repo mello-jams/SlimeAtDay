@@ -285,6 +285,24 @@
 						],
 						"subfolders": [],
 						"name": "Stats"
+					},
+					{
+						"items": [
+							"CutScenceDialouge1Slime",
+							"CutScenceDialouge1Slime2",
+							"CutScenceDialouge1Slime3",
+							"CutScenceDialouge1Slime4",
+							"CutScenceDialouge1Slime5",
+							"CutScenceDialouge1Slime6",
+							"CutScenceDialouge2BSlime1",
+							"CutScenceDialouge2BSlime2",
+							"CutScenceDialouge2BSlime3",
+							"CutScenceDialouge2BSlime4",
+							"CutScenceDialouge2BSlime5",
+							"CutScenceDialouge2BSlime6"
+						],
+						"subfolders": [],
+						"name": "CutScence"
 					}
 				],
 				"name": "Text"
