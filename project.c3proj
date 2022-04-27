@@ -248,7 +248,8 @@
 			"train_particles1",
 			"Text8",
 			"Text10",
-			"Cam"
+			"Cam",
+			"Sprite5"
 		],
 		"subfolders": [
 			{
@@ -435,7 +436,26 @@
 					"big_iron2",
 					"big_iron3"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [],
+						"subfolders": [
+							{
+								"items": [
+									"SandSpriteTC",
+									"SandSpriteTL",
+									"SandSpriteTR",
+									"SandSpriteML",
+									"SandSpriteMC",
+									"SandSpriteMR"
+								],
+								"subfolders": [],
+								"name": "Sand"
+							}
+						],
+						"name": "TileSprites"
+					}
+				],
 				"name": "Main assest"
 			}
 		]
