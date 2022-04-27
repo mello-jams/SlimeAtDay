@@ -88,6 +88,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Anchor",
 			"name": "Anchor",
 			"author": "Scirra",
@@ -98,14 +106,6 @@
 			"type": "behavior",
 			"id": "Timer",
 			"name": "Timer",
-			"author": "Scirra",
-			"version": "r285.3",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Fade",
-			"name": "Fade",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -186,6 +186,38 @@
 			"type": "behavior",
 			"id": "Orbit",
 			"name": "Orbit",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "setcolor",
+			"name": "Set color",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "scanlines",
+			"name": "Scan lines",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "warpobject",
+			"name": "Warp object",
+			"author": "Scirra",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "noise",
+			"name": "Noise",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -306,6 +338,13 @@
 						],
 						"subfolders": [],
 						"name": "CutScence"
+					},
+					{
+						"items": [
+							"IntroToBossLikeIncoming"
+						],
+						"subfolders": [],
+						"name": "IntrotoBoss"
 					}
 				],
 				"name": "Text"
@@ -409,8 +448,12 @@
 					"Earth_spawner3",
 					"Fire_spawner6",
 					"Earth_spawner4",
-					"PinkPotion",
-					"Earth_spawner5"
+					"Earth_spawner5",
+					"Lighting_spawner1",
+					"Lighting_spawner2",
+					"Lighting_spawner3",
+					"Lighting_spawner4",
+					"Lighting_spawner5"
 				],
 				"subfolders": [],
 				"name": "Spawners"

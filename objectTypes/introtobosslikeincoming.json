@@ -1,0 +1,39 @@
+{
+	"name": "IntroToBossLikeIncoming",
+	"plugin-id": "Text",
+	"sid": 377297519078489,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "effect",
+			"type": "boolean",
+			"desc": "",
+			"sid": 545155584927209
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 665008947342686
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "setcolor",
+			"name": "SetColor"
+		},
+		{
+			"effectId": "scanlines",
+			"name": "ScanLines"
+		},
+		{
+			"effectId": "warpobject",
+			"name": "WarpObject"
+		},
+		{
+			"effectId": "noise",
+			"name": "Noise"
+		}
+	]
+}

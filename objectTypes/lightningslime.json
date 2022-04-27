@@ -9,6 +9,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 107550131389437
+		},
+		{
+			"name": "Name",
+			"type": "number",
+			"desc": "",
+			"sid": 572499474903383
 		}
 	],
 	"behaviorTypes": [

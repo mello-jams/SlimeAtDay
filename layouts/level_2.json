@@ -1756,7 +1756,8 @@
 					},
 					"uid": 109,
 					"instanceVariables": {
-						"LightingSlime": false
+						"LightingSlime": false,
+						"Name": 0
 					},
 					"behaviors": {
 						"LineOfSight": {

@@ -2912,6 +2912,11 @@
 										"side": "right"
 									},
 									"isInverted": true
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 220575038404747
 								}
 							],
 							"actions": [
@@ -2947,6 +2952,11 @@
 										"side": "left"
 									},
 									"isInverted": true
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 858365219783810
 								}
 							],
 							"actions": [
@@ -3183,6 +3193,26 @@
 									"objectClass": "Player",
 									"sid": 925580354362730,
 									"behaviorType": "Platform"
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 159497853531271,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "right"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 599696848624917,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "left"
+									},
+									"isInverted": true
 								}
 							],
 							"actions": [
@@ -3208,6 +3238,96 @@
 								}
 							],
 							"sid": 746490955214124
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 185169409881062,
+									"parameters": {
+										"key": 87
+									}
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 608841011008623,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "right"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 213426798004701,
+									"parameters": {
+										"animation": "\"NormalJump\"",
+										"from": "beginning"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 524838902397649,
+									"parameters": {
+										"audio-file": "slime_jump",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 105865229303165
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 464873376979572,
+									"parameters": {
+										"key": 87
+									}
+								},
+								{
+									"id": "is-by-wall",
+									"objectClass": "Player",
+									"sid": 256720035999138,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 577335447468771,
+									"parameters": {
+										"animation": "\"NormalJump\"",
+										"from": "beginning"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 296975393777866,
+									"parameters": {
+										"audio-file": "slime_jump",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 919380602381840
 						},
 						{
 							"eventType": "group",
@@ -7636,79 +7756,6 @@
 			"description": "for stuff on how to advance to the next level or enviornmental stuff",
 			"isActiveOnStart": true,
 			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player",
-							"sid": 143561216571245,
-							"parameters": {
-								"object": "Door"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "FADE",
-							"sid": 286583451488891,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "start-fade",
-							"objectClass": "FADE",
-							"sid": 431058458897371,
-							"behaviorType": "Fade"
-						},
-						{
-							"id": "set-ignoring-input",
-							"objectClass": "Player",
-							"sid": 158954432842503,
-							"behaviorType": "Platform",
-							"parameters": {
-								"input": "start-ignoring"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 504246074541995,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-eventvar-value",
-							"objectClass": "System",
-							"sid": 415110720622620,
-							"parameters": {
-								"variable": "WhatLevel",
-								"value": "2"
-							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 744541228776895,
-							"parameters": {
-								"layout": "Loading_Screen"
-							}
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 599308671557231,
-							"disabled": true,
-							"parameters": {
-								"layout": "Level_2"
-							}
-						}
-					],
-					"sid": 615499956309871
-				},
 				{
 					"eventType": "block",
 					"conditions": [
