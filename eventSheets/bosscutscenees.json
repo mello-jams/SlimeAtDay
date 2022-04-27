@@ -28,6 +28,21 @@
 					"parameters": {
 						"input": "start-ignoring"
 					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 736873834861246,
+					"parameters": {
+						"child": "TrainCollider",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
 				}
 			],
 			"sid": 796215717840408
@@ -403,6 +418,92 @@
 			"conditions": [
 				{
 					"id": "is-boolean-instance-variable-set",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 707247352529935,
+					"parameters": {
+						"instance-variable": "Movin"
+					}
+				},
+				{
+					"id": "is-on-screen",
+					"objectClass": "BossSlime",
+					"sid": 651115771269223,
+					"isInverted": true
+				},
+				{
+					"id": "is-on-screen",
+					"objectClass": "Player",
+					"sid": 779747240913933
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 363013510350949,
+					"parameters": {
+						"interval-seconds": "0.01"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 820777395664174,
+					"parameters": {
+						"distance": "4"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 626685385938418,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				}
+			],
+			"sid": 599921516524678
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 403106103153801,
+					"parameters": {
+						"instance-variable": "Movin"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 268233173642548,
+					"parameters": {
+						"x": "Self.X",
+						"y": "Self.Y"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 384315916340263,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				}
+			],
+			"sid": 807281668942223,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
 					"objectClass": "clowd",
 					"sid": 944213094654505,
 					"parameters": {
@@ -497,6 +598,16 @@
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 339271468068769
+		},
+		{
+			"eventType": "variable",
+			"name": "BossOnTrain",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 868812246364701
 		},
 		{
 			"eventType": "block",
@@ -761,7 +872,7 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 614771117662254,
+					"sid": 136180029812992,
 					"parameters": {
 						"first-value": "ZoomIn",
 						"comparison": 3,
@@ -792,6 +903,11 @@
 					"parameters": {
 						"variable": "DialougeCommence"
 					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 788613540467669
 				}
 			],
 			"actions": [
@@ -819,6 +935,262 @@
 				}
 			],
 			"sid": 255003235509017
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "TrainCollider",
+					"sid": 387108760093462,
+					"parameters": {
+						"object": "ObjectTRainTrigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 964806417853801,
+					"parameters": {
+						"instance-variable": "Movin",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 820633816007667,
+					"parameters": {
+						"variable": "BossOnTrain",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 565958714599437
+		},
+		{
+			"eventType": "variable",
+			"name": "BossJumpin",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 611075981201268
+		},
+		{
+			"eventType": "variable",
+			"name": "BossJumpinMax",
+			"type": "number",
+			"initialValue": "2.3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 874450833004761
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 116429129675656,
+					"parameters": {
+						"variable": "BossOnTrain"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "BossSlime",
+					"sid": 125249913618235,
+					"parameters": {
+						"y": "Self.Y-BossJumpin"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "BossSlime",
+					"sid": 361632893011619,
+					"parameters": {
+						"x": "Self.X-BossJumpin-0.5"
+					}
+				}
+			],
+			"sid": 653972258848192
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 665445347200164,
+					"parameters": {
+						"interval-seconds": "0.01"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 351444488278434,
+					"parameters": {
+						"variable": "BossOnTrain"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 715982541765031,
+					"parameters": {
+						"first-value": "BossJumpin",
+						"comparison": 2,
+						"second-value": "BossJumpinMax"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 703196858534797,
+					"parameters": {
+						"variable": "BossJumpin",
+						"value": "0.01"
+					}
+				}
+			],
+			"sid": 312257013961633
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 979315308958581,
+					"parameters": {
+						"first-value": "BossJumpin",
+						"comparison": 5,
+						"second-value": "BossJumpinMax"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 319066123193646,
+					"parameters": {
+						"variable": "BossOnTrain",
+						"value": "false"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 170620833666798,
+					"parameters": {
+						"child": "BossSlime",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 248064284996765,
+					"parameters": {
+						"instance-variable": "Movin",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 172046193995407
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-screen",
+					"objectClass": "Player",
+					"sid": 657472188108742,
+					"isInverted": true
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "BegTrainPlaceholder",
+					"sid": 776145784722417,
+					"parameters": {
+						"instance-variable": "Movin"
+					}
+				},
+				{
+					"id": "is-on-screen",
+					"objectClass": "BossSlime",
+					"sid": 456355029849181,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "FADE",
+					"sid": 594056036672914,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "FADE",
+					"sid": 414480488056686,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "Player",
+					"sid": 381563063752435,
+					"behaviorType": "Platform",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 384918413468648,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 836556603530711,
+					"parameters": {
+						"variable": "WhatLevel",
+						"value": "3"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 217799042256378,
+					"parameters": {
+						"layout": "Loading_Screen"
+					}
+				}
+			],
+			"sid": 845954840710539
 		}
 	],
 	"sid": 904256784371449

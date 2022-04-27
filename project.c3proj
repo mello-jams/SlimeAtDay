@@ -249,7 +249,9 @@
 			"Text8",
 			"Text10",
 			"Cam",
-			"Sprite5"
+			"Sprite5",
+			"ObjectTRainTrigger",
+			"TrainCollider"
 		],
 		"subfolders": [
 			{
