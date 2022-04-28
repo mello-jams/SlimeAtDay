@@ -1,14 +1,14 @@
 {
-	"name": "SandSpriteTC",
+	"name": "SandSpriteBR",
 	"plugin-id": "Sprite",
-	"sid": 367304823709140,
+	"sid": 810540904879238,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 169150084474024
+			"sid": 322311464302332
 		}
 	],
 	"effectTypes": [],
@@ -24,23 +24,23 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1179216,
+						"imageSpriteId": 8358195,
 						"collisionPoly": {
 							"points": [
 								0,
 								0,
 								0.5,
 								0,
-								0.99,
+								1,
 								0,
-								0.99,
-								0.5,
-								0.99,
-								0.99,
-								0.5,
-								0.99,
+								0.9962067447383463,
+								0.766896501893806,
+								0.9410349021207238,
+								0.92,
+								0.8444825158981111,
+								0.9720689667674507,
 								0,
-								0.99,
+								0.97,
 								0,
 								0.5
 							]
@@ -49,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 426920552305020,
+				"sid": 524142893745530,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

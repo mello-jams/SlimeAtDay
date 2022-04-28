@@ -176,16 +176,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
+			"id": "Orbit",
+			"name": "Orbit",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Orbit",
-			"name": "Orbit",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r285.3",
 			"bundled": false
@@ -459,28 +459,7 @@
 				"name": "Spawners"
 			},
 			{
-				"items": [
-					"big_iron",
-					"Blockade",
-					"BluePotion",
-					"Bullets",
-					"coincompletetut",
-					"Door",
-					"Door2",
-					"Door3",
-					"Door4",
-					"HealthPotion",
-					"InvisbleWall",
-					"JumpPotion",
-					"Player",
-					"Player_healthbar",
-					"RedPotion",
-					"SpeedPotion",
-					"WallClimb",
-					"Player2",
-					"big_iron2",
-					"big_iron3"
-				],
+				"items": [],
 				"subfolders": [
 					{
 						"items": [],
@@ -492,13 +471,42 @@
 									"SandSpriteTR",
 									"SandSpriteML",
 									"SandSpriteMC",
-									"SandSpriteMR"
+									"SandSpriteMR",
+									"SandSpriteBL",
+									"SandSpriteBC",
+									"SandSpriteBR"
 								],
 								"subfolders": [],
 								"name": "Sand"
 							}
 						],
 						"name": "TileSprites"
+					},
+					{
+						"items": [
+							"big_iron",
+							"big_iron2",
+							"big_iron3",
+							"Blockade",
+							"BluePotion",
+							"Bullets",
+							"coincompletetut",
+							"Door",
+							"Door2",
+							"Door3",
+							"Door4",
+							"HealthPotion",
+							"InvisbleWall",
+							"JumpPotion",
+							"Player",
+							"Player2",
+							"Player_healthbar",
+							"RedPotion",
+							"SpeedPotion",
+							"WallClimb"
+						],
+						"subfolders": [],
+						"name": "mis"
 					}
 				],
 				"name": "Main assest"
