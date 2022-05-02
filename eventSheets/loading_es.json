@@ -241,10 +241,6 @@
 				}
 			],
 			"sid": 487701576285606
-		},
-		{
-			"eventType": "include",
-			"includeSheet": "Timer"
 		}
 	],
 	"sid": 269863722402610

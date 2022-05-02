@@ -508,6 +508,216 @@
 						{
 							"eventType": "group",
 							"disabled": false,
+							"title": "Damage PLayer",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 438937780166099,
+											"parameters": {
+												"object": "AcidSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 532498589273118,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 679215430688748
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 894487383959003,
+											"parameters": {
+												"object": "EarthSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 218759288169733,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 903809221438969
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 966766798593505,
+											"parameters": {
+												"object": "FireSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 418774763947414,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 223973620385771
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 277845298057782,
+											"parameters": {
+												"object": "FrostSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 473230626777406,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 812180477741352
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 274482098281567,
+											"parameters": {
+												"object": "LavaSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 628650128879754,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 335994649126841
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 493939565657015,
+											"parameters": {
+												"object": "LightningSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 258121065554854,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 606613435590792
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 525707338229044,
+											"parameters": {
+												"object": "PoisonSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 632152989194208,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 975451771504945
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 949046509787759,
+											"parameters": {
+												"object": "WaterSlime"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player",
+											"sid": 436545791553661,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "2"
+											}
+										}
+									],
+									"sid": 926423984252720
+								}
+							],
+							"sid": 826115320067532
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
 							"title": "Movement8",
 							"description": "",
 							"isActiveOnStart": true,
@@ -9116,10 +9326,10 @@
 										{
 											"id": "add-to-instvar",
 											"objectClass": "Player",
-											"sid": 234803300138526,
+											"sid": 707841519722118,
 											"parameters": {
 												"instance-variable": "HP",
-												"value": "3"
+												"value": "8"
 											}
 										},
 										{

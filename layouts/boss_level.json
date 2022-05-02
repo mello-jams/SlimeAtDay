@@ -700,7 +700,7 @@
 								"double-jump": false,
 								"jump-sustain": 0,
 								"default-controls": false,
-								"enabled": true
+								"enabled": false
 							}
 						},
 						"ScrollTo": {
