@@ -283,7 +283,8 @@
 			"Cam",
 			"Sprite5",
 			"ObjectTRainTrigger",
-			"TrainCollider"
+			"TrainCollider",
+			"PlatformUpdated"
 		],
 		"subfolders": [
 			{
@@ -507,6 +508,13 @@
 						],
 						"subfolders": [],
 						"name": "mis"
+					},
+					{
+						"items": [
+							"Sprite6"
+						],
+						"subfolders": [],
+						"name": "Platforms"
 					}
 				],
 				"name": "Main assest"

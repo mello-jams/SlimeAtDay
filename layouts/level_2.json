@@ -2800,6 +2800,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite6",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Static",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 472,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 287.4852534402665,
+						"y": 148.32155152464492,
+						"width": 373.5265113666087,
+						"height": 106.66644924799314,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 427217068419143,
