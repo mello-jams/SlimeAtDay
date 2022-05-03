@@ -1463,8 +1463,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1072,
-						"y": 688,
+						"x": 1081,
+						"y": 524,
 						"width": 339,
 						"height": 92,
 						"originX": 0,
@@ -2437,7 +2437,8 @@
 						"enabled": true,
 						"auto-font-size": true,
 						"checked": false,
-						"id": ""
+						"id": "",
+						"class": ""
 					},
 					"uid": 353,
 					"instanceVariables": {},
@@ -2467,7 +2468,8 @@
 						"enabled": true,
 						"auto-font-size": true,
 						"checked": false,
-						"id": ""
+						"id": "",
+						"class": ""
 					},
 					"uid": 354,
 					"instanceVariables": {},
@@ -2683,8 +2685,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 746,
-						"y": 713,
+						"x": 752,
+						"y": 729,
 						"width": 318,
 						"height": 95,
 						"originX": 0,

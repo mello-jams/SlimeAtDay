@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 28503,
+	"savedWithRelease": 29302,
 	"name": "SlimeTypePrototype",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "video",
 			"name": "Video",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "gamepad",
 			"name": "Gamepad",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "Fade",
 			"name": "Fade",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "Anchor",
 			"name": "Anchor",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "Timer",
 			"name": "Timer",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -123,7 +123,7 @@
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -131,7 +131,7 @@
 			"id": "Persist",
 			"name": "Persist",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"id": "LOS",
 			"name": "Line of sight",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -147,7 +147,7 @@
 			"id": "MoveTo",
 			"name": "Move To",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -155,7 +155,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -163,7 +163,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -171,7 +171,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -179,7 +179,7 @@
 			"id": "Orbit",
 			"name": "Orbit",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -187,7 +187,15 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -195,7 +203,7 @@
 			"id": "setcolor",
 			"name": "Set color",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -203,7 +211,7 @@
 			"id": "scanlines",
 			"name": "Scan lines",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -211,7 +219,7 @@
 			"id": "warpobject",
 			"name": "Warp object",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -219,7 +227,7 @@
 			"id": "noise",
 			"name": "Noise",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -227,7 +235,7 @@
 			"id": "glowhorizontal",
 			"name": "Glow horizontal",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -235,7 +243,7 @@
 			"id": "glowvertical",
 			"name": "Glow vertical",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -243,7 +251,7 @@
 			"id": "highlightshadow",
 			"name": "Highlight shadow",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -251,7 +259,7 @@
 			"id": "hsladjust",
 			"name": "Adjust HSL",
 			"author": "Scirra",
-			"version": "r285.3",
+			"version": "r293.2",
 			"bundled": false
 		}
 	],
@@ -460,7 +468,9 @@
 				"name": "Spawners"
 			},
 			{
-				"items": [],
+				"items": [
+					"Reloading"
+				],
 				"subfolders": [
 					{
 						"items": [],
@@ -543,11 +553,11 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Level1_ES",
+			"Level1_3ES",
 			"intro_ES",
 			"Loading_ES",
 			"Tittle_ES",
-			"Level2_ES",
+			"DontDeletePLZ",
 			"Master_ES",
 			"Timer",
 			"Highscore",
@@ -568,77 +578,122 @@
 				{
 					"name": "pop.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 366452855940669
+					"sid": 366452855940669,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "quick_slime.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 843169435694947
+					"sid": 843169435694947,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "quiet_slime.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 806332600958795
+					"sid": 806332600958795,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "shot_3.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 510499080216815
+					"sid": 510499080216815,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "slime_splat.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 257633966198120
+					"sid": 257633966198120,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "slime_step.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 147509798888563
+					"sid": 147509798888563,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "small_bubbling.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 930584571142002
+					"sid": 930584571142002,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "zap.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 423110652613300
+					"sid": 423110652613300,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "slime_land.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 340691137250395
+					"sid": 340691137250395,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "slime_jump.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 794215457807098
+					"sid": 794215457807098,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "minecraft_click.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 147675442709097
+					"sid": 147675442709097,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "rock_smash.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 880543760947090
+					"sid": 880543760947090,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "wood_break.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 694600757596367
+					"sid": 694600757596367,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Minecraft_Potion_Drinking_edited.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 109522316337180
+					"sid": 109522316337180,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "revolver-reload.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 569684507965306
+					"sid": 569684507965306,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
@@ -648,37 +703,58 @@
 				{
 					"name": "songCOWBOY_SLIMEBOP.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 217092988717702
+					"sid": 217092988717702,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "song_1.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 901453316594123
+					"sid": 901453316594123,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "song_menu.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 327597384228032
+					"sid": 327597384228032,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "cave_with_slight_music_ambient.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 790657729206532
+					"sid": 790657729206532,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "cave_dark_ambient.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 284473648586504
+					"sid": 284473648586504,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "cave_water_dripping.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 196029617801218
+					"sid": 196029617801218,
+					"file-info": {
+						"purpose": "none"
+					}
 				},
 				{
 					"name": "Train-movement-loop.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 693190599005594
+					"sid": 693190599005594,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
@@ -688,7 +764,10 @@
 				{
 					"name": "beep2.mp4",
 					"type": "video/mp4",
-					"sid": 275844856575851
+					"sid": 275844856575851,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
@@ -698,7 +777,10 @@
 				{
 					"name": "GloriaHallelujah-Regular.ttf",
 					"type": "application/font-sfnt",
-					"sid": 223204152819642
+					"sid": 223204152819642,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []

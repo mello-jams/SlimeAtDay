@@ -453,14 +453,6 @@
 						},
 						{
 							"id": "set-text",
-							"objectClass": "txtfroBullet",
-							"sid": 566677629869547,
-							"parameters": {
-								"text": "\" Ammo: \" &  GunBullets"
-							}
-						},
-						{
-							"id": "set-text",
 							"objectClass": "PowerCounter",
 							"sid": 382891941406330,
 							"parameters": {
@@ -478,6 +470,36 @@
 						}
 					],
 					"sid": 952168374881933
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 215949273907965
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 108624714109888,
+							"parameters": {
+								"instance-variable": "Reload"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "txtfroBullet",
+							"sid": 547221207798527,
+							"parameters": {
+								"text": "\" Ammo: \" &  GunBullets"
+							}
+						}
+					],
+					"sid": 961461144034863
 				},
 				{
 					"eventType": "block",
@@ -2054,7 +2076,8 @@
 																"layer": "0",
 																"x": "EarthSlime.X+50",
 																"y": "EarthSlime.Y",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														},
 														{
@@ -2264,7 +2287,8 @@
 																"layer": "0",
 																"x": "PoisonSlime.X+50",
 																"y": "PoisonSlime.Y-20",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														}
 													],
@@ -2821,7 +2845,8 @@
 																"layer": "0",
 																"x": "PoisonSlime.X+50",
 																"y": "PoisonSlime.Y-20",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														}
 													],
@@ -5577,7 +5602,8 @@
 																"layer": "1",
 																"x": "0",
 																"y": "0",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														},
 														{
@@ -7029,7 +7055,7 @@
 								{
 									"id": "compare-eventvar",
 									"objectClass": "System",
-									"sid": 550744631856456,
+									"sid": 413866984965157,
 									"parameters": {
 										"variable": "GunBullets",
 										"comparison": 0,
@@ -7039,14 +7065,14 @@
 								{
 									"id": "trigger-once-while-true",
 									"objectClass": "System",
-									"sid": 248961922878585
+									"sid": 809724049832830
 								}
 							],
 							"actions": [
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 135677191975401,
+									"sid": 911523763152694,
 									"parameters": {
 										"instance-variable": "Strapped_Ability",
 										"value": "false"
@@ -7055,7 +7081,7 @@
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 913451238563060,
+									"sid": 461463733472957,
 									"parameters": {
 										"instance-variable": "Reload",
 										"value": "true"
@@ -7064,15 +7090,37 @@
 								{
 									"id": "set-text",
 									"objectClass": "txtfroBullet",
-									"sid": 104969903853706,
+									"sid": 557668212399087,
 									"parameters": {
-										"text": "\" Reloading...\" "
+										"text": "\"\" "
 									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Reloading",
+									"sid": 408419286514001,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Reloading",
+									"sid": 981327525130799,
+									"behaviorType": "Rotate",
+									"parameters": {
+										"state": "enabled"
+									}
+								},
+								{
+									"id": "wait-for-previous-actions",
+									"objectClass": "System",
+									"sid": 527516829660607
 								},
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 703559504956632,
+									"sid": 190466401410578,
 									"parameters": {
 										"audio-file": "revolver-reload",
 										"loop": "not-looping",
@@ -7083,31 +7131,57 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 116781019288016,
+									"sid": 203974490234830,
 									"parameters": {
 										"seconds": "3"
 									}
 								},
 								{
-									"id": "set-eventvar-value",
-									"objectClass": "System",
-									"sid": 304790658718555,
+									"id": "set-enabled",
+									"objectClass": "Reloading",
+									"sid": 960098773743843,
+									"behaviorType": "Rotate",
 									"parameters": {
-										"variable": "GunBullets",
-										"value": "6"
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Reloading",
+									"sid": 141459676725800,
+									"parameters": {
+										"visibility": "invisible"
 									}
 								},
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Player",
-									"sid": 928778206470647,
+									"sid": 233406279302393,
 									"parameters": {
 										"instance-variable": "Strapped_Ability",
 										"value": "true"
 									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Player",
+									"sid": 111154542236141,
+									"parameters": {
+										"instance-variable": "Reload",
+										"value": "false"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 291560736883782,
+									"parameters": {
+										"variable": "GunBullets",
+										"value": "6"
+									}
 								}
 							],
-							"sid": 945243803743392
+							"sid": 960074519614404
 						},
 						{
 							"eventType": "block",
@@ -8997,7 +9071,8 @@
 																		"layer": "1",
 																		"x": "0",
 																		"y": "0",
-																		"create-hierarchy": false
+																		"create-hierarchy": false,
+																		"template-name": "\"\""
 																	}
 																},
 																{
@@ -11336,7 +11411,8 @@
 																"layer": "0",
 																"x": "EarthSlime.X+50",
 																"y": "EarthSlime.Y",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														},
 														{
@@ -11542,7 +11618,8 @@
 																"layer": "0",
 																"x": "PoisonSlime.X+50",
 																"y": "PoisonSlime.Y-20",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														}
 													],
@@ -12108,7 +12185,8 @@
 																"layer": "0",
 																"x": "PoisonSlime.X+50",
 																"y": "PoisonSlime.Y-20",
-																"create-hierarchy": false
+																"create-hierarchy": false,
+																"template-name": "\"\""
 															}
 														}
 													],
