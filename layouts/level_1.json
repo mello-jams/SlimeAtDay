@@ -1709,7 +1709,7 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"HP": 10,
+						"HP": 20,
 						"Speed_potions": 0,
 						"Power_potions": 0,
 						"Jump_potions": 0,

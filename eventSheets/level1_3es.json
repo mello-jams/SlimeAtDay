@@ -4830,49 +4830,30 @@
 											],
 											"actions": [
 												{
-													"id": "move-to-object",
+													"id": "move-to-position",
 													"objectClass": "EarthSlime",
-													"sid": 976767083526267,
+													"sid": 626006802159015,
 													"behaviorType": "MoveTo",
 													"parameters": {
-														"object": "Player",
-														"image-point": "0",
+														"x": "Player.X",
+														"y": "Player.Y",
 														"mode": "direct"
 													}
 												},
 												{
 													"id": "set-angle",
 													"objectClass": "EarthSlime",
-													"sid": 685914669237491,
+													"sid": 548348941984115,
 													"parameters": {
 														"angle": "0"
 													}
 												},
 												{
-													"id": "rotate-toward-position",
+													"id": "set-angle",
 													"objectClass": "EarthSlime",
-													"sid": 774454760708715,
+													"sid": 874546621671243,
 													"parameters": {
-														"degrees": "0",
-														"x": "0",
-														"y": "0"
-													}
-												},
-												{
-													"id": "set-y",
-													"objectClass": "EarthSlime",
-													"sid": 605620846476296,
-													"parameters": {
-														"y": "Self.Y"
-													}
-												},
-												{
-													"id": "set-speed",
-													"objectClass": "EarthSlime",
-													"sid": 470692269262747,
-													"behaviorType": "MoveTo",
-													"parameters": {
-														"speed": "100"
+														"angle": "0"
 													}
 												}
 											],
@@ -4929,6 +4910,52 @@
 													"sid": 770209119802973
 												}
 											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "has-los-to-object",
+													"objectClass": "EarthSlime",
+													"sid": 263161609661531,
+													"behaviorType": "LineOfSight",
+													"parameters": {
+														"object": "Player",
+														"image-point": "0"
+													}
+												},
+												{
+													"id": "compare-two-values",
+													"objectClass": "System",
+													"sid": 510956394290695,
+													"parameters": {
+														"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+														"comparison": 3,
+														"second-value": "150"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-angle",
+													"objectClass": "EarthSlime",
+													"sid": 339297796336821,
+													"disabled": true,
+													"parameters": {
+														"angle": "0"
+													}
+												},
+												{
+													"id": "rotate-toward-angle",
+													"objectClass": "EarthSlime",
+													"sid": 527332137720174,
+													"parameters": {
+														"degrees": "0",
+														"angle": "0"
+													}
+												}
+											],
+											"sid": 499664352874342
 										},
 										{
 											"eventType": "block",
@@ -5047,39 +5074,30 @@
 											],
 											"actions": [
 												{
-													"id": "move-to-object",
+													"id": "move-to-position",
 													"objectClass": "PoisonSlime",
-													"sid": 446207281067724,
+													"sid": 295710149530763,
 													"behaviorType": "MoveTo",
 													"parameters": {
-														"object": "Player",
-														"image-point": "0",
+														"x": "Player.X",
+														"y": "Player.Y",
 														"mode": "direct"
 													}
 												},
 												{
 													"id": "set-angle",
 													"objectClass": "PoisonSlime",
-													"sid": 881288403515975,
+													"sid": 290297962077513,
 													"parameters": {
 														"angle": "0"
 													}
 												},
 												{
-													"id": "set-y",
+													"id": "set-angle",
 													"objectClass": "PoisonSlime",
-													"sid": 693313355302564,
+													"sid": 753971269110885,
 													"parameters": {
-														"y": "Self.Y"
-													}
-												},
-												{
-													"id": "set-speed",
-													"objectClass": "PoisonSlime",
-													"sid": 965172602485771,
-													"behaviorType": "MoveTo",
-													"parameters": {
-														"speed": "100"
+														"angle": "0"
 													}
 												}
 											],

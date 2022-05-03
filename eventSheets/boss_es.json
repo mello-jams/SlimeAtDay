@@ -462,7 +462,17 @@
 						{
 							"id": "set-position",
 							"objectClass": "Cursor",
+							"sid": 172109459537799,
+							"parameters": {
+								"x": "Mouse.X(\"Game\")",
+								"y": "Mouse.Y(\"Game\")"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Cursor",
 							"sid": 170983430594366,
+							"disabled": true,
 							"parameters": {
 								"x": "Mouse.X",
 								"y": "Mouse.Y"
@@ -16925,11 +16935,11 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 342340289311168,
+											"sid": 653140872096099,
 											"parameters": {
 												"first-value": "distance(Player.X,Player.Y,BossSlime.X,BossSlime.Y)",
 												"comparison": 3,
-												"second-value": "700"
+												"second-value": "1800"
 											}
 										}
 									],
@@ -18324,6 +18334,45 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 338833227234546,
+							"parameters": {
+								"variable": "IntoBoolean"
+							}
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 705873407745009
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 540018149720805,
+							"parameters": {
+								"variable": "CamActive"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Cursor",
+							"sid": 736953462229704,
+							"parameters": {
+								"x": "Mouse.X(\"Game\")",
+								"y": "Mouse.Y(\"Game\")"
+							}
+						}
+					],
+					"sid": 767972553307787,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "compare-two-values",
 							"objectClass": "System",
 							"sid": 927234826179695,
@@ -18392,6 +18441,7 @@
 							"id": "set-layer-scale",
 							"objectClass": "System",
 							"sid": 508246956561275,
+							"disabled": true,
 							"parameters": {
 								"layer": "5",
 								"scale": "1"
@@ -18401,6 +18451,7 @@
 							"id": "set-layer-scale",
 							"objectClass": "System",
 							"sid": 740742358913714,
+							"disabled": true,
 							"parameters": {
 								"layer": "4",
 								"scale": "1"
@@ -18410,6 +18461,7 @@
 							"id": "set-layer-scale",
 							"objectClass": "System",
 							"sid": 908453728424134,
+							"disabled": true,
 							"parameters": {
 								"layer": "2",
 								"scale": "1"
@@ -18419,6 +18471,7 @@
 							"id": "set-layer-scale",
 							"objectClass": "System",
 							"sid": 829815251919807,
+							"disabled": true,
 							"parameters": {
 								"layer": "1",
 								"scale": "1"
@@ -18428,6 +18481,7 @@
 							"id": "set-layer-scale",
 							"objectClass": "System",
 							"sid": 291402395665726,
+							"disabled": true,
 							"parameters": {
 								"layer": "0",
 								"scale": "1"
@@ -18437,6 +18491,7 @@
 							"id": "set-enabled",
 							"objectClass": "Cam",
 							"sid": 600240875935338,
+							"disabled": true,
 							"behaviorType": "camzoom",
 							"parameters": {
 								"state": "disabled"
@@ -18446,6 +18501,7 @@
 							"id": "set-enabled",
 							"objectClass": "Player",
 							"sid": 656253131375687,
+							"disabled": true,
 							"behaviorType": "ScrollTo",
 							"parameters": {
 								"state": "enabled"

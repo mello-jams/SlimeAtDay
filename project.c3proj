@@ -160,6 +160,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -178,14 +186,6 @@
 			"type": "behavior",
 			"id": "Orbit",
 			"name": "Orbit",
-			"author": "Scirra",
-			"version": "r293.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
 			"author": "Scirra",
 			"version": "r293.2",
 			"bundled": false
