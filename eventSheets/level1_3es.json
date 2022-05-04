@@ -380,6 +380,16 @@
 									"parameters": {
 										"variable": "TimerisThere"
 									}
+								},
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 200549875086942,
+									"parameters": {
+										"variable": "WhatLevel",
+										"comparison": 0,
+										"value": "2"
+									}
 								}
 							],
 							"actions": [
@@ -616,6 +626,15 @@
 												"volume": "-10",
 												"tag-optional": "\"\""
 											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 153421140814568,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
+											}
 										}
 									],
 									"sid": 679215430688748
@@ -651,6 +670,15 @@
 												"loop": "not-looping",
 												"volume": "-10",
 												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 286134449533021,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
 											}
 										}
 									],
@@ -688,6 +716,15 @@
 												"volume": "-10",
 												"tag-optional": "\"\""
 											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 391403124517168,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
+											}
 										}
 									],
 									"sid": 223973620385771
@@ -723,6 +760,15 @@
 												"loop": "not-looping",
 												"volume": "-10",
 												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 124600895524805,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
 											}
 										}
 									],
@@ -760,6 +806,15 @@
 												"volume": "-10",
 												"tag-optional": "\"\""
 											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 398142240926157,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
+											}
 										}
 									],
 									"sid": 335994649126841
@@ -795,6 +850,15 @@
 												"loop": "not-looping",
 												"volume": "-10",
 												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 659966208838372,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
 											}
 										}
 									],
@@ -832,6 +896,15 @@
 												"volume": "-10",
 												"tag-optional": "\"\""
 											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 601983297881111,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
+											}
 										}
 									],
 									"sid": 975451771504945
@@ -867,6 +940,15 @@
 												"loop": "not-looping",
 												"volume": "-10",
 												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 898727438255226,
+											"parameters": {
+												"animation": "\"damage\"",
+												"from": "beginning"
 											}
 										}
 									],
@@ -8338,10 +8420,10 @@
 										{
 											"id": "set-jump-strength",
 											"objectClass": "Player",
-											"sid": 987980368920402,
+											"sid": 787276960051744,
 											"behaviorType": "Platform",
 											"parameters": {
-												"jump-strength": "500"
+												"jump-strength": "200"
 											}
 										}
 									],

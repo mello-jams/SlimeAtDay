@@ -263,9 +263,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "txtforTimer",
-					"sid": 598936335519188,
+					"sid": 776800974361929,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				}
 			],
