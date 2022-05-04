@@ -827,6 +827,59 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 461859506036613,
+					"parameters": {
+						"variable": "CamActive"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 618144815467071,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Cam",
+					"sid": 989658066480368,
+					"behaviorType": "camzoom",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 822269985393273,
+					"parameters": {
+						"layer": "1",
+						"scale": "1"
+					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 698030693921732,
+					"parameters": {
+						"layer": "0",
+						"scale": "1"
+					}
+				}
+			],
+			"sid": 456315914929797
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
 					"sid": 565848809715029,
