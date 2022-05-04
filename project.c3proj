@@ -314,7 +314,8 @@
 					"txtforJump",
 					"txtfroBullet",
 					"txtforTimer",
-					"txtforHighscore"
+					"txtforHighscore",
+					"ButtonImage"
 				],
 				"subfolders": [
 					{
@@ -421,7 +422,10 @@
 					"triggerForCombo",
 					"WantedSign",
 					"WantedSign2",
-					"Sky4loading"
+					"Sky4loading",
+					"MountainsDay",
+					"sky1",
+					"MountainsDusk"
 				],
 				"subfolders": [],
 				"name": "BKG"
@@ -491,6 +495,11 @@
 								],
 								"subfolders": [],
 								"name": "Sand"
+							},
+							{
+								"items": [],
+								"subfolders": [],
+								"name": "Cave"
 							}
 						],
 						"name": "TileSprites"

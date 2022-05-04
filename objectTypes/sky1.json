@@ -1,52 +1,49 @@
 {
-	"name": "TrainPlaceholder3",
+	"name": "sky1",
 	"plugin-id": "Sprite",
-	"sid": 888303493093165,
+	"sid": 192011012301022,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 699451227909138
-		},
-		{
-			"behaviorId": "Sin",
-			"name": "Sine",
-			"sid": 421696464482286
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 691,
-						"height": 283,
+						"width": 1708,
+						"height": 960,
 						"originX": 0.5,
-						"originY": 0.330550918196995,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9908791,
+						"imageSpriteId": 8770723,
 						"collisionPoly": {
 							"points": [
-								0.07235890014471778,
 								0,
-								0.9261940543454917,
 								0,
-								0.999001996007984,
-								0.998330550918197,
-								0.000998003992015968,
-								0.998330550918197
+								0.5,
+								0,
+								0.9994145199063232,
+								0,
+								0.9994145199063232,
+								0.5,
+								0.9994145199063232,
+								0.9989583333333333,
+								0.5,
+								0.9989583333333333,
+								0,
+								0.9989583333333333,
+								0,
+								0.5
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 417278029807571,
+				"sid": 356507368088093,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

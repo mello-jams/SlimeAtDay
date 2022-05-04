@@ -1,52 +1,49 @@
 {
-	"name": "TrainPlaceholder3",
+	"name": "ButtonImage",
 	"plugin-id": "Sprite",
-	"sid": 888303493093165,
+	"sid": 897712040952522,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 699451227909138
-		},
-		{
-			"behaviorId": "Sin",
-			"name": "Sine",
-			"sid": 421696464482286
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 691,
-						"height": 283,
+						"width": 308,
+						"height": 96,
 						"originX": 0.5,
-						"originY": 0.330550918196995,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9908791,
+						"imageSpriteId": 9680129,
 						"collisionPoly": {
 							"points": [
-								0.07235890014471778,
+								0.045454545454545456,
+								0.14583333333333334,
+								0.5,
 								0,
-								0.9261940543454917,
+								0.8733766233766234,
+								0.3958333333333333,
+								0.8766233766233766,
+								0.5,
+								0.8928571428571429,
+								0.65625,
+								0.5,
+								0.9791666666666666,
+								0.045454545454545456,
+								0.84375,
 								0,
-								0.999001996007984,
-								0.998330550918197,
-								0.000998003992015968,
-								0.998330550918197
+								0.5
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 417278029807571,
+				"sid": 379351538870613,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

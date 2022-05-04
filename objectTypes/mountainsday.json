@@ -1,0 +1,49 @@
+{
+	"name": "MountainsDay",
+	"plugin-id": "Sprite",
+	"sid": 400457529439495,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1708,
+						"height": 749,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6387194,
+						"collisionPoly": {
+							"points": [
+								0.9022248243559718,
+								0.22162883845126835,
+								0.9994145199063232,
+								0.5,
+								0.9994145199063232,
+								0.9986648865153538,
+								0.5,
+								0.9986648865153538
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 411703152984304,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
