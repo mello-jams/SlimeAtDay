@@ -12389,6 +12389,53 @@
 									"eventType": "block",
 									"conditions": [
 										{
+											"id": "every-tick",
+											"objectClass": "System",
+											"sid": 753642120558206
+										}
+									],
+									"actions": [
+										{
+											"id": "set-width",
+											"objectClass": "Player_healthbar",
+											"sid": 753678712062560,
+											"parameters": {
+												"width": "64*(Player.HP/20)"
+											}
+										}
+									],
+									"sid": 842198060039711
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 339148984036306,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 3,
+												"value": "10"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation-frame",
+											"objectClass": "Player_healthbar",
+											"sid": 880689402719556,
+											"parameters": {
+												"frame-number": "4"
+											}
+										}
+									],
+									"sid": 625871437278341
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
 											"sid": 581089702910240,
@@ -12409,7 +12456,8 @@
 											}
 										}
 									],
-									"sid": 317317928613440
+									"sid": 317317928613440,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12435,7 +12483,8 @@
 											}
 										}
 									],
-									"sid": 267181972005277
+									"sid": 267181972005277,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12461,7 +12510,8 @@
 											}
 										}
 									],
-									"sid": 410683407935685
+									"sid": 410683407935685,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12487,7 +12537,8 @@
 											}
 										}
 									],
-									"sid": 274770348040027
+									"sid": 274770348040027,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12513,7 +12564,8 @@
 											}
 										}
 									],
-									"sid": 209955941334662
+									"sid": 209955941334662,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12539,7 +12591,8 @@
 											}
 										}
 									],
-									"sid": 831008042521345
+									"sid": 831008042521345,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12565,7 +12618,8 @@
 											}
 										}
 									],
-									"sid": 517696931076222
+									"sid": 517696931076222,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12591,7 +12645,8 @@
 											}
 										}
 									],
-									"sid": 673674100963722
+									"sid": 673674100963722,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -12619,7 +12674,8 @@
 											"sid": 944681118783568
 										}
 									],
-									"sid": 139093146467583
+									"sid": 139093146467583,
+									"disabled": true
 								}
 							],
 							"sid": 584801168914242
@@ -16104,6 +16160,15 @@
 							"id": "destroy",
 							"objectClass": "Bullets",
 							"sid": 641298393515800
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "BossSlime",
+							"sid": 551987296833926,
+							"parameters": {
+								"animation": "\"hit\"",
+								"from": "beginning"
+							}
 						},
 						{
 							"id": "subtract-from-instvar",
