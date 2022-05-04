@@ -155,17 +155,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-eventvar-value",
-							"objectClass": "System",
-							"sid": 475129670952111,
-							"parameters": {
-								"variable": "Total_shots",
-								"value": "float(100*(Total_shots/Total_hits))"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 136046898132294
 				}
 			],

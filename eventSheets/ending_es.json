@@ -14,16 +14,7 @@
 					"sid": 256938176449772
 				}
 			],
-			"actions": [
-				{
-					"id": "set-text",
-					"objectClass": "Stats2",
-					"sid": 548189499019168,
-					"parameters": {
-						"text": "Total_shots"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 731682159664107
 		},
 		{
