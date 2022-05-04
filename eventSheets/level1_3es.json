@@ -6291,12 +6291,33 @@
 									"eventType": "block",
 									"conditions": [
 										{
+											"id": "every-tick",
+											"objectClass": "System",
+											"sid": 791450500129232
+										}
+									],
+									"actions": [
+										{
+											"id": "set-width",
+											"objectClass": "Player_healthbar",
+											"sid": 911123991408863,
+											"parameters": {
+												"width": "64*(Player.HP/20)"
+											}
+										}
+									],
+									"sid": 555992881517822
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 268821243748732,
+											"sid": 241679864282069,
 											"parameters": {
 												"instance-variable": "HP",
-												"comparison": 2,
+												"comparison": 3,
 												"value": "10"
 											}
 										}
@@ -6305,9 +6326,9 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player_healthbar",
-											"sid": 394132303438446,
+											"sid": 874461562329933,
 											"parameters": {
-												"frame-number": "1"
+												"frame-number": "4"
 											}
 										}
 									],
@@ -6337,7 +6358,8 @@
 											}
 										}
 									],
-									"sid": 493042626636140
+									"sid": 493042626636140,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6363,7 +6385,8 @@
 											}
 										}
 									],
-									"sid": 748617578580175
+									"sid": 748617578580175,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6389,7 +6412,8 @@
 											}
 										}
 									],
-									"sid": 817284018200655
+									"sid": 817284018200655,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6415,7 +6439,8 @@
 											}
 										}
 									],
-									"sid": 841625286096061
+									"sid": 841625286096061,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6441,7 +6466,8 @@
 											}
 										}
 									],
-									"sid": 461397901061259
+									"sid": 461397901061259,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6467,7 +6493,8 @@
 											}
 										}
 									],
-									"sid": 980593298592932
+									"sid": 980593298592932,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6493,7 +6520,8 @@
 											}
 										}
 									],
-									"sid": 299102500325807
+									"sid": 299102500325807,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -6521,7 +6549,8 @@
 											"sid": 109047875891033
 										}
 									],
-									"sid": 593080165690374
+									"sid": 593080165690374,
+									"disabled": true
 								}
 							],
 							"sid": 290046915321806
