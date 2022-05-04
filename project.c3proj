@@ -469,7 +469,9 @@
 			},
 			{
 				"items": [
-					"Reloading"
+					"Reloading",
+					"healthbkg",
+					"healthbkga"
 				],
 				"subfolders": [
 					{

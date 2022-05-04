@@ -2361,6 +2361,17 @@
 															],
 															"actions": [
 																{
+																	"id": "spawn-another-object",
+																	"objectClass": "AcidSlime",
+																	"sid": 335964999924349,
+																	"parameters": {
+																		"object": "HealthPotion",
+																		"layer": "1",
+																		"image-point": "0",
+																		"create-hierarchy": false
+																	}
+																},
+																{
 																	"id": "destroy",
 																	"objectClass": "AcidSlime",
 																	"sid": 285278791737347
@@ -2452,9 +2463,29 @@
 															],
 															"actions": [
 																{
+																	"id": "spawn-another-object",
+																	"objectClass": "LavaSlime",
+																	"sid": 798591817100202,
+																	"parameters": {
+																		"object": "HealthPotion",
+																		"layer": "1",
+																		"image-point": "0",
+																		"create-hierarchy": false
+																	}
+																},
+																{
 																	"id": "destroy",
 																	"objectClass": "LavaSlime",
 																	"sid": 135445696096630
+																},
+																{
+																	"id": "add-to-eventvar",
+																	"objectClass": "System",
+																	"sid": 856865632779241,
+																	"parameters": {
+																		"variable": "Total_kills",
+																		"value": "1"
+																	}
 																}
 															],
 															"sid": 174234113958443
@@ -2771,6 +2802,17 @@
 																}
 															],
 															"actions": [
+																{
+																	"id": "spawn-another-object",
+																	"objectClass": "FrostSlime",
+																	"sid": 502462913425160,
+																	"parameters": {
+																		"object": "HealthPotion",
+																		"layer": "1",
+																		"image-point": "0",
+																		"create-hierarchy": false
+																	}
+																},
 																{
 																	"id": "destroy",
 																	"objectClass": "FrostSlime",

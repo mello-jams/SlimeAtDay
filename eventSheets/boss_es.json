@@ -12955,6 +12955,37 @@
 						{
 							"eventType": "group",
 							"disabled": false,
+							"title": "Bosss",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "every-tick",
+											"objectClass": "System",
+											"sid": 617158999437772
+										}
+									],
+									"actions": [
+										{
+											"id": "set-width",
+											"objectClass": "healthbkg",
+											"sid": 794240683767213,
+											"parameters": {
+												"width": "833.972479*(BossSlime.HPSlime/100)"
+											}
+										}
+									],
+									"sid": 764956671845127
+								}
+							],
+							"sid": 368504020696892
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
 							"title": "Player4",
 							"description": "",
 							"isActiveOnStart": true,

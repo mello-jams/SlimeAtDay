@@ -1921,6 +1921,35 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "healthbkga",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 477,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 431,
+						"y": 436,
+						"width": 840.7680959103187,
+						"height": 33.24403349070519,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "txtfroBullet",
 					"properties": {
 						"text": "Text",
@@ -2142,6 +2171,35 @@
 						"y": 33.79997806549085,
 						"width": 50.33241251599344,
 						"height": 50.6528899204547,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "healthbkg",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 476,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 432.6521742462578,
+						"y": 434.9939485515835,
+						"width": 833.9724788754428,
+						"height": 25.468009791135614,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
