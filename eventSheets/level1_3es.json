@@ -580,11 +580,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 359448990599860,
+											"sid": 534922562737551,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -616,11 +616,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 318423049086172,
+											"sid": 258787109151047,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -652,11 +652,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 290428719115536,
+											"sid": 776097732638165,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -688,11 +688,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 759221426551741,
+											"sid": 443901631911219,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -724,11 +724,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 527873379503843,
+											"sid": 506139060702027,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -760,11 +760,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 571089455417005,
+											"sid": 383415781140257,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -796,11 +796,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 697809601182740,
+											"sid": 400250348513656,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -832,11 +832,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 150102171645268,
+											"sid": 670037767252749,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-5",
+												"volume": "-10",
 												"tag-optional": "\"\""
 											}
 										}
@@ -4728,9 +4728,9 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 878569487146835,
+											"sid": 946960198127550,
 											"parameters": {
-												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+												"first-value": "distance(Player.X,Player.Y,FrostSlime.X,FrostSlime.Y)",
 												"comparison": 3,
 												"second-value": "150"
 											}
@@ -5211,11 +5211,11 @@
 												{
 													"id": "compare-two-values",
 													"objectClass": "System",
-													"sid": 103414687999333,
+													"sid": 206561298170486,
 													"parameters": {
-														"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+														"first-value": "distance(Player.X,Player.Y,PoisonSlime.X,PoisonSlime.Y)",
 														"comparison": 3,
-														"second-value": "200"
+														"second-value": "150"
 													}
 												}
 											],
@@ -5822,11 +5822,11 @@
 												{
 													"id": "compare-two-values",
 													"objectClass": "System",
-													"sid": 780431441425838,
+													"sid": 329070715977753,
 													"parameters": {
-														"first-value": "distance(Player.X,Player.Y,PoisonSlime.X,PoisonSlime.Y)",
+														"first-value": "distance(Player.X,Player.Y,AcidSlime.X,AcidSlime.Y)",
 														"comparison": 3,
-														"second-value": "150"
+														"second-value": "300"
 													}
 												}
 											],
@@ -6008,11 +6008,11 @@
 										{
 											"id": "compare-two-values",
 											"objectClass": "System",
-											"sid": 795426161814300,
+											"sid": 617463156053531,
 											"parameters": {
-												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+												"first-value": "distance(Player.X,Player.Y,FireSlime.X,FireSlime.Y)",
 												"comparison": 3,
-												"second-value": "200"
+												"second-value": "300"
 											}
 										}
 									],
@@ -6248,6 +6248,16 @@
 												"object": "Player",
 												"image-point": "0"
 											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 431275041906718,
+											"parameters": {
+												"first-value": "distance(Player.X,Player.Y,LavaSlime.X,LavaSlime.Y)",
+												"comparison": 3,
+												"second-value": "250"
+											}
 										}
 									],
 									"actions": [
@@ -6472,6 +6482,16 @@
 												"object": "Player",
 												"image-point": "0"
 											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 496333328427539,
+											"parameters": {
+												"first-value": "distance(Player.X,Player.Y,LightningSlime.X,LightningSlime.Y)",
+												"comparison": 3,
+												"second-value": "200"
+											}
 										}
 									],
 									"actions": [
@@ -6527,9 +6547,9 @@
 												{
 													"id": "compare-two-values",
 													"objectClass": "System",
-													"sid": 634487431547205,
+													"sid": 796235075537075,
 													"parameters": {
-														"first-value": "distance(Player.X,Player.Y,FireSlime.X,FireSlime.Y)",
+														"first-value": "distance(Player.X,Player.Y,LightningSlime.X,LightningSlime.Y)",
 														"comparison": 3,
 														"second-value": "400"
 													}

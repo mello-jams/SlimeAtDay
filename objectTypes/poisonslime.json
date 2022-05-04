@@ -26,6 +26,11 @@
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 768571424651357
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 337536997010711
 		}
 	],
 	"effectTypes": [],

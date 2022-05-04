@@ -152,16 +152,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r293.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
+			"id": "Bullet",
+			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r293.2",
 			"bundled": false
@@ -379,7 +379,6 @@
 					"Magma",
 					"LighteningBolt",
 					"FrostSlime",
-					"WaterSlime2",
 					"BossSlime"
 				],
 				"subfolders": [],

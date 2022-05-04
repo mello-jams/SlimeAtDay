@@ -15169,147 +15169,6 @@
 						{
 							"eventType": "group",
 							"disabled": false,
-							"title": "Health4",
-							"description": "",
-							"isActiveOnStart": true,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "on-created",
-											"objectClass": "HealthPotion",
-											"sid": 556344172443687
-										}
-									],
-									"actions": [
-										{
-											"id": "set-size",
-											"objectClass": "HealthPotion",
-											"sid": 739611781485971,
-											"parameters": {
-												"width": "22.204582",
-												"height": "28.372522"
-											}
-										}
-									],
-									"sid": 594593786130973
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "on-collision-with-another-object",
-											"objectClass": "Player",
-											"sid": 164656636345517,
-											"parameters": {
-												"object": "HealthPotion"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "add-to-instvar",
-											"objectClass": "Player",
-											"sid": 337622245904926,
-											"parameters": {
-												"instance-variable": "HP",
-												"value": "3"
-											}
-										},
-										{
-											"id": "destroy",
-											"objectClass": "HealthPotion",
-											"sid": 724043456814777
-										},
-										{
-											"id": "set-boolean-instvar",
-											"objectClass": "Player",
-											"sid": 670172719563288,
-											"parameters": {
-												"instance-variable": "Health_Ability",
-												"value": "true"
-											}
-										},
-										{
-											"id": "wait",
-											"objectClass": "System",
-											"sid": 567058172801755,
-											"parameters": {
-												"seconds": "1.5"
-											}
-										},
-										{
-											"id": "set-boolean-instvar",
-											"objectClass": "Player",
-											"sid": 364357123052699,
-											"parameters": {
-												"instance-variable": "Health_Ability",
-												"value": "false"
-											}
-										},
-										{
-											"id": "play",
-											"objectClass": "Audio",
-											"sid": 598882122880505,
-											"parameters": {
-												"audio-file": "Minecraft_Potion_Drinking_edited",
-												"loop": "not-looping",
-												"volume": "-10",
-												"tag-optional": "\"\""
-											}
-										}
-									],
-									"sid": 173288398725861
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "is-boolean-instance-variable-set",
-											"objectClass": "Player",
-											"sid": 340549006735030,
-											"parameters": {
-												"instance-variable": "Health_Ability"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation",
-											"objectClass": "Player",
-											"sid": 917126603482100,
-											"parameters": {
-												"animation": "\"health\"",
-												"from": "beginning"
-											}
-										},
-										{
-											"id": "wait",
-											"objectClass": "System",
-											"sid": 140914450574950,
-											"parameters": {
-												"seconds": "1.5"
-											}
-										},
-										{
-											"id": "set-animation",
-											"objectClass": "Player",
-											"sid": 576534483972424,
-											"parameters": {
-												"animation": "\"idle\"",
-												"from": "beginning"
-											}
-										}
-									],
-									"sid": 610734139805145
-								}
-							],
-							"sid": 633502126993385
-						},
-						{
-							"eventType": "group",
-							"disabled": false,
 							"title": "Speed2",
 							"description": "",
 							"isActiveOnStart": true,
@@ -15752,6 +15611,241 @@
 								}
 							],
 							"sid": 700161772700036
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Health4",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-created",
+											"objectClass": "HealthPotion",
+											"sid": 750436943817701
+										}
+									],
+									"actions": [
+										{
+											"id": "set-size",
+											"objectClass": "HealthPotion",
+											"sid": 275799533776056,
+											"parameters": {
+												"width": "22.204582",
+												"height": "28.372522"
+											}
+										}
+									],
+									"sid": 960882840253846
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 788527470925212,
+											"parameters": {
+												"object": "HealthPotion"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 250112101429794,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 2,
+												"value": "20"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "add-to-instvar",
+											"objectClass": "Player",
+											"sid": 383853447914993,
+											"parameters": {
+												"instance-variable": "HP",
+												"value": "8"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "HealthPotion",
+											"sid": 281961460051635
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 463734835525137,
+											"parameters": {
+												"instance-variable": "Health_Ability",
+												"value": "true"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 433134568867618,
+											"parameters": {
+												"seconds": "1.5"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 856718975932587,
+											"parameters": {
+												"instance-variable": "Health_Ability",
+												"value": "false"
+											}
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 823665124460089,
+											"parameters": {
+												"variable": "Total_potions",
+												"value": "1"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 435725858298577,
+											"parameters": {
+												"audio-file": "Minecraft_Potion_Drinking_edited",
+												"loop": "not-looping",
+												"volume": "-10",
+												"tag-optional": "\"\""
+											}
+										}
+									],
+									"sid": 312721125310159
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 517474356705807,
+											"parameters": {
+												"object": "HealthPotion"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 328838085857368,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 5,
+												"value": "20"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "HealthPotion",
+											"sid": 743341358224574
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 153082597658499,
+											"parameters": {
+												"instance-variable": "Health_Ability",
+												"value": "true"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 723095224573499,
+											"parameters": {
+												"seconds": "1.5"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 975653944900305,
+											"parameters": {
+												"instance-variable": "Health_Ability",
+												"value": "false"
+											}
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 986915844259816,
+											"parameters": {
+												"variable": "Total_potions",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 544659834479149
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Player",
+											"sid": 355290408267009,
+											"parameters": {
+												"instance-variable": "Health_Ability"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 143051132549098,
+											"parameters": {
+												"animation": "\"health\"",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 897935708986106,
+											"parameters": {
+												"seconds": "1.5"
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 342997718780126,
+											"parameters": {
+												"animation": "\"idle\"",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 624491185742579,
+											"parameters": {
+												"variable": "Total_potions",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 456947169238797
+								}
+							],
+							"sid": 368243428405470
 						}
 					],
 					"sid": 768896633917082
