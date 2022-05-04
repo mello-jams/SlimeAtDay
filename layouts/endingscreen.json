@@ -995,7 +995,11 @@
 					},
 					"uid": 251,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
 						"x": 4,
 						"y": 4,
@@ -1037,7 +1041,11 @@
 					},
 					"uid": 386,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
 						"x": 4,
 						"y": 22,
@@ -1079,7 +1087,11 @@
 					},
 					"uid": 387,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
 						"x": 3,
 						"y": 44,
@@ -1121,7 +1133,11 @@
 					},
 					"uid": 388,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
 						"x": 5,
 						"y": 65,
@@ -1163,7 +1179,11 @@
 					},
 					"uid": 389,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
 						"x": 5,
 						"y": 86,
@@ -1205,7 +1225,11 @@
 					},
 					"uid": 390,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
 						"x": 6,
 						"y": 105,

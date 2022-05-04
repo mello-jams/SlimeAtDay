@@ -545,15 +545,6 @@
 								"volume": "0",
 								"tag-optional": "\"\""
 							}
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 718863096840982,
-							"parameters": {
-								"variable": "Total_jumps",
-								"value": "1"
-							}
 						}
 					],
 					"sid": 147556569182776
