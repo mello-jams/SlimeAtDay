@@ -363,6 +363,62 @@
 							"parameters": {
 								"input": "start-ignoring"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats",
+							"sid": 862318729913411,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats2",
+							"sid": 529643124557889,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats3",
+							"sid": 273538442566617,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats4",
+							"sid": 614664273804000,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats5",
+							"sid": 350502062822200,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats6",
+							"sid": 896711184484231,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Stats7",
+							"sid": 741870601889636,
+							"parameters": {
+								"visibility": "invisible"
+							}
 						}
 					],
 					"sid": 475609173293540
@@ -10675,6 +10731,17 @@
 											}
 										},
 										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 534944474134672,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
+										},
+										{
 											"id": "destroy",
 											"objectClass": "ICeSlimeIcicle",
 											"sid": 644007380848025
@@ -10894,6 +10961,17 @@
 													}
 												},
 												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 938092822334160,
+													"parameters": {
+														"audio-file": "minecraft_oof",
+														"loop": "not-looping",
+														"volume": "-5",
+														"tag-optional": "\"\""
+													}
+												},
+												{
 													"id": "shake",
 													"objectClass": "Player",
 													"sid": 338634538611135,
@@ -11074,6 +11152,17 @@
 													"parameters": {
 														"instance-variable": "HP",
 														"value": "1"
+													}
+												},
+												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 271974575381741,
+													"parameters": {
+														"audio-file": "minecraft_oof",
+														"loop": "not-looping",
+														"volume": "-5",
+														"tag-optional": "\"\""
 													}
 												},
 												{
@@ -11644,6 +11733,17 @@
 													}
 												},
 												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 497843783766510,
+													"parameters": {
+														"audio-file": "minecraft_oof",
+														"loop": "not-looping",
+														"volume": "-5",
+														"tag-optional": "\"\""
+													}
+												},
+												{
 													"id": "shake",
 													"objectClass": "Player",
 													"sid": 165496401858278,
@@ -11759,6 +11859,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 113262522359816,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										},
 										{
@@ -12032,6 +12143,17 @@
 											}
 										},
 										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 361091620694640,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
+										},
+										{
 											"id": "shake",
 											"objectClass": "Player",
 											"sid": 924413871507067,
@@ -12200,6 +12322,17 @@
 											}
 										},
 										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 846228669873433,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
+										},
+										{
 											"id": "shake",
 											"objectClass": "Player",
 											"sid": 981880503026549,
@@ -12276,6 +12409,17 @@
 											}
 										},
 										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 885663114162308,
+											"parameters": {
+												"audio-file": "pop2",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"spawn_pop\""
+											}
+										},
+										{
 											"id": "destroy",
 											"objectClass": "EarthSlime",
 											"sid": 677381126625716
@@ -12310,6 +12454,17 @@
 												"layer": "1",
 												"image-point": "0",
 												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 872004265793593,
+											"parameters": {
+												"audio-file": "pop2",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"spawn_pop\""
 											}
 										},
 										{
@@ -16557,6 +16712,17 @@
 									}
 								},
 								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 714028035148889,
+									"parameters": {
+										"audio-file": "minecraft_oof",
+										"loop": "not-looping",
+										"volume": "-5",
+										"tag-optional": "\"\""
+									}
+								},
+								{
 									"id": "shake",
 									"objectClass": "Player",
 									"sid": 594423284901184,
@@ -16598,6 +16764,17 @@
 									}
 								},
 								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 212704214397791,
+									"parameters": {
+										"audio-file": "minecraft_oof",
+										"loop": "not-looping",
+										"volume": "-5",
+										"tag-optional": "\"\""
+									}
+								},
+								{
 									"id": "shake",
 									"objectClass": "Player",
 									"sid": 639260066471440,
@@ -16636,6 +16813,17 @@
 									"parameters": {
 										"instance-variable": "HP",
 										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 401731341067846,
+									"parameters": {
+										"audio-file": "minecraft_oof",
+										"loop": "not-looping",
+										"volume": "-5",
+										"tag-optional": "\"\""
 									}
 								},
 								{

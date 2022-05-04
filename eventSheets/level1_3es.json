@@ -166,6 +166,17 @@
 									"parameters": {
 										"visibility": "invisible"
 									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 139721350026650,
+									"parameters": {
+										"audio-file": "pop2",
+										"loop": "not-looping",
+										"volume": "-5",
+										"tag-optional": "\"spawn_pop\""
+									}
 								}
 							],
 							"sid": 382127514637432
@@ -309,21 +320,6 @@
 								}
 							],
 							"sid": 407924438309774
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-x-seconds",
-									"objectClass": "System",
-									"sid": 199042499102501,
-									"parameters": {
-										"interval-seconds": "1.0"
-									}
-								}
-							],
-							"actions": [],
-							"sid": 114670782060811
 						},
 						{
 							"eventType": "block",
@@ -580,6 +576,17 @@
 												"instance-variable": "HP",
 												"value": "2"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 359448990599860,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 679215430688748
@@ -604,6 +611,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "2"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 318423049086172,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										}
 									],
@@ -630,6 +648,17 @@
 												"instance-variable": "HP",
 												"value": "2"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 290428719115536,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 223973620385771
@@ -654,6 +683,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "2"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 759221426551741,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										}
 									],
@@ -680,6 +720,17 @@
 												"instance-variable": "HP",
 												"value": "2"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 527873379503843,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 335994649126841
@@ -704,6 +755,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "2"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 571089455417005,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										}
 									],
@@ -730,6 +792,17 @@
 												"instance-variable": "HP",
 												"value": "2"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 697809601182740,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 975451771504945
@@ -754,6 +827,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "2"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 150102171645268,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										}
 									],
@@ -1742,11 +1826,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 875969900535927,
+											"sid": 214972687788243,
 											"parameters": {
 												"audio-file": "shot_3",
 												"loop": "not-looping",
-												"volume": "-25",
+												"volume": "-18",
 												"tag-optional": "\"da sound of de gat go plack plack plack\""
 											}
 										}
@@ -2583,6 +2667,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 989052804733411,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "PoisonSlime",
 																	"sid": 619678173254621,
@@ -2970,6 +3065,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 803943387080694,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "LightningSlime",
 																	"sid": 419182467786305,
@@ -3037,6 +3143,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 655173567820729,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -3110,6 +3227,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 654873971498954,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "LightningSlime",
 																	"sid": 249595736829909,
@@ -3180,6 +3308,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 113131784880630,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "LightningSlime",
 																	"sid": 817158603036852,
@@ -3247,6 +3386,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 299130806537974,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -3397,6 +3547,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 787714871258332,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "EarthSlime",
 																	"sid": 222419920069424,
@@ -3468,6 +3629,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 253835139568256,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -3545,6 +3717,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 783631428503244,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "EarthSlime",
 																	"sid": 185228494962727,
@@ -3619,6 +3802,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 367455117924452,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "EarthSlime",
 																	"sid": 767713579555110,
@@ -3690,6 +3884,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 821526677901499,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -3887,6 +4092,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 791740640839628,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "FireSlime",
 																	"sid": 443510440846161,
@@ -3954,6 +4170,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 871727310536880,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -4027,6 +4254,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 945232219202593,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "FireSlime",
 																	"sid": 599031173595360,
@@ -4094,6 +4332,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 938785625494658,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -4167,6 +4416,17 @@
 																	}
 																},
 																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 109586680746016,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
+																	}
+																},
+																{
 																	"id": "set-size",
 																	"objectClass": "FireSlime",
 																	"sid": 376906940340622,
@@ -4234,6 +4494,17 @@
 																		"layer": "1",
 																		"image-point": "1",
 																		"create-hierarchy": false
+																	}
+																},
+																{
+																	"id": "play",
+																	"objectClass": "Audio",
+																	"sid": 732260044888681,
+																	"parameters": {
+																		"audio-file": "pop2",
+																		"loop": "not-looping",
+																		"volume": "-5",
+																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
 																{
@@ -4604,6 +4875,17 @@
 												"duration": "0.4",
 												"mode": "reducing-magnitude"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 313586049335164,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 494244463327673
@@ -4845,6 +5127,17 @@
 														"duration": "0.4",
 														"mode": "reducing-magnitude"
 													}
+												},
+												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 454614122335129,
+													"parameters": {
+														"audio-file": "minecraft_oof",
+														"loop": "not-looping",
+														"volume": "-5",
+														"tag-optional": "\"\""
+													}
 												}
 											],
 											"sid": 885551041672198
@@ -5018,6 +5311,17 @@
 														"magnitude": "20",
 														"duration": "0.4",
 														"mode": "reducing-magnitude"
+													}
+												},
+												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 755728873851939,
+													"parameters": {
+														"audio-file": "minecraft_oof",
+														"loop": "not-looping",
+														"volume": "-5",
+														"tag-optional": "\"\""
 													}
 												}
 											],
@@ -5586,6 +5890,17 @@
 														"duration": "0.4",
 														"mode": "reducing-magnitude"
 													}
+												},
+												{
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 683209003226803,
+													"parameters": {
+														"audio-file": "minecraft_oof",
+														"loop": "not-looping",
+														"volume": "-5",
+														"tag-optional": "\"\""
+													}
 												}
 											],
 											"sid": 675638803002848
@@ -5692,6 +6007,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 139696321621522,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										},
 										{
@@ -5965,6 +6291,17 @@
 											}
 										},
 										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 200843136493616,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
+										},
+										{
 											"id": "shake",
 											"objectClass": "Player",
 											"sid": 748396151803484,
@@ -6106,6 +6443,17 @@
 											"parameters": {
 												"acceleration": "1000"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 905200612524870,
+											"parameters": {
+												"audio-file": "zap",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 137224719346593
@@ -6130,6 +6478,17 @@
 											"parameters": {
 												"instance-variable": "HP",
 												"value": "1"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 412559025850941,
+											"parameters": {
+												"audio-file": "minecraft_oof",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"\""
 											}
 										},
 										{
@@ -6217,6 +6576,17 @@
 											"id": "destroy",
 											"objectClass": "PoisonSlime",
 											"sid": 209047765862974
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 359688372179993,
+											"parameters": {
+												"audio-file": "pop2",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"spawn_pop\""
+											}
 										}
 									],
 									"sid": 110271596210109
@@ -6263,6 +6633,17 @@
 											"id": "destroy",
 											"objectClass": "FireSlime",
 											"sid": 493163199043335
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 283546654750855,
+											"parameters": {
+												"audio-file": "pop2",
+												"loop": "not-looping",
+												"volume": "-5",
+												"tag-optional": "\"spawn_pop\""
+											}
 										}
 									],
 									"sid": 551346096191023
