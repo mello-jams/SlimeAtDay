@@ -379,7 +379,8 @@
 					"Magma",
 					"LighteningBolt",
 					"FrostSlime",
-					"BossSlime"
+					"BossSlime",
+					"stasis"
 				],
 				"subfolders": [],
 				"name": "Slimes"

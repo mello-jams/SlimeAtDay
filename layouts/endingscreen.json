@@ -184,8 +184,8 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
+								"default-controls": false,
+								"enabled": false
 							}
 						}
 					},
@@ -269,8 +269,8 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
+								"default-controls": false,
+								"enabled": false
 							}
 						}
 					},
@@ -348,8 +348,8 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
+								"default-controls": false,
+								"enabled": false
 							}
 						}
 					},
@@ -427,8 +427,8 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
+								"default-controls": false,
+								"enabled": false
 							}
 						}
 					},
@@ -507,8 +507,8 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
+								"default-controls": false,
+								"enabled": false
 							}
 						}
 					},
@@ -658,7 +658,7 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						},

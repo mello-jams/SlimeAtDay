@@ -241,6 +241,35 @@
 				}
 			],
 			"sid": 487701576285606
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 912749179168011
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 243056065177765,
+					"parameters": {
+						"variable": "TimerisThere"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "txtforTimer",
+					"sid": 598936335519188,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 904281467002709
 		}
 	],
 	"sid": 269863722402610

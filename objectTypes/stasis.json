@@ -1,0 +1,85 @@
+{
+	"name": "stasis",
+	"plugin-id": "Sprite",
+	"sid": 178633305067823,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "AcidSlime",
+			"type": "boolean",
+			"desc": "",
+			"sid": 176909536258813
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 944299212566974
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 295425486376595
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 392669705833823
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 936384283435419
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 249,
+						"height": 166,
+						"originX": 0.46077302841941015,
+						"originY": 0.43361364922778356,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5357522,
+						"collisionPoly": {
+							"points": [
+								0.9952116156935434,
+								0.49698795180722893,
+								0.8515600864998455,
+								0.8395718797520177,
+								0.5020080321285141,
+								0.9891507778687566,
+								0.15724436206363918,
+								0.8395718797520177,
+								0.01359283286994127,
+								0.49698795180722893,
+								0.15724436206363918,
+								0.1495788981167388,
+								0.5020080321285141,
+								0,
+								0.8515600864998455,
+								0.1495788981167388
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 546253516256597,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
