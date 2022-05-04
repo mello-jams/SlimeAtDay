@@ -619,11 +619,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 534922562737551,
+											"sid": 965937874318942,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -664,11 +664,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 258787109151047,
+											"sid": 193532800452233,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -709,11 +709,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 776097732638165,
+											"sid": 691897737467158,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -754,11 +754,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 443901631911219,
+											"sid": 346119549726681,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -799,11 +799,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 506139060702027,
+											"sid": 835012316504291,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -844,11 +844,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 383415781140257,
+											"sid": 806647037872953,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -889,11 +889,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 400250348513656,
+											"sid": 455889678826830,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},
@@ -934,11 +934,11 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 670037767252749,
+											"sid": 667257179409747,
 											"parameters": {
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
-												"volume": "-10",
+												"volume": "-20",
 												"tag-optional": "\"\""
 											}
 										},

@@ -818,6 +818,14 @@
 							}
 						},
 						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime4",
+							"sid": 793837589388627,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
 							"id": "wait-for-previous-actions",
 							"objectClass": "System",
 							"sid": 129515079026534

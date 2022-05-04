@@ -566,10 +566,10 @@
 						}
 					},
 					"world": {
-						"x": -913,
-						"y": 807,
-						"width": 411.218075820732,
-						"height": 199.17526196386225,
+						"x": -973,
+						"y": 824.4440734557596,
+						"width": 729.218075820732,
+						"height": 428.1752619638622,
 						"originX": 0.5,
 						"originY": 0.330550918196995,
 						"color": [
@@ -641,10 +641,10 @@
 						}
 					},
 					"world": {
-						"x": -2706,
-						"y": 796,
-						"width": 363.6403691922553,
-						"height": 199.17526196386225,
+						"x": -3228,
+						"y": 794,
+						"width": 779.6403691922553,
+						"height": 447.1752619638622,
 						"originX": 0.5,
 						"originY": 0.330550918196995,
 						"color": [
@@ -716,10 +716,10 @@
 						}
 					},
 					"world": {
-						"x": -1534,
-						"y": 714,
-						"width": 563.1376141149494,
-						"height": 266.57998297686134,
+						"x": -1724,
+						"y": 773,
+						"width": 915.1376141149494,
+						"height": 442.57998297686134,
 						"originX": 0.5037593984962406,
 						"originY": 0.29401408450704225,
 						"color": [
@@ -791,10 +791,10 @@
 						}
 					},
 					"world": {
-						"x": -2154,
-						"y": 704,
-						"width": 563.1376141149494,
-						"height": 266.57998297686134,
+						"x": -2501,
+						"y": 785,
+						"width": 731.1376141149494,
+						"height": 434.57998297686134,
 						"originX": 0.5037593984962406,
 						"originY": 0.29401408450704225,
 						"color": [
@@ -1471,10 +1471,10 @@
 					"properties": {
 						"text": "So you made it to the train outta that town did ya, cowboy?",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1492,9 +1492,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1626,
-						"y": 359,
-						"width": 285,
+						"x": 1555.6799868221283,
+						"y": 493.56003284168247,
+						"width": 355.19994717264194,
 						"height": 145,
 						"originX": 0,
 						"originY": 0,
@@ -1513,10 +1513,10 @@
 					"properties": {
 						"text": "Yeah and I'm ready to start over in a new town.",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1534,10 +1534,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1064,
-						"y": 410,
-						"width": 339,
-						"height": 138,
+						"x": 884.679993449688,
+						"y": 611.2400196638107,
+						"width": 455.6399998455047,
+						"height": 145.5600230612754,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1555,10 +1555,10 @@
 					"properties": {
 						"text": "I'm afraid you're gonna miss this train cowboy.",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1576,9 +1576,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1623,
-						"y": 455,
-						"width": 280,
+						"x": 1552.920026368618,
+						"y": 549.8400031914712,
+						"width": 381.52001304912574,
 						"height": 148,
 						"originX": 0,
 						"originY": 0,
@@ -1598,9 +1598,9 @@
 						"text": "What are you up to?",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 12,
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1618,10 +1618,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1066,
-						"y": 466,
-						"width": 338,
-						"height": 118,
+						"x": 878.679993449688,
+						"y": 646.2400196638107,
+						"width": 410.3600130877496,
+						"height": 89.9200033330917,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1639,10 +1639,10 @@
 					"properties": {
 						"text": "I'm gonna take this train and rob everyone aboard! And then I'm gonna blow it all to smithereens!",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1660,9 +1660,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1630,
-						"y": 549,
-						"width": 273,
+						"x": 1562.7599604535103,
+						"y": 586.0399999098778,
+						"width": 500.8800128817559,
 						"height": 118,
 						"originX": 0,
 						"originY": 0,
@@ -1681,10 +1681,10 @@
 					"properties": {
 						"text": "But I need to get on the train to live a new slime life! And think of all the slimes on the train!",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 23,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1702,10 +1702,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1069,
-						"y": 567,
-						"width": 338,
-						"height": 103,
+						"x": 890.1600132164954,
+						"y": 694.0399932823182,
+						"width": 508.6401645689011,
+						"height": 121.36002634286865,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1721,12 +1721,12 @@
 				{
 					"type": "CutScenceDialouge1Slime4",
 					"properties": {
-						"text": "MUAHAHAHAHA",
+						"text": "MUAHAHAHAHA!!",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1744,9 +1744,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1630,
-						"y": 636,
-						"width": 290,
+						"x": 1558.9199077162743,
+						"y": 645.3600197153091,
+						"width": 304.04001316499716,
 						"height": 108,
 						"originX": 0,
 						"originY": 0,
@@ -1765,10 +1765,10 @@
 					"properties": {
 						"text": "You're pure evil!",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1786,9 +1786,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1071,
-						"y": 659,
-						"width": 335,
+						"x": 886.679993449688,
+						"y": 786.880046019554,
+						"width": 343.64002635574343,
 						"height": 72,
 						"originX": 0,
 						"originY": 0,
@@ -1807,10 +1807,10 @@
 					"properties": {
 						"text": "I gotta find a way to catch it",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "GloriaHallelujah-Regular",
+						"size": 25,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -1828,10 +1828,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1068,
-						"y": 739,
-						"width": 334,
-						"height": 55,
+						"x": 890.679993449688,
+						"y": 841.2400196638107,
+						"width": 463.599980052948,
+						"height": 76.60000656318653,
 						"originX": 0,
 						"originY": 0,
 						"color": [
