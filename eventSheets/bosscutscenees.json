@@ -621,7 +621,7 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 103070790296757,
+							"sid": 337428934567871,
 							"parameters": {
 								"variable": "DialougeCommence"
 							}
@@ -629,34 +629,210 @@
 						{
 							"id": "trigger-once-while-true",
 							"objectClass": "System",
-							"sid": 806150519773107
+							"sid": 870897999486266
 						}
 					],
 					"actions": [
 						{
 							"id": "set-visible",
-							"objectClass": "CutScenceDialouge2BSlime6",
-							"sid": 374077937223534,
+							"objectClass": "CutScenceDialouge1Slime",
+							"sid": 800562857719138,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 175631709065986,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime",
+							"sid": 440357607457095,
 							"parameters": {
 								"visibility": "invisible"
 							}
 						},
 						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime1",
+							"sid": 921513340295101,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 970720197015393,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime1",
+							"sid": 393536510090231,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime2",
+							"sid": 813159671601722,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 457850069912597,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime2",
+							"sid": 519636999172341,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime2",
+							"sid": 176876933148683,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 117330812365376,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime2",
+							"sid": 992907482437066,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime3",
+							"sid": 797016387803643,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 307857482443989,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime3",
+							"sid": 998323956671844,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime3",
+							"sid": 743600634008071,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 766293588558822,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime3",
+							"sid": 258921610308985,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime4",
+							"sid": 749807724108139,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 572587903615360,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge1Slime4",
+							"sid": 348553519689678,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "CutScenceDialouge2BSlime4",
+							"sid": 340926610655673,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 401378984103242,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
 							"id": "wait-for-previous-actions",
 							"objectClass": "System",
-							"sid": 768394669158749
+							"sid": 129515079026534
 						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "BegTrainPlaceholder",
-							"sid": 398270123445205,
+							"sid": 689190129383728,
 							"parameters": {
 								"instance-variable": "Movin",
 								"value": "true"
 							}
 						}
 					],
-					"sid": 338160595976610
+					"sid": 649138014238033
 				},
 				{
 					"eventType": "block",
