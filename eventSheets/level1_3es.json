@@ -4724,19 +4724,52 @@
 												"object": "Player",
 												"image-point": "0"
 											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 878569487146835,
+											"parameters": {
+												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+												"comparison": 3,
+												"second-value": "150"
+											}
 										}
 									],
 									"actions": [
 										{
-											"id": "move-to-object",
-											"objectClass": "PoisonSlime",
-											"sid": 507366987842955,
-											"disabled": true,
+											"id": "move-to-position",
+											"objectClass": "FrostSlime",
+											"sid": 417727814138525,
 											"behaviorType": "MoveTo",
 											"parameters": {
-												"object": "Player",
-												"image-point": "0",
+												"x": "Player.X",
+												"y": "Player.Y",
 												"mode": "direct"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "FrostSlime",
+											"sid": 739257214055480,
+											"parameters": {
+												"angle": "0"
+											}
+										},
+										{
+											"id": "rotate-clockwise",
+											"objectClass": "FrostSlime",
+											"sid": 314246863408613,
+											"parameters": {
+												"degrees": "0"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "FrostSlime",
+											"sid": 325223169017459,
+											"parameters": {
+												"angle": "0"
 											}
 										}
 									],
@@ -5204,6 +5237,14 @@
 													"sid": 290297962077513,
 													"parameters": {
 														"angle": "0"
+													}
+												},
+												{
+													"id": "rotate-clockwise",
+													"objectClass": "PoisonSlime",
+													"sid": 345132736916151,
+													"parameters": {
+														"degrees": "0"
 													}
 												},
 												{
@@ -5777,19 +5818,52 @@
 														"object": "Player",
 														"image-point": "0"
 													}
+												},
+												{
+													"id": "compare-two-values",
+													"objectClass": "System",
+													"sid": 780431441425838,
+													"parameters": {
+														"first-value": "distance(Player.X,Player.Y,PoisonSlime.X,PoisonSlime.Y)",
+														"comparison": 3,
+														"second-value": "150"
+													}
 												}
 											],
 											"actions": [
 												{
-													"id": "move-to-object",
-													"objectClass": "PoisonSlime",
-													"sid": 534816643969778,
-													"disabled": true,
+													"id": "move-to-position",
+													"objectClass": "AcidSlime",
+													"sid": 195158623618992,
 													"behaviorType": "MoveTo",
 													"parameters": {
-														"object": "Player",
-														"image-point": "0",
+														"x": "Player.X",
+														"y": "Player.Y",
 														"mode": "direct"
+													}
+												},
+												{
+													"id": "set-angle",
+													"objectClass": "AcidSlime",
+													"sid": 342322397440221,
+													"parameters": {
+														"angle": "0"
+													}
+												},
+												{
+													"id": "set-angle",
+													"objectClass": "AcidSlime",
+													"sid": 282639640513147,
+													"parameters": {
+														"angle": "0"
+													}
+												},
+												{
+													"id": "rotate-clockwise",
+													"objectClass": "AcidSlime",
+													"sid": 990691408310705,
+													"parameters": {
+														"degrees": "0"
 													}
 												}
 											],
@@ -5930,19 +6004,61 @@
 												"object": "Player",
 												"image-point": "0"
 											}
+										},
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 795426161814300,
+											"parameters": {
+												"first-value": "distance(Player.X,Player.Y,EarthSlime.X,EarthSlime.Y)",
+												"comparison": 3,
+												"second-value": "200"
+											}
 										}
 									],
 									"actions": [
 										{
-											"id": "move-to-object",
+											"id": "set-enabled",
 											"objectClass": "FireSlime",
-											"sid": 230475272232549,
-											"disabled": true,
+											"sid": 241463522864518,
 											"behaviorType": "MoveTo",
 											"parameters": {
-												"object": "Player",
-												"image-point": "0",
+												"enabled": true
+											}
+										},
+										{
+											"id": "move-to-position",
+											"objectClass": "FireSlime",
+											"sid": 124211673469161,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"x": "Player.X",
+												"y": "Player.Y",
 												"mode": "direct"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "FireSlime",
+											"sid": 746044975485570,
+											"parameters": {
+												"angle": "0"
+											}
+										},
+										{
+											"id": "rotate-clockwise",
+											"objectClass": "FireSlime",
+											"sid": 910224584532211,
+											"parameters": {
+												"degrees": "0"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "FireSlime",
+											"sid": 875824283109606,
+											"parameters": {
+												"angle": "0"
 											}
 										}
 									],
@@ -6136,24 +6252,38 @@
 									],
 									"actions": [
 										{
-											"id": "move-to-object",
+											"id": "move-to-position",
 											"objectClass": "LavaSlime",
-											"sid": 392664578688045,
-											"disabled": true,
+											"sid": 760990620412191,
 											"behaviorType": "MoveTo",
 											"parameters": {
-												"object": "Player",
-												"image-point": "0",
+												"x": "Player.X",
+												"y": "Player.Y",
 												"mode": "direct"
 											}
 										},
 										{
 											"id": "set-angle",
 											"objectClass": "LavaSlime",
-											"sid": 222311872317451,
-											"disabled": true,
+											"sid": 517082165071436,
 											"parameters": {
 												"angle": "0"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "LavaSlime",
+											"sid": 971440646900354,
+											"parameters": {
+												"angle": "0"
+											}
+										},
+										{
+											"id": "rotate-clockwise",
+											"objectClass": "LavaSlime",
+											"sid": 642089136749767,
+											"parameters": {
+												"degrees": "0"
 											}
 										}
 									],
@@ -6346,15 +6476,38 @@
 									],
 									"actions": [
 										{
-											"id": "move-to-object",
-											"objectClass": "FireSlime",
-											"sid": 382885734256553,
-											"disabled": true,
+											"id": "move-to-position",
+											"objectClass": "LightningSlime",
+											"sid": 915826160557882,
 											"behaviorType": "MoveTo",
 											"parameters": {
-												"object": "Player",
-												"image-point": "0",
+												"x": "Player.X",
+												"y": "Player.Y",
 												"mode": "direct"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "LightningSlime",
+											"sid": 931700687308409,
+											"parameters": {
+												"angle": "0"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "LightningSlime",
+											"sid": 579311145348198,
+											"parameters": {
+												"angle": "0"
+											}
+										},
+										{
+											"id": "rotate-clockwise",
+											"objectClass": "LightningSlime",
+											"sid": 506623865871787,
+											"parameters": {
+												"degrees": "0"
 											}
 										}
 									],
@@ -6721,11 +6874,11 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 425922354349121,
+											"sid": 399841082457889,
 											"parameters": {
 												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "8"
+												"comparison": 4,
+												"value": "10"
 											}
 										}
 									],
@@ -6733,205 +6886,13 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player_healthbar",
-											"sid": 273449391313263,
+											"sid": 194618489473943,
 											"parameters": {
-												"frame-number": "2"
+												"frame-number": "0"
 											}
 										}
 									],
-									"sid": 493042626636140,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 232565430417235,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "6"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 365562545217039,
-											"parameters": {
-												"frame-number": "3"
-											}
-										}
-									],
-									"sid": 748617578580175,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 851116288150756,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "5"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 657256906892788,
-											"parameters": {
-												"frame-number": "4"
-											}
-										}
-									],
-									"sid": 817284018200655,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 781243561664155,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "4"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 715843750440921,
-											"parameters": {
-												"frame-number": "5"
-											}
-										}
-									],
-									"sid": 841625286096061,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 424680302182762,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "3"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 957317315318776,
-											"parameters": {
-												"frame-number": "6"
-											}
-										}
-									],
-									"sid": 461397901061259,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 697324056926380,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "2"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 424161428970250,
-											"parameters": {
-												"frame-number": "7"
-											}
-										}
-									],
-									"sid": 980593298592932,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 746063728320032,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "1"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 491702919424545,
-											"parameters": {
-												"frame-number": "8"
-											}
-										}
-									],
-									"sid": 299102500325807,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 595287734486294,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 3,
-												"value": "0"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "restart-layout",
-											"objectClass": "System",
-											"sid": 937924567616810
-										},
-										{
-											"id": "stop-all",
-											"objectClass": "Audio",
-											"sid": 109047875891033
-										}
-									],
-									"sid": 593080165690374,
-									"disabled": true
+									"sid": 137168118787498
 								}
 							],
 							"sid": 290046915321806
@@ -9579,6 +9540,16 @@
 											"parameters": {
 												"object": "HealthPotion"
 											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 768868231490840,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 2,
+												"value": "20"
+											}
 										}
 									],
 									"actions": [
@@ -9644,6 +9615,72 @@
 										}
 									],
 									"sid": 164503231414770
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-collision-with-another-object",
+											"objectClass": "Player",
+											"sid": 436672280831043,
+											"parameters": {
+												"object": "HealthPotion"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player",
+											"sid": 411941011420902,
+											"parameters": {
+												"instance-variable": "HP",
+												"comparison": 5,
+												"value": "20"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "HealthPotion",
+											"sid": 488019749921711
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 316619636201782,
+											"parameters": {
+												"instance-variable": "Health_Ability",
+												"value": "true"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 742397324639341,
+											"parameters": {
+												"seconds": "1.5"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 461356685608152,
+											"parameters": {
+												"instance-variable": "Health_Ability",
+												"value": "false"
+											}
+										},
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 829501489929026,
+											"parameters": {
+												"variable": "Total_potions",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 703329411189801
 								},
 								{
 									"eventType": "block",

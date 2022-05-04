@@ -1413,8 +1413,8 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": false,
-								"stop-on-solids": false,
-								"enabled": false
+								"stop-on-solids": true,
+								"enabled": true
 							}
 						}
 					},
@@ -1479,8 +1479,8 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": false,
-								"stop-on-solids": false,
-								"enabled": false
+								"stop-on-solids": true,
+								"enabled": true
 							}
 						}
 					},
@@ -1856,7 +1856,7 @@
 								"rotate-speed": 0,
 								"set-angle": false,
 								"stop-on-solids": false,
-								"enabled": false
+								"enabled": true
 							}
 						}
 					},
@@ -1922,7 +1922,7 @@
 								"rotate-speed": 0,
 								"set-angle": false,
 								"stop-on-solids": false,
-								"enabled": false
+								"enabled": true
 							}
 						}
 					},

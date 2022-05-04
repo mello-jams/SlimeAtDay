@@ -12567,7 +12567,7 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 339148984036306,
+											"sid": 167672852924506,
 											"parameters": {
 												"instance-variable": "HP",
 												"comparison": 3,
@@ -12579,13 +12579,13 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player_healthbar",
-											"sid": 880689402719556,
+											"sid": 439952723504028,
 											"parameters": {
 												"frame-number": "4"
 											}
 										}
 									],
-									"sid": 625871437278341
+									"sid": 545595966221853
 								},
 								{
 									"eventType": "block",
@@ -12593,10 +12593,10 @@
 										{
 											"id": "compare-instance-variable",
 											"objectClass": "Player",
-											"sid": 581089702910240,
+											"sid": 217813060184348,
 											"parameters": {
 												"instance-variable": "HP",
-												"comparison": 2,
+												"comparison": 4,
 												"value": "10"
 											}
 										}
@@ -12605,232 +12605,13 @@
 										{
 											"id": "set-animation-frame",
 											"objectClass": "Player_healthbar",
-											"sid": 642473005248198,
+											"sid": 590626697497758,
 											"parameters": {
-												"frame-number": "1"
+												"frame-number": "0"
 											}
 										}
 									],
-									"sid": 317317928613440,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 156153001268560,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "8"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 902829253848308,
-											"parameters": {
-												"frame-number": "2"
-											}
-										}
-									],
-									"sid": 267181972005277,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 793371633514600,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "6"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 131167275942200,
-											"parameters": {
-												"frame-number": "3"
-											}
-										}
-									],
-									"sid": 410683407935685,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 644680236651239,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "5"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 732910709917261,
-											"parameters": {
-												"frame-number": "4"
-											}
-										}
-									],
-									"sid": 274770348040027,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 187002895767358,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "4"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 945665339062123,
-											"parameters": {
-												"frame-number": "5"
-											}
-										}
-									],
-									"sid": 209955941334662,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 474513421414494,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "3"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 432039827158380,
-											"parameters": {
-												"frame-number": "6"
-											}
-										}
-									],
-									"sid": 831008042521345,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 963997898725970,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "2"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 220221142285958,
-											"parameters": {
-												"frame-number": "7"
-											}
-										}
-									],
-									"sid": 517696931076222,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 170951799860626,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 2,
-												"value": "1"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-animation-frame",
-											"objectClass": "Player_healthbar",
-											"sid": 111794542199410,
-											"parameters": {
-												"frame-number": "8"
-											}
-										}
-									],
-									"sid": 673674100963722,
-									"disabled": true
-								},
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Player",
-											"sid": 647089798693003,
-											"parameters": {
-												"instance-variable": "HP",
-												"comparison": 3,
-												"value": "0"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "restart-layout",
-											"objectClass": "System",
-											"sid": 101234100529679
-										},
-										{
-											"id": "stop-all",
-											"objectClass": "Audio",
-											"sid": 944681118783568
-										}
-									],
-									"sid": 139093146467583,
-									"disabled": true
+									"sid": 609670338743345
 								}
 							],
 							"sid": 584801168914242
