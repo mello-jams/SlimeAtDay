@@ -1,40 +1,46 @@
 {
-	"name": "ButtonImage",
+	"name": "CaveSpriteTR",
 	"plugin-id": "Sprite",
-	"sid": 897712040952522,
+	"sid": 175511619548373,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 416245753318955
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 308,
-						"height": 96,
+						"width": 100,
+						"height": 100,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9680129,
+						"imageSpriteId": 2857463,
 						"collisionPoly": {
 							"points": [
-								0.045454545454545456,
-								0.14583333333333334,
+								0,
+								0,
 								0.5,
 								0,
-								0.8733766233766234,
-								0.3958333333333333,
-								0.8766233766233766,
+								1,
+								0,
+								1,
 								0.5,
-								0.8928571428571429,
-								0.65625,
+								1,
+								1,
 								0.5,
-								0.9791666666666666,
-								0.045454545454545456,
-								0.84375,
+								1,
+								0,
+								1,
 								0,
 								0.5
 							]
@@ -43,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 379351538870613,
+				"sid": 935516353628415,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
