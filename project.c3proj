@@ -503,24 +503,9 @@
 									"CaveSpriteTR",
 									"CaveSpriteML",
 									"CaveSpriteMC",
-									"CaveSpriteMR",
-									"CaveSpriteBL",
-									"CaveSpriteBC",
-									"CaveSpriteBR"
+									"CaveSpriteMR"
 								],
-								"subfolders": [
-									{
-										"items": [
-											"CaveSpriteMCRepeat",
-											"CaveSpriteMLRepeat",
-											"CaveSpriteMRRepeat",
-											"CaveSpriteTCRepeat",
-											"CaveSpriteBCRepeat"
-										],
-										"subfolders": [],
-										"name": "Repeats"
-									}
-								],
+								"subfolders": [],
 								"name": "Cave"
 							}
 						],
