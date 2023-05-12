@@ -54,13 +54,71 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+					"uid": 951,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 449,
+						"y": 815,
+						"width": 2988.9776637901005,
+						"height": 1310.7402050227074,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "MountainsDusk",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 950,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1971,
+						"y": 691,
+						"width": 2988.9776637901005,
+						"height": 1310.7402050227074,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "MountainsDusk",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
 					"uid": 526,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1508.190629253485,
-						"y": 550.3262404503159,
-						"width": 2988.9776637901005,
+						"x": 1500,
+						"y": 1032,
+						"width": 3016.9776637901005,
 						"height": 1310.7402050227074,
 						"originX": 0.5,
 						"originY": 0.5,

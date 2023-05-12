@@ -54,7 +54,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9738681,
+						"imageSpriteId": 5657097,
 						"collisionPoly": {
 							"points": [
 								0.991214859437751,
@@ -88,12 +88,12 @@
 					{
 						"width": 248,
 						"height": 165,
-						"originX": 0.5020161290322581,
-						"originY": 0.5,
+						"originX": 0.49193548387096775,
+						"originY": 0.3878787878787879,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9778647,
+						"imageSpriteId": 9131459,
 						"collisionPoly": {
 							"points": [
 								0.9415322580645161,
@@ -115,6 +115,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": -0.08182730923694771,
+								"y": 0.4973821989528796
+							}
+						],
 						"duration": 1
 					}
 				],
