@@ -7048,11 +7048,11 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 608612416635785,
+									"sid": 571442388134301,
 									"parameters": {
-										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"audio-file": "Drinking",
 										"loop": "not-looping",
-										"volume": "-10",
+										"volume": "-5",
 										"stereo-pan": "0",
 										"tag-optional": "\"\""
 									}
@@ -7133,11 +7133,11 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 941801130856153,
+									"sid": 208370220006397,
 									"parameters": {
-										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"audio-file": "Drinking",
 										"loop": "not-looping",
-										"volume": "-10",
+										"volume": "-5",
 										"stereo-pan": "0",
 										"tag-optional": "\"\""
 									}
@@ -7364,11 +7364,11 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 276347400946440,
+									"sid": 870072892093720,
 									"parameters": {
-										"audio-file": "Minecraft_Potion_Drinking_edited",
+										"audio-file": "Drinking",
 										"loop": "not-looping",
-										"volume": "-10",
+										"volume": "-5",
 										"stereo-pan": "0",
 										"tag-optional": "\"\""
 									}
@@ -7791,9 +7791,9 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 479792251579458,
+							"sid": 730848005891759,
 							"parameters": {
-								"audio-file": "minecraft_click",
+								"audio-file": "Clicking",
 								"loop": "not-looping",
 								"volume": "-10",
 								"stereo-pan": "0",
@@ -7834,9 +7834,9 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 986750311447096,
+							"sid": 623957892493290,
 							"parameters": {
-								"audio-file": "minecraft_click",
+								"audio-file": "Clicking",
 								"loop": "not-looping",
 								"volume": "-10",
 								"stereo-pan": "0",

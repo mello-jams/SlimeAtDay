@@ -658,14 +658,6 @@
 					}
 				},
 				{
-					"name": "minecraft_click.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 147675442709097,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
 					"name": "rock_smash.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 880543760947090,
@@ -677,14 +669,6 @@
 					"name": "wood_break.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 694600757596367,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Minecraft_Potion_Drinking_edited.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 109522316337180,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -704,17 +688,40 @@
 					"file-info": {
 						"purpose": "none"
 					}
-				},
-				{
-					"name": "minecraft_oof.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 635256634657794,
-					"file-info": {
-						"purpose": "none"
-					}
 				}
 			],
-			"subfolders": []
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "Drinking.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 637460738829537,
+							"file-info": {
+								"purpose": "none"
+							}
+						},
+						{
+							"name": "Death.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 588252628106577,
+							"file-info": {
+								"purpose": "none"
+							}
+						},
+						{
+							"name": "Clicking.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 285590977369102,
+							"file-info": {
+								"purpose": "none"
+							}
+						}
+					],
+					"subfolders": [],
+					"name": "Mel Sounds"
+				}
+			]
 		},
 		"music": {
 			"items": [

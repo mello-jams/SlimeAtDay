@@ -958,9 +958,9 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 726702703696097,
+							"sid": 252485205621774,
 							"parameters": {
-								"audio-file": "minecraft_click",
+								"audio-file": "Clicking",
 								"loop": "not-looping",
 								"volume": "-10",
 								"stereo-pan": "0",
@@ -1001,9 +1001,9 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 899709573147070,
+							"sid": 878568514049538,
 							"parameters": {
-								"audio-file": "minecraft_click",
+								"audio-file": "Clicking",
 								"loop": "not-looping",
 								"volume": "-10",
 								"stereo-pan": "0",
