@@ -95,9 +95,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 435073349542268,
+					"sid": 182128747165954,
 					"parameters": {
-						"layout": "Boss_CustceneBF"
+						"layout": "Level_3"
 					}
 				}
 			],
@@ -129,9 +129,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 459590292166250,
+					"sid": 729289218617388,
 					"parameters": {
-						"layout": "Level_3"
+						"layout": "Boss_Level"
 					}
 				}
 			],
@@ -163,47 +163,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 653692089876563,
-					"parameters": {
-						"layout": "Boss_Level"
-					}
-				}
-			],
-			"sid": 759867148162670
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-eventvar",
-					"objectClass": "System",
-					"sid": 274181952738623,
-					"parameters": {
-						"variable": "WhatLevel",
-						"comparison": 0,
-						"value": "6"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 672075549051437,
-					"parameters": {
-						"seconds": "4"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 859654032352373,
+					"sid": 273873498111009,
 					"parameters": {
 						"layout": "EndingScreen"
 					}
 				}
 			],
-			"sid": 281963541495665
+			"sid": 759867148162670
 		},
 		{
 			"eventType": "block",
@@ -243,33 +209,8 @@
 			"sid": 487701576285606
 		},
 		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 912749179168011
-				},
-				{
-					"id": "compare-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 243056065177765,
-					"parameters": {
-						"variable": "TimerisThere"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "txtforTimer",
-					"sid": 776800974361929,
-					"parameters": {
-						"visibility": "visible"
-					}
-				}
-			],
-			"sid": 904281467002709
+			"eventType": "include",
+			"includeSheet": "Timer"
 		}
 	],
 	"sid": 269863722402610
