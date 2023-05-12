@@ -95,9 +95,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 182128747165954,
+					"sid": 435073349542268,
 					"parameters": {
-						"layout": "Level_3"
+						"layout": "Boss_CustceneBF"
 					}
 				}
 			],
@@ -129,9 +129,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 729289218617388,
+					"sid": 459590292166250,
 					"parameters": {
-						"layout": "Boss_Level"
+						"layout": "Level_3"
 					}
 				}
 			],
@@ -163,13 +163,47 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 273873498111009,
+					"sid": 653692089876563,
+					"parameters": {
+						"layout": "Boss_Level"
+					}
+				}
+			],
+			"sid": 759867148162670
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 274181952738623,
+					"parameters": {
+						"variable": "WhatLevel",
+						"comparison": 0,
+						"value": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 672075549051437,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 859654032352373,
 					"parameters": {
 						"layout": "EndingScreen"
 					}
 				}
 			],
-			"sid": 759867148162670
+			"sid": 281963541495665
 		},
 		{
 			"eventType": "block",
@@ -209,8 +243,33 @@
 			"sid": 487701576285606
 		},
 		{
-			"eventType": "include",
-			"includeSheet": "Timer"
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 912749179168011
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 243056065177765,
+					"parameters": {
+						"variable": "TimerisThere"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "txtforTimer",
+					"sid": 776800974361929,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 904281467002709
 		}
 	],
 	"sid": 269863722402610

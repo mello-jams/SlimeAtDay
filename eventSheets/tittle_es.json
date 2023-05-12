@@ -36,6 +36,66 @@
 			"sid": 695133533810424
 		},
 		{
+			"eventType": "variable",
+			"name": "Total_shots",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 350866361847963
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_hits",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 954710162639985
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_time",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 915611459856142
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_jumps",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 668231782665612
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_kills",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 563185170180868
+		},
+		{
+			"eventType": "variable",
+			"name": "Total_potions",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 908754662967674
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -70,6 +130,17 @@
 					"id": "stop-all",
 					"objectClass": "Audio",
 					"sid": 201753386972153
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 778171270074483,
+					"parameters": {
+						"audio-file": "minecraft_click",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 419237174830712
@@ -92,7 +163,6 @@
 						"audio-file": "song_menu",
 						"loop": "looping",
 						"volume": "-15",
-						"stereo-pan": "0",
 						"tag-optional": "\"Hugh made these beats\""
 					}
 				},
@@ -126,6 +196,62 @@
 					"id": "reset-global-variables",
 					"objectClass": "System",
 					"sid": 465211262034891
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats",
+					"sid": 365327638006514,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats2",
+					"sid": 332972845553802,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats3",
+					"sid": 783665015938416,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats4",
+					"sid": 674689730301935,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats5",
+					"sid": 504709545974964,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats6",
+					"sid": 741803933090030,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Stats7",
+					"sid": 342261121794307,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 936761424690117
@@ -147,6 +273,17 @@
 					"parameters": {
 						"variable": "IsAnyoneHere",
 						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 975648434852583,
+					"parameters": {
+						"audio-file": "minecraft_click",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -345,8 +482,7 @@
 					}
 				}
 			],
-			"sid": 483515157226270,
-			"disabled": true
+			"sid": 483515157226270
 		},
 		{
 			"eventType": "block",
@@ -375,8 +511,68 @@
 					}
 				}
 			],
-			"sid": 838517169010312,
-			"disabled": true
+			"sid": 838517169010312
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 525286507393884
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Stats2",
+					"sid": 125054296453492,
+					"parameters": {
+						"text": "Total_shots"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Stats3",
+					"sid": 387354026294604,
+					"parameters": {
+						"text": "Total_shots"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Stats4",
+					"sid": 257411986434499,
+					"parameters": {
+						"text": "Total_shots"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Stats5",
+					"sid": 921938421919659,
+					"parameters": {
+						"text": "Total_jumps"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Stats6",
+					"sid": 387614235157365,
+					"parameters": {
+						"text": "Total_kills"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Stats7",
+					"sid": 249617743708264,
+					"parameters": {
+						"text": "Total_potions"
+					}
+				}
+			],
+			"sid": 946343835747789
 		}
 	],
 	"sid": 776700732484750

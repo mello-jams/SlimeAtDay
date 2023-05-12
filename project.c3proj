@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 33600,
+	"savedWithRelease": 29302,
 	"name": "SlimeTypePrototype",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -8,30 +8,10 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Button",
-			"name": "Button",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
-			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -39,13 +19,23 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -53,13 +43,15 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "gamepad",
-			"name": "Gamepad",
+			"id": "Audio",
+			"name": "Audio",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -67,48 +59,31 @@
 			"id": "video",
 			"name": "Video",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Anchor",
-			"name": "Anchor",
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Fade",
-			"name": "Fade",
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
 			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "LOS",
-			"name": "Line of sight",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Move To",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Orbit",
-			"name": "Orbit",
-			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -116,27 +91,23 @@
 			"id": "Persist",
 			"name": "Persist",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
+			"id": "Fade",
+			"name": "Fade",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
+			"id": "Anchor",
+			"name": "Anchor",
 			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Sin",
-			"name": "Sine",
-			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -144,13 +115,55 @@
 			"id": "Timer",
 			"name": "Timer",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
+			"id": "Sin",
+			"name": "Sine",
 			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -158,6 +171,63 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Orbit",
+			"name": "Orbit",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "setcolor",
+			"name": "Set color",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "scanlines",
+			"name": "Scan lines",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "warpobject",
+			"name": "Warp object",
+			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "noise",
+			"name": "Noise",
+			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -165,6 +235,7 @@
 			"id": "glowhorizontal",
 			"name": "Glow horizontal",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -172,6 +243,7 @@
 			"id": "glowvertical",
 			"name": "Glow vertical",
 			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		},
 		{
@@ -179,6 +251,15 @@
 			"id": "highlightshadow",
 			"name": "Highlight shadow",
 			"author": "Scirra",
+			"version": "r293.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Adjust HSL",
+			"author": "Scirra",
+			"version": "r293.2",
 			"bundled": false
 		}
 	],
@@ -194,7 +275,7 @@
 			"Tutorial1",
 			"TittleScreen",
 			"REstart",
-			"TrainPlaceholder",
+			"BegTrainPlaceholder",
 			"TrainPlaceholder2",
 			"TrainPlaceholder3",
 			"Gamepad",
@@ -203,7 +284,15 @@
 			"TiledBackground4",
 			"TiledBackground5",
 			"Sprite4",
-			"clowd"
+			"clowd",
+			"train_particles1",
+			"Text8",
+			"Text10",
+			"Cam",
+			"Sprite5",
+			"ObjectTRainTrigger",
+			"TrainCollider",
+			"PlatformUpdated"
 		],
 		"subfolders": [
 			{
@@ -225,9 +314,49 @@
 					"txtforJump",
 					"txtfroBullet",
 					"txtforTimer",
-					"txtforHighscore"
+					"txtforHighscore",
+					"ButtonImage"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [
+							"Stats",
+							"Stats2",
+							"Stats3",
+							"Stats4",
+							"Stats5",
+							"Stats6",
+							"Stats7"
+						],
+						"subfolders": [],
+						"name": "Stats"
+					},
+					{
+						"items": [
+							"CutScenceDialouge1Slime",
+							"CutScenceDialouge1Slime2",
+							"CutScenceDialouge1Slime3",
+							"CutScenceDialouge1Slime4",
+							"CutScenceDialouge1Slime5",
+							"CutScenceDialouge1Slime6",
+							"CutScenceDialouge2BSlime1",
+							"CutScenceDialouge2BSlime2",
+							"CutScenceDialouge2BSlime3",
+							"CutScenceDialouge2BSlime4",
+							"CutScenceDialouge2BSlime5",
+							"CutScenceDialouge2BSlime6"
+						],
+						"subfolders": [],
+						"name": "CutScence"
+					},
+					{
+						"items": [
+							"IntroToBossLikeIncoming"
+						],
+						"subfolders": [],
+						"name": "IntrotoBoss"
+					}
+				],
 				"name": "Text"
 			},
 			{
@@ -251,8 +380,8 @@
 					"Magma",
 					"LighteningBolt",
 					"FrostSlime",
-					"WaterSlime2",
-					"BossSlime"
+					"BossSlime",
+					"stasis"
 				],
 				"subfolders": [],
 				"name": "Slimes"
@@ -293,7 +422,10 @@
 					"triggerForCombo",
 					"WantedSign",
 					"WantedSign2",
-					"Sky4loading"
+					"Sky4loading",
+					"MountainsDay",
+					"sky1",
+					"MountainsDusk"
 				],
 				"subfolders": [],
 				"name": "BKG"
@@ -329,36 +461,83 @@
 					"Earth_spawner3",
 					"Fire_spawner6",
 					"Earth_spawner4",
-					"PinkPotion",
-					"Earth_spawner5"
+					"Earth_spawner5",
+					"Lighting_spawner1",
+					"Lighting_spawner2",
+					"Lighting_spawner3",
+					"Lighting_spawner4",
+					"Lighting_spawner5"
 				],
 				"subfolders": [],
 				"name": "Spawners"
 			},
 			{
 				"items": [
-					"big_iron",
-					"Blockade",
-					"BluePotion",
-					"Bullets",
-					"coincompletetut",
-					"Door",
-					"Door2",
-					"Door3",
-					"Door4",
-					"HealthPotion",
-					"InvisbleWall",
-					"JumpPotion",
-					"Player",
-					"Player_healthbar",
-					"RedPotion",
-					"SpeedPotion",
-					"WallClimb",
-					"Player2",
-					"big_iron2",
-					"big_iron3"
+					"Reloading",
+					"healthbkg",
+					"healthbkga"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [],
+						"subfolders": [
+							{
+								"items": [
+									"SandSpriteTC",
+									"SandSpriteTL",
+									"SandSpriteTR",
+									"SandSpriteML",
+									"SandSpriteMC",
+									"SandSpriteMR",
+									"SandSpriteBL",
+									"SandSpriteBC",
+									"SandSpriteBR"
+								],
+								"subfolders": [],
+								"name": "Sand"
+							},
+							{
+								"items": [],
+								"subfolders": [],
+								"name": "Cave"
+							}
+						],
+						"name": "TileSprites"
+					},
+					{
+						"items": [
+							"big_iron",
+							"big_iron2",
+							"big_iron3",
+							"Blockade",
+							"BluePotion",
+							"Bullets",
+							"coincompletetut",
+							"Door",
+							"Door2",
+							"Door3",
+							"Door4",
+							"HealthPotion",
+							"InvisbleWall",
+							"JumpPotion",
+							"Player",
+							"Player2",
+							"Player_healthbar",
+							"RedPotion",
+							"SpeedPotion",
+							"WallClimb"
+						],
+						"subfolders": [],
+						"name": "mis"
+					},
+					{
+						"items": [
+							"Sprite6"
+						],
+						"subfolders": [],
+						"name": "Platforms"
+					}
+				],
 				"name": "Main assest"
 			}
 		]
@@ -379,22 +558,24 @@
 			"Tittle_Screen",
 			"Boss_Level",
 			"EndingScreen",
-			"Intro2"
+			"Boss_CustceneBF"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Level1_ES",
+			"Level1_3ES",
 			"intro_ES",
 			"Loading_ES",
 			"Tittle_ES",
-			"Level2_ES",
-			"Boss_ES",
+			"DontDeletePLZ",
 			"Master_ES",
 			"Timer",
 			"Highscore",
-			"Loading"
+			"Loading",
+			"Ending_ES",
+			"BossCutsceneES",
+			"Boss_ES"
 		],
 		"subfolders": []
 	},
@@ -405,38 +586,6 @@
 		},
 		"sound": {
 			"items": [
-				{
-					"name": "gun_load.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 519133478989415,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "large_bubbling.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 260459707292800,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "match_strike.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 768771892640768,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "not_sure.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 519617338072869,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
 				{
 					"name": "pop.webm",
 					"type": "audio/webm; codecs=opus",
@@ -457,14 +606,6 @@
 					"name": "quiet_slime.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 806332600958795,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "short_click_slime.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 331020388594055,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -494,25 +635,9 @@
 					}
 				},
 				{
-					"name": "slime_two_peaks.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 955081143225132,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
 					"name": "small_bubbling.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 930584571142002,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "weird_click.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 589442441530235,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -537,6 +662,62 @@
 					"name": "slime_jump.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 794215457807098,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "minecraft_click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 147675442709097,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "rock_smash.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 880543760947090,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "wood_break.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 694600757596367,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Minecraft_Potion_Drinking_edited.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 109522316337180,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "revolver-reload.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 569684507965306,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "pop2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 176500193088233,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "minecraft_oof.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 635256634657794,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -590,6 +771,14 @@
 					"name": "cave_water_dripping.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 196029617801218,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Train-movement-loop.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 693190599005594,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -743,15 +932,11 @@
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
-		"zNear": 1,
-		"zFar": 10000,
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
-		"cordovaAndroidScheme": "https",
-		"autoReloadScriptsOnPreview": false,
-		"exportFileStructure": "flat"
+		"cordovaAndroidScheme": "https"
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,

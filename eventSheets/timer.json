@@ -7,7 +7,7 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": true,
+			"disabled": false,
 			"title": "Timer5",
 			"description": "",
 			"isActiveOnStart": true,
@@ -31,8 +31,7 @@
 							}
 						}
 					],
-					"sid": 647871151529043,
-					"disabled": true
+					"sid": 647871151529043
 				},
 				{
 					"eventType": "block",
@@ -57,8 +56,7 @@
 							}
 						}
 					],
-					"sid": 574551490526683,
-					"disabled": true
+					"sid": 574551490526683
 				},
 				{
 					"eventType": "block",
@@ -79,8 +77,7 @@
 							"sid": 167780328034873
 						}
 					],
-					"sid": 367128090880309,
-					"disabled": true
+					"sid": 367128090880309
 				},
 				{
 					"eventType": "block",
@@ -112,8 +109,7 @@
 							}
 						}
 					],
-					"sid": 102612479590735,
-					"disabled": true
+					"sid": 102612479590735
 				},
 				{
 					"eventType": "block",
@@ -145,8 +141,22 @@
 							}
 						}
 					],
-					"sid": 507563979121564,
-					"disabled": true
+					"sid": 507563979121564
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-group-active",
+							"objectClass": "System",
+							"sid": 823374549810778,
+							"parameters": {
+								"group-name": "\"\""
+							}
+						}
+					],
+					"actions": [],
+					"sid": 136046898132294
 				}
 			],
 			"sid": 816601913126997
