@@ -53,6 +53,7 @@
 						"audio-file": "minecraft_click",
 						"loop": "not-looping",
 						"volume": "-10",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}

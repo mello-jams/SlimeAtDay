@@ -1,0 +1,15 @@
+{
+	"name": "Stats2",
+	"plugin-id": "Text",
+	"sid": 112993048589607,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 224820265431768
+		}
+	],
+	"effectTypes": []
+}

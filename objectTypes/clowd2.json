@@ -1,0 +1,65 @@
+{
+	"name": "clowd2",
+	"plugin-id": "Sprite",
+	"sid": 278570032494705,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "movin",
+			"type": "boolean",
+			"desc": "if its movin ya feel",
+			"show": true,
+			"sid": 295274494874655
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1708,
+						"height": 960,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1908285,
+						"collisionPoly": {
+							"points": [
+								0.9736533957845434,
+								0.5,
+								0.7418032786885246,
+								0.5395833333333333,
+								0.5,
+								0.4708333333333333,
+								0.16744730679156905,
+								0.7020833333333333,
+								0.20491803278688525,
+								0.5,
+								0.13407494145199061,
+								0.2375,
+								0.5,
+								0.3416666666666667,
+								0.8524590163934427,
+								0.2625
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 731850532653082,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

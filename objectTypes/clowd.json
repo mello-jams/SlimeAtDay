@@ -8,6 +8,7 @@
 			"name": "movin",
 			"type": "boolean",
 			"desc": "if its movin ya feel",
+			"show": true,
 			"sid": 656354294401311
 		}
 	],
@@ -23,9 +24,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2993036,
+						"imageSpriteId": 4690415,
 						"collisionPoly": {
 							"points": [
 								0.14754098360655737,

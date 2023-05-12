@@ -19,10 +19,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 767,
-						"y": 456,
-						"width": 1828.402306380211,
-						"height": 1027.6734274736548,
+						"x": 854,
+						"y": 480,
+						"width": 1708,
+						"height": 960,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -48,10 +48,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 762,
-						"y": 570,
-						"width": 1825.7530511228508,
-						"height": 800.637608484201,
+						"x": 722,
+						"y": 899,
+						"width": 1708,
+						"height": 960,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -582,6 +582,68 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "clowd",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 914,
+					"instanceVariables": {
+						"movin": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 781,
+						"y": 380,
+						"width": 784.3756626407326,
+						"height": 440.8668829830815,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "clowd",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 915,
+					"instanceVariables": {
+						"movin": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 169,
+						"y": 465,
+						"width": 320.66116789038045,
+						"height": 180.23110139037772,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 950102907441886,
@@ -706,6 +768,7 @@
 					},
 					"effects": {
 						"AdjustHSL": {
+							"isEnabled": true,
 							"parameters": {
 								"hue": 0,
 								"saturation": 1,
@@ -820,7 +883,8 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "center",
+						"read-aloud": false
 					},
 					"uid": 169,
 					"instanceVariables": {},
@@ -887,7 +951,8 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "center",
+						"read-aloud": false
 					},
 					"uid": 168,
 					"instanceVariables": {},
@@ -954,7 +1019,8 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "center",
+						"read-aloud": false
 					},
 					"uid": 170,
 					"instanceVariables": {},
@@ -1061,7 +1127,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 178,
 					"instanceVariables": {},
@@ -1103,7 +1170,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 130,
 					"instanceVariables": {},
@@ -1149,7 +1217,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 478,
 					"instanceVariables": {},
@@ -1195,7 +1264,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 479,
 					"instanceVariables": {},
@@ -1241,7 +1311,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 480,
 					"instanceVariables": {},
@@ -1287,7 +1358,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 481,
 					"instanceVariables": {},
@@ -1333,7 +1405,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 482,
 					"instanceVariables": {},
@@ -1475,7 +1548,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 101,
 					"instanceVariables": {

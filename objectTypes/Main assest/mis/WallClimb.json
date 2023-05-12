@@ -1,0 +1,153 @@
+{
+	"name": "WallClimb",
+	"plugin-id": "Sprite",
+	"sid": 685694970472768,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 115,
+						"height": 177,
+						"originX": 0.48412698412698413,
+						"originY": 0.4782608695652174,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9557907,
+						"collisionPoly": {
+							"points": [
+								0.28695652173913044,
+								0.1864406779661017,
+								0.5,
+								0,
+								0.7043478260869566,
+								0.1864406779661017,
+								0.9130434782608695,
+								0.5,
+								0.8521739130434782,
+								0.903954802259887,
+								0.5,
+								0.9887005649717514,
+								0.1391304347826087,
+								0.903954802259887,
+								0.0782608695652174,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 115,
+						"height": 177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4022958,
+						"collisionPoly": {
+							"points": [
+								0.28695652173913044,
+								0.1864406779661017,
+								0.5,
+								0,
+								0.7043478260869566,
+								0.1864406779661017,
+								0.9130434782608695,
+								0.5,
+								0.8521739130434782,
+								0.903954802259887,
+								0.5,
+								0.9887005649717514,
+								0.1391304347826087,
+								0.903954802259887,
+								0.0782608695652174,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 115,
+						"height": 177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 51068,
+						"collisionPoly": {
+							"points": [
+								0.28695652173913044,
+								0.1864406779661017,
+								0.5,
+								0,
+								0.7043478260869566,
+								0.1864406779661017,
+								0.9130434782608695,
+								0.5,
+								0.8521739130434782,
+								0.903954802259887,
+								0.5,
+								0.9887005649717514,
+								0.1391304347826087,
+								0.903954802259887,
+								0.0782608695652174,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 115,
+						"height": 177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7085025,
+						"collisionPoly": {
+							"points": [
+								0.28695652173913044,
+								0.1864406779661017,
+								0.5,
+								0,
+								0.7043478260869566,
+								0.1864406779661017,
+								0.9130434782608695,
+								0.5,
+								0.8521739130434782,
+								0.903954802259887,
+								0.5,
+								0.9887005649717514,
+								0.1391304347826087,
+								0.903954802259887,
+								0.0782608695652174,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 799879714414915,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -17,7 +17,13 @@
 						"image-offset-y": 0,
 						"image-scale-x": 1,
 						"image-scale-y": 1,
-						"image-angle": 0
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
 					},
 					"uid": 43,
 					"instanceVariables": {},
@@ -293,6 +299,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -338,6 +345,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -383,6 +391,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -428,6 +437,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -473,6 +483,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -518,6 +529,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -563,6 +575,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -608,6 +621,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -653,6 +667,7 @@
 						"spray-cone": 50,
 						"type": "continuous-spray",
 						"object": -1,
+						"initially-visible": true,
 						"live-preview": false,
 						"speed": 750,
 						"size": 5,
@@ -751,6 +766,7 @@
 					},
 					"effects": {
 						"AdjustHSL": {
+							"isEnabled": true,
 							"parameters": {
 								"hue": 0,
 								"saturation": 1,
@@ -1002,7 +1018,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 250,
 					"instanceVariables": {},
@@ -1523,7 +1540,8 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "center",
+						"read-aloud": false
 					},
 					"uid": 140,
 					"instanceVariables": {},
@@ -1571,7 +1589,8 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "center",
+						"read-aloud": false
 					},
 					"uid": 141,
 					"instanceVariables": {
@@ -1588,16 +1607,19 @@
 					},
 					"effects": {
 						"GlowHorizontal": {
+							"isEnabled": true,
 							"parameters": {
 								"intensity": 1
 							}
 						},
 						"GlowVertical": {
+							"isEnabled": true,
 							"parameters": {
 								"intensity": 1
 							}
 						},
 						"HighlightShadow": {
+							"isEnabled": true,
 							"parameters": {
 								"shadow-factor": 0,
 								"highlight-factor": 1
@@ -1670,7 +1692,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 513,
 					"instanceVariables": {},
@@ -1716,7 +1739,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 514,
 					"instanceVariables": {},
@@ -1762,7 +1786,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 515,
 					"instanceVariables": {},
@@ -1808,7 +1833,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 516,
 					"instanceVariables": {},
@@ -1854,7 +1880,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 517,
 					"instanceVariables": {},
@@ -1900,7 +1927,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 518,
 					"instanceVariables": {},
@@ -2274,7 +2302,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 35,
 					"instanceVariables": {
@@ -2328,7 +2357,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 64,
 					"instanceVariables": {
@@ -2382,7 +2412,8 @@
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "top-left",
+						"read-aloud": false
 					},
 					"uid": 229,
 					"instanceVariables": {
@@ -2402,6 +2433,7 @@
 					},
 					"effects": {
 						"SetColor": {
+							"isEnabled": true,
 							"parameters": {
 								"color": [
 									0.9607843137254902,
@@ -2412,11 +2444,13 @@
 							}
 						},
 						"ScanLines": {
+							"isEnabled": true,
 							"parameters": {
 								"line-height": 2
 							}
 						},
 						"WarpObject": {
+							"isEnabled": true,
 							"parameters": {
 								"x-frequency": 4,
 								"y-frequency": 0,
@@ -2427,6 +2461,7 @@
 							}
 						},
 						"Noise": {
+							"isEnabled": true,
 							"parameters": {
 								"intensity": 0.4,
 								"color": 1

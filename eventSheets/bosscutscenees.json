@@ -47,7 +47,9 @@
 								"transform-w": true,
 								"transform-h": true,
 								"transform-a": true,
+								"transform-o": false,
 								"transform-z-elevation": true,
+								"transform-visibility": false,
 								"destroy-with-parent": false
 							}
 						}
@@ -77,6 +79,7 @@
 								"audio-file": "song_1",
 								"loop": "looping",
 								"volume": "-15",
+								"stereo-pan": "0",
 								"tag-optional": "\"Beats by Dr Hugh\""
 							}
 						},
@@ -986,7 +989,9 @@
 								"transform-w": true,
 								"transform-h": true,
 								"transform-a": true,
+								"transform-o": false,
 								"transform-z-elevation": true,
+								"transform-visibility": false,
 								"destroy-with-parent": false
 							}
 						},
@@ -996,6 +1001,15 @@
 							"sid": 658076002407128,
 							"parameters": {
 								"instance-variable": "Movin",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "clowd",
+							"sid": 909636314812555,
+							"parameters": {
+								"instance-variable": "movin",
 								"value": "true"
 							}
 						}
@@ -1462,7 +1476,7 @@
 			"eventType": "variable",
 			"name": "BossJumpinMax",
 			"type": "number",
-			"initialValue": "2.3",
+			"initialValue": "2.7",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,

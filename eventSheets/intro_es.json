@@ -543,6 +543,7 @@
 								"audio-file": "quiet_slime",
 								"loop": "not-looping",
 								"volume": "0",
+								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
 						}
@@ -610,6 +611,7 @@
 								"audio-file": "slime_land",
 								"loop": "not-looping",
 								"volume": "0",
+								"stereo-pan": "0",
 								"tag-optional": "\"LD\""
 							}
 						}
@@ -706,6 +708,7 @@
 								"audio-file": "slime_jump",
 								"loop": "not-looping",
 								"volume": "0",
+								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
 						}
@@ -733,6 +736,7 @@
 						"audio-file": "songCOWBOY_SLIMEBOP",
 						"loop": "looping",
 						"volume": "-10",
+						"stereo-pan": "0",
 						"tag-optional": "\"broooooo this is fyyyyyrrrrreeee thanks Hugh\""
 					}
 				},
@@ -959,6 +963,7 @@
 								"audio-file": "minecraft_click",
 								"loop": "not-looping",
 								"volume": "-10",
+								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
 						}
@@ -1001,6 +1006,7 @@
 								"audio-file": "minecraft_click",
 								"loop": "not-looping",
 								"volume": "-10",
+								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
 						}
@@ -1012,6 +1018,7 @@
 		},
 		{
 			"functionName": "Timer",
+			"functionCopyPicked": false,
 			"functionDescription": "",
 			"functionCategory": "",
 			"functionReturnType": "none",

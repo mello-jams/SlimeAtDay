@@ -139,6 +139,7 @@
 						"audio-file": "minecraft_click",
 						"loop": "not-looping",
 						"volume": "-10",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -163,6 +164,7 @@
 						"audio-file": "song_menu",
 						"loop": "looping",
 						"volume": "-15",
+						"stereo-pan": "0",
 						"tag-optional": "\"Hugh made these beats\""
 					}
 				},
@@ -283,6 +285,7 @@
 						"audio-file": "minecraft_click",
 						"loop": "not-looping",
 						"volume": "-10",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}

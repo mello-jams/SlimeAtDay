@@ -1,0 +1,26 @@
+{
+	"name": "CaveSpriteTCRepeat",
+	"plugin-id": "TiledBg",
+	"sid": 848916784411001,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 104249691410461
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 100,
+		"height": 100,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 810525,
+		"useCollisionPoly": true
+	}
+}

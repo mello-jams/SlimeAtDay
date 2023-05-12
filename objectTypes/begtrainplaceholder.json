@@ -8,6 +8,7 @@
 			"name": "Movin",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 101255561774578
 		}
 	],
@@ -34,7 +35,7 @@
 						"originX": 0.4687168610816543,
 						"originY": 0.3802163833075734,
 						"originalSource": "",
-						"exportFormat": "png",
+						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"imageSpriteId": 809569,
 						"collisionPoly": {

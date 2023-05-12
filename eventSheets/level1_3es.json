@@ -175,6 +175,7 @@
 										"audio-file": "pop2",
 										"loop": "not-looping",
 										"volume": "-5",
+										"stereo-pan": "0",
 										"tag-optional": "\"spawn_pop\""
 									}
 								}
@@ -348,6 +349,7 @@
 										"audio-file": "cave_dark_ambient",
 										"loop": "looping",
 										"volume": "-35",
+										"stereo-pan": "0",
 										"tag-optional": "\"\""
 									}
 								},
@@ -359,6 +361,7 @@
 										"audio-file": "wood_break",
 										"loop": "not-looping",
 										"volume": "-20",
+										"stereo-pan": "0",
 										"tag-optional": "\"\""
 									}
 								}
@@ -490,6 +493,7 @@
 										"audio-file": "revolver-reload",
 										"loop": "not-looping",
 										"volume": "-10",
+										"stereo-pan": "0",
 										"tag-optional": "\"\""
 									}
 								},
@@ -624,6 +628,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -669,6 +674,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -714,6 +720,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -759,6 +766,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -804,6 +812,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -849,6 +858,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -894,6 +904,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -939,6 +950,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-20",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -1141,6 +1153,7 @@
 												"audio-file": "quiet_slime",
 												"loop": "not-looping",
 												"volume": "0",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -1217,6 +1230,7 @@
 												"audio-file": "slime_land",
 												"loop": "not-looping",
 												"volume": "0",
+												"stereo-pan": "0",
 												"tag-optional": "\"LD\""
 											}
 										}
@@ -1342,6 +1356,7 @@
 												"audio-file": "slime_jump",
 												"loop": "not-looping",
 												"volume": "0",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -1387,6 +1402,7 @@
 												"audio-file": "slime_jump",
 												"loop": "not-looping",
 												"volume": "0",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -1432,6 +1448,7 @@
 												"audio-file": "slime_jump",
 												"loop": "not-looping",
 												"volume": "0",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -1666,6 +1683,7 @@
 												"audio-file": "wood_break",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -1942,6 +1960,7 @@
 												"audio-file": "shot_3",
 												"loop": "not-looping",
 												"volume": "-18",
+												"stereo-pan": "0",
 												"tag-optional": "\"da sound of de gat go plack plack plack\""
 											}
 										}
@@ -2785,6 +2804,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3183,6 +3203,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3264,6 +3285,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3345,6 +3367,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3426,6 +3449,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3507,6 +3531,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3589,6 +3614,7 @@
 																"audio-file": "quick_slime",
 																"loop": "not-looping",
 																"volume": "0",
+																"stereo-pan": "0",
 																"tag-optional": "\"\""
 															}
 														}
@@ -3665,6 +3691,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3750,6 +3777,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3835,6 +3863,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -3920,6 +3949,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4005,6 +4035,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4210,6 +4241,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4291,6 +4323,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4372,6 +4405,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4453,6 +4487,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4534,6 +4569,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -4615,6 +4651,7 @@
 																		"audio-file": "pop2",
 																		"loop": "not-looping",
 																		"volume": "-5",
+																		"stereo-pan": "0",
 																		"tag-optional": "\"spawn_pop\""
 																	}
 																},
@@ -5028,6 +5065,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -5150,6 +5188,7 @@
 																"audio-file": "rock_smash",
 																"loop": "not-looping",
 																"volume": "-10",
+																"stereo-pan": "0",
 																"tag-optional": "\"\""
 															}
 														}
@@ -5280,6 +5319,7 @@
 														"audio-file": "minecraft_oof",
 														"loop": "not-looping",
 														"volume": "-5",
+														"stereo-pan": "0",
 														"tag-optional": "\"\""
 													}
 												}
@@ -5473,6 +5513,7 @@
 														"audio-file": "minecraft_oof",
 														"loop": "not-looping",
 														"volume": "-5",
+														"stereo-pan": "0",
 														"tag-optional": "\"\""
 													}
 												}
@@ -6084,6 +6125,7 @@
 														"audio-file": "minecraft_oof",
 														"loop": "not-looping",
 														"volume": "-5",
+														"stereo-pan": "0",
 														"tag-optional": "\"\""
 													}
 												}
@@ -6244,6 +6286,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -6549,6 +6592,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -6736,6 +6780,7 @@
 												"audio-file": "zap",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -6772,6 +6817,7 @@
 												"audio-file": "minecraft_oof",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										},
@@ -6869,6 +6915,7 @@
 												"audio-file": "pop2",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"spawn_pop\""
 											}
 										}
@@ -6926,6 +6973,7 @@
 												"audio-file": "pop2",
 												"loop": "not-looping",
 												"volume": "-5",
+												"stereo-pan": "0",
 												"tag-optional": "\"spawn_pop\""
 											}
 										}
@@ -7661,6 +7709,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -7780,6 +7829,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -8146,6 +8196,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -8249,6 +8300,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -9489,6 +9541,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -9582,6 +9635,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -9741,6 +9795,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -10115,6 +10170,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -10234,6 +10290,7 @@
 												"audio-file": "Minecraft_Potion_Drinking_edited",
 												"loop": "not-looping",
 												"volume": "-10",
+												"stereo-pan": "0",
 												"tag-optional": "\"\""
 											}
 										}
@@ -10860,6 +10917,7 @@
 								"audio-file": "minecraft_click",
 								"loop": "not-looping",
 								"volume": "-10",
+								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
 						}
@@ -10902,6 +10960,7 @@
 								"audio-file": "minecraft_click",
 								"loop": "not-looping",
 								"volume": "-10",
+								"stereo-pan": "0",
 								"tag-optional": "\"\""
 							}
 						}
@@ -10934,6 +10993,7 @@
 						"audio-file": "song_1",
 						"loop": "looping",
 						"volume": "-15",
+						"stereo-pan": "0",
 						"tag-optional": "\"Beats by Dr Hugh\""
 					}
 				},
